@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>航海人員考試系統 (正式模考版)</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f4f7f6;
+            --success-color: #2ecc71;
+            --error-color: #e74c3c;
+            --warning-color: #f39c12;
+        }
+        body {
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            background-color: var(--bg-color);
+            margin: 0; padding: 20px;
+            display: flex; justify-content: center;
+        }
+        .card {
+            background: white; padding: 30px; border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 800px; width: 100%;
+        }
+        h2, h3 { color: var(--primary-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; }
+        select, .btn {
+            width: 100%; padding: 12px; margin-top: 10px;
+            border-radius: 8px; border: 1px solid #ddd; font-size: 16px;
+        }
+        .btn {
+            background-color: var(--accent-color); color: white;
+            border: none; cursor: pointer; transition: 0.3s; font-weight: bold;
+        }
+        .btn:hover { background-color: #2980b9; }
+        
+        /* 資訊欄 */
+        .info-bar { 
+            display: flex; justify-content: space-between; align-items: center;
+            font-size: 14px; color: #666; margin-bottom: 15px; 
+            background: #eee; padding: 10px; border-radius: 6px;
+        }
+        #timer-display { font-weight: bold; color: var(--error-color); font-size: 18px; }
+
+        .question-image {
+            display: block; max-width: 100%; height: auto;
+            margin: 15px auto; border: 1px solid #eee; border-radius: 8px;
+        }
+
+        .option-btn {
+            display: block; width: 100%; padding: 12px; margin: 10px 0;
+            text-align: left; background: #fff; border: 1px solid #ddd;
+            border-radius: 6px; cursor: pointer; font-size: 16px; transition: 0.2s;
+        }
+        .option-btn:hover:not(:disabled) { background: #eef2f3; border-color: var(--accent-color); }
+        .correct { background-color: var(--success-color) !important; color: white; border-color: #27ae60; }
+        .wrong { background-color: var(--error-color) !important; color: white; border-color: #c0392b; }
+        
+        #result-text { margin-top: 15px; font-weight: bold; font-size: 18px; min-height: 24px; }
+
+        /* 錯題回顧樣式 */
+        .review-section { margin-top: 30px; border-top: 2px dashed #ccc; padding-top: 20px; }
+        .review-item { 
+            background: #fffafa; border-left: 5px solid var(--error-color); 
+            padding: 15px; margin-bottom: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .review-q { font-weight: bold; margin-bottom: 8px; color: #333; }
+        .review-ans { font-size: 14px; }
+        .text-success { color: var(--success-color); font-weight: bold; }
+        .text-error { color: var(--error-color); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div id="setup-box">
+        <h3>測驗設定</h3>
+        <label>選擇考科：</label>
+        <select id="subject-select">
+            <option value="航海學">航海學</option>
+            <option value="航行安全與氣象">航行安全與氣象</option>
+            <option value="船舶通訊與航海英文">船舶通訊與航海英文</option>
+            <option value="貨物作業">貨物作業</option>
+            <option value="船舶操作與船上人員管理">船舶操作與船上人員管理</option>
+        </select>
+        <p style="color: #666; font-size: 14px;">⏲️ 限時 60 分鐘 | 📝 共 40 題 | 💯 每題 2.5 分</p>
+        <button class="btn" onclick="startQuiz()">開始正式測驗</button>
+        <p id="load-status" style="font-size: 12px; margin-top: 10px; color: #888;">正在連線題庫檔案...</p>
+    </div>
+
+    <div id="quiz-container" style="display:none;">
+        <div class="info-bar">
+            <div>
+                <span id="subject-tag" style="background:var(--primary-color); color:white; padding:2px 8px; border-radius:4px; margin-right: 10px;"></span>
+                <span id="progress-text"></span>
+            </div>
+            <div id="timer-display">60:00</div>
+        </div>
+        
+        <h3 id="question-display">題目載入中...</h3>
+        <div id="image-container"></div>
+        <div id="options-container"></div>
+        <div id="result-text"></div>
+        
+        <button class="btn" id="next-btn" style="display:none; margin-top: 20px;" onclick="nextQuestion()">下一題</button>
+    </div>
+
+    <div id="summary-container" style="display:none;">
+        <h2 id="final-score-title">測驗結束</h2>
+        <div id="score-report" style="text-align: center; margin: 20px 0;"></div>
+        <div id="review-list" class="review-section"></div>
+        <button class="btn" style="background-color: #95a5a6;" onclick="location.reload()">回主選單</button>
+    </div>
+</div>
+
+<script>
+    let rawData = [];
+    let testBank = [];
+    let currentIndex = 0;
+    let score = 0;
+    let wrongHistory = []; // 儲存答錯的題目資訊
+    let timerInterval;
+    let timeLeft = 3600; // 60分鐘 = 3600秒
+
+    // 洗牌函數
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    async function init() {
+        const status = document.getElementById('load-status');
+        try {
+            const res = await fetch('questions.json');
+            if (!res.ok) throw new Error("找不到 questions.json");
+            rawData = await res.json();
+            status.innerText = `✅ 題庫已就緒，共有 ${rawData.length} 題`;
+            status.style.color = "green";
+        } catch (err) {
+            status.innerText = "❌ 讀取失敗，請檢查 questions.json";
+            status.style.color = "red";
+        }
+    }
+
+    init();
+
+    function startTimer() {
+        timerInterval = setInterval(() => {
+            timeLeft--;
+            let mins = Math.floor(timeLeft / 60);
+            let secs = timeLeft % 60;
+            document.getElementById('timer-display').innerText = 
+                `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+
+            if (timeLeft <= 0) {
+                clearInterval(timerInterval);
+                alert("時間到！系統將自動結算成績。");
+                finishQuiz();
+            }
+        }, 1000);
+    }
+
+    function startQuiz() {
+        const sub = document.getElementById('subject-select').value;
+        let filtered = rawData.filter(q => q.subject === sub);
+
+        if (filtered.length === 0) {
+            alert(`目前題庫中沒有「${sub}」的資料！`);
+            return;
+        }
+
+        testBank = shuffleArray([...filtered]).slice(0, 40);
+        document.getElementById('setup-box').style.display = "none";
+        document.getElementById('quiz-container').style.display = "block";
+        document.getElementById('subject-tag').innerText = sub;
+        
+        currentIndex = 0;
+        score = 0;
+        wrongHistory = [];
+        timeLeft = 3600; 
+        
+        startTimer();
+        showQuestion();
+    }
+
+    function showQuestion() {
+        const q = testBank[currentIndex];
+        const imgContainer = document.getElementById('image-container');
+        const optionsContainer = document.getElementById('options-container');
+        
+        document.getElementById('progress-text').innerText = `第 ${currentIndex + 1} / ${testBank.length} 題`;
+        document.getElementById('question-display').innerText = q.question;
+        document.getElementById('result-text').innerText = "";
+        document.getElementById('next-btn').style.display = "none";
+        imgContainer.innerHTML = "";
+        optionsContainer.innerHTML = "";
+
+        if (q.image && q.image.trim() !== "") {
+            const imgEl = document.createElement('img');
+            imgEl.src = q.image; 
+            imgEl.className = 'question-image';
+            imgEl.onerror = () => { imgEl.style.display = "none"; };
+            imgContainer.appendChild(imgEl);
+        }
+
+        // 隨機選項
+        let optionEntries = Object.entries(q.options);
+        shuffleArray(optionEntries);
+
+        const labels = ["A", "B", "C", "D"];
+        optionEntries.forEach((entry, index) => {
+            const originalKey = entry[0];
+            const optionText = entry[1];
+            const btn = document.createElement('button');
+            btn.className = 'option-btn';
+            btn.innerText = `${labels[index]}. ${optionText}`;
+            btn.onclick = () => checkAnswer(originalKey, btn, q, `${labels[index]}. ${optionText}`);
+            optionsContainer.appendChild(btn);
+        });
+    }
+
+    function checkAnswer(userChoice, btn, q, fullUserChoiceText) {
+        const allBtns = document.querySelectorAll('.option-btn');
+        allBtns.forEach(b => b.disabled = true);
+
+        const correctContent = q.options[q.answer];
+
+        if (userChoice === q.answer) {
+            btn.classList.add('correct');
+            document.getElementById('result-text').innerText = "✅ 正確！";
+            document.getElementById('result-text').style.color = "var(--success-color)";
+            score++;
+        } else {
+            btn.classList.add('wrong');
+            document.getElementById('result-text').innerText = `❌ 錯誤！`;
+            document.getElementById('result-text').style.color = "var(--error-color)";
+            
+            // 存入錯題紀錄
+            wrongHistory.push({
+                question: q.question,
+                userAnswer: fullUserChoiceText,
+                correctAnswer: `${q.answer}. ${correctContent}`,
+                image: q.image
+            });
+
+            allBtns.forEach(b => {
+                if (b.innerText.includes(correctContent)) b.classList.add('correct');
+            });
+        }
+        document.getElementById('next-btn').style.display = "block";
+    }
+
+    function nextQuestion() {
+        currentIndex++;
+        if (currentIndex < testBank.length) {
+            showQuestion();
+        } else {
+            finishQuiz();
+        }
+    }
+
+    function finishQuiz() {
+        clearInterval(timerInterval);
+        document.getElementById('quiz-container').style.display = "none";
+        document.getElementById('summary-container').style.display = "block";
+
+        const finalScore = score * 2.5;
+        const scoreReport = document.getElementById('score-report');
+        scoreReport.innerHTML = `
+            <div style="font-size: 48px; font-weight: bold; color: ${finalScore >= 60 ? 'var(--success-color)' : 'var(--error-color)'};">
+                ${finalScore} 分
+            </div>
+            <p>答對題數：${score} / ${testBank.length}</p>
+        `;
+
+        // 渲染錯題回顧
+        const reviewList = document.getElementById('review-list');
+        if (wrongHistory.length === 0) {
+            reviewList.innerHTML = "<h3>🌟 太強了！沒有任何錯題。</h3>";
+        } else {
+            reviewList.innerHTML = "<h3>🔍 錯題回顧：</h3>";
+            wrongHistory.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = 'review-item';
+                div.innerHTML = `
+                    <div class="review-q">${index + 1}. ${item.question}</div>
+                    ${item.image ? `<img src="${item.image}" style="max-width:200px; display:block; margin: 5px 0;">` : ''}
+                    <div class="review-ans">
+                        您的答案：<span class="text-error">${item.userAnswer}</span><br>
+                        正確答案：<span class="text-success">${item.correctAnswer}</span>
+                    </div>
+                `;
+                reviewList.appendChild(div);
+            });
+        }
+    }
+</script>
+
+</body>
+</html>

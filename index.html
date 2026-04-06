@@ -1,130 +1,128 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>航海人員考試系統 (正式模考版)</title>
+    <title>航海人員測驗系統</title>
     <style>
         :root {
-            --primary-color: #2c3e50;
-            --accent-color: #3498db;
-            --bg-color: #f4f7f6;
-            --success-color: #2ecc71;
-            --error-color: #e74c3c;
-            --warning-color: #f39c12;
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --correct: #27ae60;
+            --wrong: #e74c3c;
+            --bg: #f4f7f6;
         }
-        body {
-            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
-            background-color: var(--bg-color);
-            margin: 0; padding: 20px;
-            display: flex; justify-content: center;
-        }
-        .card {
-            background: white; padding: 30px; border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            max-width: 800px; width: 100%;
-        }
-        h2, h3 { color: var(--primary-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; }
-        select, .btn {
-            width: 100%; padding: 12px; margin-top: 10px;
-            border-radius: 8px; border: 1px solid #ddd; font-size: 16px;
-        }
-        .btn {
-            background-color: var(--accent-color); color: white;
-            border: none; cursor: pointer; transition: 0.3s; font-weight: bold;
-        }
-        .btn:hover { background-color: #2980b9; }
+        body { font-family: "Microsoft JhengHei", sans-serif; background-color: var(--bg); margin: 0; padding: 20px; }
+        .container { max-width: 850px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
         
-        /* 資訊欄 */
-        .info-bar { 
-            display: flex; justify-content: space-between; align-items: center;
-            font-size: 14px; color: #666; margin-bottom: 15px; 
-            background: #eee; padding: 10px; border-radius: 6px;
-        }
-        #timer-display { font-weight: bold; color: var(--error-color); font-size: 18px; }
-
-        .question-image {
-            display: block; max-width: 100%; height: auto;
-            margin: 15px auto; border: 1px solid #eee; border-radius: 8px;
-        }
-
-        .option-btn {
-            display: block; width: 100%; padding: 12px; margin: 10px 0;
-            text-align: left; background: #fff; border: 1px solid #ddd;
-            border-radius: 6px; cursor: pointer; font-size: 16px; transition: 0.2s;
-        }
-        .option-btn:hover:not(:disabled) { background: #eef2f3; border-color: var(--accent-color); }
-        .correct { background-color: var(--success-color) !important; color: white; border-color: #27ae60; }
-        .wrong { background-color: var(--error-color) !important; color: white; border-color: #c0392b; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #eee; padding-bottom: 15px; }
+        #timer { font-size: 20px; font-weight: bold; color: var(--wrong); background: #fff5f5; padding: 5px 15px; border-radius: 20px; border: 1px solid #ffc1c1; }
         
-        #result-text { margin-top: 15px; font-weight: bold; font-size: 18px; min-height: 24px; }
+        .filter-section { text-align: center; margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-radius: 10px; }
+        select, button { padding: 12px 20px; border-radius: 8px; border: 1px solid #ddd; font-size: 16px; outline: none; margin: 5px; }
+        button { background: var(--accent); color: white; border: none; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        button:hover { background: #2980b9; }
 
-        /* 錯題回顧樣式 */
-        .review-section { margin-top: 30px; border-top: 2px dashed #ccc; padding-top: 20px; }
-        .review-item { 
-            background: #fffafa; border-left: 5px solid var(--error-color); 
-            padding: 15px; margin-bottom: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-        .review-q { font-weight: bold; margin-bottom: 8px; color: #333; }
-        .review-ans { font-size: 14px; }
-        .text-success { color: var(--success-color); font-weight: bold; }
-        .text-error { color: var(--error-color); font-weight: bold; }
+        #quiz-view, #review-view, #result-view { display: none; }
+        .question-box { min-height: 250px; padding: 15px; }
+        .question-text { font-size: 19px; font-weight: bold; line-height: 1.6; margin-bottom: 15px; }
+        .meta-info { color: #aaa; font-size: 14px; margin-left: 8px; font-weight: normal; }
+        
+        .q-image-container { margin: 15px 0; text-align: center; background: #fafafa; border: 1px solid #eee; padding: 10px; border-radius: 8px; }
+        .q-image-container img { max-width: 100%; max-height: 400px; border: 1px solid #ccc; }
+        .image-missing-note { color: #e67e22; background: #fff3e0; padding: 10px 15px; border-radius: 6px; font-size: 14px; margin-bottom: 15px; display: block; border: 1px solid #ffe0b2; text-align: center; }
+
+        .options-container { display: grid; gap: 10px; }
+        .option-item { display: flex; align-items: center; padding: 15px; border: 2px solid #eee; border-radius: 10px; cursor: pointer; transition: 0.2s; }
+        .option-item.locked { cursor: default; }
+        
+        .option-item.correct-flash { background: #d4edda; border-color: var(--correct); color: #155724; }
+        .option-item.wrong-flash { background: #f8d7da; border-color: var(--wrong); color: #721c24; }
+        .feedback-label { font-weight: bold; margin-left: auto; }
+
+        .nav-controls { display: flex; justify-content: space-between; margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; }
+        .btn-nav { background: #95a5a6; }
+
+        .score-circle { width: 120px; height: 120px; line-height: 120px; border-radius: 50%; background: var(--accent); color: white; font-size: 35px; margin: 20px auto; font-weight: bold; text-align: center; }
+        .wrong-item { border-left: 5px solid var(--wrong); background: #fffafa; margin-bottom: 20px; padding: 15px; border-radius: 0 8px 8px 0; }
     </style>
 </head>
 <body>
 
-<div class="card">
-    <div id="setup-box">
-        <h3>測驗設定</h3>
-        <label>選擇考科：</label>
-        <select id="subject-select">
-            <option value="航海學">航海學</option>
-            <option value="航行安全與氣象">航行安全與氣象</option>
-            <option value="船舶通訊與航海英文">船舶通訊與航海英文</option>
-            <option value="貨物作業">貨物作業</option>
-            <option value="船舶操作與船上人員管理">船舶操作與船上人員管理</option>
-        </select>
-        <p style="color: #666; font-size: 14px;">⏲️ 限時 60 分鐘 | 📝 共 40 題 | 💯 每題 2.5 分</p>
-        <button class="btn" onclick="startQuiz()">開始正式測驗</button>
-        <p id="load-status" style="font-size: 12px; margin-top: 10px; color: #888;">正在連線題庫檔案...</p>
+<div class="container">
+    <div class="header">
+        <h2 style="margin:0">🚢 航海人員測驗系統</h2>
+        <div id="timer" style="display:none">剩餘時間 60:00</div>
     </div>
 
-    <div id="quiz-container" style="display:none;">
-        <div class="info-bar">
-            <div>
-                <span id="subject-tag" style="background:var(--primary-color); color:white; padding:2px 8px; border-radius:4px; margin-right: 10px;"></span>
-                <span id="progress-text"></span>
-            </div>
-            <div id="timer-display">60:00</div>
+    <div id="setup-view" class="filter-section">
+        <div style="margin-bottom: 15px;">
+            <select id="subject-filter"><option value="">-- 選擇科目 --</option></select>
+            <select id="count-filter">
+                <option value="40">40 題</option>
+                <option value="60">60 題</option>
+                <option value="80">80 題</option>
+                <option value="100">100 題</option>
+            </select>
         </div>
-        
-        <h3 id="question-display">題目載入中...</h3>
-        <div id="image-container"></div>
-        <div id="options-container"></div>
-        <div id="result-text"></div>
-        
-        <button class="btn" id="next-btn" style="display:none; margin-top: 20px;" onclick="nextQuestion()">下一題</button>
+        <p style="color:#7f8c8d; font-size:14px;">系統將隨機抽題，並優先出現上次未練習過的題目</p>
+        <button onclick="initQuiz()">開始隨機測驗</button>
     </div>
 
-    <div id="summary-container" style="display:none;">
-        <h2 id="final-score-title">測驗結束</h2>
-        <div id="score-report" style="text-align: center; margin: 20px 0;"></div>
-        <div id="review-list" class="review-section"></div>
-        <button class="btn" style="background-color: #95a5a6;" onclick="location.reload()">回主選單</button>
+    <div id="quiz-view">
+        <div class="question-box">
+            <div id="q-image-area"></div>
+            <div id="q-content" class="question-text"></div>
+            <div id="options-list" class="options-container"></div>
+        </div>
+
+        <div class="nav-controls">
+            <button class="btn-nav" id="prev-btn" onclick="changeQuestion(-1)">上一題</button>
+            <span id="progress-text" style="align-self:center; font-weight:bold; color:#7f8c8d"></span>
+            <button id="next-btn" onclick="changeQuestion(1)">下一題 / 跳過</button>
+        </div>
+        <button id="final-submit" style="width:100%; margin-top:15px; display:none; background:#27ae60" onclick="finishQuiz()">結束測驗並看評分</button>
+    </div>
+
+    <div id="result-view">
+        <h2>測驗結算</h2>
+        <div class="score-circle" id="final-score">0</div>
+        <p id="score-detail" style="text-align:center; font-size:18px;"></p>
+        <div style="display:flex; gap:10px; justify-content: center; margin-top:20px;">
+            <button onclick="showWrongAnswers()" id="view-wrong-btn">檢視錯題</button>
+            <button style="background:#7f8c8d" onclick="location.reload()">返回首頁</button>
+        </div>
+    </div>
+
+    <div id="review-view">
+        <h3 style="color:var(--wrong)">❌ 錯誤題目回顧</h3>
+        <div id="wrong-list"></div>
+        <button style="width:100%; margin-top:20px;" onclick="location.reload()">完成回顧</button>
     </div>
 </div>
 
 <script>
-    let rawData = [];
-    let testBank = [];
+    let allData = [];
+    let examPool = []; 
+    let userAnswers = {}; 
     let currentIndex = 0;
-    let score = 0;
-    let wrongHistory = []; // 儲存答錯的題目資訊
     let timerInterval;
-    let timeLeft = 3600; // 60分鐘 = 3600秒
+    let secondsLeft = 3600;
+    let targetCount = 40;
 
-    // 洗牌函數
-    function shuffleArray(array) {
+    // 載入 JSON
+    fetch('questions.json')
+        .then(res => res.json())
+        .then(data => {
+            allData = data;
+            const subjects = [...new Set(data.map(d => d.subject))].sort();
+            const sSelect = document.getElementById('subject-filter');
+            subjects.forEach(s => sSelect.add(new Option(s, s)));
+        })
+        .catch(err => alert("無法載入題庫，請確認 questions.json 是否正確產出"));
+
+    // 標準洗牌演算法
+    function shuffle(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [array[i], array[j]] = [array[j], array[i]];
@@ -132,173 +130,198 @@
         return array;
     }
 
-    async function init() {
-        const status = document.getElementById('load-status');
-        try {
-            const res = await fetch('questions.json');
-            if (!res.ok) throw new Error("找不到 questions.json");
-            rawData = await res.json();
-            status.innerText = `✅ 題庫已就緒，共有 ${rawData.length} 題`;
-            status.style.color = "green";
-        } catch (err) {
-            status.innerText = "❌ 讀取失敗，請檢查 questions.json";
-            status.style.color = "red";
+    function initQuiz() {
+        const subject = document.getElementById('subject-filter').value;
+        targetCount = parseInt(document.getElementById('count-filter').value);
+        if (!subject) return alert("請選擇科目");
+        
+        let filtered = allData.filter(d => d.subject === subject);
+        if (filtered.length < targetCount) {
+            return alert(`該科目目前只有 ${filtered.length} 題，不足以抽取 ${targetCount} 題。`);
         }
+
+        // 1. 根據新的 groupId 進行分組
+        const groupsMap = {};
+        filtered.forEach(q => {
+            if (!groupsMap[q.groupId]) groupsMap[q.groupId] = [];
+            groupsMap[q.groupId].push(q);
+        });
+        let allGroupIds = Object.keys(groupsMap);
+
+        // 2. 記憶機制：讀取此科目的歷史紀錄
+        const historyKey = `seen_${subject}`;
+        let seenIds = JSON.parse(localStorage.getItem(historyKey) || "[]");
+
+        // 將群組拆分為「未看過」與「看過」
+        let freshIds = allGroupIds.filter(id => !seenIds.includes(id));
+        let usedIds = allGroupIds.filter(id => seenIds.includes(id));
+
+        // 分別徹底打亂
+        shuffle(freshIds);
+        shuffle(usedIds);
+
+        // 3. 填滿考卷 (優先用新題)
+        let finalIds = [...freshIds, ...usedIds];
+        examPool = [];
+        for (let id of finalIds) {
+            let group = groupsMap[id];
+            // 避免題組被截斷，如果加入這組會爆題數就不加了（除非考卷目前還是空的）
+            if (examPool.length + group.length <= targetCount) {
+                examPool.push(...group);
+            }
+            if (examPool.length >= targetCount) break;
+        }
+
+        // 再次全卷隨機洗牌一次 (打破「新題全在前面」的規律，但保留題組內部的連續性)
+        // 注意：為了保留題組連續，我們實際上應該洗的是被抽中的「群組 ID 序列」
+        let selectedGroups = [];
+        let tempCurrentGroupId = "";
+        let currentGroupObj = [];
+        examPool.forEach(q => {
+            if (q.groupId !== tempCurrentGroupId) {
+                if (currentGroupObj.length > 0) selectedGroups.push(currentGroupObj);
+                currentGroupObj = [q];
+                tempCurrentGroupId = q.groupId;
+            } else {
+                currentGroupObj.push(q);
+            }
+        });
+        if (currentGroupObj.length > 0) selectedGroups.push(currentGroupObj);
+        
+        shuffle(selectedGroups); // 洗群組順序
+        examPool = selectedGroups.flat(); // 攤平回題目列表
+
+        // 4. 更新紀錄 (把這次考的存入看過的 ID 裡)
+        let newSeenIds = [...new Set([...seenIds, ...examPool.map(q => q.groupId)])];
+        // 如果全部題庫都看過了，就清空重來
+        if (newSeenIds.length >= allGroupIds.length) newSeenIds = examPool.map(q => q.groupId);
+        localStorage.setItem(historyKey, JSON.stringify(newSeenIds));
+
+        // 重設狀態
+        currentIndex = 0;
+        userAnswers = {};
+        document.getElementById('setup-view').style.display = 'none';
+        document.getElementById('quiz-view').style.display = 'block';
+        document.getElementById('timer').style.display = 'block';
+        startTimer();
+        renderQuestion();
     }
 
-    init();
-
     function startTimer() {
+        secondsLeft = 3600;
         timerInterval = setInterval(() => {
-            timeLeft--;
-            let mins = Math.floor(timeLeft / 60);
-            let secs = timeLeft % 60;
-            document.getElementById('timer-display').innerText = 
-                `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-
-            if (timeLeft <= 0) {
-                clearInterval(timerInterval);
-                alert("時間到！系統將自動結算成績。");
-                finishQuiz();
-            }
+            secondsLeft--;
+            const mins = Math.floor(secondsLeft / 60);
+            const secs = secondsLeft % 60;
+            document.getElementById('timer').innerText = `剩餘時間 ${mins}:${secs < 10 ? '0'+secs : secs}`;
+            if (secondsLeft <= 0) { clearInterval(timerInterval); finishQuiz(); }
         }, 1000);
     }
 
-    function startQuiz() {
-        const sub = document.getElementById('subject-select').value;
-        let filtered = rawData.filter(q => q.subject === sub);
+    function renderQuestion() {
+        const q = examPool[currentIndex];
+        const qContent = document.getElementById('q-content');
+        const optionsList = document.getElementById('options-list');
+        const imageArea = document.getElementById('q-image-area');
 
-        if (filtered.length === 0) {
-            alert(`目前題庫中沒有「${sub}」的資料！`);
-            return;
-        }
-
-        testBank = shuffleArray([...filtered]).slice(0, 40);
-        document.getElementById('setup-box').style.display = "none";
-        document.getElementById('quiz-container').style.display = "block";
-        document.getElementById('subject-tag').innerText = sub;
-        
-        currentIndex = 0;
-        score = 0;
-        wrongHistory = [];
-        timeLeft = 3600; 
-        
-        startTimer();
-        showQuestion();
-    }
-
-    function showQuestion() {
-        const q = testBank[currentIndex];
-        const imgContainer = document.getElementById('image-container');
-        const optionsContainer = document.getElementById('options-container');
-        
-        document.getElementById('progress-text').innerText = `第 ${currentIndex + 1} / ${testBank.length} 題`;
-        document.getElementById('question-display').innerText = q.question;
-        document.getElementById('result-text').innerText = "";
-        document.getElementById('next-btn').style.display = "none";
-        imgContainer.innerHTML = "";
-        optionsContainer.innerHTML = "";
-
+        // 圖片顯示邏輯 (直接信任 JSON 中的路徑)
         if (q.image && q.image.trim() !== "") {
-            const imgEl = document.createElement('img');
-            imgEl.src = q.image; 
-            imgEl.className = 'question-image';
-            imgEl.onerror = () => { imgEl.style.display = "none"; };
-            imgContainer.appendChild(imgEl);
+            imageArea.innerHTML = `<div class="q-image-container"><img src="${q.image}" alt="題目圖片" onerror="this.parentElement.innerHTML='<div class=image-missing-note>⚠️ 找不到圖檔：${q.image}</div>'"></div>`;
+        } else {
+            // 檢查題目文字是否暗示有圖但 JSON 沒抓到
+            const mentionsImg = ["如圖", "下圖", "附圖", "如下圖"].some(kw => q.question.includes(kw));
+            if (mentionsImg) {
+                imageArea.innerHTML = `<div class="image-missing-note">⚠️ 偵測到關鍵字，但 JSON 資料中無對應圖片路徑 (${q.groupId})</div>`;
+            } else {
+                imageArea.innerHTML = "";
+            }
         }
 
-        // 隨機選項
-        let optionEntries = Object.entries(q.options);
-        shuffleArray(optionEntries);
-
-        const labels = ["A", "B", "C", "D"];
-        optionEntries.forEach((entry, index) => {
-            const originalKey = entry[0];
-            const optionText = entry[1];
-            const btn = document.createElement('button');
-            btn.className = 'option-btn';
-            btn.innerText = `${labels[index]}. ${optionText}`;
-            btn.onclick = () => checkAnswer(originalKey, btn, q, `${labels[index]}. ${optionText}`);
-            optionsContainer.appendChild(btn);
-        });
-    }
-
-    function checkAnswer(userChoice, btn, q, fullUserChoiceText) {
-        const allBtns = document.querySelectorAll('.option-btn');
-        allBtns.forEach(b => b.disabled = true);
-
-        const correctContent = q.options[q.answer];
-
-        if (userChoice === q.answer) {
-            btn.classList.add('correct');
-            document.getElementById('result-text').innerText = "✅ 正確！";
-            document.getElementById('result-text').style.color = "var(--success-color)";
-            score++;
-        } else {
-            btn.classList.add('wrong');
-            document.getElementById('result-text').innerText = `❌ 錯誤！`;
-            document.getElementById('result-text').style.color = "var(--error-color)";
+        // 移除題目的前綴題號 (1. 2.) 讓介面更乾淨
+        const cleanText = q.question.replace(/^\d+\.\s*/, '');
+        qContent.innerHTML = `${cleanText} <span class="meta-info">(${q.year} 題號:${q.groupId.split('_').pop()})</span>`;
+        
+        optionsList.innerHTML = '';
+        const answered = userAnswers[currentIndex];
+        
+        ['A', 'B', 'C', 'D'].forEach(letter => {
+            const item = document.createElement('div');
+            item.className = 'option-item';
             
-            // 存入錯題紀錄
-            wrongHistory.push({
-                question: q.question,
-                userAnswer: fullUserChoiceText,
-                correctAnswer: `${q.answer}. ${correctContent}`,
-                image: q.image
-            });
+            if (answered) {
+                item.classList.add('locked');
+                if (letter === q.answer) {
+                    item.classList.add('correct-flash');
+                    item.innerHTML = `<strong>${letter}.</strong> &nbsp; ${q.options[letter]} <span class="feedback-label">✓ 正確答案</span>`;
+                } else if (letter === answered.choice && !answered.isCorrect) {
+                    item.classList.add('wrong-flash');
+                    item.innerHTML = `<strong>${letter}.</strong> &nbsp; ${q.options[letter]} <span class="feedback-label">✗ 你的選擇</span>`;
+                } else {
+                    item.innerHTML = `<strong>${letter}.</strong> &nbsp; ${q.options[letter]}`;
+                }
+            } else {
+                item.onclick = () => {
+                    userAnswers[currentIndex] = { choice: letter, isCorrect: (letter === q.answer) };
+                    renderQuestion();
+                };
+                item.innerHTML = `<strong>${letter}.</strong> &nbsp; ${q.options[letter]}`;
+            }
+            optionsList.appendChild(item);
+        });
 
-            allBtns.forEach(b => {
-                if (b.innerText.includes(correctContent)) b.classList.add('correct');
-            });
-        }
-        document.getElementById('next-btn').style.display = "block";
+        document.getElementById('progress-text').innerText = `${currentIndex + 1} / ${examPool.length}`;
+        document.getElementById('prev-btn').disabled = currentIndex === 0;
+        
+        const isLast = (currentIndex === examPool.length - 1);
+        document.getElementById('next-btn').style.display = isLast ? 'none' : 'block';
+        document.getElementById('final-submit').style.display = isLast ? 'block' : 'none';
     }
 
-    function nextQuestion() {
-        currentIndex++;
-        if (currentIndex < testBank.length) {
-            showQuestion();
-        } else {
-            finishQuiz();
-        }
+    function changeQuestion(step) {
+        currentIndex += step;
+        renderQuestion();
+        window.scrollTo(0,0);
     }
 
     function finishQuiz() {
         clearInterval(timerInterval);
-        document.getElementById('quiz-container').style.display = "none";
-        document.getElementById('summary-container').style.display = "block";
-
-        const finalScore = score * 2.5;
-        const scoreReport = document.getElementById('score-report');
-        scoreReport.innerHTML = `
-            <div style="font-size: 48px; font-weight: bold; color: ${finalScore >= 60 ? 'var(--success-color)' : 'var(--error-color)'};">
-                ${finalScore} 分
-            </div>
-            <p>答對題數：${score} / ${testBank.length}</p>
-        `;
-
-        // 渲染錯題回顧
-        const reviewList = document.getElementById('review-list');
-        if (wrongHistory.length === 0) {
-            reviewList.innerHTML = "<h3>🌟 太強了！沒有任何錯題。</h3>";
-        } else {
-            reviewList.innerHTML = "<h3>🔍 錯題回顧：</h3>";
-            wrongHistory.forEach((item, index) => {
-                const div = document.createElement('div');
-                div.className = 'review-item';
-                div.innerHTML = `
-                    <div class="review-q">${index + 1}. ${item.question}</div>
-                    ${item.image ? `<img src="${item.image}" style="max-width:200px; display:block; margin: 5px 0;">` : ''}
-                    <div class="review-ans">
-                        您的答案：<span class="text-error">${item.userAnswer}</span><br>
-                        正確答案：<span class="text-success">${item.correctAnswer}</span>
-                    </div>
-                `;
-                reviewList.appendChild(div);
-            });
+        let correctCount = 0;
+        for (let i = 0; i < examPool.length; i++) {
+            if (userAnswers[i] && userAnswers[i].isCorrect) correctCount++;
         }
+        const score = (correctCount / examPool.length * 100).toFixed(1);
+        document.getElementById('quiz-view').style.display = 'none';
+        document.getElementById('timer').style.display = 'none';
+        document.getElementById('result-view').style.display = 'block';
+        document.getElementById('final-score').innerText = score;
+        document.getElementById('score-detail').innerText = `答對 ${correctCount} 題 / 總計 ${examPool.length} 題`;
+    }
+
+    function showWrongAnswers() {
+        document.getElementById('result-view').style.display = 'none';
+        document.getElementById('review-view').style.display = 'block';
+        const listContainer = document.getElementById('wrong-list');
+        listContainer.innerHTML = '';
+        
+        examPool.forEach((q, idx) => {
+            const ans = userAnswers[idx];
+            if (!ans || !ans.isCorrect) {
+                const item = document.createElement('div');
+                item.className = 'wrong-item';
+                const userChoice = ans ? ans.choice : "未作答";
+                const imgHtml = q.image ? `<br><img src="${q.image}" style="max-width:300px; margin:10px 0;">` : "";
+                
+                item.innerHTML = `
+                    <p><strong>題目：</strong>${q.question} (${q.year})</p>
+                    ${imgHtml}
+                    <p style="color:var(--wrong); margin:5px 0;">❌ 你的答案：${userChoice}</p>
+                    <p style="color:var(--correct); margin:5px 0;">✅ 正確答案：${q.answer}. ${q.options[q.answer]}</p>
+                `;
+                listContainer.appendChild(item);
+            }
+        });
+        window.scrollTo(0,0);
     }
 </script>
-
 </body>
 </html>

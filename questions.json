@@ -43,34 +43,6 @@
   },
   {
     "year": "107-2",
-    "subject": "航海學",
-    "question": "9. 磁羅經之A自差屬何種自差？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/NAV_107-2_9.png",
-    "groupId": "NAV_107-2_9"
-  },
-  {
-    "year": "107-2",
-    "subject": "貨物作業",
-    "question": "24. 日用品重量120噸，共佔貨艙容積250立方公尺，求該貨物積載因素（S.F.）？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/CAR_107-2_24.png",
-    "groupId": "CAR_107-2_24"
-  },
-  {
-    "year": "107-2",
     "subject": "航行安全與氣象",
     "question": "28. 下圖為陸地測站填圖之實例，下列有關此圖示的敘述，何者錯誤？",
     "options": {
@@ -113,6 +85,20 @@
   },
   {
     "year": "107-3",
+    "subject": "航海學",
+    "question": "5. 在美版導航圖(Pilot Chart)中，風力風向圖中心圓圈內的數字代表何意?",
+    "options": {
+      "A": "蒲式風力",
+      "B": "風速",
+      "C": "大風的比率",
+      "D": "靜風的比率"
+    },
+    "answer": "D",
+    "image": "img/NAV_107-3_5.png",
+    "groupId": "NAV_107-3_5"
+  },
+  {
+    "year": "107-3",
     "subject": "航行安全與氣象",
     "question": "13. 天氣圖上美國船舶測站填寫資料如圖，則當時的雲量為何？",
     "options": {
@@ -128,30 +114,16 @@
   {
     "year": "107-3",
     "subject": "航行安全與氣象",
-    "question": "16. 在油輪、散裝船、貨櫃船之救生部署表中，負責「攜帶糧食、飲水及毛毯」者，係為下列 何職位所負責？",
+    "question": "31. 氣象傳真圖中表示高空分析圖的代號是：",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/NSM_107-3_16.png",
-    "groupId": "NSM_107-3_16"
-  },
-  {
-    "year": "107-3",
-    "subject": "船舶通訊與航海英文",
-    "question": "21. An area which cannot be scanned by the ship’s radar because it is shielded by parts of its",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "AS",
+      "B": "AU",
+      "C": "AW",
+      "D": "FS"
     },
     "answer": "B",
-    "image": "img/CNE_107-3_21.png",
-    "groupId": "CNE_107-3_21"
+    "image": "img/NSM_107-3_31.png",
+    "groupId": "NSM_107-3_31"
   },
   {
     "year": "107-3",
@@ -194,34 +166,6 @@
     "answer": "C",
     "image": "img/CAR_107-4_19.png",
     "groupId": "CAR_107-4_19"
-  },
-  {
-    "year": "107-4",
-    "subject": "貨物作業",
-    "question": "22. 油輪載運之貨油會揮發可燃性氣體，檢視艙間油氣含量應為不可燃指標(可燃範圍區外)，即 可燃上限值(UFL)與可燃下限(LFL)值各為氣體容積多少百分比？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/CAR_107-4_22.png",
-    "groupId": "CAR_107-4_22"
-  },
-  {
-    "year": "107-4",
-    "subject": "航行安全與氣象",
-    "question": "25. Any action to avoid collision shall, if the circumstances of the case admit, be positive, is made in ample time and with due regard to the observance of good seamanship.出自國際海上避 碰規則何條條文？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/NSM_107-4_25.png",
-    "groupId": "NSM_107-4_25"
   },
   {
     "year": "107-4",
@@ -295,73 +239,17 @@
   },
   {
     "year": "108-1",
-    "subject": "船舶通訊與航海英文",
-    "question": "13. 有關SART之電池容量，依公約規定於應答時可維持多少小時？",
-    "options": {
-      "A": "8",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CNE_108-1_13.png",
-    "groupId": "CNE_108-1_13"
-  },
-  {
-    "year": "108-1",
-    "subject": "貨物作業",
-    "question": "24. 顯下列圖示載重標尺圖，當船舶在夏季載重線(S)標誌時，船舶TPC(海水)為多少?",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/CAR_108-1_24.png",
-    "groupId": "CAR_108-1_24"
-  },
-  {
-    "year": "108-1",
-    "subject": "船舶通訊與航海英文",
-    "question": "27. 在摩斯手旗通訊中，下列何者為表示發送台的信號發完時的最後信號？",
-    "options": {
-      "A": "",
-      "B": "R",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CNE_108-1_27.png",
-    "groupId": "CNE_108-1_27"
-  },
-  {
-    "year": "108-1",
     "subject": "航行安全與氣象",
-    "question": "34. 救生艇筏所配備之搜救雷達詢答機（SART），其可藉由下列何種雷達之搜尋設備予以定位",
+    "question": "30. 圖中L 27°N，λ127°E這點的風向風速是：",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "北北西13～17節",
+      "B": "南南東13～17節",
+      "C": "北北西20～24節",
+      "D": "南南東20～24節"
     },
-    "answer": "D",
-    "image": "img/NSM_108-1_34.png",
-    "groupId": "NSM_108-1_34"
-  },
-  {
-    "year": "108-1",
-    "subject": "船舶通訊與航海英文",
-    "question": "35. “Wreck over which the exact depth is unknown, but which is considered to have a safe clearance at the depth shown”- it will be marked in the chart as:",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/CNE_108-1_35.png",
-    "groupId": "CNE_108-1_35"
+    "answer": "A",
+    "image": "img/NSM_108-1_30.png",
+    "groupId": "NSM_108-1_30"
   },
   {
     "year": "108-2",
@@ -396,10 +284,10 @@
     "subject": "航行安全與氣象",
     "question": "15. 如圖所示，圖左上角圖名中JMH代表為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "日本東京氣象傳真台呼號",
+      "B": "香港氣象傳真台呼號",
+      "C": "美國關島氣象傳真台呼號",
+      "D": "北京氣象傳真台呼號"
     },
     "answer": "A",
     "image": "img/NSM_108-2_15.png",
@@ -410,10 +298,10 @@
     "subject": "航行安全與氣象",
     "question": "16. 如圖所示，台灣西南方一圈等值線上數字為3，其代表何意義？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "風速3級",
+      "B": "1003百帕",
+      "C": "波浪高3公尺",
+      "D": "流速3節"
     },
     "answer": "C",
     "image": "img/NSM_108-2_16.png",
@@ -436,20 +324,6 @@
   {
     "year": "108-2",
     "subject": "貨物作業",
-    "question": "23. 依據IMDG Code的規範，標示於包裝容器的海洋污染物標記，若非因包裝容器的尺寸關係 ，只能標示較小標記者除外，其每邊長度至少應多長？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CAR_108-2_23.png",
-    "groupId": "CAR_108-2_23"
-  },
-  {
-    "year": "108-2",
-    "subject": "貨物作業",
     "question": "24. 圖中的雜貨配載圖，圖中B貨物裝在何處？",
     "options": {
       "A": "底艙的中部",
@@ -460,20 +334,6 @@
     "answer": "B",
     "image": "img/CAR_108-2_24.png",
     "groupId": "CAR_108-2_24"
-  },
-  {
-    "year": "108-2",
-    "subject": "船舶通訊與航海英文",
-    "question": "32. 在摩斯手旗通訊中「雙臂或雙旗胸前交叉」，其代表的符號為何？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/CNE_108-2_32.png",
-    "groupId": "CNE_108-2_32"
   },
   {
     "year": "108-3",
@@ -497,7 +357,7 @@
       "A": "定光F",
       "B": "定閃光FFl",
       "C": "單閃光Fl",
-      "D": ""
+      "D": "單頓光Oc"
     },
     "answer": "B",
     "image": "img/NAV_108-3_23.png",
@@ -532,34 +392,6 @@
     "groupId": "NSM_108-3_37"
   },
   {
-    "year": "108-3",
-    "subject": "船舶通訊與航海英文",
-    "question": "40. Please refer to the chart as attached and answer the following three questions. The symbol at Q3 means:",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/CNE_108-3_40.png",
-    "groupId": "CNE_108-3_40"
-  },
-  {
-    "year": "108-4",
-    "subject": "貨物作業",
-    "question": "11. 船長未滿100公尺之船舶載重線中，季節載重線總共有幾種？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/CAR_108-4_11.png",
-    "groupId": "CAR_108-4_11"
-  },
-  {
     "year": "108-4",
     "subject": "貨物作業",
     "question": "15. 只利用船艙所裝設的通風筒或艙口，圖中的通風換氣法，是屬於何種方法？",
@@ -589,27 +421,13 @@
   },
   {
     "year": "108-4",
-    "subject": "船舶通訊與航海英文",
-    "question": "26. 「國際信號規則（ICS）」之規定，配合「單字母（Single letter）」信號組合而成之「單 字母附輔助信號」代碼信號組，「經度」可使用下列何項「單字母」後連接四個或五個數字表示之 ？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/CNE_108-4_26.png",
-    "groupId": "CNE_108-4_26"
-  },
-  {
-    "year": "108-4",
     "subject": "航行安全與氣象",
     "question": "32. 夜間瞭望時，看到他船顯示之號燈如附圖時，應為何種船？",
     "options": {
       "A": "長度未滿50公尺，操縱失靈船舶之左舷燈",
       "B": "長度未滿50公尺，操縱失靈船舶，對水面移動",
-      "C": "",
-      "D": ""
+      "C": "長度滿50公尺，受吃水限制之船舶，對水面移動",
+      "D": "長度滿50公尺，受吃水限制之船舶，不對水面移動"
     },
     "answer": "C",
     "image": "img/NSM_108-4_32.png",
@@ -632,6 +450,34 @@
   {
     "year": "109-2",
     "subject": "航海學",
+    "question": "17. 航海員在夜間進行航標辨識時，請問下圖為何種光態? (每分鐘重複率80~159閃)",
+    "options": {
+      "A": "單閃光Fl",
+      "B": "連續快閃光Q",
+      "C": "連續極快閃光VQ",
+      "D": "連續超快閃光UQ"
+    },
+    "answer": "C",
+    "image": "img/NAV_109-2_17.png",
+    "groupId": "NAV_109-2_17"
+  },
+  {
+    "year": "109-2",
+    "subject": "航行安全與氣象",
+    "question": "17. 氣象傳真圖中，代表海浪分析圖的圖類代號為何？",
+    "options": {
+      "A": "FW",
+      "B": "AU",
+      "C": "FO",
+      "D": "AW"
+    },
+    "answer": "D",
+    "image": "img/NSM_109-2_17.png",
+    "groupId": "NSM_109-2_17"
+  },
+  {
+    "year": "109-2",
+    "subject": "航海學",
     "question": "23. 如圖之海圖圖例，其意義為何？",
     "options": {
       "A": "一般錨泊區",
@@ -645,59 +491,31 @@
   },
   {
     "year": "109-2",
-    "subject": "航海學",
-    "question": "24. 使用回音測深儀（Echo sounder）測量水深時，若聲波在水中實際傳播的速度大於設計音 速，則測深儀顯示的水深與實際水深比較，其狀況如何？",
+    "subject": "航行安全與氣象",
+    "question": "24. 下圖顯示的燈號，應屬於下述哪一種狀況？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "動力船舶短於50公尺，前推他船，未連成一組合體之情形",
+      "B": "動力船舶長於50公尺，推頂船舶及其前方之被推頂點，緊密連接成一組合體",
+      "C": "從事拖網捕魚之船舶",
+      "D": "船舶從事疏濬或水下作業，致運轉能力受限制情況"
     },
     "answer": "A",
-    "image": "img/NAV_109-2_24.png",
-    "groupId": "NAV_109-2_24"
+    "image": "img/NSM_109-2_24.png",
+    "groupId": "NSM_109-2_24"
   },
   {
     "year": "109-2",
     "subject": "貨物作業",
-    "question": "24. 下列圖示載重標尺圖，當船舶在夏季載重線(S)標誌時，船舶海水排水量為多少?",
+    "question": "38. 在全貨櫃船的積載圖中編號為180504代表該貨櫃在船上何位置？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Bay18 Row05 Tier04",
+      "B": "Bay18 Tier05 Row04",
+      "C": "Row18 Tier05 Bay04",
+      "D": "Tier18 Row05 Bay04"
     },
-    "answer": "D",
-    "image": "img/CAR_109-2_24.png",
-    "groupId": "CAR_109-2_24"
-  },
-  {
-    "year": "109-2",
-    "subject": "貨物作業",
-    "question": "26. 依據IMDG Code的規範，在貨物運輸單元標示標牌和標記的方法，必須使貨物運輸單元在 海水中浸泡多久後，仍能辨識其上的標牌和標記？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/CAR_109-2_26.png",
-    "groupId": "CAR_109-2_26"
-  },
-  {
-    "year": "109-2",
-    "subject": "航行安全與氣象",
-    "question": "29. 船舶在前進中用舵迴轉，用舵不久後，將因舵力橫傾力矩而出現輕微內傾，之後會因何作 用使船體從內傾變成外傾？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/NSM_109-2_29.png",
-    "groupId": "NSM_109-2_29"
+    "answer": "A",
+    "image": "img/CAR_109-2_38.png",
+    "groupId": "CAR_109-2_38"
   },
   {
     "year": "109-3",
@@ -716,16 +534,16 @@
   {
     "year": "109-3",
     "subject": "航行安全與氣象",
-    "question": "31. 根據達斯貝羅(BUYS Ballot)定律，可以得到颱風中心方位：在北半球，背對來風，低氣壓",
+    "question": "8. 下圖顯示的燈號，屬於下述哪一種狀況？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Power Vessel, > 50m in length",
+      "B": "Power Vessel, < 50m in length",
+      "C": "Towing Vessel < 50m in length with tow >200m",
+      "D": "Towing Vessel > 50m in length with tow > 200m"
     },
-    "answer": "D",
-    "image": "img/NSM_109-3_31.png",
-    "groupId": "NSM_109-3_31"
+    "answer": "A",
+    "image": "img/NSM_109-3_8.png",
+    "groupId": "NSM_109-3_8"
   },
   {
     "year": "109-3",
@@ -743,31 +561,17 @@
   },
   {
     "year": "109-4",
-    "subject": "貨物作業",
-    "question": "14. 靜止角大於30˚但小於35˚的非黏性散裝貨物，其貨物表面的不平整程度即貨物表面最高點 與最低點間的垂直距離(∆h)不得超過下列何者？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CAR_109-4_14.png",
-    "groupId": "CAR_109-4_14"
-  },
-  {
-    "year": "109-4",
     "subject": "航行安全與氣象",
-    "question": "17. 依1974年海上人命安全國際公約第三章規則37之規定，部署表應載明規定，下列敘述何者 不在其內?",
+    "question": "13. 日間見到漁船，展露如圖示的錐尖相連之上下兩個圓錐形，組成之號標一具，於一垂直線 上，請問以下何項敘述錯誤？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "從事拖網捕魚之船舶行駛中，漁具在水中拖行",
+      "B": "除拖網捕魚外，從事捕魚中之船舶行駛中",
+      "C": "除拖網捕魚外，從事捕魚中之船舶錨泊中",
+      "D": "行駛中漁船未進行捕魚"
     },
-    "answer": "A",
-    "image": "img/NSM_109-4_17.png",
-    "groupId": "NSM_109-4_17"
+    "answer": "D",
+    "image": "img/NSM_109-4_13.png",
+    "groupId": "NSM_109-4_13"
   },
   {
     "year": "109-4",
@@ -785,31 +589,31 @@
   },
   {
     "year": "109-4",
-    "subject": "航海學",
-    "question": "23. 某船自甲地(L39°46.0’S，λ76°12.0’W)沿大圈航行至乙地(L25°30.0’N，λ122°00.0’E)，若 已知大圈初航向為232.3°，則請問甲地至大圈頂點間的最近距離為幾浬？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/NAV_109-4_23.png",
-    "groupId": "NAV_109-4_23"
-  },
-  {
-    "year": "109-4",
     "subject": "貨物作業",
     "question": "38. 圖中的雜貨配載圖，圖中C貨物裝在何處？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "底艙上層的左舷",
+      "B": "底艙上層的右舷",
+      "C": "底艙上層的前半艙",
+      "D": "二層艙艙的前半艙"
     },
     "answer": "B",
     "image": "img/CAR_109-4_38.png",
     "groupId": "CAR_109-4_38"
+  },
+  {
+    "year": "109-4",
+    "subject": "航行安全與氣象",
+    "question": "39. 圖中29°N，132°E這點的湧浪方向是：",
+    "options": {
+      "A": "從南向北",
+      "B": "從北向南",
+      "C": "從東向西",
+      "D": "從西向東"
+    },
+    "answer": "C",
+    "image": "img/NSM_109-4_39.png",
+    "groupId": "NSM_109-4_39"
   },
   {
     "year": "110-1",
@@ -827,17 +631,17 @@
   },
   {
     "year": "110-1",
-    "subject": "航行安全與氣象",
-    "question": "14. 本船對地航速10節，目標船對地航速10節，真航向210，在本船相對方位030，距離6海浬",
+    "subject": "貨物作業",
+    "question": "23. 在貨物積載圖中，二層艙是以何種圖示法表示？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "側視圖",
+      "B": "正視圖",
+      "C": "俯視圖",
+      "D": "仰視圖"
     },
-    "answer": "D",
-    "image": "img/NSM_110-1_14.png",
-    "groupId": "NSM_110-1_14"
+    "answer": "C",
+    "image": "img/CAR_110-1_23.png",
+    "groupId": "CAR_110-1_23"
   },
   {
     "year": "110-1",
@@ -854,28 +658,14 @@
     "groupId": "NSM_110-1_36"
   },
   {
-    "year": "110-1",
-    "subject": "航行安全與氣象",
-    "question": "37. 晴天的天空為什麼是藍色的？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/NSM_110-1_37.png",
-    "groupId": "NSM_110-1_37"
-  },
-  {
     "year": "110-3",
     "subject": "貨物作業",
     "question": "7. 附圖所示船舶變形之受力狀態說明，何者正確？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "上圖是指中垂，船舯部下層甲板承受壓力(Compression)",
+      "B": "上圖是指中拱，船舯部下層甲板承受壓力(Compression)",
+      "C": "下圖是指中垂，船舯部下層甲板承受壓力(Compression)",
+      "D": "下圖是指中拱，船舯部下層甲板承受壓力(Compression)"
     },
     "answer": "D",
     "image": "img/CAR_110-3_7.png",
@@ -886,10 +676,10 @@
     "subject": "貨物作業",
     "question": "10. 下圖為甲板貨櫃積載圖，請問圖示內Bay Plan右下方邊框內之甲板上貨櫃Row為多少？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16"
     },
     "answer": "C",
     "image": "img/CAR_110-3_10.png",
@@ -900,10 +690,10 @@
     "subject": "貨物作業",
     "question": "11. 下圖為甲板貨櫃積載圖，請問圖示內Bay Plan左上方邊框內之甲板上貨櫃Tier為多少(如最 底層為82)？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "94",
+      "B": "92",
+      "C": "90",
+      "D": "88"
     },
     "answer": "A",
     "image": "img/CAR_110-3_11.png",
@@ -914,14 +704,42 @@
     "subject": "貨物作業",
     "question": "13. 吊桿索具如圖，圖中標示⑥所指的名稱為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Preventer guy",
+      "B": "Guy tackle",
+      "C": "Topping lift span",
+      "D": "Runner"
     },
     "answer": "B",
     "image": "img/CAR_110-3_13.png",
     "groupId": "CAR_110-3_13"
+  },
+  {
+    "year": "110-3",
+    "subject": "航行安全與氣象",
+    "question": "16. 天氣圖上測站填寫資料如圖，則當時風向為何？",
+    "options": {
+      "A": "東南風",
+      "B": "西北風",
+      "C": "東北風",
+      "D": "西南風"
+    },
+    "answer": "B",
+    "image": "img/NSM_110-3_16.png",
+    "groupId": "NSM_110-3_16"
+  },
+  {
+    "year": "110-3",
+    "subject": "貨物作業",
+    "question": "24. 圖中的雜貨配載圖，那種貨物裝在二層艙的中部？",
+    "options": {
+      "A": "A貨物",
+      "B": "B貨物",
+      "C": "C貨物",
+      "D": "D貨物"
+    },
+    "answer": "C",
+    "image": "img/CAR_110-3_24.png",
+    "groupId": "CAR_110-3_24"
   },
   {
     "year": "110-3",
@@ -939,17 +757,17 @@
   },
   {
     "year": "110-3",
-    "subject": "貨物作業",
-    "question": "37. 下列何種文件是預定進出口之貨物，須事先安排艙位，以便瞭解貨物是否裝船或退關？",
+    "subject": "航行安全與氣象",
+    "question": "38. 附圖為一海上測站填在天氣圖上的資料，則當時的湧浪週期是多少？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "5秒",
+      "B": "7秒",
+      "C": "8秒",
+      "D": "11秒"
     },
     "answer": "C",
-    "image": "img/CAR_110-3_37.png",
-    "groupId": "CAR_110-3_37"
+    "image": "img/NSM_110-3_38.png",
+    "groupId": "NSM_110-3_38"
   },
   {
     "year": "110-4",
@@ -987,11 +805,25 @@
       "A": "複聯閃光Fl(2+1)",
       "B": "聯頓光Oc(2+1)",
       "C": "聯快閃光Q(2+1)",
-      "D": ""
+      "D": "複聯頓光Oc(2+1)"
     },
     "answer": "A",
     "image": "img/NAV_110-4_16.png",
     "groupId": "NAV_110-4_16"
+  },
+  {
+    "year": "111-1",
+    "subject": "航行安全與氣象",
+    "question": "8. 看見下圖顯示的燈號，會屬於下述哪一種狀況？",
+    "options": {
+      "A": "短於50公尺之動力船舶拖曳，拖曳長度短於200公尺",
+      "B": "推頂船舶及其前方之被推頂點，緊密連接成一組合體",
+      "C": "氣墊船於無排水量之狀況下操作",
+      "D": "航行中之帆船"
+    },
+    "answer": "A",
+    "image": "img/NSM_111-1_8.png",
+    "groupId": "NSM_111-1_8"
   },
   {
     "year": "111-1",
@@ -1036,6 +868,20 @@
     "groupId": "NAV_111-1_12"
   },
   {
+    "year": "111-1",
+    "subject": "航行安全與氣象",
+    "question": "21. 如圖所示，圖左上角圖名中WTAS代表亞洲熱帶氣旋警報圖，而07之意義為何？",
+    "options": {
+      "A": "700百帕",
+      "B": "預報時效72小時",
+      "C": "7天預報",
+      "D": "7級風"
+    },
+    "answer": "B",
+    "image": "img/NSM_111-1_21.png",
+    "groupId": "NSM_111-1_21"
+  },
+  {
     "year": "111-2",
     "subject": "航海學",
     "question": "5. 航海員在夜間進行航標辨識時，請問下圖為何種燈質？(每分鐘重複率80-159閃)",
@@ -1051,31 +897,31 @@
   },
   {
     "year": "111-2",
-    "subject": "船舶通訊與航海英文",
-    "question": "14. 在基隆港管制區範圍內航行之船舶，除VHF16頻道外，還應守值VHF那個頻道，可作為船",
+    "subject": "航行安全與氣象",
+    "question": "19. 氣象傳真圖中，代表海流預報圖的圖類代號為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "FW",
+      "B": "FO",
+      "C": "SO",
+      "D": "CO"
     },
-    "answer": "A",
-    "image": "img/CNE_111-2_14.png",
-    "groupId": "CNE_111-2_14"
+    "answer": "B",
+    "image": "img/NSM_111-2_19.png",
+    "groupId": "NSM_111-2_19"
   },
   {
     "year": "111-2",
-    "subject": "船舶通訊與航海英文",
-    "question": "21. ______ of a cargo hold indicates the cubic volume of the cargo hold when the length, breadth and depth are measured right up to the plating. In this case, the cargo is free flowing and",
+    "subject": "航行安全與氣象",
+    "question": "23. 如圖示狀況，彼此互見的兩艘動力船舶，出港加俥中的A輪(南向) 與路過B輪(東偏南向 )，有碰撞危機，A輪若加俥將可搶在B輪船頭前，左轉進東向航道，以下何敘述為正確？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "A輪要橫越分道航行區，應垂直穿越整個分道航行區，然後左轉以小角度插進東向航道，B輪不應 妨礙其安全穿越",
+      "B": "B輪因左舷面對A輪，為直航船，故只可保持航向航速不變",
+      "C": "因A輪能搶在B輪前面到東向航道左轉，左轉後為B船追越A船，故B輪應避讓A輪",
+      "D": "A輪應先垂直通過西向航道，然後與B輪屬交叉相遇，應右轉避讓，到B輪後方後，再左轉進入東 向航道，如需追越，A輪應讓B輪"
     },
-    "answer": "A",
-    "image": "img/CNE_111-2_21.png",
-    "groupId": "CNE_111-2_21"
+    "answer": "D",
+    "image": "img/NSM_111-2_23.png",
+    "groupId": "NSM_111-2_23"
   },
   {
     "year": "111-2",
@@ -1111,9 +957,9 @@
     "question": "16. 航海員在海圖上查找陸標，關於下圖的敘述何者錯誤？",
     "options": {
       "A": "此為一座導向燈",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "夜間在航道中央可見白色頓光，週期4秒",
+      "C": "各色燈的公稱光程分別為白光15浬、綠光5浬、紅光為5至15浬",
+      "D": "必須再查閱燈塔表方可得知各色燈的公稱光程"
     },
     "answer": "D",
     "image": "img/NAV_111-3_16.png",
@@ -1132,20 +978,6 @@
     "answer": "D",
     "image": "img/NAV_111-3_17.png",
     "groupId": "NAV_111-3_17"
-  },
-  {
-    "year": "111-3",
-    "subject": "航海學",
-    "question": "24. 某觀測者眼高60呎，美國Race Rock Lt.（Light List No.18650）其塔高67呎，公稱光程 （Nominal Range）19浬，求於氣象能見度為5浬時之可見燈光距離？（氣象能見度於5浬時之可見",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/NAV_111-3_24.png",
-    "groupId": "NAV_111-3_24"
   },
   {
     "year": "111-3",
@@ -1176,6 +1008,20 @@
     "groupId": "NSM_111-3_30"
   },
   {
+    "year": "111-3",
+    "subject": "航行安全與氣象",
+    "question": "40. 彩色地面天氣圖中，鋒面的線條符號為藍色，表示下列何者？",
+    "options": {
+      "A": "滯留鋒",
+      "B": "囚錮鋒",
+      "C": "冷鋒",
+      "D": "暖鋒"
+    },
+    "answer": "C",
+    "image": "img/NSM_111-3_40.png",
+    "groupId": "NSM_111-3_40"
+  },
+  {
     "year": "111-4",
     "subject": "貨物作業",
     "question": "2. 貨物標誌如附圖，是屬於下列何種標誌？",
@@ -1204,48 +1050,6 @@
     "groupId": "CNE_111-4_2"
   },
   {
-    "year": "111-4",
-    "subject": "貨物作業",
-    "question": "3. 某船排水量15000噸，裝150噸淡水，1000噸油料，300噸補給，今欲裝載小麥(S.F. 55立方 呎/噸)，貨艙容積540000立方呎，求出貨艙實際可載重量為多少？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/CAR_111-4_3.png",
-    "groupId": "CAR_111-4_3"
-  },
-  {
-    "year": "111-4",
-    "subject": "船舶通訊與航海英文",
-    "question": "7. What’s the part name of life boat that marked “C”?",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/CNE_111-4_7.png",
-    "groupId": "CNE_111-4_7"
-  },
-  {
-    "year": "111-4",
-    "subject": "船舶通訊與航海英文",
-    "question": "12. While conducting Williamson turn, what heading is the time to place the helm hard over to",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/CNE_111-4_12.png",
-    "groupId": "CNE_111-4_12"
-  },
-  {
     "year": "112-1",
     "subject": "船舶通訊與航海英文",
     "question": "3. 下圖所示之國際信號旗為何？",
@@ -1262,44 +1066,16 @@
   {
     "year": "112-1",
     "subject": "航行安全與氣象",
-    "question": "17. 依國際海上避碰規則規定，顯示漁船群集捕魚時之增設信號號燈，長度未滿多少公尺從事 雙拖拖網作業時之船舶，不論使用海底還是深海漁具，可視情況顯示從事圍網捕魚以外之拖網漁船",
+    "question": "33. 夜間，瞭望時看到他船之號燈顯示如附圖，應為何種船？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "長度20公尺，從事圍網捕魚船舶",
+      "B": "迎艏正遇之長度20公尺，從事拖網捕魚船舶",
+      "C": "長度滿50公尺，從事圍網捕魚船舶",
+      "D": "迎艏正遇之長度滿50公尺，從事拖網捕魚船舶"
     },
-    "answer": "A",
-    "image": "img/NSM_112-1_17.png",
-    "groupId": "NSM_112-1_17"
-  },
-  {
-    "year": "112-1",
-    "subject": "航行安全與氣象",
-    "question": "40. 確定順流，採取港內拋錨調頭，右旋單俥船舶應採取下列何法為佳？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/NSM_112-1_40.png",
-    "groupId": "NSM_112-1_40"
-  },
-  {
-    "year": "112-2",
-    "subject": "船舶通訊與航海英文",
-    "question": "7. Please refer to the attached sextant figure, the part that marked 「J」is:",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/CNE_112-2_7.png",
-    "groupId": "CNE_112-2_7"
+    "answer": "D",
+    "image": "img/NSM_112-1_33.png",
+    "groupId": "NSM_112-1_33"
   },
   {
     "year": "112-2",
@@ -1314,20 +1090,6 @@
     "answer": "B",
     "image": "img/NSM_112-2_11.png",
     "groupId": "NSM_112-2_11"
-  },
-  {
-    "year": "112-2",
-    "subject": "船舶通訊與航海英文",
-    "question": "11. Fire extinguishers onboard ships are required to equip with ______containing the information about the expiration date, examination record and the status of the extinguishers. Such information is often examined by Post State Control Officers when necessary.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/CNE_112-2_11.png",
-    "groupId": "CNE_112-2_11"
   },
   {
     "year": "112-2",
@@ -1348,10 +1110,10 @@
     "subject": "航行安全與氣象",
     "question": "36. 圖中29°N，132°E這點的湧浪高度是多少？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "2 m",
+      "B": "2 ft",
+      "C": "0.5 m",
+      "D": "0.5 ft"
     },
     "answer": "C",
     "image": "img/NSM_112-2_36.png",
@@ -1362,14 +1124,28 @@
     "subject": "航行安全與氣象",
     "question": "39. 附圖為一海上測站填在天氣圖上的資料，則過去三小時的氣壓變化量是：",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "上升0.4百帕",
+      "B": "上升10.3百帕",
+      "C": "下降0.4百帕",
+      "D": "下降10.3百帕"
     },
     "answer": "A",
     "image": "img/NSM_112-2_39.png",
     "groupId": "NSM_112-2_39"
+  },
+  {
+    "year": "112-3",
+    "subject": "貨物作業",
+    "question": "6. 下圖為甲板貨櫃積載圖，請問圖示內Bay Plan左上方邊框內之甲板上貨櫃Row為多少？",
+    "options": {
+      "A": "16",
+      "B": "15",
+      "C": "14",
+      "D": "13"
+    },
+    "answer": "C",
+    "image": "img/CAR_112-3_6.png",
+    "groupId": "CAR_112-3_6"
   },
   {
     "year": "112-3",
@@ -1387,20 +1163,6 @@
   },
   {
     "year": "112-3",
-    "subject": "貨物作業",
-    "question": "10. 某船之排水量為18000 Tons，在純海水中平均吃水12m，今駛入一密度為1.010之水域中 ，已知該船之TPC為20，求新平均吃水為多少？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/CAR_112-3_10.png",
-    "groupId": "CAR_112-3_10"
-  },
-  {
-    "year": "112-3",
     "subject": "航海學",
     "question": "13. 如圖之海圖圖例，其意義為何？",
     "options": {
@@ -1415,27 +1177,13 @@
   },
   {
     "year": "112-3",
-    "subject": "航海學",
-    "question": "16. 下列六分儀的誤差項目中，何者為不可調整的誤差？",
-    "options": {
-      "A": "邊差",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/NAV_112-3_16.png",
-    "groupId": "NAV_112-3_16"
-  },
-  {
-    "year": "112-3",
     "subject": "貨物作業",
     "question": "24. 圖中的雜貨配載圖，B種貨物裝在何處？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "底艙上層前半艙",
+      "B": "底艙上層右半艙",
+      "C": "二層艙後半艙",
+      "D": "二層艙右半艙"
     },
     "answer": "A",
     "image": "img/CAR_112-3_24.png",
@@ -1472,6 +1220,20 @@
   {
     "year": "112-4",
     "subject": "航行安全與氣象",
+    "question": "10. 可見光衛星傳真雲圖中，在海洋上顯示的黑色區域表示為？",
+    "options": {
+      "A": "雨天",
+      "B": "晴天",
+      "C": "陰天",
+      "D": "多雲"
+    },
+    "answer": "B",
+    "image": "img/NSM_112-4_10.png",
+    "groupId": "NSM_112-4_10"
+  },
+  {
+    "year": "112-4",
+    "subject": "航行安全與氣象",
     "question": "35. 如圖所示，圖題中的ASAS第一個AS是代表什麼？",
     "options": {
       "A": "地面分析",
@@ -1482,20 +1244,6 @@
     "answer": "A",
     "image": "img/NSM_112-4_35.png",
     "groupId": "NSM_112-4_35"
-  },
-  {
-    "year": "112-4",
-    "subject": "貨物作業",
-    "question": "38. 由於船舶所裝貨物種類及分布情況不同，對船舶所產生之作用也不同，就垂直向而言，若",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/CAR_112-4_38.png",
-    "groupId": "CAR_112-4_38"
   },
   {
     "year": "112-4",
@@ -1541,27 +1289,27 @@
   },
   {
     "year": "113-1",
-    "subject": "航海學",
-    "question": "7. 已知緯度55°N與赤緯22°N，求餘緯多少度？",
+    "subject": "航行安全與氣象",
+    "question": "9. 有關分道通航制，圖中之匯合點區域，代表何種意義？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "警戒區",
+      "B": "環航區",
+      "C": "分道區",
+      "D": "航行區"
     },
-    "answer": "B",
-    "image": "img/NAV_113-1_7.png",
-    "groupId": "NAV_113-1_7"
+    "answer": "A",
+    "image": "img/NSM_113-1_9.png",
+    "groupId": "NSM_113-1_9"
   },
   {
     "year": "113-1",
     "subject": "航行安全與氣象",
     "question": "11. 天氣圖上美國船舶測站填寫資料如圖，則當時的能見度為？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "8公里",
+      "B": "52公里",
+      "C": "60公里",
+      "D": "97公里"
     },
     "answer": "D",
     "image": "img/NSM_113-1_11.png",
@@ -1569,41 +1317,13 @@
   },
   {
     "year": "113-1",
-    "subject": "船舶通訊與航海英文",
-    "question": "12. What do we call a point of contact between the turning circle and the middle line of a",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/CNE_113-1_12.png",
-    "groupId": "CNE_113-1_12"
-  },
-  {
-    "year": "113-1",
-    "subject": "貨物作業",
-    "question": "14. “Weather-tight are meaning that water not penetrate into the ship in any sea condition”是",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/CAR_113-1_14.png",
-    "groupId": "CAR_113-1_14"
-  },
-  {
-    "year": "113-1",
     "subject": "航行安全與氣象",
     "question": "15. 如圖示，出港加俥中的A輪觀測B輪，初始CPA為1海浬，A輪先到轉向點轉向東，此時再次 觀測B輪CPA 0.5海浬，然後B輪到轉向點左轉向北，此時再觀測CPA為0.1海浬，請問以下何敘述為 正確？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "本狀況適用交叉相遇，不論其後如何轉向，A船應讓B船直到清爽為止",
+      "B": "一開始不算存在碰撞危機，A輪東轉後，CPA 0.5海浬，碰撞危機開始，是B輪追A輪，故B船應 讓A船",
+      "C": "A輪轉向後，仍不算有碰撞危機，等B輪轉向後，CPA為0.1海浬，才算交叉相遇，A船應讓B船",
+      "D": "CPA始終不為0，雙方各自航行無需避讓"
     },
     "answer": "A",
     "image": "img/NSM_113-1_15.png",
@@ -1639,34 +1359,6 @@
   },
   {
     "year": "113-1",
-    "subject": "航行安全與氣象",
-    "question": "18. 當能見度遭受或預期受限制時，負責航行當值航行員之首要責任除遵照一九七二年國際海 上避碰規則之有關規定之外，尤應注意霧號之施放，以安全速度航行，並使主機備便俾立即操縱",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/NSM_113-1_18.png",
-    "groupId": "NSM_113-1_18"
-  },
-  {
-    "year": "113-1",
-    "subject": "航海學",
-    "question": "23. 下列有關子午線的敘述，何者錯誤？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/NAV_113-1_23.png",
-    "groupId": "NAV_113-1_23"
-  },
-  {
-    "year": "113-1",
     "subject": "航海學",
     "question": "24. 導航圖（Pilot chart）之風力風向符號圖中，下列敘述何者為正確？",
     "options": {
@@ -1698,10 +1390,10 @@
     "subject": "航行安全與氣象",
     "question": "32. 圖中L 17°N，λ133°E的[GW]符號表示下列何者？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "高氣壓天氣",
+      "B": "大風(強風)警報",
+      "C": "濃霧警報",
+      "D": "颱風警報"
     },
     "answer": "B",
     "image": "img/NSM_113-1_32.png",
@@ -1723,17 +1415,17 @@
   },
   {
     "year": "113-2",
-    "subject": "船舶通訊與航海英文",
-    "question": "5. You are the officer of the watch (OOW) of a vessel and an ordinary seaman was fallen",
+    "subject": "航行安全與氣象",
+    "question": "6. 有關分道通航制，圖中之標示5，代表何種意義？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "指示交通流向",
+      "B": "分道線",
+      "C": "分道區",
+      "D": "近岸航行區外界限"
     },
-    "answer": "B",
-    "image": "img/CNE_113-2_5.png",
-    "groupId": "CNE_113-2_5"
+    "answer": "D",
+    "image": "img/NSM_113-2_6.png",
+    "groupId": "NSM_113-2_6"
   },
   {
     "year": "113-2",
@@ -1752,6 +1444,20 @@
   {
     "year": "113-2",
     "subject": "航行安全與氣象",
+    "question": "14. 如圖所示，圖24°N，124°E這個點的風向、風速為何？",
+    "options": {
+      "A": "南風，13~17節",
+      "B": "南南東風，18~22節",
+      "C": "南風，18~22節",
+      "D": "南南東風，13~17節"
+    },
+    "answer": "A",
+    "image": "img/NSM_113-2_14.png",
+    "groupId": "NSM_113-2_14"
+  },
+  {
+    "year": "113-2",
+    "subject": "航行安全與氣象",
     "question": "15. 可見光衛星傳真雲圖中，代表海洋，湖泊和大面積森林覆蓋地區，是以何種亮度層次的顏 色表示？",
     "options": {
       "A": "黑",
@@ -1766,44 +1472,16 @@
   {
     "year": "113-2",
     "subject": "航行安全與氣象",
-    "question": "17. 船舶航行在狹窄或彎曲水道中，下列何者敘述錯誤?",
+    "question": "24. 在熱帶氣旋警報圖中，以預報圓區表示未來可能影響的範圍，一般實際落入預報圓中的概 率為多少百分比(%)？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "80",
+      "B": "70",
+      "C": "60",
+      "D": "50"
     },
     "answer": "B",
-    "image": "img/NSM_113-2_17.png",
-    "groupId": "NSM_113-2_17"
-  },
-  {
-    "year": "113-2",
-    "subject": "貨物作業",
-    "question": "24. 依據IMDG Code的規範，圖示標籤係標示下列何項危險貨物？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CAR_113-2_24.png",
-    "groupId": "CAR_113-2_24"
-  },
-  {
-    "year": "113-2",
-    "subject": "船舶通訊與航海英文",
-    "question": "37. 依照無線電規則，船舶無線電話通信之優先順序，下列何種報頭為首的電文是第二優先？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CNE_113-2_37.png",
-    "groupId": "CNE_113-2_37"
+    "image": "img/NSM_113-2_24.png",
+    "groupId": "NSM_113-2_24"
   },
   {
     "year": "113-3",
@@ -1821,27 +1499,13 @@
   },
   {
     "year": "113-3",
-    "subject": "貨物作業",
-    "question": "12. 依據IMDG Code的規範，下列何者是標記海洋污染物的現行使用標籤？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CAR_113-3_12.png",
-    "groupId": "CAR_113-3_12"
-  },
-  {
-    "year": "113-3",
     "subject": "航海學",
     "question": "17. 航海曆每日頁上的符號如附圖，其意義為何？",
     "options": {
       "A": "全夜曙光",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "全日日不出",
+      "C": "全日日不落",
+      "D": "全日月不落"
     },
     "answer": "A",
     "image": "img/NAV_113-3_17.png",
@@ -1860,20 +1524,6 @@
     "answer": "B",
     "image": "img/NAV_113-3_19.png",
     "groupId": "NAV_113-3_19"
-  },
-  {
-    "year": "113-3",
-    "subject": "航行安全與氣象",
-    "question": "24. 依據SOLAS公約對操舵設備的規定，船舶以自動導航長期航行後，及進入航行需特別警戒 的水域前，均應測試下列哪一項？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/NSM_113-3_24.png",
-    "groupId": "NSM_113-3_24"
   },
   {
     "year": "113-3",
@@ -1904,46 +1554,18 @@
     "groupId": "NSM_113-3_32"
   },
   {
-    "year": "113-3",
-    "subject": "航行安全與氣象",
-    "question": "34. 氣象上大陣風之定義是以10分鐘之平均風速與10分鐘內所出現之瞬間最大風速，二者之風 速差最少在多少以上？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/NSM_113-3_34.png",
-    "groupId": "NSM_113-3_34"
-  },
-  {
-    "year": "113-4",
-    "subject": "航行安全與氣象",
-    "question": "9. 以波浪的尖銳度（S=H/L）來估計湧浪與風暴中心的距離，通常如何判斷？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/NSM_113-4_9.png",
-    "groupId": "NSM_113-4_9"
-  },
-  {
     "year": "113-4",
     "subject": "貨物作業",
-    "question": "14. 下列有關雜貨配載的敘述，相對而言，何者錯誤？",
+    "question": "9. 附圖中⑥號貨櫃屬具之名稱為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "繫栓桿（Lashing Rods）",
+      "B": "繫栓板（Lashing Plate）",
+      "C": "繫栓套（Lashing Plugs或Lashing Hooks）",
+      "D": "繫栓本（Lashing Pots）"
     },
-    "answer": "C",
-    "image": "img/CAR_113-4_14.png",
-    "groupId": "CAR_113-4_14"
+    "answer": "B",
+    "image": "img/CAR_113-4_9.png",
+    "groupId": "CAR_113-4_9"
   },
   {
     "year": "113-4",
@@ -1958,20 +1580,6 @@
     "answer": "D",
     "image": "img/NSM_113-4_16.png",
     "groupId": "NSM_113-4_16"
-  },
-  {
-    "year": "113-4",
-    "subject": "貨物作業",
-    "question": "27. 某船長180公尺，前後水尺均為5.5公尺，然後45噸貨裝在舯後30公尺處，浮面中心在舯後 1公尺，TPC為15噸，MTC為200噸-公尺，求最後水尺為：",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CAR_113-4_27.png",
-    "groupId": "CAR_113-4_27"
   },
   {
     "year": "113-4",
@@ -2000,20 +1608,6 @@
     "answer": "A",
     "image": "img/NSM_113-4_32.png",
     "groupId": "NSM_113-4_32"
-  },
-  {
-    "year": "114-1",
-    "subject": "船舶通訊與航海英文",
-    "question": "5. Finally, when your ship is alongside, do not forget __________.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "img/CNE_114-1_5.png",
-    "groupId": "CNE_114-1_5"
   },
   {
     "year": "114-1",
@@ -2059,17 +1653,45 @@
   },
   {
     "year": "114-1",
-    "subject": "貨物作業",
-    "question": "24. 船舶貨艙口緣圍（Ｈatchway coamings)離甲板之高度，其所處位置為第二種位置 （Position 2)至少需多少距離？",
+    "subject": "航海學",
+    "question": "17. 航海員在夜間進行航標辨識時，請問下圖為何種燈質？(每分鐘重複率50~79閃)",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "聯閃光Fl(3)",
+      "B": "聯快閃光Q(3)",
+      "C": "聯極快閃光VQ(3)",
+      "D": "聯頓光Qc(3)"
     },
-    "answer": "C",
-    "image": "img/CAR_114-1_24.png",
-    "groupId": "CAR_114-1_24"
+    "answer": "B",
+    "image": "img/NAV_114-1_17.png",
+    "groupId": "NAV_114-1_17"
+  },
+  {
+    "year": "114-1",
+    "subject": "貨物作業",
+    "question": "18. 只利用船艙所裝設的通風筒或艙口，圖中的通風換氣法，是屬於何種方法？",
+    "options": {
+      "A": "消極通風法",
+      "B": "積極通風法",
+      "C": "表面通風法",
+      "D": "機械通風法"
+    },
+    "answer": "A",
+    "image": "img/CAR_114-1_18.png",
+    "groupId": "CAR_114-1_18"
+  },
+  {
+    "year": "114-1",
+    "subject": "航行安全與氣象",
+    "question": "32. 附圖為一海上測站填在天氣圖上的資料，則當時的湧浪來自？",
+    "options": {
+      "A": "東北",
+      "B": "西南",
+      "C": "東南",
+      "D": "西北"
+    },
+    "answer": "B",
+    "image": "img/NSM_114-1_32.png",
+    "groupId": "NSM_114-1_32"
   },
   {
     "year": "114-1",
@@ -2088,16 +1710,30 @@
   {
     "year": "114-1",
     "subject": "航行安全與氣象",
-    "question": "38. 下列何項係艏俯船（Trim by the head）相對於艉重船（Trim by the stern）之操縱特性？",
+    "question": "39. 氣象傳真圖中表示地面預報圖的代號為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "AS",
+      "B": "AU",
+      "C": "AW",
+      "D": "FS"
     },
-    "answer": "C",
-    "image": "img/NSM_114-1_38.png",
-    "groupId": "NSM_114-1_38"
+    "answer": "D",
+    "image": "img/NSM_114-1_39.png",
+    "groupId": "NSM_114-1_39"
+  },
+  {
+    "year": "114-2",
+    "subject": "航行安全與氣象",
+    "question": "6. 有關分道通航制，圖中之匯合點區域，代表何種意義？",
+    "options": {
+      "A": "警戒區",
+      "B": "環航區",
+      "C": "分道區",
+      "D": "航行區"
+    },
+    "answer": "A",
+    "image": "img/NSM_114-2_6.png",
+    "groupId": "NSM_114-2_6"
   },
   {
     "year": "114-2",
@@ -2158,6 +1794,20 @@
   {
     "year": "114-3",
     "subject": "航行安全與氣象",
+    "question": "9. 有關分道通航制，圖中之虛線箭頭（標示2），代表何種交通流向？",
+    "options": {
+      "A": "遵循交通流向",
+      "B": "建議交通流向",
+      "C": "危險交通流向",
+      "D": "避航交通流向"
+    },
+    "answer": "B",
+    "image": "img/NSM_114-3_9.png",
+    "groupId": "NSM_114-3_9"
+  },
+  {
+    "year": "114-3",
+    "subject": "航行安全與氣象",
     "question": "10. 有關分道通航制，圖中之標示2，代表何種意義？",
     "options": {
       "A": "警戒區",
@@ -2196,48 +1846,6 @@
     "answer": "B",
     "image": "img/NSM_114-3_23.png",
     "groupId": "NSM_114-3_23"
-  },
-  {
-    "year": "114-3",
-    "subject": "航行安全與氣象",
-    "question": "25. 某船以航速15節正常航行，遇大雨，已無法自駕駛台看清其船首桅杆，如您是該船當時之",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "img/NSM_114-3_25.png",
-    "groupId": "NSM_114-3_25"
-  },
-  {
-    "year": "114-3",
-    "subject": "船舶通訊與航海英文",
-    "question": "30. 援助船舶回應搜救飛機之信號，收悉信號但無法配合，需掛下列那一選項信號旗？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/CNE_114-3_30.png",
-    "groupId": "CNE_114-3_30"
-  },
-  {
-    "year": "114-3",
-    "subject": "船舶通訊與航海英文",
-    "question": "36. ",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/CNE_114-3_36.png",
-    "groupId": "CNE_114-3_36"
   },
   {
     "year": "114-3",
@@ -2283,20 +1891,6 @@
   },
   {
     "year": "114-4",
-    "subject": "航海學",
-    "question": "25. 有關229表的敘述中，下列何者有誤？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "img/NAV_114-4_25.png",
-    "groupId": "NAV_114-4_25"
-  },
-  {
-    "year": "114-4",
     "subject": "貨物作業",
     "question": "34. 下圖為何種通風換氣法？",
     "options": {
@@ -2336,20 +1930,6 @@
     "answer": "B",
     "image": "img/NSM_114-4_37.png",
     "groupId": "NSM_114-4_37"
-  },
-  {
-    "year": "114-4",
-    "subject": "船舶通訊與航海英文",
-    "question": "39. ________ is a place assigned to crew and passengers where they must gather before abandoning ship.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "img/CNE_114-4_39.png",
-    "groupId": "CNE_114-4_39"
   },
   {
     "year": "107-1",
@@ -2765,7 +2345,7 @@
       "A": "能見度-天氣狀況及海況",
       "B": "交通密度",
       "C": "航儀之操作狀況",
-      "D": ""
+      "D": "只需有人員在駕駛台瞭望即可"
     },
     "answer": "D",
     "image": "",
@@ -2804,10 +2384,10 @@
     "subject": "貨物作業",
     "question": "9. Angle of repose其中文為何?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "回覆角",
+      "B": "靜止角",
+      "C": "浸水角",
+      "D": "傾正角"
     },
     "answer": "B",
     "image": "",
@@ -2832,10 +2412,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "9. 船舶距台中港約20浬或到港幾小時前，應以VHF與台中港埠電台聯絡？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
     },
     "answer": "B",
     "image": "",
@@ -3227,7 +2807,7 @@
       "A": "“Question: where do you go to? Question: where do you come from?”",
       "B": "“Question: what is your destination? Question: what was your last port of call?”",
       "C": "“Question: what is your next port? Question: what was your last port?”",
-      "D": ""
+      "D": "“Question: what is your destiny? Question: what was your last port of call?”"
     },
     "answer": "B",
     "image": "",
@@ -3240,8 +2820,8 @@
     "options": {
       "A": "改正資料應避免遮蓋圖上水深",
       "B": "手寫資料應用綠色墨水修改",
-      "C": "",
-      "D": ""
+      "C": "修改有錯誤，應用橡皮擦擦掉重新書寫",
+      "D": "應從該區最大比例尺海圖起，開始修正"
     },
     "answer": "C",
     "image": "",
@@ -3255,7 +2835,7 @@
       "A": "艙間應確保乾淨、無臭、無味、無虫、無銹",
       "B": "船舶裝載量最大僅能裝至夏季排水量",
       "C": "依據港口貨物量，予以安全配置",
-      "D": ""
+      "D": "檢視計算全程航路油水消耗量，以求得最大貨物裝載量"
     },
     "answer": "B",
     "image": "",
@@ -3673,9 +3253,9 @@
     "question": "24. 下列何者為全球海上遇險及安全系統（GMDSS）所稱的A1海域？",
     "options": {
       "A": "南北極區海岸電台通信範圍",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "特高頻（VHF）海岸電台通信範圍",
+      "C": "高頻（HF）海岸電台通信範圍",
+      "D": "中頻（MF）海岸電台通信範圍"
     },
     "answer": "B",
     "image": "",
@@ -3715,9 +3295,9 @@
     "question": "25. 有關接班航行員進行交接班時的敘述，何者是正確的？",
     "options": {
       "A": "交接班時，當時船長也在駕駛台，向船長請示後，即可進行交接班",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "確認接班航行員精神不濟且有安全顧慮時，不得交接班，並通知船長",
+      "C": "交接班時間到，即可離開駕駛台",
+      "D": "當交接班時，若船舶正在採取避讓行動，告知接班航行員後，即可進行交接班"
     },
     "answer": "B",
     "image": "",
@@ -4123,7 +3703,7 @@
       "A": "path",
       "B": "route",
       "C": "method",
-      "D": ""
+      "D": "pattern"
     },
     "answer": "D",
     "image": "",
@@ -4135,9 +3715,9 @@
     "question": "33. 承上題，求測天時月亮的GHA？",
     "options": {
       "A": "262°27.5'",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "265°32.5'",
+      "C": "270°27.5'",
+      "D": "276°32.5'"
     },
     "answer": "A",
     "image": "",
@@ -4165,7 +3745,7 @@
       "A": "船舶長度愈長，則迴轉圈愈大",
       "B": "舵角愈大，則迴轉圈愈小",
       "C": "船舶艏俯(Trim by bow)時，其迴轉較艉坐(Trim by stern)時小",
-      "D": ""
+      "D": "船舶之速率愈大，則迴轉圈愈小"
     },
     "answer": "D",
     "image": "",
@@ -4294,7 +3874,7 @@
       "D": ""
     },
     "answer": "B",
-    "image": "",
+    "image": "CNE_107-1_35.png",
     "groupId": "CNE_107-1_35"
   },
   {
@@ -4878,8 +4458,8 @@
     "options": {
       "A": "Civil twilight",
       "B": "Nautical twilight",
-      "C": "",
-      "D": ""
+      "C": "Astronomical twilight",
+      "D": "Global Horizon twilight"
     },
     "answer": "B",
     "image": "",
@@ -4943,13 +4523,27 @@
   },
   {
     "year": "107-2",
+    "subject": "航海學",
+    "question": "9. 磁羅經之A自差屬何種自差？",
+    "options": {
+      "A": "定值常數自差",
+      "B": "感應自差",
+      "C": "永久磁性自差",
+      "D": "半園自差"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "NAV_107-2_9"
+  },
+  {
+    "year": "107-2",
     "subject": "貨物作業",
     "question": "9. 穀物運送時，穀類貨物的特性為何?",
     "options": {
       "A": "保持新鮮熟成狀態",
       "B": "貨艙寬敞可以進行混裝",
-      "C": "",
-      "D": ""
+      "C": "大多以大宗貨物型態運輸",
+      "D": "裝卸貨港口安排眾多"
     },
     "answer": "C",
     "image": "",
@@ -5383,7 +4977,7 @@
       "A": "於較易發生超折射的地區，較可能發生二次蹤跡波偽像",
       "B": "氣溫劇變，使低空氣溫劇升，則可能會有偽像發生",
       "C": "距雷達81浬~150浬有反射效果良好目標時，較易發生偽像",
-      "D": ""
+      "D": "雷達增益開啟很大時，較會發生偽像"
     },
     "answer": "B",
     "image": "",
@@ -5705,7 +5299,7 @@
       "A": "heaved up",
       "B": "untied",
       "C": "made fast",
-      "D": ""
+      "D": "slacked"
     },
     "answer": "C",
     "image": "",
@@ -5783,13 +5377,27 @@
   },
   {
     "year": "107-2",
+    "subject": "貨物作業",
+    "question": "24. 日用品重量120噸，共佔貨艙容積250立方公尺，求該貨物積載因素（S.F.）？",
+    "options": {
+      "A": "0.55",
+      "B": "1.05",
+      "C": "2.08",
+      "D": "2.5"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_107-2_24"
+  },
+  {
+    "year": "107-2",
     "subject": "航行安全與氣象",
     "question": "24. 在量測乾濕球溫度計時，對已結霜或結冰的濕球，應在觀測多久前用絨毛刷蘸冰水塗刷包 濕球的球部？",
     "options": {
       "A": "5分鐘前",
       "B": "15分鐘前",
       "C": "30分鐘前",
-      "D": ""
+      "D": "45分鐘前"
     },
     "answer": "B",
     "image": "",
@@ -5872,8 +5480,8 @@
     "options": {
       "A": "大圈為直線",
       "B": "平行圈為直線",
-      "C": "",
-      "D": ""
+      "C": "球心切面投影",
+      "D": "子午線為直線"
     },
     "answer": "B",
     "image": "",
@@ -6193,9 +5801,9 @@
     "question": "32. 在船舶穩定性計算中，下列何者位置最高？",
     "options": {
       "A": "重心",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "浮心",
+      "C": "橫向穩定中心",
+      "D": "縱向穩定中心"
     },
     "answer": "D",
     "image": "",
@@ -6556,10 +6164,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "39. Safe working load（SWL）means maximum working load of lifting equipment that should not to be _____.",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "overweight",
+      "B": "over gauge",
+      "C": "aggressive",
+      "D": "exceeded"
     },
     "answer": "D",
     "image": "",
@@ -6573,7 +6181,7 @@
       "A": "穩定性因素表",
       "B": "載重線標誌",
       "C": "流體靜力表",
-      "D": ""
+      "D": "列線圖"
     },
     "answer": "C",
     "image": "",
@@ -6819,20 +6427,6 @@
   },
   {
     "year": "107-3",
-    "subject": "航海學",
-    "question": "5. 在美版導航圖(Pilot Chart)中，風力風向圖中心圓圈內的數字代表何意?",
-    "options": {
-      "A": "蒲式風力",
-      "B": "風速",
-      "C": "大風的比率",
-      "D": "靜風的比率"
-    },
-    "answer": "D",
-    "image": "",
-    "groupId": "NAV_107-3_5"
-  },
-  {
-    "year": "107-3",
     "subject": "貨物作業",
     "question": "5. 船舶因超載遭港口國管制官員(PSCO)滯留，係依據下列何公約？",
     "options": {
@@ -6949,9 +6543,9 @@
     "question": "7. 下列何者之值甚大，不會對船舶之穩定產生危險？",
     "options": {
       "A": "Longitudinal Length",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "Longitudinal Inclination",
+      "C": "Longitudinal Metacenter",
+      "D": "Longitudinal Draft"
     },
     "answer": "C",
     "image": "",
@@ -7047,9 +6641,9 @@
     "question": "9. 所謂中天，是指天體通過下列哪一個子午線？",
     "options": {
       "A": "觀測者時區中央子午線",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "觀測者當地子午線",
+      "C": "格林威治子午線",
+      "D": "春分點子午線"
     },
     "answer": "B",
     "image": "",
@@ -7300,8 +6894,8 @@
     "options": {
       "A": "黃燈",
       "B": "綠燈",
-      "C": "",
-      "D": ""
+      "C": "紅燈",
+      "D": "另一盞白燈"
     },
     "answer": "D",
     "image": "",
@@ -7449,6 +7043,20 @@
   },
   {
     "year": "107-3",
+    "subject": "航行安全與氣象",
+    "question": "16. 在油輪、散裝船、貨櫃船之救生部署表中，負責「攜帶糧食、飲水及毛毯」者，係為下列 何職位所負責？",
+    "options": {
+      "A": "資深幹練水手",
+      "B": "水手",
+      "C": "機匠",
+      "D": "大廚"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "NSM_107-3_16"
+  },
+  {
+    "year": "107-3",
     "subject": "船舶通訊與航海英文",
     "question": "16. 船舶通信依「國際信號規則(ICS)」之規定，每一「單字母(single letter) 」均代表一完整的 信號(signal)。試問「I am altering my course to port」，是下列何「單字母」之信號？",
     "options": {
@@ -7468,8 +7076,8 @@
     "options": {
       "A": "出於東南且沒於西南、過卯酉圈為可見、晝短夜長以及緯度小於赤緯。",
       "B": "出於東南且沒於西南、過卯酉圈不可見、晝短夜長以及緯度大於赤緯。",
-      "C": "",
-      "D": ""
+      "C": "出於東北且沒於西北、過卯酉圈為可見、晝長夜短以及緯度大於赤緯。",
+      "D": "出於東北且沒於西北、過卯酉圈不可見、晝長夜短以及緯度小於赤緯。"
     },
     "answer": "C",
     "image": "",
@@ -7650,8 +7258,8 @@
     "options": {
       "A": "天氣太熱溫度造成",
       "B": "鄰接貨艙之油艙加溫過高且過久",
-      "C": "",
-      "D": ""
+      "C": "鄰接水艙接觸影響",
+      "D": "貨物之異常增溫"
     },
     "answer": "B",
     "image": "",
@@ -7726,6 +7334,20 @@
     "answer": "A",
     "image": "",
     "groupId": "NSM_107-3_21"
+  },
+  {
+    "year": "107-3",
+    "subject": "船舶通訊與航海英文",
+    "question": "21. An area which cannot be scanned by the ship’s radar because it is shielded by parts of its superstructure, mast, etc. We call it is:",
+    "options": {
+      "A": "Blind secretary",
+      "B": "Blind sector",
+      "C": "Shading area",
+      "D": "Shackle area"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CNE_107-3_21"
   },
   {
     "year": "107-3",
@@ -7874,8 +7496,8 @@
     "options": {
       "A": "偏向下風",
       "B": "偏向上風",
-      "C": "",
-      "D": ""
+      "C": "不斷向左、右偏轉",
+      "D": "不受影響"
     },
     "answer": "B",
     "image": "",
@@ -8113,7 +7735,7 @@
       "A": "港口國國旗",
       "B": "船籍國國旗",
       "C": "檢疫旗",
-      "D": ""
+      "D": "領港旗"
     },
     "answer": "B",
     "image": "",
@@ -8261,20 +7883,6 @@
   },
   {
     "year": "107-3",
-    "subject": "航行安全與氣象",
-    "question": "31. 氣象傳真圖中表示高空分析圖的代號是：",
-    "options": {
-      "A": "AS",
-      "B": "AU",
-      "C": "AW",
-      "D": "FS"
-    },
-    "answer": "B",
-    "image": "",
-    "groupId": "NSM_107-3_31"
-  },
-  {
-    "year": "107-3",
     "subject": "船舶通訊與航海英文",
     "question": "31. MAYDAY was transmitted and _____ by coast radio station.",
     "options": {
@@ -8323,7 +7931,7 @@
       "A": "海洋與陸地晝夜氣溫的變化",
       "B": "海洋與陸地晝夜氣壓的變化",
       "C": "海洋與陸地晝夜空氣密度的變化",
-      "D": ""
+      "D": "海洋與陸地晝夜濕度的變化"
     },
     "answer": "D",
     "image": "",
@@ -8545,9 +8153,9 @@
     "question": "36. 某船員因情感問題，於船舶離開防波堤後跳入大海，船上同仁立即通知駕駛台。若你是當 値船副，應立即懸掛下列那個「單字母」之信號旗以通知附近船舶並請求幫助？",
     "options": {
       "A": "A",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "D",
+      "C": "O",
+      "D": "W"
     },
     "answer": "C",
     "image": "",
@@ -9246,8 +8854,8 @@
     "options": {
       "A": "為減少海難危險而規劃之一條或數條航道或定線措施之系統",
       "B": "國際海事組織採用之一個定線制，強制所有船舶、特定種類船舶或載運特定貨物之船舶使用",
-      "C": "",
-      "D": ""
+      "C": "為分隔相反方向航行之船流，以適當方法建立航行巷道之一種定線措施",
+      "D": "指介於某特定水域向岸一側之邊界與其鄰近海岸間之指定區域所構成之定線措施"
     },
     "answer": "C",
     "image": "",
@@ -9258,10 +8866,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "9. Which of the followings is the main purpose of trimming of cargo?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "To reduce the likelihood of the cargo shifting.",
+      "B": "To adjust draught fore and aft.",
+      "C": "To keep ship upright.",
+      "D": "To increase loading rate."
     },
     "answer": "A",
     "image": "",
@@ -9499,7 +9107,7 @@
       "A": "5.0",
       "B": "5.5",
       "C": "6.0",
-      "D": ""
+      "D": "7.0"
     },
     "answer": "D",
     "image": "",
@@ -9678,10 +9286,10 @@
     "subject": "貨物作業",
     "question": "17. 下列那一種貨櫃運輸方式最適於併裝、整交之運送條件？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "港至港方式",
+      "B": "港至戶方式",
+      "C": "戶至戶方式",
+      "D": "戶至港方式"
     },
     "answer": "B",
     "image": "",
@@ -9694,8 +9302,8 @@
     "options": {
       "A": "船舶及公司名稱，船長署名及公佈日期",
       "B": "應變具體指揮人員的接替人",
-      "C": "",
-      "D": ""
+      "C": "船舶緊急事件時所在之船位",
+      "D": "航行中駕駛台、機艙、無線電台守值人員及其任務"
     },
     "answer": "C",
     "image": "",
@@ -9709,7 +9317,7 @@
       "A": "HF",
       "B": "VHF",
       "C": "UHF",
-      "D": ""
+      "D": "SHF"
     },
     "answer": "C",
     "image": "",
@@ -9933,11 +9541,25 @@
       "A": "地球磁場的水平分力",
       "B": "地球磁場的垂直分力",
       "C": "重力",
-      "D": ""
+      "D": "摩擦力"
     },
     "answer": "A",
     "image": "",
     "groupId": "NAV_107-4_22"
+  },
+  {
+    "year": "107-4",
+    "subject": "貨物作業",
+    "question": "22. 油輪載運之貨油會揮發可燃性氣體，檢視艙間油氣含量應為不可燃指標(可燃範圍區外)，即 可燃上限值(UFL)與可燃下限(LFL)值各為氣體容積多少百分比？",
+    "options": {
+      "A": "可燃上限值(UFL)約15%，可燃下限(LFL)值約5%",
+      "B": "可燃上限值(UFL)約15%，可燃下限(LFL)值約3%",
+      "C": "可燃上限值(UFL)約10%，可燃下限(LFL)值約2%",
+      "D": "可燃上限值(UFL)約10%，可燃下限(LFL)值約1%"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "CAR_107-4_22"
   },
   {
     "year": "107-4",
@@ -9992,7 +9614,7 @@
       "D": ""
     },
     "answer": "A",
-    "image": "",
+    "image": "img/CAR_107-4_23.png",
     "groupId": "CAR_107-4_23"
   },
   {
@@ -10109,6 +9731,20 @@
   },
   {
     "year": "107-4",
+    "subject": "航行安全與氣象",
+    "question": "25. Any action to avoid collision shall, if the circumstances of the case admit, be positive, is made in ample time and with due regard to the observance of good seamanship.出自國際海上避 碰規則何條條文？",
+    "options": {
+      "A": "第八條 避碰措施Rule 8 Action to avoid collision",
+      "B": "第七條 碰撞危機Rule 7 Risk of collision",
+      "C": "第六條 安全速度Rule 6 Safe speed",
+      "D": "第五條 瞭望Rule 5 Look-out"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "NSM_107-4_25"
+  },
+  {
+    "year": "107-4",
     "subject": "船舶通訊與航海英文",
     "question": "25. 圖示信號旗所代表之字母依規定全名(code word)是:",
     "options": {
@@ -10198,8 +9834,8 @@
     "options": {
       "A": "20呎櫃，裝在艙內",
       "B": "40呎櫃，裝在甲板",
-      "C": "",
-      "D": ""
+      "C": "40呎櫃，裝在艙內",
+      "D": "20呎櫃，裝在甲板"
     },
     "answer": "C",
     "image": "",
@@ -10337,9 +9973,9 @@
     "question": "30. 已知太陽的GHA☆80°，LHA☆50°，求觀測者之經度為多少？",
     "options": {
       "A": "30°E",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "30°W",
+      "C": "130°E",
+      "D": "130°W"
     },
     "answer": "B",
     "image": "",
@@ -10492,8 +10128,8 @@
     "options": {
       "A": "無線電報",
       "B": "中頻（MF）無線電話",
-      "C": "",
-      "D": ""
+      "C": "特高頻（VHF）無線電話",
+      "D": "救生艇筏使用之無線電報"
     },
     "answer": "B",
     "image": "",
@@ -10631,9 +10267,9 @@
     "question": "35. 下列何者受到附近雷達所發射脈衝之激發後，其自動發射之信號會顯示於該雷達螢幕上？",
     "options": {
       "A": "EPIRB",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "NAVTEX",
+      "C": "NBDP",
+      "D": "SART"
     },
     "answer": "D",
     "image": "",
@@ -10757,9 +10393,9 @@
     "question": "38. 某船自A點（Lat 32°02.0'S，λ 115°10.0'E）駛往B點（Lat 06°39.0'N，λ079°30.0'E），依 大圈航法，求A點與B點之經度差DLo？",
     "options": {
       "A": "35°40.0'E",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "35°40.0'W",
+      "C": "169°20.0'E",
+      "D": "169°20.0'W"
     },
     "answer": "B",
     "image": "",
@@ -10912,8 +10548,8 @@
     "options": {
       "A": "一般的燈號通訊，傳送與接收受限於視覺暫留，故不能速度太快",
       "B": "使用氣笛之聲音傳送摩爾斯信號時，由於受到空氣傳音之延遲而不清楚",
-      "C": "",
-      "D": ""
+      "C": "燈號與聲號不得同時發送",
+      "D": "使用氣笛之聲音傳送摩爾斯信號時，建議「點」的時間單位應儘量短，「劃」則儘量長"
     },
     "answer": "C",
     "image": "",
@@ -11263,7 +10899,7 @@
       "A": "處理艙間壓載水要依計劃排放",
       "B": "雙層底艙的壓載較需費時處理",
       "C": "壓水艙殘餘不易收乾不予以處理",
-      "D": ""
+      "D": "距離較遠距之雙層底艙優先處理"
     },
     "answer": "C",
     "image": "",
@@ -11347,7 +10983,7 @@
       "A": "Independent tanks.",
       "B": "Membrane tanks.",
       "C": "Semi-membrane tanks.",
-      "D": ""
+      "D": "Integral tanks."
     },
     "answer": "A",
     "image": "",
@@ -11360,8 +10996,8 @@
     "options": {
       "A": "平均時",
       "B": "世界時",
-      "C": "",
-      "D": ""
+      "C": "視時",
+      "D": "格林威治平均時"
     },
     "answer": "C",
     "image": "",
@@ -11387,9 +11023,9 @@
     "question": "9. 在以直昇機吊掛進行海空搜索救助作業中，最廣泛作為撤離人員使用之器具為何？",
     "options": {
       "A": "吊籃",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "吊網",
+      "C": "吊環",
+      "D": "營救擔架"
     },
     "answer": "C",
     "image": "",
@@ -11607,6 +11243,20 @@
   },
   {
     "year": "108-1",
+    "subject": "船舶通訊與航海英文",
+    "question": "13. 有關SART之電池容量，依公約規定於應答時可維持多少小時？",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CNE_108-1_13"
+  },
+  {
+    "year": "108-1",
     "subject": "航海學",
     "question": "14. 在雷達測繪時，吾人畫出WOA相對運動三角形，其中WA線可求得何項資料？",
     "options": {
@@ -11780,8 +11430,8 @@
     "options": {
       "A": "指向力不佳",
       "B": "容易搖動，穩度較弱",
-      "C": "",
-      "D": ""
+      "C": "磁場不均，不易校正",
+      "D": "軸針尖端摩擦力小"
     },
     "answer": "B",
     "image": "",
@@ -11807,9 +11457,9 @@
     "question": "17. 依國際海上避碰規則規定，顯示漁船群集捕魚時之增設信號號燈，長度滿多少公尺從事拖 網作業時之船舶，不論使用海底還是深海漁具，應增置此信號號燈？",
     "options": {
       "A": "7",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "10",
+      "C": "12",
+      "D": "20"
     },
     "answer": "D",
     "image": "",
@@ -11991,7 +11641,7 @@
       "A": "Mile",
       "B": "Yard",
       "C": "Furlong",
-      "D": ""
+      "D": "Shackle"
     },
     "answer": "D",
     "image": "",
@@ -12128,10 +11778,10 @@
     "subject": "貨物作業",
     "question": "23. 下列那一圖示為縱搖(Pitch)？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "圖A",
+      "B": "圖B",
+      "C": "圖C",
+      "D": "圖D"
     },
     "answer": "D",
     "image": "",
@@ -12181,6 +11831,20 @@
   },
   {
     "year": "108-1",
+    "subject": "貨物作業",
+    "question": "24. 顯下列圖示載重標尺圖，當船舶在夏季載重線(S)標誌時，船舶TPC(海水)為多少?",
+    "options": {
+      "A": "31.25噸",
+      "B": "30.70噸",
+      "C": "31.44噸",
+      "D": "30.55噸"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_108-1_24"
+  },
+  {
+    "year": "108-1",
     "subject": "航行安全與氣象",
     "question": "24. 依據SOLAS公約對操舵設備的規定，從自動導航改為手動操舵（Manual Steering），或從 手動操舵改為自動導航，應由何人操作，或在何人的監督下操作？",
     "options": {
@@ -12215,7 +11879,7 @@
       "A": "截距為等高圈上的一小段圓弧，以直線表示",
       "B": "假設位置應為接近天體地理位置GP附近的一點",
       "C": "天文位置線為方位線上的一小段圓弧，以直線表示",
-      "D": ""
+      "D": "假設位置附近的天體方位為固定不變或變化微小"
     },
     "answer": "D",
     "image": "",
@@ -12242,8 +11906,8 @@
     "options": {
       "A": "立刻查對航行指南，翻閱潮汐資料",
       "B": "詳細研判海圖",
-      "C": "",
-      "D": ""
+      "C": "檢查航海儀器設備",
+      "D": "立刻報告船長並採取必要行動"
     },
     "answer": "D",
     "image": "",
@@ -12283,9 +11947,9 @@
     "question": "26. 某輪滿載裝貨後呈舯拱（Hogging）狀態，且穩度過大，下列何項調整措施最為適當？",
     "options": {
       "A": "將艏貨物移至舯",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "將舯雙層底加滿壓載水",
+      "C": "將艏尖艙加滿壓載水",
+      "D": "儘量排出艏艉艙之壓艙水"
     },
     "answer": "D",
     "image": "",
@@ -12360,6 +12024,20 @@
     "answer": "C",
     "image": "",
     "groupId": "NSM_108-1_27"
+  },
+  {
+    "year": "108-1",
+    "subject": "船舶通訊與航海英文",
+    "question": "27. 在摩斯手旗通訊中，下列何者為表示發送台的信號發完時的最後信號？",
+    "options": {
+      "A": "",
+      "B": "R",
+      "C": "",
+      "D": ""
+    },
+    "answer": "A",
+    "image": "img/CNE_108-1_27.png",
+    "groupId": "CNE_108-1_27"
   },
   {
     "year": "108-1",
@@ -12500,20 +12178,6 @@
     "answer": "C",
     "image": "",
     "groupId": "CAR_108-1_30"
-  },
-  {
-    "year": "108-1",
-    "subject": "航行安全與氣象",
-    "question": "30. 圖中L 27°N，λ127°E這點的風向風速是：",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "",
-    "groupId": "NSM_108-1_30"
   },
   {
     "year": "108-1",
@@ -12727,6 +12391,20 @@
   },
   {
     "year": "108-1",
+    "subject": "航行安全與氣象",
+    "question": "34. 救生艇筏所配備之搜救雷達詢答機（SART），其可藉由下列何種雷達之搜尋設備予以定位 ？",
+    "options": {
+      "A": "C頻帶",
+      "B": "M頻帶",
+      "C": "S頻帶",
+      "D": "X頻帶"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "NSM_108-1_34"
+  },
+  {
+    "year": "108-1",
     "subject": "船舶通訊與航海英文",
     "question": "34. 應急指位無線電示標（EPIRB）主要用於何處以達遇險通報之目的？",
     "options": {
@@ -12780,6 +12458,20 @@
     "answer": "C",
     "image": "",
     "groupId": "NSM_108-1_35"
+  },
+  {
+    "year": "108-1",
+    "subject": "船舶通訊與航海英文",
+    "question": "35. “Wreck over which the exact depth is unknown, but which is considered to have a safe clearance at the depth shown”- it will be marked in the chart as:",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "CNE_108-1_35"
   },
   {
     "year": "108-1",
@@ -13376,8 +13068,8 @@
     "options": {
       "A": "兩種貨物不可同室配載",
       "B": "輪胎在下，小五金在上",
-      "C": "",
-      "D": ""
+      "C": "兩種貨物可相鄰配載",
+      "D": "兩種貨物不可相鄰配載"
     },
     "answer": "D",
     "image": "",
@@ -13416,10 +13108,10 @@
     "subject": "航海學",
     "question": "9. 某船自A地依航向S/E，採平面航法(Plane Sailing)航行360浬，則請問該船所航駛之緯度差 為多少？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "5°53.1’S",
+      "B": "5°26.3’S",
+      "C": "4°14.6’S",
+      "D": "1°10.2’S"
     },
     "answer": "A",
     "image": "",
@@ -13445,9 +13137,9 @@
     "question": "9. 依地表冷熱與乾濕不同，氣團可分為七大類。墨西哥及美國西南部等地，屬何種氣團？",
     "options": {
       "A": "赤道氣團",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "熱帶海洋氣團",
+      "C": "北極氣團",
+      "D": "熱帶大陸氣團"
     },
     "answer": "D",
     "image": "",
@@ -13810,8 +13502,8 @@
     "options": {
       "A": "UHF",
       "B": "VHF",
-      "C": "",
-      "D": ""
+      "C": "HF",
+      "D": "MF"
     },
     "answer": "B",
     "image": "",
@@ -13825,7 +13517,7 @@
       "A": "多重回跡(Multiple echoes)",
       "B": "副波回跡(Side echoes)",
       "C": "二次蹤跡(Second trace echo)",
-      "D": ""
+      "D": "間接回跡(Indirect echo)"
     },
     "answer": "D",
     "image": "",
@@ -13836,10 +13528,10 @@
     "subject": "貨物作業",
     "question": "17. 木材船的甲板原木，高度4公尺及4公尺以下者，繫縛索的最大間距應為多少公尺？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
     },
     "answer": "C",
     "image": "",
@@ -13909,7 +13601,7 @@
       "A": "摩擦力使風速減小，氣壓梯度力會將地轉風拉向高氣壓",
       "B": "摩擦力愈大時三力平衡所產生的風，與地轉風的夾角愈大",
       "C": "摩擦力愈大地轉風風速減低愈多，偏入低氣壓的角度就愈小",
-      "D": ""
+      "D": "近地面處受摩擦力影響僅減慢風速，但不改變科氏力"
     },
     "answer": "B",
     "image": "",
@@ -14155,6 +13847,20 @@
   },
   {
     "year": "108-2",
+    "subject": "貨物作業",
+    "question": "23. 依據IMDG Code的規範，標示於包裝容器的海洋污染物標記，若非因包裝容器的尺寸關係 ，只能標示較小標記者除外，其每邊長度至少應多長？",
+    "options": {
+      "A": "100 mm",
+      "B": "150 mm",
+      "C": "200 mm",
+      "D": "250 mm"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CAR_108-2_23"
+  },
+  {
+    "year": "108-2",
     "subject": "航行安全與氣象",
     "question": "23. 船舶發生碰撞後，有關船長對於碰撞後應採取的行動及職責規範，我國除海商法外，在下 列何者中亦有類似之規範？",
     "options": {
@@ -14315,7 +14021,7 @@
       "A": "當值舵工操舵時亦應擔任瞭望工作",
       "B": "用自動操舵航行時，當值舵工得離開駕駛台執行其他工作",
       "C": "熟練之當值舵工平時可改變為人工操舵方式，協助航行安全",
-      "D": ""
+      "D": "必要時指派舵工至駕駛台操舵，將自動舵改為人工舵，減少潛在危險"
     },
     "answer": "D",
     "image": "",
@@ -14468,8 +14174,8 @@
     "options": {
       "A": "滿載艙間盡可能裝滿",
       "B": "部份裝載艙間裝載完畢應作良好之整平",
-      "C": "",
-      "D": ""
+      "C": "貨艙裝載順序應使水尺差保持艉重",
+      "D": "各艙裝貨以一輪(RUN)為宜，以增加裝貨效率"
     },
     "answer": "D",
     "image": "",
@@ -14659,6 +14365,20 @@
   },
   {
     "year": "108-2",
+    "subject": "船舶通訊與航海英文",
+    "question": "32. 在摩斯手旗通訊中「雙臂或雙旗胸前交叉」，其代表的符號為何？",
+    "options": {
+      "A": "點（Dot）",
+      "B": "劃（Dash）",
+      "C": "點與劃之間的間隔",
+      "D": "字母之間的間隔"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CNE_108-2_32"
+  },
+  {
+    "year": "108-2",
     "subject": "航海學",
     "question": "33. 下列何者係指基準子午線？",
     "options": {
@@ -14719,9 +14439,9 @@
     "question": "34. 下列有關GPS信號的頻率，何者錯誤？",
     "options": {
       "A": "L1載波=1575.42 MHz",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "L2載波=1227.6 MHz",
+      "C": "P碼=10.23 MHz",
+      "D": "C/A碼=5.12 MHz"
     },
     "answer": "D",
     "image": "",
@@ -14903,7 +14623,7 @@
       "A": "表面舖墊板及麻布造成分隔平台",
       "B": "表面應調平並舖麻布造成分隔平台",
       "C": "表面應調平並舖墊板及麻布等造成分隔平台",
-      "D": ""
+      "D": "表面應調平並舖墊板造成分隔平台"
     },
     "answer": "C",
     "image": "",
@@ -15546,8 +15266,8 @@
     "options": {
       "A": "“I have collided with MV Ocean Uni.”",
       "B": "”My vessel and MV Ocean Uni had a contact.”",
-      "C": "",
-      "D": ""
+      "C": "“There has been a striking with MV Ocean Uni.”",
+      "D": "”My vessel has had a light impact with MV Ocean Uni.”"
     },
     "answer": "A",
     "image": "",
@@ -15558,10 +15278,10 @@
     "subject": "航海學",
     "question": "9. 某船由Lat 20˚11'.5S，λ115˚15'.0W航行至Lat 15˚20'.5N，λ075˚15'.0W，試問緯度差與經度 差為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "緯度差4˚41'N；經度差10˚30'E",
+      "B": "緯度差35˚32'S；經度差40˚00'E",
+      "C": "緯度差35˚32'N；經度差40˚00'E",
+      "D": "緯度差4˚41'S；經度差10˚30'W"
     },
     "answer": "C",
     "image": "",
@@ -15586,10 +15306,10 @@
     "subject": "航行安全與氣象",
     "question": "9. 颱風來襲前之預兆，可在颱風接近方向看見白色羽毛狀或馬尾狀的高雲，此高雲屬何種雲？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "積雲",
+      "B": "積雨雲",
+      "C": "卷層雲",
+      "D": "雨層雲"
     },
     "answer": "C",
     "image": "",
@@ -15882,8 +15602,8 @@
     "options": {
       "A": "由格林威治子午線沿天赤道向西量至天體時圈",
       "B": "由格林威治子午線沿天赤道向東量至天體時圈",
-      "C": "",
-      "D": ""
+      "C": "由當地子午線沿天赤道向西量至天體時圈",
+      "D": "由當地子午線沿天赤道向東量至天體時圈"
     },
     "answer": "C",
     "image": "",
@@ -15979,9 +15699,9 @@
     "question": "16. What lights shall be exhibited by a vessel when not under command, making way through water at night?",
     "options": {
       "A": "Two all-round red lights in a vertical line, sidelights and a sternlight.",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "Three all-round red lights in a vertical line, sidelight and a sternlight.",
+      "C": "Two all-round white lights in a vertical line, sidelights and a sternlight.",
+      "D": "Three all-round white lights in a vertical line, sidelights and a sternlight."
     },
     "answer": "A",
     "image": "",
@@ -16009,7 +15729,7 @@
       "A": "Auto Crane",
       "B": "Portal Crane",
       "C": "Gantry Crane",
-      "D": ""
+      "D": "Jib Crane"
     },
     "answer": "C",
     "image": "",
@@ -16497,9 +16217,9 @@
     "question": "26. 下列何者不是形成貨物吸濕性的條件？",
     "options": {
       "A": "貨物含水量下降",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "貨物具有揮發水份的性質",
+      "C": "貨物蒸發水份的蒸汽壓小於環境的水蒸汽分壓",
+      "D": "相對濕度下降"
     },
     "answer": "D",
     "image": "",
@@ -16802,12 +16522,12 @@
   {
     "year": "108-3",
     "subject": "航海學",
-    "question": "32. 已知一天體的地理位置為GP，觀測者位置為M，當時測得此天體的觀測高度為Ho，則下列",
+    "question": "32. 已知一天體的地理位置為GP，觀測者位置為M，當時測得此天體的觀測高度為Ho，則下列 何者為此天體的等高圈？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "以M為中心，以Ho為半徑，在地球面上所作的小圓",
+      "B": "以M為中心，以90°－Ho為半徑，在地球面上所作的小圓",
+      "C": "以GP為中心，以Ho為半徑，在地球面上所作的小圓",
+      "D": "以GP為中心，以90°－Ho為半徑，在地球面上所作的小圓"
     },
     "answer": "D",
     "image": "",
@@ -16933,7 +16653,7 @@
       "A": "罐頭",
       "B": "機器",
       "C": "白米",
-      "D": ""
+      "D": "玻璃"
     },
     "answer": "C",
     "image": "",
@@ -17002,8 +16722,8 @@
     "options": {
       "A": "一盞紅燈，顯示定光，普照水平弧面112.5度",
       "B": "一盞白燈，顯示定光，普照水平弧面135度",
-      "C": "",
-      "D": ""
+      "C": "一盞紅燈，顯示閃光，普照水平弧面112.5度",
+      "D": "一盞白燈，顯示閃光，普照水平弧面135度"
     },
     "answer": "B",
     "image": "",
@@ -17168,10 +16888,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "38. Please refer to the chart as attached and answer the following three questions. The symbol at Q1 means:",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Quarantine anchorage",
+      "B": "Reporting point",
+      "C": "Radio pratique station",
+      "D": "Pilot station"
     },
     "answer": "D",
     "image": "",
@@ -17238,10 +16958,10 @@
     "subject": "航海學",
     "question": "40. 下列有關推算航法的敘述，何者正確？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "船舶運動向量決定其所在之正確位置（Accurate position）",
+      "B": "推算船位只能使用駕駛航向（Course steered）",
+      "C": "航進定位後，仍在原推算航線上繼續描繪（DR plot）",
+      "D": "推算船位需考慮水流影響（Current effect）"
     },
     "answer": "B",
     "image": "",
@@ -17274,6 +16994,20 @@
     "answer": "C",
     "image": "",
     "groupId": "NSM_108-3_40"
+  },
+  {
+    "year": "108-3",
+    "subject": "船舶通訊與航海英文",
+    "question": "40. Please refer to the chart as attached and answer the following three questions. The symbol at Q3 means:",
+    "options": {
+      "A": "Light ship, with the mast visible at Chart datum",
+      "B": "Wreck showing any part of hull or superstructure at the level of Chart Datum",
+      "C": "Wreck, depth unknown, which is considered dangerous to surface navigation",
+      "D": "Wreck, depth unknown, which is not considered dangerous to surface navigation"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CNE_108-3_40"
   },
   {
     "year": "108-4",
@@ -17658,10 +17392,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "7. What’s the part name of life boat that marked “D”?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Winch",
+      "B": "Fall",
+      "C": "Skid",
+      "D": "Cradle"
     },
     "answer": "A",
     "image": "",
@@ -17686,10 +17420,10 @@
     "subject": "貨物作業",
     "question": "8. 貨櫃船Bay Plan內每一貨櫃位置圖均有資料如附件圖示2右中間英文字母RF 是何意義?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "危險櫃",
+      "B": "一般冷凍櫃",
+      "C": "超高櫃",
+      "D": "平板櫃"
     },
     "answer": "B",
     "image": "",
@@ -17756,10 +17490,10 @@
     "subject": "航行安全與氣象",
     "question": "9. 日本北海道與千島群島附近的海霧，在該區以哪一個月為最盛時期？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "5月",
+      "B": "6月",
+      "C": "7月",
+      "D": "8月"
     },
     "answer": "C",
     "image": "",
@@ -17848,6 +17582,20 @@
     "answer": "D",
     "image": "",
     "groupId": "NAV_108-4_11"
+  },
+  {
+    "year": "108-4",
+    "subject": "貨物作業",
+    "question": "11. 船長未滿100公尺之船舶載重線中，季節載重線總共有幾種？",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CAR_108-4_11"
   },
   {
     "year": "108-4",
@@ -18177,9 +17925,9 @@
     "question": "17. 國際公約對於船舶操舵裝置之「檢查與測試」規範中，對於主管官署得豁免從事短期航行 船舶之開航前檢查與測試要求，但此等船舶至少應於若干時間內實施一次?",
     "options": {
       "A": "每三航次實施一次",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "每週實施一次",
+      "C": "每月實施一次",
+      "D": "每三個月實施一次"
     },
     "answer": "B",
     "image": "",
@@ -18305,7 +18053,7 @@
       "A": "In all alleyways, stairways and exits.",
       "B": "In ship earth station.",
       "C": "The navigation lights and other lights required by COLREGS.",
-      "D": ""
+      "D": "Emergency lighting at every muster and embarkation station."
     },
     "answer": "D",
     "image": "",
@@ -18612,8 +18360,8 @@
     "options": {
       "A": "啟用雷達保持安全航行",
       "B": "測定船位保持航向",
-      "C": "",
-      "D": ""
+      "C": "當值人員應提高警覺",
+      "D": "毫不遲疑馬上立即減俥"
     },
     "answer": "D",
     "image": "",
@@ -18636,12 +18384,12 @@
   {
     "year": "108-4",
     "subject": "航海學",
-    "question": "26. 美國版潮流表某次要站之資料如下：Time Difference：Min before Flood＋01h 59m；Flood＋2h 31m；Min before Ebb＋02 h 39m；Ebb＋03h 14m；Speed Ratios：Flood",
+    "question": "26. 美國版潮流表某次要站之資料如下：Time Difference：Min before Flood＋01h 59m；Flood＋2h 31m；Min before Ebb＋02 h 39m；Ebb＋03h 14m；Speed Ratios：Flood 0.9，Ebb 0.8；其基準港9月4日之潮汐資料如下：Slack 05 h 32m，Max Current 08 h 26m，2.3E；求此次要站9月4日上午之潮流資料？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Slack 08h 11m，Max Current 11h 40m，1.84E",
+      "B": "Slack 07h 31m，Max Current 11h 40m，1.5E",
+      "C": "Slack 08h 11m，Max Current 10h 57m，2.07E",
+      "D": "Slack 07h 31m，Max Current 10h 57m，1.4E"
     },
     "answer": "A",
     "image": "",
@@ -18674,6 +18422,20 @@
     "answer": "C",
     "image": "",
     "groupId": "NSM_108-4_26"
+  },
+  {
+    "year": "108-4",
+    "subject": "船舶通訊與航海英文",
+    "question": "26. 「國際信號規則（ICS）」之規定，配合「單字母（Single letter）」信號組合而成之「單 字母附輔助信號」代碼信號組，「經度」可使用下列何項「單字母」後連接四個或五個數字表示之 ？",
+    "options": {
+      "A": "L",
+      "B": "G",
+      "C": "E",
+      "D": "W"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CNE_108-4_26"
   },
   {
     "year": "108-4",
@@ -18865,7 +18627,7 @@
       "A": "指每一噸貨物所占的貨艙容積",
       "B": "指每一噸貨物所占的實際體積",
       "C": "指每一噸貨物所占實際的立方公尺加上裝載損耗",
-      "D": ""
+      "D": "指每一噸貨物所占的立方體積之平均數"
     },
     "answer": "D",
     "image": "",
@@ -19061,7 +18823,7 @@
       "A": "暫時改變航向",
       "B": "採用長脈波",
       "C": "調節聚焦",
-      "D": ""
+      "D": "變換測程"
     },
     "answer": "D",
     "image": "",
@@ -19103,7 +18865,7 @@
       "A": "紅燈一盞或紅色光焰一個作上下揮動",
       "B": "紅燈一盞或紅色光焰一個作水平揮動",
       "C": "白燈一盞或白色光焰一個作上下揮動",
-      "D": ""
+      "D": "白燈一盞或白色光焰一個作水平揮動"
     },
     "answer": "D",
     "image": "",
@@ -19350,12 +19112,12 @@
   {
     "year": "108-4",
     "subject": "貨物作業",
-    "question": "39. 商船上貨物繫固設備之最大繫固負荷（Maximum securing load）係由其材料的裂斷強度決",
+    "question": "39. 商船上貨物繫固設備之最大繫固負荷（Maximum securing load）係由其材料的裂斷強度決 定，則重覆使用之鋼絲索的最大繫固負荷為其裂斷強度的多少％？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "30",
+      "B": "40",
+      "C": "50",
+      "D": "60"
     },
     "answer": "A",
     "image": "",
@@ -19789,7 +19551,7 @@
       "A": "Trim by Head",
       "B": "Trim by Stern",
       "C": "Even Trim",
-      "D": ""
+      "D": "Even Keel"
     },
     "answer": "B",
     "image": "",
@@ -19885,9 +19647,9 @@
     "question": "9. 下列關於向量式電子海圖與網格式電子海圖的描述，何者有誤？",
     "options": {
       "A": "網格式電子海圖相當於紙海圖的複製品",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "電子海圖無法設定危險水深警告",
+      "C": "向量式電子海圖可對資料進行選擇性查詢",
+      "D": "網格式電子海圖的製作成本較低"
     },
     "answer": "B",
     "image": "",
@@ -20263,9 +20025,9 @@
     "question": "15. 圖示信號旗所代表之字母依規定全名(code word)是:",
     "options": {
       "A": "NADAZERO",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "BISSTWO",
+      "C": "SETTESEVEN",
+      "D": "NOVENINE"
     },
     "answer": "B",
     "image": "",
@@ -20329,20 +20091,6 @@
   },
   {
     "year": "109-2",
-    "subject": "航海學",
-    "question": "17. 航海員在夜間進行航標辨識時，請問下圖為何種光態? (每分鐘重複率80~159閃)",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "",
-    "groupId": "NAV_109-2_17"
-  },
-  {
-    "year": "109-2",
     "subject": "貨物作業",
     "question": "17. 下列那一種貨櫃是以形狀及構造分類之貨櫃？",
     "options": {
@@ -20354,20 +20102,6 @@
     "answer": "A",
     "image": "",
     "groupId": "CAR_109-2_17"
-  },
-  {
-    "year": "109-2",
-    "subject": "航行安全與氣象",
-    "question": "17. 氣象傳真圖中，代表海浪分析圖的圖類代號為何？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "",
-    "groupId": "NSM_109-2_17"
   },
   {
     "year": "109-2",
@@ -20668,10 +20402,10 @@
     "subject": "貨物作業",
     "question": "23. 下列圖示靜水性能曲線圖，用排水量37500噸，求取船舶各項靜水性能數值，如MTC=?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "500 噸-公尺",
+      "B": "475噸-公尺",
+      "C": "525 噸-公尺",
+      "D": "535噸-公尺"
     },
     "answer": "A",
     "image": "",
@@ -20698,8 +20432,8 @@
     "options": {
       "A": "Jacob’s ladder",
       "B": "Accommodation ladder",
-      "C": "",
-      "D": ""
+      "C": "Pilot ladder",
+      "D": "Safety ladder"
     },
     "answer": "B",
     "image": "",
@@ -20707,17 +20441,31 @@
   },
   {
     "year": "109-2",
-    "subject": "航行安全與氣象",
-    "question": "24. 下圖顯示的燈號，應屬於下述哪一種狀況？",
+    "subject": "航海學",
+    "question": "24. 使用回音測深儀（Echo sounder）測量水深時，若聲波在水中實際傳播的速度大於設計音 速，則測深儀顯示的水深與實際水深比較，其狀況如何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "變小",
+      "B": "變大",
+      "C": "相等",
+      "D": "無影響"
     },
     "answer": "A",
     "image": "",
-    "groupId": "NSM_109-2_24"
+    "groupId": "NAV_109-2_24"
+  },
+  {
+    "year": "109-2",
+    "subject": "貨物作業",
+    "question": "24. 下列圖示載重標尺圖，當船舶在夏季載重線(S)標誌時，船舶海水排水量為多少?",
+    "options": {
+      "A": "24500噸",
+      "B": "23300噸",
+      "C": "23000噸",
+      "D": "23900噸"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "CAR_109-2_24"
   },
   {
     "year": "109-2",
@@ -20802,6 +20550,20 @@
     "answer": "C",
     "image": "",
     "groupId": "NAV_109-2_26"
+  },
+  {
+    "year": "109-2",
+    "subject": "貨物作業",
+    "question": "26. 依據IMDG Code的規範，在貨物運輸單元標示標牌和標記的方法，必須使貨物運輸單元在 海水中浸泡多久後，仍能辨識其上的標牌和標記？",
+    "options": {
+      "A": "15天",
+      "B": "1個月",
+      "C": "2個月",
+      "D": "3個月"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "CAR_109-2_26"
   },
   {
     "year": "109-2",
@@ -20973,6 +20735,20 @@
   },
   {
     "year": "109-2",
+    "subject": "航行安全與氣象",
+    "question": "29. 船舶在前進中用舵迴轉，用舵不久後，將因舵力橫傾力矩而出現輕微內傾，之後會因何作 用使船體從內傾變成外傾？",
+    "options": {
+      "A": "因船體斜航所產生的水下阻力",
+      "B": "迴轉慣性離心力矩",
+      "C": "舵板受力不均",
+      "D": "迴轉運動造成船舶定傾中心（Metacenter）的變化"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "NSM_109-2_29"
+  },
+  {
+    "year": "109-2",
     "subject": "船舶通訊與航海英文",
     "question": "29. The abbreviation “RYC” in marine Telex, usually stands for:",
     "options": {
@@ -21103,9 +20879,9 @@
     "question": "32. 下列何者是IMO要求ECDIS必須提供的顯示模式？",
     "options": {
       "A": "真北朝上的真實運動模式",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "艏向朝上的相對運動模式",
+      "C": "艏向朝上的真實運動模式",
+      "D": "真北朝上的相對運動模式"
     },
     "answer": "A",
     "image": "",
@@ -21145,9 +20921,9 @@
     "question": "32. 表示“Yes”（肯定）的單字母信號，是那一個字母？",
     "options": {
       "A": "N",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "C",
+      "C": "A",
+      "D": "B"
     },
     "answer": "B",
     "image": "",
@@ -21228,10 +21004,10 @@
     "subject": "貨物作業",
     "question": "34. 貨櫃船運輸中，大件貨超高櫃（High cube）應配置在下列那一層，最不影響裝載量？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "艙內最下層",
+      "B": "艙內最上層",
+      "C": "上甲板最上層",
+      "D": "上甲板最下層"
     },
     "answer": "C",
     "image": "",
@@ -21411,9 +21187,9 @@
     "question": "37. 中高緯度的冷氣團和暖濕氣團相遇混合，往往在其交界處生成霧，稱為下列何者？",
     "options": {
       "A": "平流霧",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "輻射霧",
+      "C": "蒸汽霧",
+      "D": "鋒面霧"
     },
     "answer": "D",
     "image": "",
@@ -21446,20 +21222,6 @@
     "answer": "D",
     "image": "",
     "groupId": "NAV_109-2_38"
-  },
-  {
-    "year": "109-2",
-    "subject": "貨物作業",
-    "question": "38. 在全貨櫃船的積載圖中編號為180504代表該貨櫃在船上何位置？",
-    "options": {
-      "A": "Bay18 Row05 Tier04",
-      "B": "Bay18 Tier05 Row04",
-      "C": "Row18 Tier05 Bay04",
-      "D": "Tier18 Row05 Bay04"
-    },
-    "answer": "A",
-    "image": "",
-    "groupId": "CAR_109-2_38"
   },
   {
     "year": "109-2",
@@ -21553,7 +21315,7 @@
       "A": "40°51’",
       "B": "41°47’",
       "C": "42°28’",
-      "D": ""
+      "D": "43°55’"
     },
     "answer": "C",
     "image": "",
@@ -21593,9 +21355,9 @@
     "question": "40. I expect to re-float when draft _____.",
     "options": {
       "A": "reduced",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "even keel",
+      "C": "improved",
+      "D": "decreases"
     },
     "answer": "D",
     "image": "",
@@ -21942,10 +21704,10 @@
     "subject": "貨物作業",
     "question": "7. 貨櫃船抵港前岸上人員依據到達港口之先後次序及貨櫃之性質輕重等，考慮GM值之大小及 航行安全，事先計劃分配分配妥當做成下列何種資料?(如圖)",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "出口貨櫃順序表",
+      "B": "出口貨櫃清單",
+      "C": "貨櫃裝船統計表",
+      "D": "預配裝載圖"
     },
     "answer": "D",
     "image": "",
@@ -22006,20 +21768,6 @@
     "answer": "C",
     "image": "",
     "groupId": "CAR_109-3_8"
-  },
-  {
-    "year": "109-3",
-    "subject": "航行安全與氣象",
-    "question": "8. 下圖顯示的燈號，屬於下述哪一種狀況？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "",
-    "groupId": "NSM_109-3_8"
   },
   {
     "year": "109-3",
@@ -22169,7 +21917,7 @@
       "A": "夏季淡水載重線",
       "B": "熱帶載重線",
       "C": "熱帶淡水載重線",
-      "D": ""
+      "D": "夏季載重線"
     },
     "answer": "B",
     "image": "",
@@ -22251,9 +21999,9 @@
     "question": "12. By SMCP, choose one of the following sentences for expressing ”Vessel is unable to continue her voyage. Tug assistance is needed.”",
     "options": {
       "A": "“I am unmanoeuvrable; I need tug-assistance”.",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "“I am unmanoeuvrable; tug-assistance is needed”.",
+      "C": "“I am not under command; I require tug-assistance”.",
+      "D": "“I am not under command; tug-assistance is resumed”."
     },
     "answer": "C",
     "image": "",
@@ -22295,7 +22043,7 @@
       "A": "橫波（Transverse wave）",
       "B": "縱向波（Longitudinal wave）",
       "C": "獨立波（Solitary wave）",
-      "D": ""
+      "D": "淺水波（Shallow wave）"
     },
     "answer": "A",
     "image": "",
@@ -22433,9 +22181,9 @@
     "question": "16. 下列對於ECDIS之RCDS模式的敘述，何者錯誤？",
     "options": {
       "A": "具備ECDIS的所有功能",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "使用時須搭配使用適當的最新紙海圖圖集組合(Approved portfolio of charts)",
+      "C": "可讓使用者自行加入資訊(如安全線)，再依據這些資訊產生某些警報",
+      "D": "RCDS有海圖圖幅邊界的限制"
     },
     "answer": "A",
     "image": "",
@@ -22671,9 +22419,9 @@
     "question": "20. 穀物運送時，穀類貨物的積載因素(S.F.)表示為何？",
     "options": {
       "A": "表示危險種類等級",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "一定重量下所占用體積",
+      "C": "能夠容許接受水氣含量",
+      "D": "裝卸貨港口安排順序"
     },
     "answer": "B",
     "image": "",
@@ -22699,9 +22447,9 @@
     "question": "20. If you want to require a pilot, which of the following 「single letter」 shall be chosen and sent by any method of signaling ? The single letter is:",
     "options": {
       "A": "A",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "D",
+      "C": "G",
+      "D": "Z"
     },
     "answer": "C",
     "image": "",
@@ -22743,7 +22491,7 @@
       "A": "個人安全及社會責任之最低適任標準規範",
       "B": "遵守安全作業慣例",
       "C": "基本急救之最低適任標準規範",
-      "D": ""
+      "D": "防火及滅火最低適任標準規範"
     },
     "answer": "C",
     "image": "",
@@ -22883,7 +22631,7 @@
       "A": "作45°轉動，磁針偏移1°以上",
       "B": "作45°轉動，磁針偏移2°以上",
       "C": "作90°轉動，磁針偏移1°以上",
-      "D": ""
+      "D": "作90°轉動，磁針偏移2°以上"
     },
     "answer": "D",
     "image": "",
@@ -23076,10 +22824,10 @@
     "subject": "航行安全與氣象",
     "question": "27. 從L 51°N，λ147°E向南、西南延伸到L 43°N，λ132°E的鋒面是指下列何者？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "冷鋒",
+      "B": "暖鋒",
+      "C": "滯留鋒",
+      "D": "囚錮鋒"
     },
     "answer": "A",
     "image": "",
@@ -23121,7 +22869,7 @@
       "A": "下層貨艙",
       "B": "中層貨艙",
       "C": "上層貨艙",
-      "D": ""
+      "D": "甲板"
     },
     "answer": "A",
     "image": "",
@@ -23144,12 +22892,12 @@
   {
     "year": "109-3",
     "subject": "船舶通訊與航海英文",
-    "question": "28. A vessel 5 ______ East of you will be overtaking by your starboard side very soon. Please",
+    "question": "28. A vessel 5 ______ East of you will be overtaking by your starboard side very soon. Please stay alert.",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "shackles",
+      "B": "miles",
+      "C": "knots",
+      "D": "cables"
     },
     "answer": "D",
     "image": "",
@@ -23297,6 +23045,20 @@
   },
   {
     "year": "109-3",
+    "subject": "航行安全與氣象",
+    "question": "31. 根據達斯貝羅(BUYS Ballot)定律，可以得到颱風中心方位：在北半球，背對來風，低氣壓 恆在下列何方向？",
+    "options": {
+      "A": "前方",
+      "B": "右方",
+      "C": "後方",
+      "D": "左方"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "NSM_109-3_31"
+  },
+  {
+    "year": "109-3",
     "subject": "船舶通訊與航海英文",
     "question": "31. 指導載有遇險船員或人員的小艇，表示「此處最適合登岸」時，應發射何種顏色的星簇光 信號一枚？",
     "options": {
@@ -23317,7 +23079,7 @@
       "A": "26°29.4'N；124°53.3'E",
       "B": "26°29.4'N；125°15.4'E",
       "C": "26°34.4'N；124°53.5'E",
-      "D": ""
+      "D": "26°34.4'N；126°01.8'E"
     },
     "answer": "D",
     "image": "",
@@ -23564,12 +23326,12 @@
   {
     "year": "109-3",
     "subject": "船舶通訊與航海英文",
-    "question": "36. A、B兩輪發生碰撞，A輪易燃貨區失火，燃油漏出海上。若你是A輪當值船副，應懸掛下列",
+    "question": "36. A、B兩輪發生碰撞，A輪易燃貨區失火，燃油漏出海上。若你是A輪當值船副，應懸掛下列 那個「單字母」旗（信）號以警告附近船舶遠離？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "B",
+      "B": "D",
+      "C": "F",
+      "D": "J"
     },
     "answer": "D",
     "image": "",
@@ -23592,12 +23354,12 @@
   {
     "year": "109-3",
     "subject": "貨物作業",
-    "question": "37. 原木船裝載後，應對船舶作徹底檢查，以確定結構及水密完整性，並將紀錄記載於下列何",
+    "question": "37. 原木船裝載後，應對船舶作徹底檢查，以確定結構及水密完整性，並將紀錄記載於下列何 者？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "工作日誌",
+      "B": "理貨單",
+      "C": "航海日誌",
+      "D": "裝貨紀錄簿"
     },
     "answer": "C",
     "image": "",
@@ -24157,7 +23919,7 @@
       "A": "類似貨物偏移，貨物總量一定，不會增加風險",
       "B": "類似貨物偏移，會產生傾側，減少穩度",
       "C": "船艙內貨物限制之故，傾側有限",
-      "D": ""
+      "D": "類似貨物偏移，會產生傾側，增加穩度"
     },
     "answer": "B",
     "image": "",
@@ -24226,8 +23988,8 @@
     "options": {
       "A": "測定錨位，並經常核對以判斷是否走錨",
       "B": "繕打進出港相關文件",
-      "C": "",
-      "D": ""
+      "C": "採取防止船舶污染環境之措施",
+      "D": "根據船長之指示，確保主機與其他機器處於備便狀態"
     },
     "answer": "B",
     "image": "",
@@ -24254,8 +24016,8 @@
     "options": {
       "A": "各港口間距離表Pub.No.151",
       "B": "潮流表",
-      "C": "",
-      "D": ""
+      "C": "IMO船舶航路指引(Ship’s Routing)",
+      "D": "英版無線電信號表的第六冊「引航服務、船舶交通服務與港口業務」"
     },
     "answer": "C",
     "image": "",
@@ -24501,20 +24263,6 @@
   },
   {
     "year": "109-4",
-    "subject": "航行安全與氣象",
-    "question": "13. 日間見到漁船，展露如圖示的錐尖相連之上下兩個圓錐形，組成之號標一具，於一垂直線",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "",
-    "groupId": "NSM_109-4_13"
-  },
-  {
-    "year": "109-4",
     "subject": "船舶通訊與航海英文",
     "question": "13. The course which a vessel makes over ground, after allowing for the effects of currents, tidal streams and leeway caused by wind and sea is called ______.",
     "options": {
@@ -24540,6 +24288,20 @@
     "answer": "A",
     "image": "",
     "groupId": "NAV_109-4_14"
+  },
+  {
+    "year": "109-4",
+    "subject": "貨物作業",
+    "question": "14. 靜止角大於30˚但小於35˚的非黏性散裝貨物，其貨物表面的不平整程度即貨物表面最高點 與最低點間的垂直距離(∆h)不得超過下列何者？",
+    "options": {
+      "A": "B/10，其中B為船寬(m)，但∆h的最大允許值為1.5 m",
+      "B": "B/10，其中B為船寬(m)，但∆h的最大允許值為2.0 m",
+      "C": "B/10，其中B為船浮心(m)，但∆h的最大允許值為1.5 m",
+      "D": "B/10，其中B為船浮心(m)，但∆h的最大允許值為2.0 m"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CAR_109-4_14"
   },
   {
     "year": "109-4",
@@ -24689,7 +24451,7 @@
       "A": "Dec < Lat且兩者異名",
       "B": "Dec < Lat且兩者同名",
       "C": "Dec ≥ (90°－Lat)且兩者異名",
-      "D": ""
+      "D": "Dec ≥ (90°－Lat)且兩者同名"
     },
     "answer": "C",
     "image": "",
@@ -24708,6 +24470,20 @@
     "answer": "C",
     "image": "",
     "groupId": "CAR_109-4_17"
+  },
+  {
+    "year": "109-4",
+    "subject": "航行安全與氣象",
+    "question": "17. 依1974年海上人命安全國際公約第三章規則37之規定，部署表應載明規定，下列敘述何者 不在其內?",
+    "options": {
+      "A": "載明救生艇承載人數",
+      "B": "載明一般應急警報及公共廣播系統之細則",
+      "C": "載明警報發出後船員與旅客應採取之行動",
+      "D": "載明如何發出棄船命令"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "NSM_109-4_17"
   },
   {
     "year": "109-4",
@@ -24954,8 +24730,8 @@
     "options": {
       "A": "上升",
       "B": "下降",
-      "C": "",
-      "D": ""
+      "C": "不變",
+      "D": "無關"
     },
     "answer": "A",
     "image": "",
@@ -24988,6 +24764,20 @@
     "answer": "C",
     "image": "",
     "groupId": "CNE_109-4_22"
+  },
+  {
+    "year": "109-4",
+    "subject": "航海學",
+    "question": "23. 某船自甲地(L39°46.0’S，λ76°12.0’W)沿大圈航行至乙地(L25°30.0’N，λ122°00.0’E)，若 已知大圈初航向為232.3°，則請問甲地至大圈頂點間的最近距離為幾浬？",
+    "options": {
+      "A": "2145",
+      "B": "2156",
+      "C": "2167",
+      "D": "2177"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "NAV_109-4_23"
   },
   {
     "year": "109-4",
@@ -25120,10 +24910,10 @@
     "subject": "航行安全與氣象",
     "question": "25. 在使用雷達執行海上搜索時，下列何項敍述不正確？",
     "options": {
-      "A": "當有數艘援助船舶可資利用時，雷達搜索可能有效，尤其對事故位置未能確定而且可能没有搜救",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "當有數艘援助船舶可資利用時，雷達搜索可能有效，尤其對事故位置未能確定而且可能没有搜救 飛機時特別有效",
+      "B": "尚未提供指定之搜索模式時，使用雷達搜索是毫無效益的",
+      "C": "現場協調官在正常情況下，應指示船舶使用“鬆散併排路線”方式行駛",
+      "D": "在船舶行駛時保持間距為預期雷達測距之1.5倍"
     },
     "answer": "B",
     "image": "",
@@ -25132,12 +24922,12 @@
   {
     "year": "109-4",
     "subject": "船舶通訊與航海英文",
-    "question": "25. 「摩爾斯碼信號(The Morse symbols)」係由固定「短」「長」的「點(dot)」與「劃 (dash)」之「音頻」或「可見光信號」搭配，組成為不同符號，數字或意義。其中「點」是一個「",
+    "question": "25. 「摩爾斯碼信號(The Morse symbols)」係由固定「短」「長」的「點(dot)」與「劃 (dash)」之「音頻」或「可見光信號」搭配，組成為不同符號，數字或意義。其中「點」是一個「 時間單位」 基準。試問「劃」依規定是幾個「時間單位」?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "二",
+      "B": "三",
+      "C": "四",
+      "D": "五"
     },
     "answer": "B",
     "image": "",
@@ -25430,8 +25220,8 @@
     "options": {
       "A": "一過球心之平面垂直於赤道平面而與球面相交之大圓",
       "B": "一不過球心之平面平行於赤道平面而與球面相交之小圓",
-      "C": "",
-      "D": ""
+      "C": "兩子午線在赤道上所夾之大圓弧的劣弧",
+      "D": "由赤道沿著某一點之子午線向北或南量至該點之圓弧"
     },
     "answer": "B",
     "image": "",
@@ -25529,7 +25319,7 @@
       "A": "海岸無線電台（CRS）",
       "B": "任務管制中心（MCC）",
       "C": "海岸地球台（CES）",
-      "D": ""
+      "D": "地面終端台（LUT）"
     },
     "answer": "B",
     "image": "",
@@ -25666,10 +25456,10 @@
     "subject": "貨物作業",
     "question": "35. 下列那一圖示為縱移(Surge)？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "圖A",
+      "B": "圖B",
+      "C": "圖C",
+      "D": "圖D"
     },
     "answer": "A",
     "image": "",
@@ -25887,20 +25677,6 @@
   },
   {
     "year": "109-4",
-    "subject": "航行安全與氣象",
-    "question": "39. 圖中29°N，132°E這點的湧浪方向是：",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "",
-    "groupId": "NSM_109-4_39"
-  },
-  {
-    "year": "109-4",
     "subject": "船舶通訊與航海英文",
     "question": "39. Please answer the following two questions by the following message: PLS B ADVSD 2M, 4E, BSN N COOK SIGN ON AT HKG SEP 20, SIN PSC INSPECTOR O/B 25 TH NOON N FIND ONLY COPY BUT NO ORIGINAL STCW95 LICENSE, AFT LONG TIME DISCUSS, PSCO RELEASE SHIP SUBJ ONLY ONE VOY TO IMPROVE. PLS REF 2 MY FAX RPT DD 26 ITEM 4.6 N MAIL THE LICENSES TO EGYPT AGT ASAP. ETA SUZE 1003 1000 HR, PLS CFM. What is the best way to send this information?",
     "options": {
@@ -25960,10 +25736,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "40. What is the original decision by port state control staff when they found crew hold the fake license?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "give the warning to the master",
+      "B": "fined the ship",
+      "C": "detain the ship",
+      "D": "arrest the ship"
     },
     "answer": "C",
     "image": "",
@@ -26383,7 +26159,7 @@
       "A": "20噸",
       "B": "25噸",
       "C": "40噸",
-      "D": ""
+      "D": "50噸"
     },
     "answer": "D",
     "image": "",
@@ -26423,9 +26199,9 @@
     "question": "9. 某船航駛甲地羅經航向為155°，已知磁差為3°W，自差為4°W，試問真航向為何？",
     "options": {
       "A": "163°",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "160°",
+      "C": "148°",
+      "D": "138°"
     },
     "answer": "C",
     "image": "",
@@ -26450,10 +26226,10 @@
     "subject": "航行安全與氣象",
     "question": "9. 依國際海上避碰規則規定，長度滿 20 公尺以上船舶，裝置兩盞或三盞號燈於一垂線上時 ，除需置拖曳號燈者外，其最低號燈距船身高度不得少於多少公尺？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
     },
     "answer": "D",
     "image": "",
@@ -26462,12 +26238,12 @@
   {
     "year": "110-1",
     "subject": "船舶通訊與航海英文",
-    "question": "9. By SMCP, choose one of the following sentences for expressing ”Depth as indicated in",
+    "question": "9. By SMCP, choose one of the following sentences for expressing ”Depth as indicated in chart must be reduced by 1 meter due to sea state.”",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "“Information: depth of water must be reduced by 1 meter due to sea state”.",
+      "B": "“Information: depth of water must be decreased by 1 meter due to sea state”.",
+      "C": "“Information: charted depth must be 1 meter due to sea state”",
+      "D": "“Information: charted depth of water must be decreased by 1 meter due to sea state”."
     },
     "answer": "D",
     "image": "",
@@ -26713,6 +26489,20 @@
   },
   {
     "year": "110-1",
+    "subject": "航行安全與氣象",
+    "question": "14. 本船對地航速10節，目標船對地航速10節，真航向210，在本船相對方位030，距離6海浬 ，本船要以最短TCPA，維持CPA至少1.5海浬以上通過，本船應如何作為？",
+    "options": {
+      "A": "右轉至少30度",
+      "B": "左轉至少30度",
+      "C": "右轉至真航向015度",
+      "D": "保持航向不動"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "NSM_110-1_14"
+  },
+  {
+    "year": "110-1",
     "subject": "船舶通訊與航海英文",
     "question": "14. 船舶通信依「國際信號規則(ICS)」之規定，每一「單字母(single letter) 」均代表一完整的 信號(signal)。試問「I wish to communicate with you」，是下列何「單字母」之信號？",
     "options": {
@@ -26831,7 +26621,7 @@
       "A": "“Ice-situation will improve.”",
       "B": "“Ice-situation will deteriorate.”",
       "C": "“Ice-situation will change.”",
-      "D": ""
+      "D": "“Ice-situation will enhance.”"
     },
     "answer": "B",
     "image": "",
@@ -26898,10 +26688,10 @@
     "subject": "航海學",
     "question": "18. 南半球的秋季星空，常使用哪一個星座尋找地理的正南方位？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "天蠍星座（SCORPIUS）",
+      "B": "飛馬星座（PEGASUS）",
+      "C": "南十字星座（CRUX）",
+      "D": "大熊星座（URSA MAJOR）"
     },
     "answer": "C",
     "image": "",
@@ -26969,9 +26759,9 @@
     "question": "19. IMDG Code之危險品隔離表(Segregation Table)中，所標示之數字\"2\"係指下列何義？",
     "options": {
       "A": "遠離(Away from)",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "隔離(Separated from)",
+      "C": "以一完整艙間或貨艙隔離(Separated by a complete compartment or hold from)",
+      "D": "以介於其間的一完整艙間或貨艙做縱向隔離(Separated longitudinally by an intervening complete compartment or hold from)"
     },
     "answer": "B",
     "image": "",
@@ -27148,12 +26938,12 @@
   {
     "year": "110-1",
     "subject": "航行安全與氣象",
-    "question": "22. 依國際海上避碰規則規定，顯示漁船群集捕魚時之增設信號號燈，長度未滿20 公尺從事拖",
+    "question": "22. 依國際海上避碰規則規定，顯示漁船群集捕魚時之增設信號號燈，長度未滿20 公尺從事拖 網作業放網時，可視情況顯示號燈幾盞於一垂直線上？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
     },
     "answer": "A",
     "image": "",
@@ -27186,20 +26976,6 @@
     "answer": "B",
     "image": "",
     "groupId": "NAV_110-1_23"
-  },
-  {
-    "year": "110-1",
-    "subject": "貨物作業",
-    "question": "23. 在貨物積載圖中，二層艙是以何種圖示法表示？",
-    "options": {
-      "A": "側視圖",
-      "B": "正視圖",
-      "C": "俯視圖",
-      "D": "仰視圖"
-    },
-    "answer": "C",
-    "image": "",
-    "groupId": "CAR_110-1_23"
   },
   {
     "year": "110-1",
@@ -27277,9 +27053,9 @@
     "question": "24. A: Chief officer, I have been informed that the floating crane will arrive at the ship’s side tomorrow morning. B: That’s good. You will see to it that no trouble arises in working with the floating crane, I hope. Question: What is the function of a floating crane?",
     "options": {
       "A": "Cargo lifting",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "Vessel towage",
+      "C": "Fire fighting",
+      "D": "Lifesaving"
     },
     "answer": "A",
     "image": "",
@@ -27349,7 +27125,7 @@
       "A": "UT2",
       "B": "GMT",
       "C": "UTC",
-      "D": ""
+      "D": "AT"
     },
     "answer": "C",
     "image": "",
@@ -27417,9 +27193,9 @@
     "question": "27. 依船舶危險品裝載規則規定，客船載客限額超過多少人，應避免裝載特別危險性質之危險 品，俾發生意外事件時，乘客得以迅速撤離？",
     "options": {
       "A": "15",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "20",
+      "C": "25",
+      "D": "30"
     },
     "answer": "C",
     "image": "",
@@ -27599,9 +27375,9 @@
     "question": "30. 下列船舶之繫泊各纜繩中，何者被稱為Aft spring line？",
     "options": {
       "A": "前艏纜",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "前橫纜",
+      "C": "後倒纜",
+      "D": "後艉纜"
     },
     "answer": "C",
     "image": "",
@@ -27867,7 +27643,7 @@
       "A": "十二分之一",
       "B": "二十四分之一",
       "C": "三十六分之一",
-      "D": ""
+      "D": "四十八分之一"
     },
     "answer": "D",
     "image": "",
@@ -27970,6 +27746,20 @@
     "answer": "D",
     "image": "",
     "groupId": "CAR_110-1_37"
+  },
+  {
+    "year": "110-1",
+    "subject": "航行安全與氣象",
+    "question": "37. 晴天的天空為什麼是藍色的？",
+    "options": {
+      "A": "因為藍光輻射能較強",
+      "B": "因為空氣質點對藍光的散射最顯著",
+      "C": "因為海洋反射太陽光的結果",
+      "D": "因為臭氧吸收了紫外線之故"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "NSM_110-1_37"
   },
   {
     "year": "110-1",
@@ -28580,8 +28370,8 @@
     "options": {
       "A": "Seamark",
       "B": "Landmark",
-      "C": "",
-      "D": ""
+      "C": "Load line mark",
+      "D": "Plimsoll mark"
     },
     "answer": "A",
     "image": "",
@@ -28593,9 +28383,9 @@
     "question": "9. 球面上方向與各子午線交角相等者為？",
     "options": {
       "A": "方位線",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "航線",
+      "C": "恒向線",
+      "D": "子午線"
     },
     "answer": "C",
     "image": "",
@@ -28967,20 +28757,6 @@
   },
   {
     "year": "110-3",
-    "subject": "航行安全與氣象",
-    "question": "16. 天氣圖上測站填寫資料如圖，則當時風向為何？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "",
-    "groupId": "NSM_110-3_16"
-  },
-  {
-    "year": "110-3",
     "subject": "船舶通訊與航海英文",
     "question": "16. 飛機指示船舶其援助已經不再需要，應作何動作？",
     "options": {
@@ -29013,9 +28789,9 @@
     "question": "17. 船舶裝載袋裝米時，若艙外露點高於艙內露點時，宜採用下列何種方式為宜？",
     "options": {
       "A": "消極通風法",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "積極通風法",
+      "C": "表面通風法",
+      "D": "停止通風"
     },
     "answer": "D",
     "image": "",
@@ -29401,20 +29177,6 @@
   },
   {
     "year": "110-3",
-    "subject": "貨物作業",
-    "question": "24. 圖中的雜貨配載圖，那種貨物裝在二層艙的中部？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "",
-    "groupId": "CAR_110-3_24"
-  },
-  {
-    "year": "110-3",
     "subject": "航行安全與氣象",
     "question": "24. 海上救助工作開始之前，如屬可能救助者應登上被救助船與船長諮商，簽訂救助契約，下 列各式契約中以何者最為普及？",
     "options": {
@@ -29432,10 +29194,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "24. 「摩爾斯碼信號(The Morse symbols)」係由固定「短」「長」的「點(dot)」與「劃 (dash)」之「音頻」或「可見光信號」搭配，組成為不同符號，數字或意義。其符號，例如「A」係 由「點」與「劃」（‧—）所組成。試問「點」與「劃」之間的間隔，依規定是幾個「時間單位」？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "一",
+      "B": "二",
+      "C": "三",
+      "D": "四"
     },
     "answer": "A",
     "image": "",
@@ -29729,7 +29491,7 @@
       "A": "單獨海損",
       "B": "共同海損",
       "C": "特別海損",
-      "D": ""
+      "D": "一般海損"
     },
     "answer": "A",
     "image": "",
@@ -29812,8 +29574,8 @@
     "options": {
       "A": "TTT",
       "B": "SAVE",
-      "C": "",
-      "D": ""
+      "C": "SOS",
+      "D": "MAYDAY"
     },
     "answer": "C",
     "image": "",
@@ -30115,6 +29877,20 @@
   },
   {
     "year": "110-3",
+    "subject": "貨物作業",
+    "question": "37. 下列何種文件是預定進出口之貨物，須事先安排艙位，以便瞭解貨物是否裝船或退關？",
+    "options": {
+      "A": "裝貨單（Shipping order）",
+      "B": "收貨單（Mate receipt）",
+      "C": "裝卸貨物清單（Cargo list）",
+      "D": "提單（Bill of lading）"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_110-3_37"
+  },
+  {
+    "year": "110-3",
     "subject": "航行安全與氣象",
     "question": "37. 一般船舶在河道中頂流調頭，則下列何種方式最省力，且其迴旋範圍最小？",
     "options": {
@@ -30171,27 +29947,13 @@
   },
   {
     "year": "110-3",
-    "subject": "航行安全與氣象",
-    "question": "38. 附圖為一海上測站填在天氣圖上的資料，則當時的湧浪週期是多少？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "",
-    "groupId": "NSM_110-3_38"
-  },
-  {
-    "year": "110-3",
     "subject": "船舶通訊與航海英文",
     "question": "38. To be in readiness or prepared to execute an order；to be readily available is ___________.",
     "options": {
       "A": "“standing order”",
       "B": "“night order”",
-      "C": "",
-      "D": ""
+      "C": "“stand by”",
+      "D": "“stand clear”"
     },
     "answer": "C",
     "image": "",
@@ -30763,9 +30525,9 @@
     "question": "9. AIS提供四種操作模式：(1)自動(Autonomous)；(2)連續(Continuous)；(3)指定 (Assigned)；(4)群呼(Polled and Controlled)。那些模式通常應用於沿岸水域？",
     "options": {
       "A": "(1)與(2)",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "(2)與(3)",
+      "C": "(3)與(4)",
+      "D": "(4)與(1)"
     },
     "answer": "C",
     "image": "",
@@ -30788,12 +30550,12 @@
   {
     "year": "110-4",
     "subject": "航行安全與氣象",
-    "question": "9. 依國際海上避碰規則規定，從事捕魚中之漁船，依規定裝置環照燈兩盞者，其較低一盞，高",
+    "question": "9. 依國際海上避碰規則規定，從事捕魚中之漁船，依規定裝置環照燈兩盞者，其較低一盞，高 出舷燈之距離，不得少於此兩盞號燈垂直距離裝置多少倍？",
     "options": {
       "A": "",
-      "B": "",
+      "B": "1",
       "C": "",
-      "D": ""
+      "D": "2"
     },
     "answer": "D",
     "image": "",
@@ -31141,9 +30903,9 @@
     "question": "16. 下列有關大潮與小潮的敘述，何者錯誤？",
     "options": {
       "A": "新月時會有大潮產生",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "下弦月時會有小潮產生",
+      "C": "當月球和太陽的位置呈90度正交時，因引力相互牽制，產生小潮",
+      "D": "太陽的質量大，在大潮產生的引力上大於月球"
     },
     "answer": "D",
     "image": "",
@@ -31155,9 +30917,9 @@
     "question": "16. 船舶通信依「國際信號規則(ICS)」之規定，每一「單字母(single letter) 」均代表一完整的 信號(signal)。試問「I have a pilot on board」，是下列何「單字母」之信號？",
     "options": {
       "A": "H",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "M",
+      "C": "G",
+      "D": "Q"
     },
     "answer": "A",
     "image": "",
@@ -31183,9 +30945,9 @@
     "question": "17. 船長在對可能液化貨物進行適運性簡易測試時，如發現貨物表面出現游離水分代表何意義 ？",
     "options": {
       "A": "貨物可能含水量太低",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "貨物可能含水量太高",
+      "C": "貨物含水量低於臨界值",
+      "D": "沒有任何意義"
     },
     "answer": "B",
     "image": "",
@@ -31563,7 +31325,7 @@
       "A": "①③④",
       "B": "②③④",
       "C": "①④⑤",
-      "D": ""
+      "D": "③④⑤"
     },
     "answer": "A",
     "image": "",
@@ -31590,8 +31352,8 @@
     "options": {
       "A": "速度加快，慣性力不易消除",
       "B": "主機轉數相同時，舵力減弱",
-      "C": "",
-      "D": ""
+      "C": "迴轉支點往船艏方向移動",
+      "D": "藉加速改善舵效的效果不佳"
     },
     "answer": "C",
     "image": "",
@@ -31605,7 +31367,7 @@
       "A": "“Warning: you are running into danger – submarine ahead of you.”",
       "B": "“Warning: you are running into danger – submersible ahead of you.”",
       "C": "“Warning: you are running into danger – undersea-wreck ahead of you.”",
-      "D": ""
+      "D": "“Warning: you are running into danger –submerged wreck ahead of you.”"
     },
     "answer": "D",
     "image": "",
@@ -31633,7 +31395,7 @@
       "A": "甲板以下之全部區域",
       "B": "甲板以上之全部區域",
       "C": "甲板以上及甲板以下之圍蔽空間",
-      "D": ""
+      "D": "甲板以上及甲板以下之全部重量"
     },
     "answer": "C",
     "image": "",
@@ -31885,7 +31647,7 @@
       "A": "氫氧化鎳【 】",
       "B": "過氧化鉛【 】",
       "C": "氫氧化鉀【KOH】",
-      "D": ""
+      "D": "稀硫酸【 】"
     },
     "answer": "D",
     "image": "",
@@ -31925,9 +31687,9 @@
     "question": "30. 夜間，瞭望時看到他船之號燈顯示為應為何種船？",
     "options": {
       "A": "長度未滿50公尺，操縱失靈船舶，對水面移動",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "長度滿50公尺，運轉能力受限制之船舶，對水面移動",
+      "C": "長度滿50公尺，受吃水限制之船舶，對水面移動",
+      "D": "長度滿50公尺，受吃水限制之船舶，不對水面移動"
     },
     "answer": "C",
     "image": "",
@@ -32064,10 +31826,10 @@
     "subject": "航海學",
     "question": "33. 承上題，大圈頂點之緯度為多少？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "46°51.6'N",
+      "B": "48°04.8'N",
+      "C": "51°22.5'N",
+      "D": "54°11.7'N"
     },
     "answer": "A",
     "image": "",
@@ -32134,10 +31896,10 @@
     "subject": "貨物作業",
     "question": "34. 下列那兩種貨物會發生互抵性，使原貨物失去價值？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "棉布和絲織品",
+      "B": "玻璃和木櫃",
+      "C": "茶葉和大蒜",
+      "D": "罐頭和食品"
     },
     "answer": "C",
     "image": "",
@@ -32426,12 +32188,12 @@
   {
     "year": "110-4",
     "subject": "航行安全與氣象",
-    "question": "39. 在惡劣海況中船舶橫搖週期與波浪週期之比率為多少時，最可能因諧搖作用而造成翻覆事",
+    "question": "39. 在惡劣海況中船舶橫搖週期與波浪週期之比率為多少時，最可能因諧搖作用而造成翻覆事 故？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "4：1",
+      "B": "3：1",
+      "C": "2：1",
+      "D": "1：1"
     },
     "answer": "D",
     "image": "",
@@ -32781,7 +32543,7 @@
       "A": "Index arm",
       "B": "Micrometer drum",
       "C": "Release lever",
-      "D": ""
+      "D": "Limb"
     },
     "answer": "B",
     "image": "",
@@ -32929,20 +32691,6 @@
   },
   {
     "year": "111-1",
-    "subject": "航行安全與氣象",
-    "question": "8. 看見下圖顯示的燈號，會屬於下述哪一種狀況？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "",
-    "groupId": "NSM_111-1_8"
-  },
-  {
-    "year": "111-1",
     "subject": "船舶通訊與航海英文",
     "question": "8. What is an abbreviation of VLCC?",
     "options": {
@@ -32960,10 +32708,10 @@
     "subject": "航海學",
     "question": "9. 以緯度比例尺固定，自製小面積空白定位圖紙，緯度範圍為20°N至22°N，緯度1°=10公分 ，則此圖的距離比例尺1公分應為多少浬？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "6",
+      "B": "10",
+      "C": "12",
+      "D": "15"
     },
     "answer": "A",
     "image": "",
@@ -33116,8 +32864,8 @@
     "options": {
       "A": "排水量",
       "B": "吃水",
-      "C": "",
-      "D": ""
+      "C": "船型",
+      "D": "船齡"
     },
     "answer": "D",
     "image": "",
@@ -33240,10 +32988,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "14. 在日間時，救生站或海上搜救單位對遇險船舶或人員，發出將儘速前往援助之煙霧信號 ，需用哪種顏色？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "黃",
+      "B": "綠",
+      "C": "紅",
+      "D": "橙"
     },
     "answer": "D",
     "image": "",
@@ -33340,8 +33088,8 @@
     "options": {
       "A": "高層雲",
       "B": "卷層雲",
-      "C": "",
-      "D": ""
+      "C": "雨層雲",
+      "D": "積雲"
     },
     "answer": "A",
     "image": "",
@@ -33380,10 +33128,10 @@
     "subject": "貨物作業",
     "question": "17. 穀物運送時，穀物貨載之積載因素(S.F.)為54 和60的載貨比較，同一貨艙滿載狀態下，下 列陳述何者有誤？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "S.F. 54 的貨物較重",
+      "B": "兩者貨物體積相同",
+      "C": "S.F. 60 的載貨量較多",
+      "D": "兩者當滿裝貨艙時重心高度一樣"
     },
     "answer": "C",
     "image": "",
@@ -33615,20 +33363,6 @@
   },
   {
     "year": "111-1",
-    "subject": "航行安全與氣象",
-    "question": "21. 如圖所示，圖左上角圖名中WTAS代表亞洲熱帶氣旋警報圖，而07之意義為何？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "",
-    "groupId": "NSM_111-1_21"
-  },
-  {
-    "year": "111-1",
     "subject": "船舶通訊與航海英文",
     "question": "21. Single turn is an effective manoeuvring method for the ______ situation.",
     "options": {
@@ -33760,8 +33494,8 @@
     "options": {
       "A": "切點",
       "B": "切點之相反點",
-      "C": "",
-      "D": ""
+      "C": "球心",
+      "D": "無窮遠處"
     },
     "answer": "C",
     "image": "",
@@ -33786,10 +33520,10 @@
     "subject": "航行安全與氣象",
     "question": "24. 以下何者情境，應視為有碰撞危機？",
     "options": {
-      "A": "00：00，目標船相對方位030，距離15 Cable，00：06，相對方位050，距離10",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "00：00，目標船相對方位030，距離15 Cable，00：06，相對方位050，距離10 Cable，00：12，相對方位070，距離5 Cable",
+      "B": "00：00，目標船相對方位036，距離10浬，00：06，相對方位030，距離9浬，00：12，相對方 位024，距離8浬",
+      "C": "00：00，目標船相對方位001，距離3浬，00：03，相對方位001，距離2浬，00：06，相對方位 001，距離1浬",
+      "D": "00：00，目標船相對方位001，距離3浬，00：03，相對方位031，距離2浬，00：06，相對方位 061，距離1浬"
     },
     "answer": "C",
     "image": "",
@@ -33830,8 +33564,8 @@
     "options": {
       "A": "1166.67",
       "B": "1266.67",
-      "C": "",
-      "D": ""
+      "C": "1366.67",
+      "D": "1466.67"
     },
     "answer": "D",
     "image": "",
@@ -34083,7 +33817,7 @@
       "A": "15/17",
       "B": "60/62",
       "C": "75/76",
-      "D": ""
+      "D": "88/90"
     },
     "answer": "C",
     "image": "",
@@ -34235,9 +33969,9 @@
     "question": "32. 正橫前方來風，靜止中的船舶，其船首會如何偏轉？",
     "options": {
       "A": "向下風偏轉，直到正橫方向受風為止",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "向下風偏轉，直到正艉方向受風為止",
+      "C": "向上風偏轉，直到正橫方向受風為止",
+      "D": "向上風偏轉，直到正艏方向受風為止"
     },
     "answer": "A",
     "image": "",
@@ -35090,8 +34824,8 @@
     "options": {
       "A": "撥快一小時",
       "B": "撥慢一小時",
-      "C": "",
-      "D": ""
+      "C": "減少一天",
+      "D": "增加一天"
     },
     "answer": "A",
     "image": "",
@@ -35104,8 +34838,8 @@
     "options": {
       "A": "A類",
       "B": "B類",
-      "C": "",
-      "D": ""
+      "C": "C類",
+      "D": "D類"
     },
     "answer": "A",
     "image": "",
@@ -35117,9 +34851,9 @@
     "question": "8. 夜班航行員在交接前，應先閱讀船長之夜令簿，有關其指定內容之敘述，下列何者錯誤？",
     "options": {
       "A": "轉向時應注意的事項",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "與他船保持安全距離",
+      "C": "閱後簽字並遵照執行",
+      "D": "對內容如有疑問時，仍應簽字，但可以不遵照執行，待隔天向船長請示"
     },
     "answer": "D",
     "image": "",
@@ -35186,10 +34920,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "9. To reverse the action of a windlass to ease the cable of anchor, the proper order is:",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Walk back",
+      "B": "Walk out",
+      "C": "Take back",
+      "D": "Watch out"
     },
     "answer": "A",
     "image": "",
@@ -35463,6 +35197,20 @@
   },
   {
     "year": "111-2",
+    "subject": "船舶通訊與航海英文",
+    "question": "14. 在基隆港管制區範圍內航行之船舶，除VHF16頻道外，還應守值VHF那個頻道，可作為船 舶報到及船岸聯絡之用？",
+    "options": {
+      "A": "14",
+      "B": "22",
+      "C": "24",
+      "D": "70"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CNE_111-2_14"
+  },
+  {
+    "year": "111-2",
     "subject": "航海學",
     "question": "15. 已知一天體的地理位置為GP，本船當時測得此天體的觀測高度為75°36.0'，求當時本船與 GP的大圈距離為多少浬？",
     "options": {
@@ -35525,7 +35273,7 @@
       "A": "16-31-58",
       "B": "16-25-52",
       "C": "16-34-20",
-      "D": ""
+      "D": "16-39-28"
     },
     "answer": "D",
     "image": "",
@@ -35536,10 +35284,10 @@
     "subject": "貨物作業",
     "question": "16. 防滑動及傾倒之繫固，在非標準化移動式槽櫃上及船上之繫固設備，應安裝以能承受可能 引起之滑動及傾倒之橫向力與縱向力，其防滑動的繫索角度不應大於多少度？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "25",
+      "B": "30",
+      "C": "35",
+      "D": "40"
     },
     "answer": "A",
     "image": "",
@@ -35553,7 +35301,7 @@
       "A": "船身較短的船可能會在連續的波峰和波谷中起落，造成中拱或中垂",
       "B": "低速小船常抵不住大浪，無法保持航向",
       "C": "波浪與船左右搖擺（Rolling）同相位時，即便小浪亦會產生大搖擺",
-      "D": ""
+      "D": "船遭遇波浪之波長約為船長的兩倍時，會使船落入波谷"
     },
     "answer": "A",
     "image": "",
@@ -35715,20 +35463,6 @@
   },
   {
     "year": "111-2",
-    "subject": "航行安全與氣象",
-    "question": "19. 氣象傳真圖中，代表海流預報圖的圖類代號為何？",
-    "options": {
-      "A": "FW",
-      "B": "FO",
-      "C": "SO",
-      "D": "CO"
-    },
-    "answer": "B",
-    "image": "",
-    "groupId": "NSM_111-2_19"
-  },
-  {
-    "year": "111-2",
     "subject": "船舶通訊與航海英文",
     "question": "19. 圖示信號旗所代表之字母依規定全名(code word)是？",
     "options": {
@@ -35841,6 +35575,20 @@
   },
   {
     "year": "111-2",
+    "subject": "船舶通訊與航海英文",
+    "question": "21. ______ of a cargo hold indicates the cubic volume of the cargo hold when the length, breadth and depth are measured right up to the plating. In this case, the cargo is free flowing and is capable of filling the spaces between the ship's frames.",
+    "options": {
+      "A": "Grain capacity",
+      "B": "Bale capacity",
+      "C": "Hold capacity",
+      "D": "Cargo capacity"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CNE_111-2_21"
+  },
+  {
+    "year": "111-2",
     "subject": "航海學",
     "question": "22. 以磁羅經測一岸上目標，得方位128°，若已知磁羅經自差為4°E，而當地磁差為3°W，則目 標的真方位為何？",
     "options": {
@@ -35925,20 +35673,6 @@
   },
   {
     "year": "111-2",
-    "subject": "航行安全與氣象",
-    "question": "23. 如圖示狀況，彼此互見的兩艘動力船舶，出港加俥中的A輪(南向) 與路過B輪(東偏南向 )，有碰撞危機，A輪若加俥將可搶在B輪船頭前，左轉進東向航道，以下何敘述為正確？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "",
-    "groupId": "NSM_111-2_23"
-  },
-  {
-    "year": "111-2",
     "subject": "船舶通訊與航海英文",
     "question": "23. How many two-way radiotelephone apparatus shall be provided on every ocean going cargo ship of 500 gross tonnage and upwards as per SOLAS?",
     "options": {
@@ -35973,7 +35707,7 @@
       "A": "注意船舯艙間並檢視最大水尺",
       "B": "預留船舯艙間調整前後水尺差",
       "C": "最前及最後艙間預留空間調整前後水尺差",
-      "D": ""
+      "D": "最前艙裝卸重量影響前後吃水差較大"
     },
     "answer": "B",
     "image": "",
@@ -36153,9 +35887,9 @@
     "question": "27. 引水人登船後，下列何者不是船長與引水人應交換之資料？",
     "options": {
       "A": "目前本船航速、航向及主機轉速等",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "航道及港口情況、航行方法及操作意圖等",
+      "C": "船舶操縱性能，如迴轉性能、停船性能等",
+      "D": "船員人數、當值船副姓名及年資等"
     },
     "answer": "D",
     "image": "",
@@ -36279,9 +36013,9 @@
     "question": "29. 在掛旗通訊中，用以表示「貴船應掛識別信號旗」的程序信號是什麼？",
     "options": {
       "A": "VF",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "YQ",
+      "C": "ZQ",
+      "D": "ZL"
     },
     "answer": "A",
     "image": "",
@@ -36421,7 +36155,7 @@
       "A": "戶至戶之方式（Door to door）",
       "B": "戶至港之方式（Door to port）",
       "C": "港至戶之方式（Port to door）",
-      "D": ""
+      "D": "港至港之方式（Port to port）"
     },
     "answer": "C",
     "image": "",
@@ -36726,10 +36460,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "37. 根據國際海事組織標準船舶報告制度(SRS)，”N(November)”字首之後應報告之內容為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "出發港",
+      "B": "目的港",
+      "C": "下一次報告時間",
+      "D": "船舶本身瑕疵"
     },
     "answer": "C",
     "image": "",
@@ -37288,8 +37022,8 @@
     "options": {
       "A": "TML證書",
       "B": "ILL證書",
-      "C": "",
-      "D": ""
+      "C": "ISSC證書",
+      "D": "SMC證書"
     },
     "answer": "A",
     "image": "",
@@ -37312,12 +37046,12 @@
   {
     "year": "111-3",
     "subject": "船舶通訊與航海英文",
-    "question": "8. All persons who are assigned duty as officer in charge of a watch or as a rating forming part of a watch and those whose duties involve designated safety, prevention of pollution and security duties shall be provided with a rest period of not less than: a minimum of 10 hours of rest in any 24-hour period; and ____ hours in any 7-day period. The hours of rest may be divided into no more than two periods, one of which shall be at least 6 hours in length, and the intervals between consecutive periods of rest shall not exceed 14 hours. Parties may allow exceptions from the required hours of rest in paragraphs mentioned above provided that the rest period is not less",
+    "question": "8. All persons who are assigned duty as officer in charge of a watch or as a rating forming part of a watch and those whose duties involve designated safety, prevention of pollution and security duties shall be provided with a rest period of not less than: a minimum of 10 hours of rest in any 24-hour period; and ____ hours in any 7-day period. The hours of rest may be divided into no more than two periods, one of which shall be at least 6 hours in length, and the intervals between consecutive periods of rest shall not exceed 14 hours. Parties may allow exceptions from the required hours of rest in paragraphs mentioned above provided that the rest period is not less than 70 hours in any 7-day period.",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "11",
+      "B": "10",
+      "C": "70",
+      "D": "77"
     },
     "answer": "D",
     "image": "",
@@ -37328,10 +37062,10 @@
     "subject": "航海學",
     "question": "9. 有關水氣凝結物對雷達傳播能量影響之敘述，下列何者錯誤？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "雷達傳播能量會被水氣凝結物吸收，也會發生散射現象",
+      "B": "當大氣中水氣含量很高時，雷達探測距離變小",
+      "C": "雷達波長愈長，水氣凝結物對雷達探測距離影響愈大",
+      "D": "傾盆大雨時，3公分雷達波傳播能量會衰減0.1分貝/公里"
     },
     "answer": "C",
     "image": "",
@@ -37737,7 +37471,7 @@
       "A": "海上人命安全國際公約（SOLAS 1974）附則 第V章",
       "B": "航海人員訓練、發證及當值標準國際公約(STCW Code) A-VIII章",
       "C": "防止船舶污染國際公約(MARPOL 1973/78)附則 第IV章",
-      "D": ""
+      "D": "海事勞工公約(MLC 2006)標題II"
     },
     "answer": "B",
     "image": "",
@@ -37749,9 +37483,9 @@
     "question": "16. 於航行警告電傳系統(NAVTEX)中，每個航行警告區至多有幾個電台？",
     "options": {
       "A": "12",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "16",
+      "C": "20",
+      "D": "24"
     },
     "answer": "D",
     "image": "",
@@ -38137,6 +37871,20 @@
   },
   {
     "year": "111-3",
+    "subject": "航海學",
+    "question": "24. 某觀測者眼高60呎，美國Race Rock Lt.（Light List No.18650）其塔高67呎，公稱光程 （Nominal Range）19浬，求於氣象能見度為5浬時之可見燈光距離？（氣象能見度於5浬時之可見 燈光距由Nominal Range 19浬查得Luminal Range 11浬，60呎水平視距＝9.1浬；67呎水平視距 ＝9.6浬）",
+    "options": {
+      "A": "9.1浬",
+      "B": "9.6浬",
+      "C": "11浬",
+      "D": "19浬"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "NAV_111-3_24"
+  },
+  {
+    "year": "111-3",
     "subject": "貨物作業",
     "question": "24. 國際海事固體散裝貨物作業章程中的MHB，指的是何類物質？",
     "options": {
@@ -38157,7 +37905,7 @@
       "A": "兩長聲後繼之一短聲",
       "B": "兩長聲",
       "C": "一長聲",
-      "D": ""
+      "D": "急促之短聲至少五響"
     },
     "answer": "D",
     "image": "",
@@ -38166,12 +37914,12 @@
   {
     "year": "111-3",
     "subject": "船舶通訊與航海英文",
-    "question": "24. The horizontal B and C components of ______ magnetism cause various deviations of the",
+    "question": "24. The horizontal B and C components of ______ magnetism cause various deviations of the magnetic compass when the ship swings in heading on an even keel. Plotting such deviations against compass heading yields the sine and cosine curves.",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "induced",
+      "B": "temporary",
+      "C": "permanent",
+      "D": "transient"
     },
     "answer": "C",
     "image": "",
@@ -38194,12 +37942,12 @@
   {
     "year": "111-3",
     "subject": "貨物作業",
-    "question": "25. 依IMSBC Code規定，當託運人告知裝載的煤炭可能自熱時，該貨物應在其溫度不高於攝",
+    "question": "25. 依IMSBC Code規定，當託運人告知裝載的煤炭可能自熱時，該貨物應在其溫度不高於攝 氏幾度方可裝載?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "45°",
+      "B": "50°",
+      "C": "55°",
+      "D": "60°"
     },
     "answer": "C",
     "image": "",
@@ -38586,12 +38334,12 @@
   {
     "year": "111-3",
     "subject": "船舶通訊與航海英文",
-    "question": "32. You are kindly requested to supply the necessary “tallymen” to do _________ on board the",
+    "question": "32. You are kindly requested to supply the necessary “tallymen” to do _________ on board the ship during the discharging of the cargo.",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "the cargo loading / discharge management work",
+      "B": "the lashing work",
+      "C": "the cargo hold cleaning work",
+      "D": "the work of opening and closing hatches"
     },
     "answer": "A",
     "image": "",
@@ -38618,8 +38366,8 @@
     "options": {
       "A": "翼艙",
       "B": "艉尖艙",
-      "C": "",
-      "D": ""
+      "C": "二層甲板貨艙",
+      "D": "下層貨艙"
     },
     "answer": "D",
     "image": "",
@@ -39019,27 +38767,13 @@
   },
   {
     "year": "111-3",
-    "subject": "航行安全與氣象",
-    "question": "40. 彩色地面天氣圖中，鋒面的線條符號為藍色，表示下列何者？",
-    "options": {
-      "A": "滯留鋒",
-      "B": "囚錮鋒",
-      "C": "冷鋒",
-      "D": "暖鋒"
-    },
-    "answer": "C",
-    "image": "",
-    "groupId": "NSM_111-3_40"
-  },
-  {
-    "year": "111-3",
     "subject": "船舶通訊與航海英文",
     "question": "40. When a ship has a comparatively large GM, for example 2m to 3m, the righting moments at small angles of heel will also be comparatively large. A ship in this condition is said to be _______.",
     "options": {
       "A": "hard",
       "B": "soft",
-      "C": "",
-      "D": ""
+      "C": "stiff",
+      "D": "tender"
     },
     "answer": "C",
     "image": "",
@@ -39142,6 +38876,20 @@
     "answer": "A",
     "image": "",
     "groupId": "NAV_111-4_3"
+  },
+  {
+    "year": "111-4",
+    "subject": "貨物作業",
+    "question": "3. 某船排水量15000噸，裝150噸淡水，1000噸油料，300噸補給，今欲裝載小麥(S.F. 55立方 呎/噸)，貨艙容積540000立方呎，求出貨艙實際可載重量為多少？",
+    "options": {
+      "A": "8798.2噸",
+      "B": "9248.2噸",
+      "C": "9818.2噸",
+      "D": "11248.2噸"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_111-4_3"
   },
   {
     "year": "111-4",
@@ -39383,6 +39131,20 @@
   },
   {
     "year": "111-4",
+    "subject": "船舶通訊與航海英文",
+    "question": "7. What’s the part name of life boat that marked “C”?",
+    "options": {
+      "A": "Winch",
+      "B": "Fall",
+      "C": "Skid",
+      "D": "Cradle"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CNE_111-4_7"
+  },
+  {
+    "year": "111-4",
     "subject": "航海學",
     "question": "8. 本船真航向210°，今欲利用測天校正本船的航向線，則天體真方位應為多少？",
     "options": {
@@ -39443,9 +39205,9 @@
     "question": "9. 天體上中天時的LHA為下列何者？",
     "options": {
       "A": "270°",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "180°",
+      "C": "090°",
+      "D": "000°"
     },
     "answer": "D",
     "image": "",
@@ -39472,8 +39234,8 @@
     "options": {
       "A": "黃色",
       "B": "白色",
-      "C": "",
-      "D": ""
+      "C": "紅色",
+      "D": "灰色"
     },
     "answer": "A",
     "image": "",
@@ -39570,8 +39332,8 @@
     "options": {
       "A": "在運送時其水分含量若超過適運水分含量限制即可能會液化",
       "B": "具有化學危險性且在船上可能會引起危險狀況",
-      "C": "",
-      "D": ""
+      "C": "不易於液化且不具化學危險性",
+      "D": "易於液化且不具化學危險性"
     },
     "answer": "B",
     "image": "",
@@ -39646,6 +39408,20 @@
     "answer": "B",
     "image": "",
     "groupId": "NSM_111-4_12"
+  },
+  {
+    "year": "111-4",
+    "subject": "船舶通訊與航海英文",
+    "question": "12. While conducting Williamson turn, what heading is the time to place the helm hard over to the other side?",
+    "options": {
+      "A": "40 degrees from the original course.",
+      "B": "60 degrees from the original course.",
+      "C": "80 degrees from the original course.",
+      "D": "90 degrees from the original course."
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CNE_111-4_12"
   },
   {
     "year": "111-4",
@@ -39877,9 +39653,9 @@
     "question": "17. 下列何項是GPS之定位原理？",
     "options": {
       "A": "量測衛星訊號至接收機天線之抵達時間（Time of arrival）",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "量測衛星訊號之都卜勒頻變（Doppler shift）",
+      "C": "量測衛星訊號之相位差（Phase difference）",
+      "D": "量測衛星訊號之波長差（Wave length difference）"
     },
     "answer": "A",
     "image": "",
@@ -40005,7 +39781,7 @@
       "A": "12",
       "B": "15",
       "C": "20",
-      "D": ""
+      "D": "25"
     },
     "answer": "A",
     "image": "",
@@ -40084,12 +39860,12 @@
   {
     "year": "111-4",
     "subject": "船舶通訊與航海英文",
-    "question": "20. 某船舶於「波羅的海」沿岸航行，誤闖某國軍事管制區。該輪嘗試退出該區，但是收到岸",
+    "question": "20. 某船舶於「波羅的海」沿岸航行，誤闖某國軍事管制區。該輪嘗試退出該區，但是收到岸 上發出的摩爾斯“X”燈號，問其意義為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "You are dragging.",
+      "B": "Stop carrying out your intentions and watch for my signals.",
+      "C": "You should stop your vessel instantly.",
+      "D": "I have a pilot on board."
     },
     "answer": "B",
     "image": "",
@@ -40410,8 +40186,8 @@
     "options": {
       "A": "選用較大距離圈時，應特別注意微弱回跡可能無法判讀",
       "B": "預知能見度可能受限時，應開啟雷達",
-      "C": "",
-      "D": ""
+      "C": "近岸航行時應選用較小距離圈",
+      "D": "大洋航行期間不需使用雷達"
     },
     "answer": "D",
     "image": "",
@@ -40453,7 +40229,7 @@
       "A": "不能摺疊之固定結構",
       "B": "上、下四角均有櫃角裝置以便於裝卸、吊櫃、堆積、固定",
       "C": "底板下設有叉動孔（Fork pocket），以便堆高機搬運堆積之用",
-      "D": ""
+      "D": "貨櫃兩端均有櫃門，以方便裝卸貨物"
     },
     "answer": "D",
     "image": "",
@@ -40481,7 +40257,7 @@
       "A": "－－．",
       "B": "－．－",
       "C": "．－．",
-      "D": ""
+      "D": "．－－"
     },
     "answer": "C",
     "image": "",
@@ -40829,9 +40605,9 @@
     "question": "34. 承上題，若設定轉向點與起航點的大圈弧20° (即大圈距離約1200浬)，則該大圈航路上的此 轉向點位置為何？",
     "options": {
       "A": "27°49.7'N, 048°27.8'W",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "29°19.7'N, 050°52.7'W",
+      "C": "29°34.0'N, 053°14.0'W",
+      "D": "32°22.1'N, 055°39.6'W"
     },
     "answer": "C",
     "image": "",
@@ -41654,10 +41430,10 @@
     "subject": "航海學",
     "question": "9. 若測太陽之下緣所得之六分儀高度Hs，必須修正視半徑SD才可獲得天體中心之高度，此時 SD修正量應為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "SD修正量應為正",
+      "B": "SD修正量應為負",
+      "C": "SD修正量應為0",
+      "D": "SD修正量應為1"
     },
     "answer": "A",
     "image": "",
@@ -41682,10 +41458,10 @@
     "subject": "航行安全與氣象",
     "question": "9. 在分道航行區內，在適宜之航行巷道內，依該巷道一般通行方向航行之船，與它船相遇時 ，屬下述哪一類船？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "直航船",
+      "B": "讓路船",
+      "C": "操作受限制船",
+      "D": "視相遇態勢情況而定"
     },
     "answer": "D",
     "image": "",
@@ -42104,8 +41880,8 @@
     "options": {
       "A": "X Band雷達的波長比較短",
       "B": "X Band雷達的測距比較近",
-      "C": "",
-      "D": ""
+      "C": "X Band雷達對近距離目標探測比較清楚精確",
+      "D": "X Band雷達對雨雪海浪比較不受干擾"
     },
     "answer": "D",
     "image": "",
@@ -42117,13 +41893,27 @@
     "question": "17. 穀物的運送，專用艙間若隔板為傾斜者，其與水平所成之角度有何規定？",
     "options": {
       "A": "傾斜角小於30度",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "傾斜角大於30度",
+      "C": "傾斜角小於12度",
+      "D": "傾斜角大於12度"
     },
     "answer": "B",
     "image": "",
     "groupId": "CAR_112-1_17"
+  },
+  {
+    "year": "112-1",
+    "subject": "航行安全與氣象",
+    "question": "17. 依國際海上避碰規則規定，顯示漁船群集捕魚時之增設信號號燈，長度未滿多少公尺從事 雙拖拖網作業時之船舶，不論使用海底還是深海漁具，可視情況顯示從事圍網捕魚以外之拖網漁船 信號號燈？",
+    "options": {
+      "A": "20",
+      "B": "24",
+      "C": "30",
+      "D": "36"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "NSM_112-1_17"
   },
   {
     "year": "112-1",
@@ -42536,10 +42326,10 @@
     "subject": "航海學",
     "question": "25. 船舶在大洋航行時，使用GPS定位，正常情況下，影響船舶定位最大的誤差源為下列何者?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "多路徑折射",
+      "B": "星曆誤差",
+      "C": "電離層延遲誤差",
+      "D": "對流層延遲誤差"
     },
     "answer": "C",
     "image": "",
@@ -42548,12 +42338,12 @@
   {
     "year": "112-1",
     "subject": "貨物作業",
-    "question": "25. 貨物由託運人經內陸運輸系統運送抵港埠貨櫃集散站，或內陸貨櫃集散站，經辦妥通關手 續後，由運送人負責按同一目的港與同一受貨人併櫃，加封、拖運至港埠貨櫃場裝船，經海洋運抵",
+    "question": "25. 貨物由託運人經內陸運輸系統運送抵港埠貨櫃集散站，或內陸貨櫃集散站，經辦妥通關手 續後，由運送人負責按同一目的港與同一受貨人併櫃，加封、拖運至港埠貨櫃場裝船，經海洋運抵 目的港後，經由內陸運輸系統將貨櫃運送到受貨人之倉庫啟封、拆櫃、驗關。此種貨櫃化運輸之方 式稱之為甚麼方式？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "港至港之方式（Port to port）",
+      "B": "港至戶之方式（Port to door）",
+      "C": "戶至港之方式（Door to port）",
+      "D": "戶至戶之方式（Door to door）"
     },
     "answer": "B",
     "image": "",
@@ -42917,7 +42707,7 @@
       "A": "At the first port of call in each country, the time of free pratique granted should be entered in logbooks.",
       "B": "Unauthorized persons are permitted to read logbooks.",
       "C": "Cargo discharging should not be mentioned in logbooks.",
-      "D": ""
+      "D": "When ships are in repair yards, the logbooks are not necessary to be applied."
     },
     "answer": "A",
     "image": "",
@@ -42986,8 +42776,8 @@
     "options": {
       "A": "17°11.5'S",
       "B": "19°46.3'S",
-      "C": "",
-      "D": ""
+      "C": "21°53.0'S",
+      "D": "24°58.5'S"
     },
     "answer": "A",
     "image": "",
@@ -43006,20 +42796,6 @@
     "answer": "A",
     "image": "",
     "groupId": "CAR_112-1_33"
-  },
-  {
-    "year": "112-1",
-    "subject": "航行安全與氣象",
-    "question": "33. 夜間，瞭望時看到他船之號燈顯示如附圖，應為何種船？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "",
-    "groupId": "NSM_112-1_33"
   },
   {
     "year": "112-1",
@@ -43398,6 +43174,20 @@
     "answer": "B",
     "image": "",
     "groupId": "CAR_112-1_40"
+  },
+  {
+    "year": "112-1",
+    "subject": "航行安全與氣象",
+    "question": "40. 確定順流，採取港內拋錨調頭，右旋單俥船舶應採取下列何法為佳？",
+    "options": {
+      "A": "拋左錨、向左調頭",
+      "B": "拋右錨、向右調頭",
+      "C": "拋左錨、向右調頭",
+      "D": "拋右錨、向左調頭"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "NSM_112-1_40"
   },
   {
     "year": "112-1",
@@ -43793,6 +43583,20 @@
   },
   {
     "year": "112-2",
+    "subject": "船舶通訊與航海英文",
+    "question": "7. Please refer to the attached sextant figure, the part that marked 「J」is:",
+    "options": {
+      "A": "Telescope",
+      "B": "Frame",
+      "C": "Arc",
+      "D": "Index arm"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CNE_112-2_7"
+  },
+  {
+    "year": "112-2",
     "subject": "航海學",
     "question": "8. 下列何者為ENC經由ECDIS轉換與適當使用,或經航海員以適當方法修正過而得到之資料庫?",
     "options": {
@@ -43986,6 +43790,20 @@
     "answer": "B",
     "image": "",
     "groupId": "CAR_112-2_11"
+  },
+  {
+    "year": "112-2",
+    "subject": "船舶通訊與航海英文",
+    "question": "11. Fire extinguishers onboard ships are required to equip with ______containing the information about the expiration date, examination record and the status of the extinguishers. Such information is often examined by Post State Control Officers when necessary.",
+    "options": {
+      "A": "audit cards",
+      "B": "inspection tags",
+      "C": "scrutiny cards",
+      "D": "check lists"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CNE_112-2_11"
   },
   {
     "year": "112-2",
@@ -44274,8 +44092,8 @@
     "options": {
       "A": "04-44-24",
       "B": "07-15-36",
-      "C": "",
-      "D": ""
+      "C": "16-44-24",
+      "D": "19-15-36"
     },
     "answer": "D",
     "image": "",
@@ -44428,8 +44246,8 @@
     "options": {
       "A": "fire fighting assistance",
       "B": "breathing apparatus",
-      "C": "",
-      "D": ""
+      "C": "foam extinguishers",
+      "D": "fire pump"
     },
     "answer": "B",
     "image": "",
@@ -44583,7 +44401,7 @@
       "A": "20",
       "B": "24",
       "C": "30",
-      "D": ""
+      "D": "36"
     },
     "answer": "A",
     "image": "",
@@ -44774,12 +44592,12 @@
   {
     "year": "112-2",
     "subject": "航海學",
-    "question": "26. 若用水平線求六分儀的指標差，當水平線的直接影像與反射影像成一直線時，指標桿指在",
+    "question": "26. 若用水平線求六分儀的指標差，當水平線的直接影像與反射影像成一直線時，指標桿指在 0°與（-）1°之間，微分鼓之讀數為58.6'，則IC為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "+1.4'",
+      "B": "-1.4'",
+      "C": "+58.6'",
+      "D": "-58.6'"
     },
     "answer": "A",
     "image": "",
@@ -44872,12 +44690,12 @@
   {
     "year": "112-2",
     "subject": "船舶通訊與航海英文",
-    "question": "27. The direction of the _________ will change in two hours. Which of the following words is",
+    "question": "27. The direction of the _________ will change in two hours. Which of the following words is incorrect?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "current",
+      "B": "wind",
+      "C": "rain",
+      "D": "tide"
     },
     "answer": "C",
     "image": "",
@@ -45157,7 +44975,7 @@
       "A": "01°49.7'S, 093°27.8'W",
       "B": "03°06.1'S, 095°34.7'W",
       "C": "05°19.7'S, 093°52.7'W",
-      "D": ""
+      "D": "05°22.1'S, 095°39.6'W"
     },
     "answer": "B",
     "image": "",
@@ -45308,10 +45126,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "35. The following signals are distress signals except:",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Flames on the vessel.",
+      "B": "Basket hanging in the rigging.",
+      "C": "A smoke signal giving off orange-coloured smoke.",
+      "D": "A rocket parachute flare."
     },
     "answer": "B",
     "image": "",
@@ -45865,20 +45683,6 @@
   },
   {
     "year": "112-3",
-    "subject": "貨物作業",
-    "question": "6. 下圖為甲板貨櫃積載圖，請問圖示內Bay Plan左上方邊框內之甲板上貨櫃Row為多少？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "C",
-    "image": "",
-    "groupId": "CAR_112-3_6"
-  },
-  {
-    "year": "112-3",
     "subject": "船舶通訊與航海英文",
     "question": "6. A vessel is moored with both anchors leading ahead on open moor. What is the open angle of both chains while the stress of each cable equal to the stress of vessel lying to a single anchor dead ahead?",
     "options": {
@@ -45955,7 +45759,7 @@
       "A": "LHA☆=040°",
       "B": "LHA☆=180°",
       "C": "LHA☆=220°",
-      "D": ""
+      "D": "LHA☆=240°"
     },
     "answer": "D",
     "image": "",
@@ -45997,7 +45801,7 @@
       "A": "Plimsoll mark.",
       "B": "Plimsol mark.",
       "C": "Plymouth mark.",
-      "D": ""
+      "D": "Plymsol mark."
     },
     "answer": "A",
     "image": "",
@@ -46072,6 +45876,20 @@
     "answer": "B",
     "image": "",
     "groupId": "NAV_112-3_10"
+  },
+  {
+    "year": "112-3",
+    "subject": "貨物作業",
+    "question": "10. 某船之排水量為18000 Tons，在純海水中平均吃水12m，今駛入一密度為1.010之水域中 ，已知該船之TPC為20，求新平均吃水為多少？",
+    "options": {
+      "A": "11m13.36cm",
+      "B": "11m86.64cm",
+      "C": "12m13.36cm",
+      "D": "12m86.64cm"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_112-3_10"
   },
   {
     "year": "112-3",
@@ -46346,8 +46164,8 @@
     "options": {
       "A": "一又二分之一",
       "B": "二",
-      "C": "",
-      "D": ""
+      "C": "二又二分之一",
+      "D": "三"
     },
     "answer": "B",
     "image": "",
@@ -46366,6 +46184,20 @@
     "answer": "B",
     "image": "",
     "groupId": "CNE_112-3_15"
+  },
+  {
+    "year": "112-3",
+    "subject": "航海學",
+    "question": "16. 下列六分儀的誤差項目中，何者為不可調整的誤差？",
+    "options": {
+      "A": "邊差",
+      "B": "刻度差",
+      "C": "垂直差",
+      "D": "指標差"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "NAV_112-3_16"
   },
   {
     "year": "112-3",
@@ -46402,8 +46234,8 @@
     "options": {
       "A": "1",
       "B": "2",
-      "C": "",
-      "D": ""
+      "C": "3",
+      "D": "4"
     },
     "answer": "D",
     "image": "",
@@ -46778,10 +46610,10 @@
     "subject": "航行安全與氣象",
     "question": "23. 有關船舶設定航道系統，下列描述何者正確？甲.雙向航道是指在規定之界限內建立雙向通 航，這是為通過航行困難或危險水域之船舶提供安全通道的一種措施；乙.建議航路是指經過特別選 擇以儘可能保證無危險存在，並建議船舶沿其航行之一種航路；丙.建議航道是為方便船舶通過而設 置之未規定寬度的一種航路，往往以中心線浮標作為標誌。",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "僅 甲",
+      "B": "僅 乙",
+      "C": "僅 丙",
+      "D": "甲、乙、丙三者"
     },
     "answer": "D",
     "image": "",
@@ -47031,9 +46863,9 @@
     "question": "28. 某散裝貨船船長285m，裝完貨後艏水尺10.30m、船舯水尺10.80m、艉水尺11.22m，請問 船處於何種狀態？",
     "options": {
       "A": "Sagging 且Trim by Head",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "Sagging且Trim by Stern",
+      "C": "Hogging、且Trim by Head",
+      "D": "Hogging且Trim by Stern"
     },
     "answer": "B",
     "image": "",
@@ -47284,8 +47116,8 @@
     "options": {
       "A": "2037年",
       "B": "2038年",
-      "C": "",
-      "D": ""
+      "C": "2047年",
+      "D": "2048年"
     },
     "answer": "B",
     "image": "",
@@ -47325,9 +47157,9 @@
     "question": "33. 於日間，遇險中船舶或人員利用岸上救生設備時，表示「否定」的信號是：",
     "options": {
       "A": "白旗一面或兩臂作上下揮動",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "白旗一面或兩臂平伸作水平揮動",
+      "C": "紅旗一面作上下揮動",
+      "D": "紅旗一面作水平揮動"
     },
     "answer": "B",
     "image": "",
@@ -47465,9 +47297,9 @@
     "question": "36. 由於船艙左右兩側之貨重分配不均，對船舶艏艉縱軸所造成的應力為下列何種？",
     "options": {
       "A": "俯仰差力矩（Trim moment）",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "剪力（Shearing force）",
+      "C": "彎曲力矩（Bending moment）",
+      "D": "扭曲力矩（Torsion moment）"
     },
     "answer": "D",
     "image": "",
@@ -47479,9 +47311,9 @@
     "question": "36. 下列何者為海圖上DW代表的意義？",
     "options": {
       "A": "深水航道",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "雙向航道",
+      "C": "管制航道",
+      "D": "建議航道"
     },
     "answer": "A",
     "image": "",
@@ -48165,9 +47997,9 @@
     "question": "9. 同時利用數個岸上目標方位所測得之船位稱為何？",
     "options": {
       "A": "推算（DR）",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "定位（Fix）",
+      "C": "航進定位（R. Fix）",
+      "D": "估計（EP）"
     },
     "answer": "B",
     "image": "",
@@ -48192,10 +48024,10 @@
     "subject": "航行安全與氣象",
     "question": "9. 所謂限制水域指水深在船舶吃水的幾倍及航路寬度在船寬的幾倍以下之水域？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "1；5",
+      "B": "2；6",
+      "C": "3；7",
+      "D": "3；8"
     },
     "answer": "D",
     "image": "",
@@ -48206,10 +48038,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "9. 依SMCP標準海事通信用語 : 欲詢問VTS站「我船可以進入航道嗎？」其正確用語為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "May I enter the fairway?",
+      "B": "Could I enter the fairway?",
+      "C": "Intention, should I enter the fairway?",
+      "D": "Question, do I have permission to enter the fairway?"
     },
     "answer": "D",
     "image": "",
@@ -48242,20 +48074,6 @@
     "answer": "C",
     "image": "",
     "groupId": "CAR_112-4_10"
-  },
-  {
-    "year": "112-4",
-    "subject": "航行安全與氣象",
-    "question": "10. 可見光衛星傳真雲圖中，在海洋上顯示的黑色區域表示為？",
-    "options": {
-      "A": "雨天",
-      "B": "晴天",
-      "C": "陰天",
-      "D": "多雲"
-    },
-    "answer": "B",
-    "image": "",
-    "groupId": "NSM_112-4_10"
   },
   {
     "year": "112-4",
@@ -48400,12 +48218,12 @@
   {
     "year": "112-4",
     "subject": "貨物作業",
-    "question": "13. 依據IMDG Code的規範，裝有海洋污染物之包裝件，單一包裝容器的內層包裝容器(Inner",
+    "question": "13. 依據IMDG Code的規範，裝有海洋污染物之包裝件，單一包裝容器的內層包裝容器(Inner package)，固體貨物不超過幾公斤時，可不用持久標示海洋汙染物標記？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
     },
     "answer": "D",
     "image": "",
@@ -48615,7 +48433,7 @@
       "A": "日行圈",
       "B": "高度平行圈",
       "C": "等高圈",
-      "D": ""
+      "D": "赤緯平行圈"
     },
     "answer": "C",
     "image": "",
@@ -48852,8 +48670,8 @@
     "options": {
       "A": "GM",
       "B": "排水量",
-      "C": "",
-      "D": ""
+      "C": "方塊係數",
+      "D": "船舶常數"
     },
     "answer": "A",
     "image": "",
@@ -49118,8 +48936,8 @@
     "options": {
       "A": "接收器誤差",
       "B": "電離層延遲誤差",
-      "C": "",
-      "D": ""
+      "C": "對流層延遲誤差",
+      "D": "衛星星歷誤差"
     },
     "answer": "A",
     "image": "",
@@ -49142,12 +48960,12 @@
   {
     "year": "112-4",
     "subject": "航行安全與氣象",
-    "question": "26. 依據船舶實際觀測所蒐集的風向、風速、波高、波向及週期等資料，再加以分析所繪製出",
+    "question": "26. 依據船舶實際觀測所蒐集的風向、風速、波高、波向及週期等資料，再加以分析所繪製出 來的有效波高，且以箭頭標示主要波向者，稱為下列何者？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "海況圖",
+      "B": "波浪圖",
+      "C": "海流圖",
+      "D": "波向圖"
     },
     "answer": "B",
     "image": "",
@@ -49354,10 +49172,10 @@
     "subject": "貨物作業",
     "question": "30. 有關船體平衡狀態之敘述，下列何者正確？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "船舶在一定排水量時，其橫向穩定中心位置為一定",
+      "B": "橫向穩定中心與浮心相距愈遠時，其橫向穩定性愈佳",
+      "C": "在正常情形下，船體之橫向穩定中心皆位於重心之下方",
+      "D": "船體之重心愈低其橫向穩定性愈差"
     },
     "answer": "A",
     "image": "",
@@ -49550,10 +49368,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "33. 依據SOLAS公約多少總噸以上貨船必需配置GMDSS設備？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "100",
+      "B": "200",
+      "C": "300",
+      "D": "400"
     },
     "answer": "C",
     "image": "",
@@ -49594,8 +49412,8 @@
     "options": {
       "A": "As",
       "B": "Cs",
-      "C": "",
-      "D": ""
+      "C": "St",
+      "D": "Ns"
     },
     "answer": "C",
     "image": "",
@@ -49782,6 +49600,20 @@
     "answer": "B",
     "image": "",
     "groupId": "NAV_112-4_35"
+  },
+  {
+    "year": "112-4",
+    "subject": "貨物作業",
+    "question": "38. 由於船舶所裝貨物種類及分布情況不同，對船舶所產生之作用也不同，就垂直向而言，若 所載貨重集中於船體上部，則下列何者正確？",
+    "options": {
+      "A": "浮面心必偏低",
+      "B": "浮面心必偏高",
+      "C": "重心位置必偏高",
+      "D": "重心位置必偏低"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_112-4_38"
   },
   {
     "year": "112-4",
@@ -50219,13 +50051,27 @@
   },
   {
     "year": "113-1",
+    "subject": "航海學",
+    "question": "7. 已知緯度55°N與赤緯22°N，求餘緯多少度？",
+    "options": {
+      "A": "33°",
+      "B": "35°",
+      "C": "68°",
+      "D": "77°"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "NAV_113-1_7"
+  },
+  {
+    "year": "113-1",
     "subject": "貨物作業",
     "question": "7. IMDG Code之「危險貨物一覽表」第16欄位係標示「積載及隔離(Stowage and Segregation)」，試問下列何項係針對第1類危險貨物的正確標示？",
     "options": {
       "A": "Category A",
       "B": "Category 03",
       "C": "IBC02",
-      "D": ""
+      "D": "TP33"
     },
     "answer": "B",
     "image": "",
@@ -50342,20 +50188,6 @@
     "answer": "A",
     "image": "",
     "groupId": "CAR_113-1_9"
-  },
-  {
-    "year": "113-1",
-    "subject": "航行安全與氣象",
-    "question": "9. 有關分道通航制，圖中之匯合點區域，代表何種意義？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "",
-    "groupId": "NSM_113-1_9"
   },
   {
     "year": "113-1",
@@ -50513,6 +50345,20 @@
   },
   {
     "year": "113-1",
+    "subject": "船舶通訊與航海英文",
+    "question": "12. What do we call a point of contact between the turning circle and the middle line of a ship?",
+    "options": {
+      "A": "Pitch point.",
+      "B": "Metacenter.",
+      "C": "Gravity center.",
+      "D": "Pivot point."
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "CNE_113-1_12"
+  },
+  {
+    "year": "113-1",
     "subject": "航海學",
     "question": "13. 某船依平行航法(Parallel Sailing)航行，若航行81浬時其經度差恰為1.5°，則請問該船可能 位於下列哪一個緯度上？",
     "options": {
@@ -50583,6 +50429,20 @@
   },
   {
     "year": "113-1",
+    "subject": "貨物作業",
+    "question": "14. “Weather-tight are meaning that water not penetrate into the ship in any sea condition”是 下列何公約對艙口蓋之嚴格規定？",
+    "options": {
+      "A": "BWMS",
+      "B": "STCW",
+      "C": "SOLAS",
+      "D": "MARPOL"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_113-1_14"
+  },
+  {
+    "year": "113-1",
     "subject": "航行安全與氣象",
     "question": "14. 依據國際海上避碰規則，以下何種情況才符合互見in sight of one another的定義？",
     "options": {
@@ -50615,9 +50475,9 @@
     "question": "15. 依據IMO Performance standards for ARPA (設置標準)，下列那一個雷達測程(range scales)，並不強制一定要有ARPA功能？",
     "options": {
       "A": "1.5",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "3",
+      "C": "6",
+      "D": "12"
     },
     "answer": "A",
     "image": "",
@@ -50762,6 +50622,20 @@
     "answer": "C",
     "image": "",
     "groupId": "CAR_113-1_18"
+  },
+  {
+    "year": "113-1",
+    "subject": "航行安全與氣象",
+    "question": "18. 當能見度遭受或預期受限制時，負責航行當值航行員之首要責任除遵照一九七二年國際海 上避碰規則之有關規定之外，尤應注意霧號之施放，以安全速度航行，並使主機備便俾立即操縱 ，以下哪項不是負責航行當值之航行員應注意之重要事項？",
+    "options": {
+      "A": "通知船長",
+      "B": "顯示航行燈",
+      "C": "校對天文鐘",
+      "D": "操作並使用雷達"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "NSM_113-1_18"
   },
   {
     "year": "113-1",
@@ -50966,8 +50840,8 @@
     "options": {
       "A": "排水量曲線圖",
       "B": "浮面中心距基線高度曲線圖",
-      "C": "",
-      "D": ""
+      "C": "浮心距基線高度曲線圖",
+      "D": "水線面積曲線圖"
     },
     "answer": "D",
     "image": "",
@@ -51000,6 +50874,20 @@
     "answer": "A",
     "image": "",
     "groupId": "CNE_113-1_22"
+  },
+  {
+    "year": "113-1",
+    "subject": "航海學",
+    "question": "23. 下列有關子午線的敘述，何者錯誤？",
+    "options": {
+      "A": "子午線為大圈線不是恆向線",
+      "B": "子午線必經過南北兩極",
+      "C": "經度線為子午線",
+      "D": "子午線平面與赤道平面垂直"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "NAV_113-1_23"
   },
   {
     "year": "113-1",
@@ -51385,9 +51273,9 @@
     "question": "30. 冷藏貨艙預冷(Precooling)，最低限度是在裝貨前若干小時，使艙內之溫度達到規定之溫度 ？",
     "options": {
       "A": "6",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "12",
+      "C": "24",
+      "D": "30"
     },
     "answer": "C",
     "image": "",
@@ -51610,8 +51498,8 @@
     "options": {
       "A": "船舶通過外防波堤中心的時間",
       "B": "船舶通過內港防波堤堤口的時間",
-      "C": "",
-      "D": ""
+      "C": "船舶通過引水站的時間",
+      "D": "引水人下船的時間"
     },
     "answer": "A",
     "image": "",
@@ -51653,7 +51541,7 @@
       "A": "南北兩極周圍海水因深度不同有明顯差別",
       "B": "溫度分層，其原因是對流所致",
       "C": "北半球年均溫較南半球低",
-      "D": ""
+      "D": "其等溫線大致與等緯度線平行"
     },
     "answer": "D",
     "image": "",
@@ -51736,8 +51624,8 @@
     "options": {
       "A": "31°12.2'",
       "B": "31°47.8'",
-      "C": "",
-      "D": ""
+      "C": "32°05.8'",
+      "D": "32°31.6'"
     },
     "answer": "B",
     "image": "",
@@ -52277,6 +52165,20 @@
   },
   {
     "year": "113-2",
+    "subject": "船舶通訊與航海英文",
+    "question": "5. You are the officer of the watch (OOW) of a vessel and an ordinary seaman was fallen overboard during your watch. Which of the following turns you could reach the location of man overboard fastest?",
+    "options": {
+      "A": "Williamson turn.",
+      "B": "Single delayed turn.",
+      "C": "Double turn.",
+      "D": "William and single delayed turns."
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "CNE_113-2_5"
+  },
+  {
+    "year": "113-2",
     "subject": "航海學",
     "question": "6. 月象在何時出現大潮(Spring Tides)？",
     "options": {
@@ -52316,20 +52218,6 @@
     "answer": "D",
     "image": "",
     "groupId": "CAR_113-2_6"
-  },
-  {
-    "year": "113-2",
-    "subject": "航行安全與氣象",
-    "question": "6. 有關分道通航制，圖中之標示5，代表何種意義？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "D",
-    "image": "",
-    "groupId": "NSM_113-2_6"
   },
   {
     "year": "113-2",
@@ -52423,7 +52311,7 @@
       "A": "港埠業務費",
       "B": "港工捐",
       "C": "商港建設費",
-      "D": ""
+      "D": "航港建設基金"
     },
     "answer": "D",
     "image": "",
@@ -52505,9 +52393,9 @@
     "question": "9. 圖示第幾號為貨櫃門壁板？",
     "options": {
       "A": "⑥",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "⑦",
+      "C": "⑧",
+      "D": "⑨"
     },
     "answer": "A",
     "image": "",
@@ -52744,8 +52632,8 @@
     "options": {
       "A": "黃",
       "B": "綠",
-      "C": "",
-      "D": ""
+      "C": "紅",
+      "D": "白"
     },
     "answer": "D",
     "image": "",
@@ -52865,20 +52753,6 @@
   },
   {
     "year": "113-2",
-    "subject": "航行安全與氣象",
-    "question": "14. 如圖所示，圖24°N，124°E這個點的風向、風速為何？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "",
-    "groupId": "NSM_113-2_14"
-  },
-  {
-    "year": "113-2",
     "subject": "船舶通訊與航海英文",
     "question": "14. What is MMSI？",
     "options": {
@@ -52967,9 +52841,9 @@
     "question": "16. 我國海洋污染防治法，公私場所非經主管關機許可，不得排放廢汙水於海域或與下列區域 相鄰接之海域，下列敘述何者為非？",
     "options": {
       "A": "遊憩區",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "軍事演習區",
+      "C": "特別景觀區",
+      "D": "野生動物保護區"
     },
     "answer": "B",
     "image": "",
@@ -53025,7 +52899,7 @@
       "A": "ECDIS會自動產生8m等深線",
       "B": "ECDIS海圖視窗內會將5m等深線顯示為安全等深線",
       "C": "ECDIS海圖視窗內會將10m等深線顯示為安全等深線",
-      "D": ""
+      "D": "本船即將穿越安全等深線的偵測與警告將以8m水深為準"
     },
     "answer": "C",
     "image": "",
@@ -53058,6 +52932,20 @@
     "answer": "A",
     "image": "",
     "groupId": "CAR_113-2_17"
+  },
+  {
+    "year": "113-2",
+    "subject": "航行安全與氣象",
+    "question": "17. 船舶航行在狹窄或彎曲水道中，下列何者敘述錯誤?",
+    "options": {
+      "A": "航行中船舶應避讓錨泊中的船舶",
+      "B": "順流船應讓頂流船通過危險區",
+      "C": "沒有他船仍應加強瞭望",
+      "D": "要注意岸吸及岸推作用"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "NSM_113-2_17"
   },
   {
     "year": "113-2",
@@ -53456,10 +53344,10 @@
     "subject": "貨物作業",
     "question": "23. 下列圖示載重標尺圖，當船舶在夏季載重線(S)標誌時，船舶載重噸(海水)為多少？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "17000 噸",
+      "B": "16450 噸",
+      "C": "15500 噸",
+      "D": "16300 噸"
     },
     "answer": "A",
     "image": "",
@@ -53523,17 +53411,17 @@
   },
   {
     "year": "113-2",
-    "subject": "航行安全與氣象",
-    "question": "24. 在熱帶氣旋警報圖中，以預報圓區表示未來可能影響的範圍，一般實際落入預報圓中的概 率為多少百分比(%)？",
+    "subject": "貨物作業",
+    "question": "24. 依據IMDG Code的規範，圖示標籤係標示下列何項危險貨物？",
     "options": {
-      "A": "80",
-      "B": "70",
-      "C": "60",
-      "D": "50"
+      "A": "可分裂物質",
+      "B": "污染性物質",
+      "C": "傳染性物質",
+      "D": "腐蝕性物質"
     },
-    "answer": "B",
+    "answer": "A",
     "image": "",
-    "groupId": "NSM_113-2_24"
+    "groupId": "CAR_113-2_24"
   },
   {
     "year": "113-2",
@@ -53596,10 +53484,10 @@
     "subject": "航行安全與氣象",
     "question": "25. 制定船舶氣象導航時，需要依據航行海域的天氣預報與海況，其預報的期間一般約為幾天 ？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "1至3天",
+      "B": "1至5天",
+      "C": "3至7天甚至10天",
+      "D": "3至7天甚至一個月"
     },
     "answer": "C",
     "image": "",
@@ -53625,9 +53513,9 @@
     "question": "26. 雷達波的傳播中，距離最遠為下列何者？",
     "options": {
       "A": "正常折射",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "超折射",
+      "C": "次折射",
+      "D": "導管效應"
     },
     "answer": "D",
     "image": "",
@@ -53891,9 +53779,9 @@
     "question": "29. 下列摩爾斯信號碼何者正確？",
     "options": {
       "A": "（－．－）代表字母「W」",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "（－）代表字母「I」",
+      "C": "（．．．．．）代表數字「5」",
+      "D": "（－－－－－）代表數字「6」"
     },
     "answer": "C",
     "image": "",
@@ -53934,8 +53822,8 @@
     "options": {
       "A": "裝卸貨時",
       "B": "裝卸貨後",
-      "C": "",
-      "D": ""
+      "C": "裝卸貨前",
+      "D": "每個月定期測試一次"
     },
     "answer": "C",
     "image": "",
@@ -54128,10 +54016,10 @@
     "subject": "船舶操作與船上人員管理",
     "question": "33. 下列有關港口國管制規定之敘述，何者錯誤？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "檢查人員以專業判斷認為不滿意者，均可列為缺點",
+      "B": "航行刊物之缺點屬於輕微者，不須列為矯正重點之一",
+      "C": "船舶之缺點明顯危及船員健康，且在指定時間內未獲改善或矯正者，港口國得以予扣留",
+      "D": "受檢船舶即使僅構成矯正情事，港口國管制機構亦應通知船籍國主管機關"
     },
     "answer": "B",
     "image": "",
@@ -54158,8 +54046,8 @@
     "options": {
       "A": "空載時低速航進中",
       "B": "空載時高速航進中",
-      "C": "",
-      "D": ""
+      "C": "滿載時低速航進中",
+      "D": "滿載時高速航進中"
     },
     "answer": "A",
     "image": "",
@@ -54447,6 +54335,20 @@
   },
   {
     "year": "113-2",
+    "subject": "船舶通訊與航海英文",
+    "question": "37. 依照無線電規則，船舶無線電話通信之優先順序，下列何種報頭為首的電文是第二優先？",
+    "options": {
+      "A": "PANPAN",
+      "B": "GENERAL",
+      "C": "MAYDAY",
+      "D": "SECURITE"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CNE_113-2_37"
+  },
+  {
+    "year": "113-2",
     "subject": "航海學",
     "question": "38. 承上題，該天文位置線(LOP)之假設位置(AP)？",
     "options": {
@@ -54479,9 +54381,9 @@
     "question": "38. 閉杯試驗閃點≦60℃時，會釋放出易燃蒸發氣為下列何者？",
     "options": {
       "A": "氧化物",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "有機過氧化物",
+      "C": "易燃液體",
+      "D": "易燃固體"
     },
     "answer": "C",
     "image": "",
@@ -55081,9 +54983,9 @@
     "question": "7. 請問下列何者為濾油設備？",
     "options": {
       "A": "Reception Facilities",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "Oil Filtering Equipment",
+      "C": "Crude Oil Washing Operatuons",
+      "D": "Oil Record Book"
     },
     "answer": "B",
     "image": "",
@@ -55125,7 +55027,7 @@
       "A": "在此兩水道航行之船舶，應與前船保持安全距離",
       "B": "除軍艦外，任何船舶駛近港口，均應依進港水道航行",
       "C": "進港水道內嚴禁任何船舶錨泊",
-      "D": ""
+      "D": "港口進出點為單向航行，同一時間僅允許乙艘船隻通過"
     },
     "answer": "B",
     "image": "",
@@ -55207,9 +55109,9 @@
     "question": "9. 海圖修正資料，以下列何種航海刊物為準？",
     "options": {
       "A": "Sailing Directions",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "Coast Pilot",
+      "C": "Notice to Mariners",
+      "D": "Pilot Charts"
     },
     "answer": "C",
     "image": "",
@@ -55235,9 +55137,9 @@
     "question": "9. 從甲板線頂緣至個別載重線頂緣間之垂距，下列何者名稱為正確？",
     "options": {
       "A": "乾舷差",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "實際乾舷",
+      "C": "法定乾舷",
+      "D": "最小乾舷"
     },
     "answer": "C",
     "image": "",
@@ -55441,6 +55343,20 @@
   },
   {
     "year": "113-3",
+    "subject": "貨物作業",
+    "question": "12. 依據IMDG Code的規範，下列何者是標記海洋污染物的現行使用標籤？",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CAR_113-3_12"
+  },
+  {
+    "year": "113-3",
     "subject": "航行安全與氣象",
     "question": "12. 對地球上的潮汐而言，月球的引潮力大於太陽的主要原因為何？",
     "options": {
@@ -55626,10 +55542,10 @@
     "subject": "船舶操作與船上人員管理",
     "question": "15. 某箱形船長寬深為（100 m x 12 m x 6 m），KM＝8 m，平浮吃水4 m，當其橫傾25度時之 扶正力矩為3000噸．公尺，試求船舶的GM？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "0.9 m",
+      "B": "1.1 m",
+      "C": "1.3 m",
+      "D": "1.5 m"
     },
     "answer": "B",
     "image": "",
@@ -56158,10 +56074,10 @@
     "subject": "船舶操作與船上人員管理",
     "question": "23. 船體的艏艉結構承受的縱向彎曲應力較小，但承受的局部作用力較大，諸如艏部的碰撞力 ，拍底應力，艉部的舵力，推進器振動力，故艏艉結構多採用何種肋骨系統？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "橫向肋骨系統",
+      "B": "縱向肋骨系統",
+      "C": "縱橫混構肋骨系統",
+      "D": "垂直肋骨系統"
     },
     "answer": "A",
     "image": "",
@@ -56250,6 +56166,20 @@
     "answer": "A",
     "image": "",
     "groupId": "CAR_113-3_24"
+  },
+  {
+    "year": "113-3",
+    "subject": "航行安全與氣象",
+    "question": "24. 依據SOLAS公約對操舵設備的規定，船舶以自動導航長期航行後，及進入航行需特別警戒 的水域前，均應測試下列哪一項？",
+    "options": {
+      "A": "雷達距程",
+      "B": "測深儀",
+      "C": "電子海圖顯示系統",
+      "D": "手動操舵"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "NSM_113-3_24"
   },
   {
     "year": "113-3",
@@ -56690,10 +56620,10 @@
     "subject": "船舶操作與船上人員管理",
     "question": "31. 依MARPOL 73/78國際公約之「管制散裝有毒液體物質污染規則」對於已符合作業要求標 準的X類物質殘留物排放入海時之標準，下列何者正確？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "應距最近陸地不少於12浬，及水深不少於15公尺",
+      "B": "應距最近陸地不少於3浬，及水深不少於15公尺",
+      "C": "應距最近陸地不少於12浬，及水深不少於25公尺",
+      "D": "應距最近陸地不少於3浬，及水深不少於25公尺"
     },
     "answer": "C",
     "image": "",
@@ -56873,9 +56803,9 @@
     "question": "34. 使用GPS時，若接收者須考量時間及三度空間的位置，則下列何者為最佳依據?",
     "options": {
       "A": "GDOP",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "HDOP",
+      "C": "PDOP",
+      "D": "TDOP"
     },
     "answer": "A",
     "image": "",
@@ -56908,6 +56838,20 @@
     "answer": "B",
     "image": "",
     "groupId": "CAR_113-3_34"
+  },
+  {
+    "year": "113-3",
+    "subject": "航行安全與氣象",
+    "question": "34. 氣象上大陣風之定義是以10分鐘之平均風速與10分鐘內所出現之瞬間最大風速，二者之風 速差最少在多少以上？",
+    "options": {
+      "A": "每秒4公尺以上",
+      "B": "每秒6公尺以上",
+      "C": "每秒8公尺以上",
+      "D": "每秒10公尺以上"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "NSM_113-3_34"
   },
   {
     "year": "113-3",
@@ -57223,9 +57167,9 @@
     "question": "39. 強度甲板厚度較大之處應在船舯多少倍船長區域內？",
     "options": {
       "A": "0.25",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "0.4",
+      "C": "0.6",
+      "D": "0.75"
     },
     "answer": "B",
     "image": "",
@@ -57265,9 +57209,9 @@
     "question": "39. 下列何者為我國基隆港使用，作為引水作業及港埠備用之船岸通信特高頻（VHF）頻道？",
     "options": {
       "A": "16",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "14",
+      "C": "12",
+      "D": "11"
     },
     "answer": "C",
     "image": "",
@@ -57908,10 +57852,10 @@
     "subject": "航海學",
     "question": "9. 太陽下中天時，平均太陽時角為幾度？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "0度",
+      "B": "90度",
+      "C": "180度",
+      "D": "360度"
     },
     "answer": "C",
     "image": "",
@@ -57922,10 +57866,10 @@
     "subject": "船舶操作與船上人員管理",
     "question": "9. 依MARPOL 73/78國際公約規定，下列何者是有權懸掛其政府國旗之船舶的主管官署？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "港口國",
+      "B": "締約國",
+      "C": "船旗國",
+      "D": "沿海國"
     },
     "answer": "C",
     "image": "",
@@ -57933,17 +57877,17 @@
   },
   {
     "year": "113-4",
-    "subject": "貨物作業",
-    "question": "9. 附圖中⑥號貨櫃屬具之名稱為何？",
+    "subject": "航行安全與氣象",
+    "question": "9. 以波浪的尖銳度（S=H/L）來估計湧浪與風暴中心的距離，通常如何判斷？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "尖銳度愈小，表示距離愈近",
+      "B": "尖銳度愈大，表示距離愈遠",
+      "C": "尖銳度愈大，表示距離愈近",
+      "D": "尖銳度不變，表示距離不變"
     },
-    "answer": "B",
+    "answer": "C",
     "image": "",
-    "groupId": "CAR_113-4_9"
+    "groupId": "NSM_113-4_9"
   },
   {
     "year": "113-4",
@@ -58269,6 +58213,20 @@
   },
   {
     "year": "113-4",
+    "subject": "貨物作業",
+    "question": "14. 下列有關雜貨配載的敘述，相對而言，何者錯誤？",
+    "options": {
+      "A": "一切危險貨物，應儘量遠離熱源、火源",
+      "B": "具有毒的危險貨物儘量遠離船員生活區",
+      "C": "配艙之重量應以二層艙配重2/3為原則",
+      "D": "易碎貨物儘量裝在其他貨物上方"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_113-4_14"
+  },
+  {
+    "year": "113-4",
     "subject": "航行安全與氣象",
     "question": "14. 國際海上避碰規則，有關瞭望Look Out之要求，以下何者正確？",
     "options": {
@@ -58429,7 +58387,7 @@
       "A": "具電離層延遲誤差",
       "B": "設置在地面可改善GDOP幾何精度",
       "C": "不能發射與GPS衛星相同之電碼",
-      "D": ""
+      "D": "設置在CES，接收範圍可至A4海域"
     },
     "answer": "B",
     "image": "",
@@ -58438,12 +58396,12 @@
   {
     "year": "113-4",
     "subject": "船舶操作與船上人員管理",
-    "question": "17. 依MARPOL 73/78國際公約規定應設置專用隔離壓載艙之船舶，其舯模吃水（dm）在壓載",
+    "question": "17. 依MARPOL 73/78國際公約規定應設置專用隔離壓載艙之船舶，其舯模吃水（dm）在壓載 航程中，不應少於幾公尺？（L代表船舶長度，以公尺作為計算單位）",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "2.0＋0.02L",
+      "B": "1.5＋0.03L",
+      "C": "1.0＋0.05L",
+      "D": "0.5＋0.10L"
     },
     "answer": "A",
     "image": "",
@@ -58805,9 +58763,9 @@
     "question": "22. 木材船的在航行期間，如果船上無便利通道到重要工作區，應在甲板貨物的每一邊設置護 繩或欄杆，問該護繩或欄杆的垂直間距不超過多少公厘（mm）？",
     "options": {
       "A": "300",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "330",
+      "C": "450",
+      "D": "600"
     },
     "answer": "B",
     "image": "",
@@ -58959,9 +58917,9 @@
     "question": "24. 本船真航向030，對地航速9節，目標船相對航向090，相對速度 節 ，CPA為 0，試問目標船的真航向為何？",
     "options": {
       "A": "030°",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "053.08°",
+      "C": "066.30°",
+      "D": "090°"
     },
     "answer": "D",
     "image": "",
@@ -58974,8 +58932,8 @@
     "options": {
       "A": "height",
       "B": "breadth",
-      "C": "",
-      "D": ""
+      "C": "depth",
+      "D": "length"
     },
     "answer": "D",
     "image": "",
@@ -59001,9 +58959,9 @@
     "question": "25. 依船員法第50條之規定，船員之醫療費用及喪葬費、殘廢及死亡補償之請求權，不因船員 之離職而受影響，且：",
     "options": {
       "A": "不得讓與但可抵銷、抵充",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "不得讓與、抵銷、抵充、扣押或擔保",
+      "C": "不得讓與、抵銷、抵充，但可扣押或擔保",
+      "D": "不得扣押或擔保，但可讓與、抵銷或抵充"
     },
     "answer": "B",
     "image": "",
@@ -59056,10 +59014,10 @@
     "subject": "航海學",
     "question": "26. 1990年2月5日，位於經度056°18'W，以GHA法計算太陽上中天之ZT？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "11-59-14",
+      "B": "12-14-01",
+      "C": "12-28-49",
+      "D": "12-34-02"
     },
     "answer": "A",
     "image": "",
@@ -59148,6 +59106,20 @@
     "answer": "A",
     "image": "",
     "groupId": "SOM_113-4_27"
+  },
+  {
+    "year": "113-4",
+    "subject": "貨物作業",
+    "question": "27. 某船長180公尺，前後水尺均為5.5公尺，然後45噸貨裝在舯後30公尺處，浮面中心在舯後 1公尺，TPC為15噸，MTC為200噸-公尺，求最後水尺為：",
+    "options": {
+      "A": "F：5.50m，A：5.56m",
+      "B": "F：5.60m，A：5.66m",
+      "C": "F：5.70m，A：5.76m",
+      "D": "F：6.50m，A：6.56m"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CAR_113-4_27"
   },
   {
     "year": "113-4",
@@ -59422,8 +59394,8 @@
     "options": {
       "A": "艏、艉各留一條纜繩後，先收艉纜再收艏纜",
       "B": "艏、艉各留一條纜繩後，先收艏纜再收艉纜",
-      "C": "",
-      "D": ""
+      "C": "艉纜全數收回後，再收艏部纜繩",
+      "D": "艏、艉纜繩同時鬆脫後收回"
     },
     "answer": "A",
     "image": "",
@@ -59520,8 +59492,8 @@
     "options": {
       "A": "4",
       "B": "6",
-      "C": "",
-      "D": ""
+      "C": "8",
+      "D": "12"
     },
     "answer": "A",
     "image": "",
@@ -59617,9 +59589,9 @@
     "question": "34. 一艘船舶若其右舷太靠近岸壁航行時，應該如何操舵以保持原航向？",
     "options": {
       "A": "操右舵，且使用大舵角",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "操右舵，且使用小舵角",
+      "C": "操左舵，且使用大舵角",
+      "D": "操左舵，且使用小舵角"
     },
     "answer": "B",
     "image": "",
@@ -59674,8 +59646,8 @@
     "options": {
       "A": "重量貨",
       "B": "體積貨",
-      "C": "",
-      "D": ""
+      "C": "冷凍貨",
+      "D": "危險貨"
     },
     "answer": "B",
     "image": "",
@@ -60052,8 +60024,8 @@
     "options": {
       "A": "9",
       "B": "11",
-      "C": "",
-      "D": ""
+      "C": "13",
+      "D": "15"
     },
     "answer": "B",
     "image": "",
@@ -60397,6 +60369,20 @@
   },
   {
     "year": "114-1",
+    "subject": "船舶通訊與航海英文",
+    "question": "5. Finally, when your ship is alongside, do not forget __________.",
+    "options": {
+      "A": "to have rat guards properly mounted on your moorings",
+      "B": "to have rat guards properly mounting at your moorings",
+      "C": "having rat guards proper mounted on your moorings",
+      "D": "having rat guards properly mounted on your moorings"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "CNE_114-1_5"
+  },
+  {
+    "year": "114-1",
     "subject": "航海學",
     "question": "6. 可使AIS同時在兩個頻率上交替自動進行收發的裝置，是屬於那一個單元？",
     "options": {
@@ -60557,7 +60543,7 @@
       "A": "各港口國為確保從外國進入本國港口的船舶，都能符合海事安全及防止海水污染等相關國際公約 規定，而對外國籍船舶所作的檢查",
       "B": "各船旗國為確保船籍登記在該國的船舶，都能符合海事安全及防止海水污染等相關國際公約規定 ，而對其國籍船舶所作的檢查",
       "C": "各港口國為確保從外國進入本國港口的船舶，都能符合海事安全及防止海水汙染等相關當地法規 規定，而對所有國籍船舶所作的檢查",
-      "D": ""
+      "D": "各船旗國為確保船籍登記在該國的船舶，都能符合海事安全及防止海水污染等相關國內法規規定 ，而對其國籍船舶所作的檢查"
     },
     "answer": "A",
     "image": "",
@@ -60612,8 +60598,8 @@
     "options": {
       "A": "1871.2浬",
       "B": "1878.3浬",
-      "C": "",
-      "D": ""
+      "C": "1885.4浬",
+      "D": "1891.6浬"
     },
     "answer": "C",
     "image": "",
@@ -60641,7 +60627,7 @@
       "A": "不可裝滿以減少自由液面效應",
       "B": "最好裝滿，如此可減少GM",
       "C": "冬季航行時燃油櫃加熱不宜過高，以免穀類受熱損壞",
-      "D": ""
+      "D": "最好不要裝滿，以免船舶重心過低"
     },
     "answer": "C",
     "image": "",
@@ -60919,9 +60905,9 @@
     "question": "13. \"Free pratique\" means that __________.",
     "options": {
       "A": "clearance requirements for all regulatory bodies have been met",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "health requirements have been met and no further quarantine formalities are required",
+      "C": "shipment will be made at no cost",
+      "D": "tonnage taxes are not required to be paid"
     },
     "answer": "B",
     "image": "",
@@ -61125,20 +61111,6 @@
   },
   {
     "year": "114-1",
-    "subject": "航海學",
-    "question": "17. 航海員在夜間進行航標辨識時，請問下圖為何種燈質？(每分鐘重複率50~79閃)",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "",
-    "groupId": "NAV_114-1_17"
-  },
-  {
-    "year": "114-1",
     "subject": "船舶操作與船上人員管理",
     "question": "17. 依MARPOL 公約附則V，下列何者不屬於其所定義的垃圾（Garbage）？",
     "options": {
@@ -61172,8 +61144,8 @@
     "options": {
       "A": "應視同為交叉相遇，但若對方讓路船沒避讓，你作為直航船也應主動避讓",
       "B": "應視同為交叉相遇，你作為讓路船應主動避讓",
-      "C": "",
-      "D": ""
+      "C": "如無法確認為追越或交叉相遇，應認定為追越，你是讓路船，應主動避讓",
+      "D": "應視同為被追越，你是直航船，應保持航向直駛"
     },
     "answer": "C",
     "image": "",
@@ -61220,20 +61192,6 @@
     "answer": "B",
     "image": "",
     "groupId": "SOM_114-1_18"
-  },
-  {
-    "year": "114-1",
-    "subject": "貨物作業",
-    "question": "18. 只利用船艙所裝設的通風筒或艙口，圖中的通風換氣法，是屬於何種方法？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "",
-    "groupId": "CAR_114-1_18"
   },
   {
     "year": "114-1",
@@ -61465,9 +61423,9 @@
     "question": "21. A person designed to co-ordinate search and rescue operation within a special area, the person is:",
     "options": {
       "A": "MRCC",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "MMSI",
+      "C": "OSC",
+      "D": "OWS"
     },
     "answer": "C",
     "image": "",
@@ -61495,7 +61453,7 @@
       "A": "41",
       "B": "51",
       "C": "61",
-      "D": ""
+      "D": "71"
     },
     "answer": "C",
     "image": "",
@@ -61643,6 +61601,20 @@
   },
   {
     "year": "114-1",
+    "subject": "貨物作業",
+    "question": "24. 船舶貨艙口緣圍（Ｈatchway coamings)離甲板之高度，其所處位置為第二種位置 （Position 2)至少需多少距離？",
+    "options": {
+      "A": "250mm",
+      "B": "350mm",
+      "C": "450mm",
+      "D": "550mm"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "CAR_114-1_24"
+  },
+  {
+    "year": "114-1",
     "subject": "航行安全與氣象",
     "question": "24. 引水人下達“NOTHING TO PORT”的舵令時，其企圖為何？",
     "options": {
@@ -61719,7 +61691,7 @@
       "A": "不可以制定任何與國際規定不同之規定",
       "B": "可以依其需求，依照國際避碰規則規定之航行燈光或聲號或信號略為修改，但不可增設。",
       "C": "只能制定國際規則，沒有規定的航行燈光或聲號或信號",
-      "D": "可以依其需求，自行制定特殊的航行燈光或聲號或信號，但應盡可能使其不致被誤認為國際海上"
+      "D": "可以依其需求，自行制定特殊的航行燈光或聲號或信號，但應盡可能使其不致被誤認為國際海上 避碰規則中所規定之任何號燈、號標或信號"
     },
     "answer": "D",
     "image": "",
@@ -62012,8 +61984,8 @@
     "options": {
       "A": "“XXX”字組",
       "B": "“PAN PAN”字組",
-      "C": "",
-      "D": ""
+      "C": "“SOS”字組",
+      "D": "“MAY DAY”字組"
     },
     "answer": "B",
     "image": "",
@@ -62039,9 +62011,9 @@
     "question": "30. 依國際載重線公約，乾舷甲板上所有敞露之部位應裝設有效之欄杆或舷牆，其高度應高出 甲板至少多少公尺(m)？",
     "options": {
       "A": "0.7 m",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "0.9 m",
+      "C": "1.0 m",
+      "D": "1.1 m"
     },
     "answer": "C",
     "image": "",
@@ -62203,20 +62175,6 @@
   },
   {
     "year": "114-1",
-    "subject": "航行安全與氣象",
-    "question": "32. 附圖為一海上測站填在天氣圖上的資料，則當時的湧浪來自？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "",
-    "groupId": "NSM_114-1_32"
-  },
-  {
-    "year": "114-1",
     "subject": "船舶通訊與航海英文",
     "question": "32. Is fishing ________ （漁具）ahead of me?",
     "options": {
@@ -62236,8 +62194,8 @@
     "options": {
       "A": "不受海水溫度、鹽分影響精確度",
       "B": "操作時不必停俥",
-      "C": "",
-      "D": ""
+      "C": "構造較簡單故障較少",
+      "D": "可精確探測出海底底質"
     },
     "answer": "B",
     "image": "",
@@ -62585,9 +62543,9 @@
     "question": "38. 依SOLAS公約之規定，在海上航行之船舶，其保全等級由下列何者規定？",
     "options": {
       "A": "船旗國主管機關",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "港口國主管機關",
+      "C": "沿海國主管機關",
+      "D": "船舶本身"
     },
     "answer": "A",
     "image": "",
@@ -62606,6 +62564,20 @@
     "answer": "B",
     "image": "",
     "groupId": "CAR_114-1_38"
+  },
+  {
+    "year": "114-1",
+    "subject": "航行安全與氣象",
+    "question": "38. 下列何項係艏俯船（Trim by the head）相對於艉重船（Trim by the stern）之操縱特性？",
+    "options": {
+      "A": "迴轉支點後移",
+      "B": "迴轉圈較大",
+      "C": "轉向上風較易",
+      "D": "舵效變好"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "NSM_114-1_38"
   },
   {
     "year": "114-1",
@@ -62662,20 +62634,6 @@
     "answer": "D",
     "image": "",
     "groupId": "CAR_114-1_39"
-  },
-  {
-    "year": "114-1",
-    "subject": "航行安全與氣象",
-    "question": "39. 氣象傳真圖中表示地面預報圖的代號為何？",
-    "options": {
-      "A": "AS",
-      "B": "AU",
-      "C": "AW",
-      "D": "FS"
-    },
-    "answer": "D",
-    "image": "",
-    "groupId": "NSM_114-1_39"
   },
   {
     "year": "114-1",
@@ -63071,20 +63029,6 @@
   },
   {
     "year": "114-2",
-    "subject": "航行安全與氣象",
-    "question": "6. 有關分道通航制，圖中之匯合點區域，代表何種意義？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "A",
-    "image": "",
-    "groupId": "NSM_114-2_6"
-  },
-  {
-    "year": "114-2",
     "subject": "船舶通訊與航海英文",
     "question": "6. 為了避免相互間的干擾，航行警告電傳(NAVTEX)採用何種方式發送海事安全資訊？",
     "options": {
@@ -63118,8 +63062,8 @@
     "options": {
       "A": "任意艙位均可",
       "B": "各艙底艙的艙口位",
-      "C": "",
-      "D": ""
+      "C": "各艙底艙的上層及二層艙艙口位",
+      "D": "各艙的二層艙底部"
     },
     "answer": "D",
     "image": "",
@@ -63212,12 +63156,12 @@
   {
     "year": "114-2",
     "subject": "航海學",
-    "question": "9. 某船依航向155°航行116浬，然後轉向217°航行104浬，最後轉向345°航行138浬。請以聯向",
+    "question": "9. 某船依航向155°航行116浬，然後轉向217°航行104浬，最後轉向345°航行138浬。請以聯向 航法(Traverse Sailing)推求該船之實際航向(C.M.G.)為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "318.1°",
+      "B": "311.9°",
+      "C": "228.1°",
+      "D": "221.9°"
     },
     "answer": "D",
     "image": "",
@@ -63300,8 +63244,8 @@
     "options": {
       "A": "潮差愈大停潮時間愈久",
       "B": "停潮時，潮面會在最低位置呈現不落也不漲的狀態一段時間",
-      "C": "",
-      "D": ""
+      "C": "停潮過後潮面才會開始上漲",
+      "D": "在臺灣沿海東北、西南及南端停潮時間最長可達數小時"
     },
     "answer": "A",
     "image": "",
@@ -63552,8 +63496,8 @@
     "options": {
       "A": "自體加速分解溫度(SADT)",
       "B": "緊急溫度(Emergency temperature)",
-      "C": "",
-      "D": ""
+      "C": "臨界溫度(Critical temperature)",
+      "D": "控制溫度(Control temperature)"
     },
     "answer": "D",
     "image": "",
@@ -63608,8 +63552,8 @@
     "options": {
       "A": "梯度風",
       "B": "地轉風",
-      "C": "",
-      "D": ""
+      "C": "旋轉風",
+      "D": "熱力風"
     },
     "answer": "B",
     "image": "",
@@ -63999,9 +63943,9 @@
     "question": "23. 關於摩爾斯燈號通信，下列何者正確？",
     "options": {
       "A": "收信船台收到發送船台“DE＋發送船台呼號”信號後，發送“DE＋接收船台IMO號碼”作為回覆",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "以“K”之傳送，表示已收到組成信文的文字或字組",
+      "C": "發送船台以“DDD”信號表示小數點符號",
+      "D": "摩爾斯燈號信文結束階段以“AR”表示之"
     },
     "answer": "D",
     "image": "",
@@ -64042,8 +63986,8 @@
     "options": {
       "A": "如兩船均未採取避碰措施，15分鐘後碰撞",
       "B": "如兩船均未採取避碰措施，20分鐘後碰撞",
-      "C": "",
-      "D": ""
+      "C": "如兩船均未採取避碰措施，25分鐘後碰撞",
+      "D": "無碰撞危機"
     },
     "answer": "D",
     "image": "",
@@ -64444,12 +64388,12 @@
   {
     "year": "114-2",
     "subject": "船舶通訊與航海英文",
-    "question": "31. The ______ was periodically published by maritime countries which issued navigation",
+    "question": "31. The ______ was periodically published by maritime countries which issued navigation charts and publications. It contains several correction information affecting nautical charts, coast pilots, sailing direction, light lists, radio navigation aids and other related nautical publications.",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "notices to mariners",
+      "B": "navigational warnings",
+      "C": "annual summary",
+      "D": "supplement"
     },
     "answer": "A",
     "image": "",
@@ -64476,8 +64420,8 @@
     "options": {
       "A": "下降偏左",
       "B": "上升偏左",
-      "C": "",
-      "D": ""
+      "C": "上升偏右",
+      "D": "下降偏右"
     },
     "answer": "C",
     "image": "",
@@ -64516,10 +64460,10 @@
     "subject": "航海學",
     "question": "33. 某船位於經度94°E，天文鐘誤差20m41s (F)，當天文鐘讀數為12-36-00時，錶時WT之讀 數為18-16-12，請問錶差WE為何？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "47s (S)",
+      "B": "47s (F)",
+      "C": "53s (S)",
+      "D": "53s (F)"
     },
     "answer": "D",
     "image": "",
@@ -64840,8 +64784,8 @@
     "options": {
       "A": "④à①",
       "B": "③à①",
-      "C": "",
-      "D": ""
+      "C": "②à③",
+      "D": "②à④"
     },
     "answer": "D",
     "image": "",
@@ -65423,27 +65367,13 @@
   },
   {
     "year": "114-3",
-    "subject": "航行安全與氣象",
-    "question": "9. 有關分道通航制，圖中之虛線箭頭（標示2），代表何種交通流向？",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "B",
-    "image": "",
-    "groupId": "NSM_114-3_9"
-  },
-  {
-    "year": "114-3",
     "subject": "船舶通訊與航海英文",
-    "question": "9. When the light of a buoy or a lighthouse is inoperative, it should be remarked by",
+    "question": "9. When the light of a buoy or a lighthouse is inoperative, it should be remarked by ____________ in the chart.",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "“Unlit”",
+      "B": "“Darkness”",
+      "C": "“Out of order”",
+      "D": "“Missing”"
     },
     "answer": "A",
     "image": "",
@@ -65568,8 +65498,8 @@
     "options": {
       "A": "減少迎艏正遇的範圍",
       "B": "指導航行船舶避開漁場",
-      "C": "",
-      "D": ""
+      "C": "減少船舶碰撞危險",
+      "D": "增加橫越船舶"
     },
     "answer": "D",
     "image": "",
@@ -65709,7 +65639,7 @@
       "A": "折射（R）",
       "B": "眼高差（D）",
       "C": "視差（P）",
-      "D": ""
+      "D": "視半徑（SD）"
     },
     "answer": "C",
     "image": "",
@@ -65833,9 +65763,9 @@
     "question": "17. 貨櫃裝在船上的裝載位置係用幾位數字來表示，其中垂直向位置係如何表示？",
     "options": {
       "A": "五位數字；最後兩位",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "五位數字；中間兩位",
+      "C": "六位數字；最後兩位",
+      "D": "六位數字；中間兩位"
     },
     "answer": "C",
     "image": "",
@@ -65860,10 +65790,10 @@
     "subject": "船舶通訊與航海英文",
     "question": "17. 遇難信號的顯示，下列何者為正確？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "用任何霧號用具，約每隔一分鐘鳴放一次",
+      "B": "放出藍色煙霧信號",
+      "C": "以任何形式顯示NC符號以代表國際遇難信號代碼",
+      "D": "雙臂平舉，緩緩左右連續揮動"
     },
     "answer": "C",
     "image": "",
@@ -66157,7 +66087,7 @@
       "A": "GDOP越大，精度越佳",
       "B": "僅考量時間因素時，為減少計算量，應以GDOP為依據",
       "C": "無法作為衡量定位誤差之因子",
-      "D": ""
+      "D": "可作為接收機選擇最佳四個觀測衛星之標準"
     },
     "answer": "D",
     "image": "",
@@ -66184,8 +66114,8 @@
     "options": {
       "A": "myth",
       "B": "fantasy",
-      "C": "",
-      "D": ""
+      "C": "narrative",
+      "D": "fiction"
     },
     "answer": "C",
     "image": "",
@@ -66277,6 +66207,20 @@
   },
   {
     "year": "114-3",
+    "subject": "航行安全與氣象",
+    "question": "25. 某船以航速15節正常航行，遇大雨，已無法自駕駛台看清其船首桅杆，如您是該船當時之 當值航行員，除加強瞭望、採取安全速度航行外，應該鳴放何種音響信號？",
+    "options": {
+      "A": "每不逾二分鐘時間，鳴放號笛二長聲",
+      "B": "每不逾二分鐘時間，鳴放號笛一長聲",
+      "C": "每不逾二分鐘時間，鳴放號笛二長聲一短聲",
+      "D": "每不逾二分鐘時間，鳴放號笛一長聲一短聲"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "NSM_114-3_25"
+  },
+  {
+    "year": "114-3",
     "subject": "船舶通訊與航海英文",
     "question": "25. 無線電諮詢委員會(CCIR)之建議，使用三個符號來作發射標識，試問第一符號（F）及第 三符號（N）代表意義，下列選項何者正確？",
     "options": {
@@ -66306,12 +66250,12 @@
   {
     "year": "114-3",
     "subject": "貨物作業",
-    "question": "26. 如貨櫃裝載圖上每一櫃有一定之艙格位置及號數，簡稱艙格號數（Cell Number），如艙格",
+    "question": "26. 如貨櫃裝載圖上每一櫃有一定之艙格位置及號數，簡稱艙格號數（Cell Number），如艙格 號數為110586，代表其在船上何位置？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "40尺櫃在第11Bay右第5Row甲板第3Tier",
+      "B": "20尺櫃在第11Bay右第5Row甲板第3Tier",
+      "C": "40尺櫃在11Bay 左第5Row甲板第3Tier",
+      "D": "20尺櫃在第11Bay左第5Row甲板第3Tier"
     },
     "answer": "B",
     "image": "",
@@ -66557,6 +66501,20 @@
   },
   {
     "year": "114-3",
+    "subject": "船舶通訊與航海英文",
+    "question": "30. 援助船舶回應搜救飛機之信號，收悉信號但無法配合，需掛下列那一選項信號旗？",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "CNE_114-3_30"
+  },
+  {
+    "year": "114-3",
     "subject": "航海學",
     "question": "31. AIS所採用的多功法為下列何者？",
     "options": {
@@ -66614,12 +66572,12 @@
   {
     "year": "114-3",
     "subject": "航海學",
-    "question": "32. 某船於ZT 11-06-30，DR L 30°05.0'N，λ 119°55.0'E，使用船用六分儀觀測太陽，若",
+    "question": "32. 某船於ZT 11-06-30，DR L 30°05.0'N，λ 119°55.0'E，使用船用六分儀觀測太陽，若 GHA⊙225°25.0'，以航海曆求計算高度時之假定位置AP？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "aL30°N，aλ119°35.0'E",
+      "B": "aL30°N，aλ119°25.0'E",
+      "C": "aL30°N，aλ119°15.0'E",
+      "D": "aL30°N，aλ119°05.0'E"
     },
     "answer": "A",
     "image": "",
@@ -66689,7 +66647,7 @@
       "A": "卸載位於船舶重心上方的貨物",
       "B": "貨物裝於船舶重心下方處",
       "C": "消除船舶液艙內之自由液面",
-      "D": ""
+      "D": "將壓艙水打入左右舷船肩艙"
     },
     "answer": "D",
     "image": "",
@@ -66879,6 +66837,20 @@
   },
   {
     "year": "114-3",
+    "subject": "船舶通訊與航海英文",
+    "question": "36. ",
+    "options": {
+      "A": "Search and Rescue message",
+      "B": "Coast Guard new regulation announcement",
+      "C": "Shipping news",
+      "D": "Meteorological Warning"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "CNE_114-3_36"
+  },
+  {
+    "year": "114-3",
     "subject": "航海學",
     "question": "37. 承上題，該天體的概略赤緯(Dec.)為何？",
     "options": {
@@ -67037,9 +67009,9 @@
     "question": "40. 承上題，識別該星體為何？",
     "options": {
       "A": "Altair",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "Bellatrix",
+      "C": "Capella",
+      "D": "Deneb"
     },
     "answer": "C",
     "image": "",
@@ -67541,9 +67513,9 @@
     "question": "9. 下列哪一項國際公約規範有關救助落水人員之操縱與程序？",
     "options": {
       "A": "國際海上人命安全公約（SOLAS）",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "防止海洋污染公約（73/78 MARPOL）",
+      "C": "國際船舶與港口設施保全章程(ISPS Code)",
+      "D": "聯合國海洋法公約（UNCLOS 1982）"
     },
     "answer": "A",
     "image": "",
@@ -67918,10 +67890,10 @@
     "subject": "貨物作業",
     "question": "16. 當船舯平均吃水大於艏艉平均吃水時，其船舶處於下列何種變形？",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "舯垂變形",
+      "B": "舯拱變形",
+      "C": "無拱垂變形",
+      "D": "不確定"
     },
     "answer": "A",
     "image": "",
@@ -68004,8 +67976,8 @@
     "options": {
       "A": "adjacent",
       "B": "left",
-      "C": "",
-      "D": ""
+      "C": "depart",
+      "D": "diverging"
     },
     "answer": "D",
     "image": "",
@@ -68368,8 +68340,8 @@
     "options": {
       "A": "消極通風",
       "B": "積極通風法",
-      "C": "",
-      "D": ""
+      "C": "表面通風法",
+      "D": "通風調節"
     },
     "answer": "A",
     "image": "",
@@ -68402,6 +68374,20 @@
     "answer": "B",
     "image": "",
     "groupId": "CNE_114-4_24"
+  },
+  {
+    "year": "114-4",
+    "subject": "航海學",
+    "question": "25. 有關229表的敘述中，下列何者有誤？",
+    "options": {
+      "A": "緯度與赤緯同名時，LHA 0°~90°查左頁資料",
+      "B": "緯度與赤緯同名時，LHA 90°~180°查右頁下半部資料",
+      "C": "d 值旁附加一小黑點，表示為低高度必須做DSD二次修正",
+      "D": "DSD的修正值永遠為正值(+)"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "NAV_114-4_25"
   },
   {
     "year": "114-4",
@@ -68438,8 +68424,8 @@
     "options": {
       "A": "SOLAS 1974",
       "B": "MLC 2006",
-      "C": "",
-      "D": ""
+      "C": "MARPOL 73/78",
+      "D": "ITU Radio Regulations"
     },
     "answer": "D",
     "image": "",
@@ -68480,8 +68466,8 @@
     "options": {
       "A": "每月一次",
       "B": "每星期一次",
-      "C": "",
-      "D": ""
+      "C": "每天一次",
+      "D": "每班當值期間一次"
     },
     "answer": "D",
     "image": "",
@@ -68745,9 +68731,9 @@
     "question": "31. 依據IMDG Code的規範，下列關於圖示標籤之相關敘述，何者正確？",
     "options": {
       "A": "易燃氣體",
-      "B": "",
-      "C": "",
-      "D": ""
+      "B": "可燃固體",
+      "C": "遇水釋出可燃氣體之物質",
+      "D": "自燃物質"
     },
     "answer": "B",
     "image": "",
@@ -68845,7 +68831,7 @@
       "A": "ZT 05-18-40",
       "B": "ZT 05-34-00",
       "C": "ZT 05-56-20",
-      "D": ""
+      "D": "ZT 06-03-20"
     },
     "answer": "A",
     "image": "",
@@ -68887,7 +68873,7 @@
       "A": "以通信方法發送摩爾斯代碼「SOS」",
       "B": "無線電話發送唸出“MAYDAY”",
       "C": "發出無線電報警報信號，12個“劃（dash）”的信號",
-      "D": ""
+      "D": "利用緊急無線電指位標桿（EPIRB）發出遇難信號"
     },
     "answer": "C",
     "image": "",
@@ -69172,6 +69158,20 @@
     "answer": "C",
     "image": "",
     "groupId": "NSM_114-4_39"
+  },
+  {
+    "year": "114-4",
+    "subject": "船舶通訊與航海英文",
+    "question": "39. ________ is a place assigned to crew and passengers where they must gather before abandoning ship.",
+    "options": {
+      "A": "Compass deck",
+      "B": "Monkey island",
+      "C": "Cat walk",
+      "D": "Lifeboat station"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "CNE_114-4_39"
   },
   {
     "year": "114-4",

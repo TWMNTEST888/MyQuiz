@@ -102,7 +102,7 @@
     <div id="login-view" class="filter-section login-card">
         <h3>會員登入 / 註冊</h3>
         <p style="color:#7f8c8d; font-size:14px; line-height:1.6;">
-            使用同一組 Email 與密碼登入後，會讀取同一份題庫
+            使用 Firebase Authentication 安全登入。不同裝置使用同一組 Email 與密碼登入後，會讀取同一份個人錯題庫與收藏庫。
         </p>
         <input id="email-input" type="email" class="full-width" autocomplete="email" placeholder="Email，例如 test@example.com">
         <input id="password-input" type="password" class="full-width" autocomplete="current-password" placeholder="密碼，至少 6 碼">
@@ -112,7 +112,7 @@
         <div id="login-error" class="danger-note" style="display:none"></div>
         <div id="login-success" class="success-note" style="display:none"></div>
         <div class="notice">
-            注意：註冊完即可登入
+            注意：請先到 Firebase Console → Authentication → Sign-in method 啟用 Email/Password。
         </div>
     </div>
 
@@ -136,7 +136,7 @@
         </div>
 
         <div class="year-box">
-            <div class="year-title">年份複選</div>
+            <div class="year-title">歷屆年份</div>
             <div style="text-align:center; margin-bottom:8px;">
                 <button class="mini-btn gray-btn" onclick="selectAllYears(true)">全選年份</button>
                 <button class="mini-btn gray-btn" onclick="selectAllYears(false)">清除年份</button>
@@ -145,15 +145,15 @@
         </div>
 
         <div class="notice">
-            年份可複選。若沒有勾選年份，視為使用該科目的全部年份
+            年份可複選。若沒有勾選年份，系統會視為使用該科目的全部年份。
         </div>
 
-        <button onclick="initQuiz('normal')">開始測驗</button>
+        <button onclick="initQuiz('normal')">開始隨機測驗</button>
         <div class="utility-row">
-            <button class="orange-btn" onclick="initQuiz('wrong')">答錯題練習</button>
+            <button class="orange-btn" onclick="initQuiz('wrong')">答錯題測驗</button>
             <button class="orange-btn" onclick="initQuiz('favorite')">收藏題測驗</button>
-            <button class="orange-btn" onclick="showWrongDatabase()">查看答錯題</button>
-            <button class="orange-btn" onclick="showFavoriteDatabase()">查看收藏題</button>
+            <button class="orange-btn" onclick="showWrongDatabase()">答錯題庫</button>
+            <button class="orange-btn" onclick="showFavoriteDatabase()">收藏題庫</button>
         </div>
     </div>
 
@@ -234,7 +234,7 @@
     let userAnswers = {};
     let currentIndex = 0;
     let currentUser = null;
-    let userData = { wrong_db: [], favorite_db: [] };
+    let userData = { wrong_db: [], favorite_db: [], seen_group_db: [] };
     let currentMode = 'practice';
     let currentSource = 'normal';
     let timerInterval = null;
@@ -262,7 +262,7 @@
             await enterMainView(user);
         } else {
             currentUser = null;
-            userData = { wrong_db: [], favorite_db: [] };
+            userData = { wrong_db: [], favorite_db: [], seen_group_db: [] };
             document.getElementById('login-status').innerText = '';
             showOnly('login-view');
         }
@@ -313,7 +313,7 @@
             await loadOrCreateUserData(user);
         } catch (e) {
             console.error('個人資料載入失敗', e);
-            userData = { wrong_db: [], favorite_db: [] };
+            userData = { wrong_db: [], favorite_db: [], seen_group_db: [] };
             alert('登入成功，但個人資料載入失敗。請檢查 Firestore Rules 是否允許 users/{uid} 讀寫。');
         }
 
@@ -356,6 +356,7 @@
                 email: user.email,
                 wrong_db: legacyData.wrong_db,
                 favorite_db: legacyData.favorite_db,
+                seen_group_db: legacyData.seen_group_db,
                 migratedFromEmailDoc: legacyId,
                 createdAt: serverTimestamp(),
                 lastLogin: serverTimestamp()
@@ -363,11 +364,12 @@
             return;
         }
 
-        userData = { wrong_db: [], favorite_db: [] };
+        userData = { wrong_db: [], favorite_db: [], seen_group_db: [] };
         await setDoc(uidRef, {
             email: user.email,
             wrong_db: [],
             favorite_db: [],
+            seen_group_db: [],
             createdAt: serverTimestamp(),
             lastLogin: serverTimestamp()
         });
@@ -376,7 +378,8 @@
     function normalizeUserData(data) {
         return {
             wrong_db: Array.isArray(data?.wrong_db) ? data.wrong_db : [],
-            favorite_db: Array.isArray(data?.favorite_db) ? data.favorite_db : []
+            favorite_db: Array.isArray(data?.favorite_db) ? data.favorite_db : [],
+            seen_group_db: Array.isArray(data?.seen_group_db) ? data.seen_group_db : []
         };
     }
 
@@ -542,7 +545,7 @@
         saveSettings();
     };
 
-    window.initQuiz = function(source) {
+    window.initQuiz = async function(source) {
         if (!currentUser) {
             alert('請先登入。');
             showOnly('login-view');
@@ -565,28 +568,59 @@
         }
 
         if (source === 'wrong') {
-            const wrongSet = new Set(userData.wrong_db || []);
-            pool = allData.filter(q => wrongSet.has(q._qid));
-            if (subject) pool = pool.filter(q => q.subject === subject);
-            if (selectedYears.length > 0) pool = pool.filter(q => selectedYears.includes(q.year));
+            pool = buildSavedQuestionPool(userData.wrong_db || [], subject, selectedYears, '錯題');
         }
 
         if (source === 'favorite') {
-            const favSet = new Set(userData.favorite_db || []);
-            pool = allData.filter(q => favSet.has(q._qid));
-            if (subject) pool = pool.filter(q => q.subject === subject);
-            if (selectedYears.length > 0) pool = pool.filter(q => selectedYears.includes(q.year));
+            pool = buildSavedQuestionPool(userData.favorite_db || [], subject, selectedYears, '收藏題');
         }
 
         if (pool.length === 0) return alert('無題目可用，請確認科目、年份或資料庫內容。');
 
         examPool = buildGroupedExamPool(pool, limit);
+        await markSeenGroups(examPool);
         currentIndex = 0;
         userAnswers = {};
         showOnly('quiz-view');
         startTimerIfNeeded();
         renderQuestion();
     };
+
+    function buildSavedQuestionPool(savedIds, subject, selectedYears, label) {
+        const savedSet = new Set(savedIds || []);
+
+        // 兼容舊版與新版資料：
+        // 新版主要用 groupId；舊版可能曾存 id、_qid，或其他組合值。
+        const basePool = allData.filter(q => matchSavedQuestion(q, savedSet));
+
+        if (basePool.length === 0) return [];
+
+        let filteredPool = basePool;
+        if (subject) filteredPool = filteredPool.filter(q => q.subject === subject);
+        if (selectedYears.length > 0) filteredPool = filteredPool.filter(q => selectedYears.includes(q.year));
+
+        // 如果目前科目/年份篩選後沒有結果，但資料庫本身有題目，則自動改用全部錯題/收藏題。
+        // 這可以避免使用者明明有錯題，卻因為主畫面的篩選條件不一致而無法開始練習。
+        if (filteredPool.length === 0 && basePool.length > 0) {
+            alert(`目前篩選條件下沒有${label}，系統將改用全部${label}開始練習。`);
+            return basePool;
+        }
+
+        return filteredPool;
+    }
+
+    function matchSavedQuestion(q, savedSet) {
+        if (!q || !savedSet || savedSet.size === 0) return false;
+
+        const candidates = [
+            q._qid,
+            q.groupId,
+            q.id,
+            q.question ? `${q.groupId || q.id || ''}_${q.question}` : ''
+        ].filter(Boolean);
+
+        return candidates.some(id => savedSet.has(id));
+    }
 
     function renderQuestion() {
         const q = examPool[currentIndex];
@@ -796,7 +830,7 @@
         const className = isWrong ? 'wrong-item' : 'favorite-item';
         const list = document.getElementById(listId);
         const idSet = new Set(ids || []);
-        const items = allData.filter(q => idSet.has(q._qid));
+        const items = allData.filter(q => matchSavedQuestion(q, idSet));
 
         if (items.length === 0) {
             list.innerHTML = `<div class="empty-state">目前沒有${isWrong ? '錯題' : '收藏題'}。</div>`;
@@ -911,16 +945,35 @@
     function buildGroupedExamPool(pool, limit) {
         // 抽題邏輯：以 groupId 作為抽選單位。
         // 只要某個 groupId 被抽中，同 groupId 的所有題目都會一起進入本次試題。
+        // 並且優先抽 seen_group_db 裡沒有出現過的 groupId。
         // 因此最終題數可能會略超過使用者選擇的 40 / 60 / 80 題。
         const groupMap = new Map();
 
         pool.forEach(q => {
-            const key = q.groupId ? `group:${q.groupId}` : `single:${q._qid}`;
+            const groupId = getSeenGroupId(q);
+            const key = q.groupId ? `group:${groupId}` : `single:${groupId}`;
             if (!groupMap.has(key)) groupMap.set(key, []);
             groupMap.get(key).push(q);
         });
 
-        const shuffledGroupKeys = shuffleArray([...groupMap.keys()]);
+        const seenSet = new Set(userData.seen_group_db || []);
+        const unseenKeys = [];
+        const seenKeys = [];
+
+        [...groupMap.keys()].forEach(key => {
+            const groupId = key.replace(/^group:/, '').replace(/^single:/, '');
+            if (seenSet.has(groupId)) {
+                seenKeys.push(key);
+            } else {
+                unseenKeys.push(key);
+            }
+        });
+
+        const shuffledGroupKeys = [
+            ...shuffleArray(unseenKeys),
+            ...shuffleArray(seenKeys)
+        ];
+
         const selected = [];
 
         for (const key of shuffledGroupKeys) {
@@ -930,6 +983,38 @@
         }
 
         return selected;
+    }
+
+    function getSeenGroupId(q) {
+        return q.groupId || q._qid;
+    }
+
+    async function markSeenGroups(questions) {
+        const ref = getUserRef();
+        if (!ref || !Array.isArray(questions) || questions.length === 0) return;
+
+        const groupIds = [...new Set(
+            questions
+                .map(q => getSeenGroupId(q))
+                .filter(Boolean)
+        )];
+
+        if (groupIds.length === 0) return;
+
+        try {
+            await updateDoc(ref, {
+                seen_group_db: arrayUnion(...groupIds),
+                updatedAt: serverTimestamp()
+            });
+
+            groupIds.forEach(id => {
+                if (!userData.seen_group_db.includes(id)) {
+                    userData.seen_group_db.push(id);
+                }
+            });
+        } catch (e) {
+            console.error('出題紀錄更新失敗', e);
+        }
     }
 
     function shuffleArray(arr) {

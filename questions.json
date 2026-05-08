@@ -640,7 +640,7 @@
       "D": "仰視圖"
     },
     "answer": "C",
-    "image": "img/CAR_110-1_23.png",
+    "image": "",
     "groupId": "CAR_110-1_23"
   },
   {
@@ -864,7 +864,7 @@
       "D": "礙航暗岩"
     },
     "answer": "C",
-    "image": "img/NAV_111-1_12.png",
+    "image": "",
     "groupId": "NAV_111-1_12"
   },
   {
@@ -12470,7 +12470,7 @@
       "D": ""
     },
     "answer": "D",
-    "image": "",
+    "image": "img/CNE_108-1_35.png",
     "groupId": "CNE_108-1_35"
   },
   {
@@ -13800,7 +13800,7 @@
       "D": "放射性物質"
     },
     "answer": "B",
-    "image": "",
+    "image": "img/CAR_108-2_22.png",
     "groupId": "CAR_108-2_22"
   },
   {
@@ -15452,7 +15452,7 @@
       "D": ""
     },
     "answer": "C",
-    "image": "",
+    "image": "img/NAV_108-3_12.png",
     "groupId": "NAV_108-3_12"
   },
   {
@@ -21430,7 +21430,7 @@
       "D": ""
     },
     "answer": "D",
-    "image": "",
+    "image": "img/NAV_109-3_2.png",
     "groupId": "NAV_109-3_2"
   },
   {
@@ -23586,7 +23586,7 @@
       "D": "下圖是指中拱，船中部下層甲板承受拉力"
     },
     "answer": "A",
-    "image": "",
+    "image": "img/CAR_109-4_1.png",
     "groupId": "CAR_109-4_1"
   },
   {
@@ -24090,7 +24090,7 @@
       "D": "水平支柱（Braces）"
     },
     "answer": "B",
-    "image": "",
+    "image": "img/CAR_109-4_10.png",
     "groupId": "CAR_109-4_10"
   },
   {
@@ -24846,7 +24846,7 @@
       "D": "該標籤係標示易於自燃物質"
     },
     "answer": "D",
-    "image": "",
+    "image": "img/CAR_109-4_24.png",
     "groupId": "CAR_109-4_24"
   },
   {
@@ -25462,7 +25462,7 @@
       "D": "圖D"
     },
     "answer": "A",
-    "image": "",
+    "image": "img/CAR_109-4_35.png",
     "groupId": "CAR_109-4_35"
   },
   {
@@ -26652,7 +26652,7 @@
       "D": ""
     },
     "answer": "A",
-    "image": "",
+    "image": "img/CAR_110-1_17.png",
     "groupId": "CAR_110-1_17"
   },
   {
@@ -27226,7 +27226,7 @@
       "D": ""
     },
     "answer": "B",
-    "image": "",
+    "image": "img/CNE_110-1_27.png",
     "groupId": "CNE_110-1_27"
   },
   {
@@ -28080,7 +28080,7 @@
       "D": "11.1"
     },
     "answer": "A",
-    "image": "",
+    "image": "img/CAR_110-3_3.png",
     "groupId": "CAR_110-3_3"
   },
   {
@@ -29710,7 +29710,7 @@
   {
     "year": "110-3",
     "subject": "貨物作業",
-    "question": "34. 某船裝運100噸袋裝大米，裝艙實際佔用的艙容積是 ，袋裝大米的不 包含裝載損耗的積載因素為 ，則該批袋裝大米的裝載損耗（Broken stowage）為多少(%)？",
+    "question": "34. 某船裝運100噸袋裝大米，裝艙實際佔用的艙容積是160m3 ，袋裝大米的不 包含裝載損耗的積載因素為1.5m3/t ，則該批袋裝大米的裝載損耗（Broken stowage）為多少(%)？",
     "options": {
       "A": "5.7",
       "B": "6.7",
@@ -30558,7 +30558,7 @@
       "D": "2"
     },
     "answer": "D",
-    "image": "",
+    "image": "img/NSM_110-4_9.png",
     "groupId": "NSM_110-4_9"
   },
   {
@@ -31538,7 +31538,7 @@
       "D": ""
     },
     "answer": "C",
-    "image": "",
+    "image": "img/CNE_110-4_27.png",
     "groupId": "CNE_110-4_27"
   },
   {
@@ -33036,7 +33036,7 @@
       "D": "E"
     },
     "answer": "B",
-    "image": "",
+    "image": "img/NSM_111-1_15.png",
     "groupId": "NSM_111-1_15"
   },
   {
@@ -41744,7 +41744,7 @@
       "D": "環道區"
     },
     "answer": "B",
-    "image": "",
+    "image": "img/NSM_112-1_14.png",
     "groupId": "NSM_112-1_14"
   },
   {
@@ -46490,7 +46490,7 @@
       "D": "鉛精礦"
     },
     "answer": "C",
-    "image": "",
+    "image": "img/CAR_112-3_21.png",
     "groupId": "CAR_112-3_21"
   },
   {
@@ -46972,7 +46972,7 @@
   {
     "year": "112-3",
     "subject": "貨物作業",
-    "question": "30. 有一穀類船吃水 ，已知該船之TPC 20，MTC 400，欲使艏艉之吃水為11m，穀物應裝於下列何處？",
+    "question": "30. 有一穀類船吃水Df 10m, Da 11m ，已知該船之TPC 20，MTC 400，欲使艏艉之吃水為11m，穀物應裝於下列何處？",
     "options": {
       "A": "裝於俯仰中心之前35m",
       "B": "裝於俯仰中心之前36m",
@@ -50948,7 +50948,7 @@
   {
     "year": "113-1",
     "subject": "航行安全與氣象",
-    "question": "24. 本船真航向030，對地航速 節，目標船對地速度18節，在本船真方位 000，相對航向090，距離6海浬，CPA為0，請計算目標船的TCPA？",
+    "question": "24. 本船真航向030，對地航速√243 節，目標船對地速度18節，在本船真方位 000，相對航向090，距離6海浬，CPA為0，請計算目標船的TCPA？",
     "options": {
       "A": "15分鐘",
       "B": "20分鐘",
@@ -53854,7 +53854,7 @@
       "D": "DE"
     },
     "answer": "C",
-    "image": "",
+    "image": "img/CNE_113-2_30.png",
     "groupId": "CNE_113-2_30"
   },
   {
@@ -54484,7 +54484,7 @@
       "D": ""
     },
     "answer": "D",
-    "image": "",
+    "image": "img/CNE_113-2_39.png",
     "groupId": "CNE_113-2_39"
   },
   {
@@ -55352,7 +55352,7 @@
       "D": ""
     },
     "answer": "A",
-    "image": "",
+    "image": "img/CAR_113-3_12.png",
     "groupId": "CAR_113-3_12"
   },
   {
@@ -57690,7 +57690,7 @@
       "D": "建議航線"
     },
     "answer": "B",
-    "image": "",
+    "image": "img/NSM_113-4_6.png",
     "groupId": "NSM_113-4_6"
   },
   {
@@ -58838,7 +58838,7 @@
       "D": ""
     },
     "answer": "D",
-    "image": "",
+    "image": "img/CAR_113-4_23.png",
     "groupId": "CAR_113-4_23"
   },
   {
@@ -63794,7 +63794,7 @@
       "D": ""
     },
     "answer": "D",
-    "image": "",
+    "image": "img/CNE_114-2_20.png",
     "groupId": "CNE_114-2_20"
   },
   {
@@ -66510,7 +66510,7 @@
       "D": ""
     },
     "answer": "D",
-    "image": "",
+    "image": "img/CNE_114-3_30.png",
     "groupId": "CNE_114-3_30"
   },
   {
@@ -67038,11 +67038,11 @@
     "options": {
       "A": "無雲",
       "B": "受霧、雨雪影響，雲量不明",
-      "C": "",
-      "D": ""
+      "C": "8/8",
+      "D": "4/8"
     },
     "answer": "C",
-    "image": "",
+    "image": "img/NSM_114-3_40.png",
     "groupId": "NSM_114-3_40"
   },
   {
@@ -69114,7 +69114,7 @@
       "D": ""
     },
     "answer": "C",
-    "image": "",
+    "image": "img/CNE_114-4_38.png",
     "groupId": "CNE_114-4_38"
   },
   {

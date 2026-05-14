@@ -166,6 +166,27 @@
         <div class="toolbar">
             <span id="mode-badge" class="mode-badge"></span>
             <button id="favorite-btn" class="mini-btn orange-btn" onclick="toggleFavoriteCurrentQuestion()">☆ 收藏本題</button>
+            <button class="mini-btn" style="background:#e67e22;" onclick="openReportModal()">⚑ 回報問題</button>
+        </div>
+
+        <!-- 回報題目問題 Modal -->
+        <div id="report-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:999; align-items:center; justify-content:center;">
+            <div style="background:#fff; border-radius:12px; padding:24px; width:320px; max-width:92%; box-shadow:0 8px 32px rgba(0,0,0,0.2);">
+                <h3 style="margin:0 0 8px; color:#2c3e50;">⚑ 回報題目問題</h3>
+                <p style="margin:0 0 16px; font-size:13px; color:#7f8c8d;">請選擇此題目存在的問題（可複選）</p>
+                <label style="display:flex; align-items:center; gap:10px; margin-bottom:12px; cursor:pointer; font-size:15px;">
+                    <input type="checkbox" id="report-missing-options" style="width:18px; height:18px; cursor:pointer;">
+                    缺少 ABCD 選項
+                </label>
+                <label style="display:flex; align-items:center; gap:10px; margin-bottom:20px; cursor:pointer; font-size:15px;">
+                    <input type="checkbox" id="report-missing-image" style="width:18px; height:18px; cursor:pointer;">
+                    缺少圖示
+                </label>
+                <div style="display:flex; gap:10px;">
+                    <button onclick="submitReport()" style="flex:1; padding:10px; background:#e67e22; border-radius:8px; font-size:14px;">送出回報</button>
+                    <button onclick="closeReportModal()" style="flex:1; padding:10px; background:#7f8c8d; border-radius:8px; font-size:14px;">取消</button>
+                </div>
+            </div>
         </div>
         <div class="question-box">
             <div id="q-image-area"></div>
@@ -216,6 +237,8 @@
         getDoc,
         setDoc,
         updateDoc,
+        addDoc,
+        collection,
         arrayUnion,
         arrayRemove,
         serverTimestamp
@@ -677,8 +700,10 @@
     }
 
     function renderQuestion() {
-        const q = examPool[currentIndex];
+        let q = examPool[currentIndex];
         if (!q) return;
+        // 套用已修復的選項（若有）
+        q = applyFixToQuestion(q);
 
         const qid = q._qid;
         document.getElementById('q-content').innerText = q.question || '';
@@ -782,6 +807,108 @@
             alert('錯題庫更新失敗，請檢查 Firestore Rules。');
         }
     }
+
+    // ── 回報題目問題 ─────────────────────────────────
+
+    // 解析 groupId → { subjectCode, year, period, questionNum, pdfFolder }
+    function parseGroupId(groupId) {
+        // 格式：CODE_year-period_qnum  例如 NAV_107-1_3
+        const m = (groupId || '').match(/^([A-Z]+)_(\d+)-(\d+)_(\d+)$/);
+        if (!m) return {};
+        const [, subjectCode, year, period, questionNum] = m;
+        const pdfFolder = `${year}${String(period).padStart(2,'0')}01_A`;
+        return { subjectCode, year, period, questionNum, pdfFolder };
+    }
+
+    // 修復套用（本機 JSON + Firestore 雙來源，Firestore 優先覆蓋）
+    let questionFixes = {};
+    async function loadQuestionFixes() {
+        // 1. 本機 question_fixes.json（離線可用）
+        try {
+            const resp = await fetch('./question_fixes.json');
+            if (resp.ok) {
+                const local = await resp.json();
+                // 格式轉換：{ groupId: { options, fixedAt, ... } }
+                Object.entries(local).forEach(([gid, val]) => {
+                    questionFixes[gid] = val;
+                });
+            }
+        } catch(e) { /* 檔案不存在時靜默忽略 */ }
+
+        // 2. Firestore（覆蓋本機，確保最新）
+        try {
+            const { getDocs, collection: col } =
+                await import("https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js");
+            const snap = await getDocs(col(db, 'question_fixes'));
+            snap.forEach(d => { questionFixes[d.id] = d.data(); });
+        } catch(e) { console.warn('Firestore 修復載入失敗', e); }
+    }
+    loadQuestionFixes();
+
+    function applyFixToQuestion(q) {
+        const fix = questionFixes[q._qid || q.id || ''];
+        if (!fix) return q;
+        return Object.assign({}, q,
+            fix.options ? { options: fix.options } : {},
+            fix.answer  ? { answer:  fix.answer  } : {}
+        );
+    }
+    window.applyFixToQuestion = applyFixToQuestion;
+
+    window.openReportModal = function() {
+        document.getElementById('report-missing-options').checked = false;
+        document.getElementById('report-missing-image').checked = false;
+        document.getElementById('report-modal').style.display = 'flex';
+    };
+
+    window.closeReportModal = function() {
+        document.getElementById('report-modal').style.display = 'none';
+    };
+
+    window.submitReport = async function() {
+        const q = examPool[currentIndex];
+        if (!q) return;
+
+        const missingOpts = document.getElementById('report-missing-options').checked;
+        const missingImg  = document.getElementById('report-missing-image').checked;
+        if (!missingOpts && !missingImg) { alert('請至少選擇一個問題類型'); return; }
+
+        const issues = [];
+        if (missingOpts) issues.push('缺少ABCD選項');
+        if (missingImg)  issues.push('缺少圖示');
+
+        const qid     = q._qid || q.id || '';
+        const parsed  = parseGroupId(q.groupId || qid);
+
+        try {
+            await addDoc(collection(db, 'reports'), {
+                questionId:   qid,
+                groupId:      q.groupId || '',
+                questionText: (q.question || '').substring(0, 150),
+                subject:      q.subject  || '',
+                year:         q.year     || '',
+                // 解析出的欄位，供後續 PDF 掃描腳本使用
+                subjectCode:  parsed.subjectCode  || '',
+                period:       parsed.period        || '',
+                questionNum:  parsed.questionNum   || '',
+                pdfFolder:    parsed.pdfFolder     || '',
+                issues,
+                status:       'pending',   // pending → fixed
+                reportedBy:   currentUser ? currentUser.uid : 'anonymous',
+                reportedAt:   serverTimestamp()
+            });
+            closeReportModal();
+            alert('✅ 已成功回報！系統將於每週掃描並修復，感謝您的回饋。');
+        } catch (e) {
+            console.error('回報失敗', e);
+            alert('回報失敗，請稍後再試。');
+        }
+    };
+
+    document.getElementById('report-modal').addEventListener('click', function(e) {
+        if (e.target === this) closeReportModal();
+    });
+    // ─────────────────────────────────────────────
 
     window.toggleFavoriteCurrentQuestion = async function() {
         const q = examPool[currentIndex];

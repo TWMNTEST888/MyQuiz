@@ -17,10 +17,13 @@ import json
 import os
 from datetime import datetime
 
-# ── 設定區 ──────────────────────────────────
-FIREBASE_PROJECT    = "myquiz-443fc"
-TELEGRAM_BOT_TOKEN  = "7974393551:AAEB4DSvcoLl2OBhJWT6i8pHlyBVQGT5rLg"
-TELEGRAM_CHAT_ID    = "8858830558"
+# ── 設定區（敏感資訊從 config.py 讀取）──────
+FIREBASE_PROJECT = "myquiz-443fc"
+try:
+    from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+except ImportError:
+    TELEGRAM_BOT_TOKEN = ""
+    TELEGRAM_CHAT_ID   = ""
 # ─────────────────────────────────────────────
 
 def get_firestore_reports():

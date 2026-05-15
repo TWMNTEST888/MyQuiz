@@ -96136,6 +96136,4962 @@
     "answer": "C",
     "image": "",
     "groupId": "ECDIS_130"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 航行於A1海域船舶，不慎誤發遇險信文，應立即使用特高頻(VHF)何種頻道向岸台取消？",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_241"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "24. 下列何者為全球海上遇險及安全系統（GMDSS）所稱的A1海域？",
+    "options": {
+      "A": "南北極區海岸電台通信範圍",
+      "B": "特高頻（VHF）海岸電台通信範圍",
+      "C": "高頻（HF）海岸電台通信範圍",
+      "D": "中頻（MF）海岸電台通信範圍"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_242"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "26. 航行警告電傳接收安全信文其代字為“D”，則其意義是：",
+    "options": {
+      "A": "氣象預報",
+      "B": "搜救資訊",
+      "C": "航行警告",
+      "D": "海冰報告"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_243"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 依照全球航行警告業務區域（NAVAREAS）之劃分，我國海域應屬於第幾區？",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_244"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 依國際公約規定，GMDSS系統之印表機，應多久測試一次？",
+    "options": {
+      "A": "每天",
+      "B": "每週",
+      "C": "每月",
+      "D": "每年"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_245"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "19. GMDSS系統已於何時全面性實施？",
+    "options": {
+      "A": "1997年2月1日",
+      "B": "1998年2月1日",
+      "C": "1999年2月1日",
+      "D": "2000年2月1日"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_246"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "20. 目前國際海事衛星C系統(INMARSAT－C)，於太空中工作之衛星共有多少顆？",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_247"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "21. 航行警告電傳接收機(NAVTEX Rx)，其接收範圍約多少浬？",
+    "options": {
+      "A": "400",
+      "B": "800",
+      "C": "1600",
+      "D": "2000"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_248"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 航行電傳（NAVTEX）為要求嚴格控制廣播的資訊流量，規定在幾分鐘之時段內必須插入導 航警報、天氣預報、SAR初始遇險報警及各項設備的資訊等？",
+    "options": {
+      "A": "10分鐘之內",
+      "B": "15分鐘之內",
+      "C": "25分鐘之內",
+      "D": "30分鐘之內"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_249"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "15. 於航行電傳系統(NAVTEX)中，香港發射台之代碼，下列何者正確？",
+    "options": {
+      "A": "G",
+      "B": "L",
+      "C": "P",
+      "D": "Q"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_250"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "25. 船舶遇難信號中，下列何者為以無線電話發送之信號？",
+    "options": {
+      "A": "DANGER",
+      "B": "HELP",
+      "C": "DISTRESS",
+      "D": "MAYDAY"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_251"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "27. 船舶發出遇險呼叫後接收來自岸台之中頻（MF）數位選擇呼叫（DSC）之確認，此時應利 用下列何種頻率進行後續通話？",
+    "options": {
+      "A": "1182 KHz",
+      "B": "2182 KHz",
+      "C": "3182 KHz",
+      "D": "4182 KHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_252"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 當遇險船舶收到海岸無線電台數位選擇呼叫之遇險確認後，應立即進行後續之遇險通信 ，此時MAYDAY應發送多少次？",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_253"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "37. 船舶利用數位選擇呼叫（DSC）設備發送遇險呼叫，在任何情況下，下列何項資料不被選 定輸入？",
+    "options": {
+      "A": "遇險原因",
+      "B": "遇險位置",
+      "C": "遇險時間",
+      "D": "船舶型式"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_254"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "6. 下列何者刊物提供無線電航行警告的資料，包括NAVTEX及WWNWS(世界航行警報服務)?",
+    "options": {
+      "A": "英版無線電信號表的第一冊「海岸無線電台」",
+      "B": "英版無線電信號表的第二冊「無線電助航、衛星航海系統、時間信號、電子定位系統」",
+      "C": "英版無線電信號表的第三冊「海事安全資訊服務」",
+      "D": "英版無線電信號表的第四冊「氣象觀測站表」"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_255"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "10. 一般在搜救現場協調時，以最先到達現場機構負責人承擔現場協調官之功能，直到何人解 除該員任務為止？",
+    "options": {
+      "A": "現場協調官〈OSCs〉",
+      "B": "搜救任務協調官〈SMCs〉",
+      "C": "搜救協調官〈SCs〉",
+      "D": "參與搜索之搜救隊長"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_256"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "12. 當SART與X-BAND雷達，相距3浬以上時，則雷達螢幕上會出現多少個點？",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_257"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. INMARSAT－C系統，使用何種頻帶進行通訊？",
+    "options": {
+      "A": "HF",
+      "B": "VHF",
+      "C": "UHF",
+      "D": "SHF"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_258"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "30. 全球海上遇險及安全系統（GMDSS）中的現場通信係指：",
+    "options": {
+      "A": "遇險船舶與救助單位間的通信",
+      "B": "救助單位與海岸電台間的通信",
+      "C": "遇險船舶與海岸電台間的通信",
+      "D": "海岸電台間的通信"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_259"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "31. 衛星輔助搜救系統（COSPAS-SARSAT）之衛星軌道高度約為多少公里？",
+    "options": {
+      "A": "200～400",
+      "B": "500～700",
+      "C": "850～1000",
+      "D": "1200～1500"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_260"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 遇難無線電通訊設備使用2182 KHz（千赫）的是：",
+    "options": {
+      "A": "無線電報",
+      "B": "中頻（MF）無線電話",
+      "C": "特高頻（VHF）無線電話",
+      "D": "救生艇筏使用之無線電報"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_261"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "33. 搜救雷達詢答機（SART）開啟後，若附近海域並無9 GHz雷達運作，則SART將出現何種 顯示？",
+    "options": {
+      "A": "綠閃光",
+      "B": "綠定光",
+      "C": "紅閃光",
+      "D": "紅定光"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_262"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "35. 下列何者受到附近雷達所發射脈衝之激發後，其自動發射之信號會顯示於該雷達螢幕上？",
+    "options": {
+      "A": "EPIRB",
+      "B": "NAVTEX",
+      "C": "NBDP",
+      "D": "SART"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_263"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "36. GMDSS is the abbreviation for Global _____ and Safety System.",
+    "options": {
+      "A": "Marine Danger",
+      "B": "Maritime Distress",
+      "C": "Marine Disaster",
+      "D": "Maritime Disable"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_264"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 搜救用雷達應答機(SART)，必須配合何種頻帶之雷達才能使用？",
+    "options": {
+      "A": "L",
+      "B": "M",
+      "C": "S",
+      "D": "X"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_265"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. 有關SART之電池容量，依公約規定於應答時可維持多少小時？",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_266"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "28. 國際海事衛星（INMARSAT）系統，於大西洋區計有幾顆衛星在運作？",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_267"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 搜救雷達詢答機（SART）在雷達顯示器上出現十二點狀，若由中心向外算，則何點才是真 正SART之位置？",
+    "options": {
+      "A": "第一點",
+      "B": "第四點",
+      "C": "第八點",
+      "D": "第十二點"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_268"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "33. 在使用特高頻無線電話時，如聽到遇險呼叫，下列何者為正確的措施？",
+    "options": {
+      "A": "減低功率繼續發送",
+      "B": "增強功率展開呼叫",
+      "C": "停止發送並保持「守聽」",
+      "D": "不理會"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_269"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 應急指位無線電示標（EPIRB）主要用於何處以達遇險通報之目的？",
+    "options": {
+      "A": "陸上",
+      "B": "海上",
+      "C": "空中",
+      "D": "水下"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_270"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 救生艇筏所配備之搜救雷達詢答機（SART），其可藉由下列何種雷達之搜尋設備予以定位 ？",
+    "options": {
+      "A": "C頻帶",
+      "B": "M頻帶",
+      "C": "S頻帶",
+      "D": "X頻帶"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_271"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 船舶利用INMARSAT-C發送遇險之「電報」，此電報的優先等級為何？",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_272"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 下列何者並非航行電傳（NAVTEX）在預報某海域12小時或24小時內的一般內容？",
+    "options": {
+      "A": "預報海域或影響地區",
+      "B": "觀測時間和播報內容",
+      "C": "發送時間和有效時間",
+      "D": "具體的天氣情況和海面情況"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_273"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "11. 依公約規定SART表面應塗何種顏色？",
+    "options": {
+      "A": "深紅",
+      "B": "淺藍",
+      "C": "橘黃",
+      "D": "墨綠"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_274"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "16. GMDSS應備有雙工無線電話通信裝置，A1海域應使用下列何頻帶為主？",
+    "options": {
+      "A": "UHF",
+      "B": "VHF",
+      "C": "HF",
+      "D": "MF"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_275"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "20. 於NAVTEX系統中，下列何者代碼，表示氣象預報？",
+    "options": {
+      "A": "E",
+      "B": "F",
+      "C": "G",
+      "D": "H"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_276"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "27. 船舶航行極區可利用何種通信設備接收海事安全資訊（MSI）？",
+    "options": {
+      "A": "VHF+DSC",
+      "B": "SART",
+      "C": "HF+NBDP",
+      "D": "INMARSAT-EGC"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_277"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "29. 航行警告電傳（NAVTEX）接收信文其代字為J，則其電傳所傳送的訊息為何？",
+    "options": {
+      "A": "領航業務資訊",
+      "B": "海冰報告",
+      "C": "氣象預報",
+      "D": "衛星導航資訊"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_278"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "3. 下列何者為現場最高層級搜救系統之經理人？",
+    "options": {
+      "A": "現場協調官〈OSCs〉",
+      "B": "搜救任務協調官〈SMCs〉",
+      "C": "搜救協調官〈SCs〉",
+      "D": "飛機協調官(ACO)"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_279"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "10. 搜救船的雷達PPI上，呈現SART的距離為7浬，若船速為25節，試求ETA(約幾分鐘)？",
+    "options": {
+      "A": "15",
+      "B": "17",
+      "C": "19",
+      "D": "21"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_280"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "28. 衛星輔助搜救系統（COSPAS-SARSAT）的地面終端台，其英文簡縮字為何？",
+    "options": {
+      "A": "MCC",
+      "B": "LUT",
+      "C": "RCC",
+      "D": "SUT"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_281"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "29. 國際海事衛星（INMARSAT）通信系統之運轉中心其名稱為何？",
+    "options": {
+      "A": "網路協調站（NCS）",
+      "B": "任務管制中心（MCC）",
+      "C": "海岸衛星台（CES）",
+      "D": "網路作業中心（NOC）"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_282"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "31. 依據我國國際海事衛星行動業務識別碼(INMARSAT Mobil Number)之指配原則，問 INMARSAT-C型通信類別之起始碼為何？",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_283"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 強化群呼（EGC）是屬於下列那一個系統？",
+    "options": {
+      "A": "輔助搜救衛星",
+      "B": "國際海事衛星",
+      "C": "氣象導航衛星",
+      "D": "觀測衛星"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_284"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 國際海事衛星，其行動電話號碼（IMN）共有幾個碼？",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_285"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "36. 依GMDSS規定搜救雷達詢答機（SART）至少多久必須測試一次？",
+    "options": {
+      "A": "半個月",
+      "B": "一個月",
+      "C": "三個月",
+      "D": "六個月"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_286"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "37. 船舶利用國際海事衛星（INMARSAT）進行海上通話，其電話代碼是：",
+    "options": {
+      "A": "870",
+      "B": "871",
+      "C": "872",
+      "D": "873"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_287"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 搜救用雷達應答機(SART) 於正常操作情況下，其可達距離約多少浬？",
+    "options": {
+      "A": "15",
+      "B": "30",
+      "C": "45",
+      "D": "60"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_288"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. 當一架搜救飛機接近SART小於1浬時，則雷達PPI上會出現何種狀況？",
+    "options": {
+      "A": "12個環",
+      "B": "12個點",
+      "C": "12個弧",
+      "D": "12個直線"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_289"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "27. 航行警告電傳（NAVTEX）接收信文其信息種類的代字為B，則其意義是指：",
+    "options": {
+      "A": "搜救資訊",
+      "B": "氣象報告",
+      "C": "航行警告",
+      "D": "衛星導航資訊"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_290"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "28. 船舶特高頻（VHF）無線電話的何種頻道必須保持連續守聽？",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_291"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "30. 救生艇筏應備有一具搜救雷達詢答機（SART），其使用下列何種頻率？",
+    "options": {
+      "A": "8 GHz",
+      "B": "9 GHz",
+      "C": "10 GHz",
+      "D": "12 GHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_292"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 何種波段的雷達可以激發和接收搜救雷達詢答機（SART）的信號？",
+    "options": {
+      "A": "C",
+      "B": "K",
+      "C": "S",
+      "D": "X"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_293"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 當船舶台接收到海岸電台之VHF+DSC遇險信文確認後，應利用下列何種頻率進行後續通信 ？",
+    "options": {
+      "A": "156.525MHZ",
+      "B": "156.666 MHZ",
+      "C": "156.8 MHZ",
+      "D": "165.8 MHZ"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_294"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "10. 下列何者非為遇難船傳送遇難消息之方法？",
+    "options": {
+      "A": "特高頻頻道16 (156.8MHz)",
+      "B": "國際遇難頻率2182KHz〈無線電話〉",
+      "C": "緊急位置指示無線電標桿〈EPIRB〉",
+      "D": "雷達詢答機(SART)"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_295"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "27. 衛星輔助搜救系統（COSPAS-SARSAT）所屬的任務管制中心，其英文縮寫為：",
+    "options": {
+      "A": "LUT",
+      "B": "RCC",
+      "C": "TCC",
+      "D": "MCC"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_296"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "14. 依公約規定，SART應在10公尺深水中，至少保持多少分鐘不進水？",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_297"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. 於NAVTEX的信文格式中，下列何者為信文開始符號？",
+    "options": {
+      "A": "ACAC",
+      "B": "KCKC",
+      "C": "QCQC",
+      "D": "ZCZC"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_298"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "24. 航行警告電傳接收機（NAVTEX Rx），其操作頻率為多少KHZ？",
+    "options": {
+      "A": "518",
+      "B": "581",
+      "C": "690",
+      "D": "718"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_299"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "25. 海岸電台以MF/HF接收到船台DSC遇險呼叫後，多少分鐘內應進行回報？",
+    "options": {
+      "A": "0.5",
+      "B": "1",
+      "C": "1.5",
+      "D": "2"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_300"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "33. 海岸電台收到遇險信文後，首先應採取的行動為：",
+    "options": {
+      "A": "通知搜救協調中心",
+      "B": "重新設定設備",
+      "C": "確認信文之收悉",
+      "D": "通知任務管制中心"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_301"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 搜救雷達詢答機（SART）在雷達顯示上出現十二點狀，其各點間之間隔為：",
+    "options": {
+      "A": "漸長",
+      "B": "相等",
+      "C": "漸短",
+      "D": "不規則"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_302"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "39. 下列何者是衛星輔助搜救系統（Cospas-Sarsat system）的發送頻率？",
+    "options": {
+      "A": "2182 KHz",
+      "B": "406 MHz",
+      "C": "9 GHz",
+      "D": "1.6 GHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_303"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "15. GMDSS船台使用MF+DSC，其後續語音通話頻率，下列何者正確？",
+    "options": {
+      "A": "2174.5 KHz",
+      "B": "2182 KHz",
+      "C": "2187.5 KHz",
+      "D": "2200 KHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_304"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 於衛星輔助搜救系統（COSPAS-SARSAT）中，由下列那個單位負責傳送船舶遇險位置至 搜救協調中心(RCC)？",
+    "options": {
+      "A": "海岸無線電台（CRS）",
+      "B": "任務管制中心（MCC）",
+      "C": "海岸地球台（CES）",
+      "D": "地面終端台（LUT）"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_305"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "12. 一般船舶當雷達天線高度15公尺時，至少可探測多遠距離之SART？",
+    "options": {
+      "A": "2浬",
+      "B": "5浬",
+      "C": "10浬",
+      "D": "20浬"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_306"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "15. 我國國輪的海上行動業務識別碼(MMSI)，下列何者正確？",
+    "options": {
+      "A": "216XXXXXX",
+      "B": "316XXXXXX",
+      "C": "416XXXXXX",
+      "D": "516XXXXXX"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_307"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "31. 船舶遇險時，利用COSPAS-SARSAT系統發出遇險求救，問下列何者為該遇險警報信號傳 送的正確流程？",
+    "options": {
+      "A": "EPIRB→CRS→MCC→RCC",
+      "B": "EPIRB→RCC→MCC→LUT",
+      "C": "EPIRB→RCC→LUT→MCC",
+      "D": "EPIRB→LUT→MCC→RCC"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_308"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "39. 國際海事衛星通信所使用電傳電報（Telex）業務碼若撥「43」則其功能為何？",
+    "options": {
+      "A": "氣象報告",
+      "B": "航行警告",
+      "C": "船位報告",
+      "D": "電報預約"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_309"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 船舶使用INMARSAT-C，發送遇險信文，依規定在多少分鐘內，未收到岸台確認即可再重覆 發送？",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_310"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 依國際公約規定，船長於船舶遇險時操作GMDSS系統設備指南，應自何日起，必須張貼於 駕駛台？",
+    "options": {
+      "A": "1999年2月1日",
+      "B": "2000年2月1日",
+      "C": "2001年2月1日",
+      "D": "2002年2月1日"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_311"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "7. ______ is a cooperative search and rescue satellite system operated by the U.S. and Russia which provides worldwide coverage by sensing the signals of Emergency Position Indicating Radio Beacons (EPIRBs)",
+    "options": {
+      "A": "INMARSAT",
+      "B": "GPS",
+      "C": "NNSS",
+      "D": "COSPAS/SARSAT"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_312"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. 應急指位無線電示標(EPIRB)，其定位精確度約為多少公里？",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "10",
+      "D": "20"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_313"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "18. 航空與海事用在121.52MHz工作之求生無線電設備，下列何者非該設備頻率能被設計作為 之功用？",
+    "options": {
+      "A": "警報",
+      "B": "導向",
+      "C": "現場通信",
+      "D": "衛星通信"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_314"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "37. 於特高頻（VHF）通訊中，用於遇險及安全之DSC頻道為何？",
+    "options": {
+      "A": "CH-16",
+      "B": "CH-70",
+      "C": "CH-75",
+      "D": "CH-76"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_315"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "39. 重複呼叫公眾通信之數位選擇呼叫，在多少分鐘內若未收到確認，可在同一數位選擇數位 頻道再呼叫？",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_316"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 下列何者並非閱讀航行電傳（NAVTEX）天氣報告時應注意的事項？",
+    "options": {
+      "A": "天氣報告所使用世界時的時間名稱",
+      "B": "天氣報告內容的排序",
+      "C": "天氣報告廣播台的名稱",
+      "D": "天氣報告的觀測時間"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_317"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "15. INMARSAT交換電報(TELEX)通信，其作業的選擇終止信號，下列何者為正確？",
+    "options": {
+      "A": "-",
+      "B": "+",
+      "C": "#",
+      "D": "*"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_318"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. 搜救用雷達應答機(SART)，其操作頻率為多少MHz？",
+    "options": {
+      "A": "3000",
+      "B": "5000",
+      "C": "9000",
+      "D": "12000"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_319"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "19. 衛星輔助搜救系統(COSPAS-SARSAT)之衛星，採用何種頻率進行發射？",
+    "options": {
+      "A": "106 MHz",
+      "B": "206 MHz",
+      "C": "306 MHz",
+      "D": "406 MHz"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_320"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "20. 船舶水上行動業務識別(MMSI)碼，使用多少數字？",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_321"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "21. 航行警告電傳(NAVTEX)接收信文之編號，下列何者為正確？",
+    "options": {
+      "A": "01-69",
+      "B": "01-79",
+      "C": "01-89",
+      "D": "01-99"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_322"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "31. 航行警告電傳（NAVTEX）接收信文其代字為C，則其所代表意義為何？",
+    "options": {
+      "A": "氣象預報",
+      "B": "海冰報告",
+      "C": "領航業務資訊",
+      "D": "衛星導航資訊"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_323"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 以無線電話發送海難遇險信號的程序，是連續發送三次何字組？",
+    "options": {
+      "A": "“XXX”",
+      "B": "“PAN PAN”",
+      "C": "“SOS”",
+      "D": "“MAY DAY”"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_324"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "35. 下列何種海域無法使用國際海事衛星（INMARSAT）通信？",
+    "options": {
+      "A": "赤道",
+      "B": "低緯度",
+      "C": "中緯度",
+      "D": "極區"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_325"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "39. DSC遇險呼叫不包括下列何者？",
+    "options": {
+      "A": "呼叫類別",
+      "B": "自身識別",
+      "C": "風力大小",
+      "D": "遇險性質"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_326"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 有關航行電傳(NAVTEX)之天氣報告，當預測風力在達到多少級風時發佈風暴警報 （WS）？",
+    "options": {
+      "A": "8～9級",
+      "B": "9～10級",
+      "C": "10～11級",
+      "D": "12級以上"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_327"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "10. 於航行警告電傳系統(NAVTEX)中，每一個發射台每次發送信文之時間，約為多少分鐘？",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_328"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "11. 航行電傳系統(NAVTEX)中，下列何者為信文結束符號？",
+    "options": {
+      "A": "JJJJ",
+      "B": "KKKK",
+      "C": "NNNN",
+      "D": "SSSS"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_329"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "12. 國際遇險頻率中，下列何者為高頻數位選擇呼叫(HF+DSC)所使用之頻率？",
+    "options": {
+      "A": "6123.0KHZ",
+      "B": "8414.5KHZ",
+      "C": "12877.0KHZ",
+      "D": "16606.0KHZ"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_330"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. INMARSAT-B申請電話通信，自動轉接的代碼，下列何者為正確？",
+    "options": {
+      "A": "0",
+      "B": "00",
+      "C": "01",
+      "D": "10"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_331"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "30. 依GMDSS規定，船舶備用電源至少多少時間測試一次？",
+    "options": {
+      "A": "一週",
+      "B": "二週",
+      "C": "三週",
+      "D": "四週"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_332"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "31. 我國現行申請水上行動業務識別碼（MMSI），應向何單位辦理申請？",
+    "options": {
+      "A": "交通部郵電司",
+      "B": "國家通訊傳播委員會",
+      "C": "港務局",
+      "D": "交通部航政司"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_333"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 船舶誤發遇險警報，下列何者為優先通告取消此信文之單位？",
+    "options": {
+      "A": "任務管制中心（MCC）",
+      "B": "海岸防衛隊（Coast Guard）",
+      "C": "網路協調站（NCC）",
+      "D": "海岸無線電台（CRS）"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_334"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 船舶欲發送有關緊急及安全之訊息，下列何者為特高頻（VHF）通訊所規定之頻率？",
+    "options": {
+      "A": "121.5 MHz",
+      "B": "123.0 MHz",
+      "C": "156.525 MHz",
+      "D": "156.8 MHz"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_335"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. 船舶在海上航行，如屬可行，應在VHF何種頻道保持連續守聽？",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "16"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_336"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "27. 搜救雷達詢答機（SART），應裝在那裡？",
+    "options": {
+      "A": "駕駛台附近且便於拿取的地方",
+      "B": "重要的導航設施上",
+      "C": "船舶的大桅頂上",
+      "D": "專門用於搜救的船和飛機上"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_337"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 遇險船舶應利用VHF以下列何種國際海上遇險頻率發送遇險警報？",
+    "options": {
+      "A": "156.8 MHz",
+      "B": "168.5 MHz",
+      "C": "218.2 MHz",
+      "D": "228.2 MHz"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_338"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "36. GMDSS系統中，船舶專用於救援使用的中頻（MF）數位選擇呼叫（DSC）其頻率為多少 KHz？",
+    "options": {
+      "A": "2087.5",
+      "B": "2187.5",
+      "C": "2287.5",
+      "D": "2387.5"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_339"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 國際遇險頻率中，中頻(MF)數位選擇呼叫(DSC)，係採用何種頻率進行收發信文？",
+    "options": {
+      "A": "2182.0 KHz",
+      "B": "2183.5 KHz",
+      "C": "2185.0 KHz",
+      "D": "2187.5 KHz"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_340"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 張貼於駕駛台供船長於船舶遇險時，使用之GMDSS設備操作指南中，下列何種顏色表示船 舶需要獲得立即援助？",
+    "options": {
+      "A": "藍色",
+      "B": "紅色",
+      "C": "橙色",
+      "D": "黃色"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_341"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "3. 依國際公約規定，應急指位無線電示標(EPIRB)，應多久測試一次？",
+    "options": {
+      "A": "一週",
+      "B": "二週",
+      "C": "一個月",
+      "D": "兩個月"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_342"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "3. 航行電傳NAVTEX所發布的風力警報(Warning)，如風力預測為10-11級時，其名稱為何?",
+    "options": {
+      "A": "大風警報GW",
+      "B": "狂風警報WW",
+      "C": "風暴警報SW",
+      "D": "颱風警報TW"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_343"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "14. 依公約規定船舶總噸位500以上非客船，應配置搜救用雷達應答機(SART)至少幾具？",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_344"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "16. 於航行警告電傳系統(NAVTEX)中，每個航行警告區至多有幾個電台？",
+    "options": {
+      "A": "12",
+      "B": "16",
+      "C": "20",
+      "D": "24"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_345"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "22. 船舶無線電話的遇險呼叫，應先呼叫Mayday幾次？",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_346"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 全球海上遇險及安全系統（GMDSS）中，下列何者為A2海域？",
+    "options": {
+      "A": "高頻（HF）海岸電台通信範圍",
+      "B": "南北極區海岸電台通信範圍",
+      "C": "中頻（MF）海岸電台通信範圍",
+      "D": "特高頻（VHF）海岸電台通信範圍"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_347"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "35. 搜救雷達詢答機（SART）之功能為：",
+    "options": {
+      "A": "一般通信",
+      "B": "現場通信",
+      "C": "顯示位置",
+      "D": "遇險警報"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_348"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 特高頻（VHF）數位選擇呼叫（DSC）於單一之呼叫持續時間為多少秒？",
+    "options": {
+      "A": "0.15至0.25",
+      "B": "0.25至0.35",
+      "C": "0.35至0.45",
+      "D": "0.45至0.63"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_349"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 依SOLAS公約規定，適用於GMDSS通信系統之貨船，其總噸位應為多少以上？",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "300",
+      "D": "500"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_350"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "16. 依公約規定，SART從多少公尺之高度，落入水中而不損壞？",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_351"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "18. INMARSAT-C的二位數碼39代表何意義?",
+    "options": {
+      "A": "要求醫療協助",
+      "B": "要求海事協助",
+      "C": "要求技術協助",
+      "D": "告知通信時間"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_352"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "27. 下列何者為搜救單位與救生艇筏間，在通信上所使用之雙向特高頻無線電話裝置的頻率？",
+    "options": {
+      "A": "121.525 MHz",
+      "B": "121.800 MHz",
+      "C": "156.525 MHz",
+      "D": "156.800 MHz"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_353"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "28. 為了避免相互間的干擾，航行警告電傳（NAVTEX）採用何種方式發送海事安全資訊？",
+    "options": {
+      "A": "時間分隔",
+      "B": "頻率分隔",
+      "C": "相位分隔",
+      "D": "脈波分隔"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_354"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "31. 船舶無線電台以數位選擇呼叫時，使用多頻遇險呼叫方式，係由6次連續呼叫構成，此呼叫 群得分散在那6個遇險頻率之組成？",
+    "options": {
+      "A": "1個中頻及5個高頻",
+      "B": "2個中頻及4個高頻",
+      "C": "3個中頻及3個高頻",
+      "D": "4個中頻及2個高頻"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_355"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "33. SART: is the abbreviation for Search and rescue ______.",
+    "options": {
+      "A": "transit",
+      "B": "transfer",
+      "C": "transport",
+      "D": "transponder"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_356"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 下列何者並非船舶航行電傳（NAVTEX）接收天氣報告的一般內容？",
+    "options": {
+      "A": "天氣形勢摘要",
+      "B": "警報",
+      "C": "低溫特報",
+      "D": "海域（Sea Areas）天氣預報"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_357"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "19. 下列何種型式之國際海事衛星(INMARSAT)目前已停止運作？",
+    "options": {
+      "A": "A",
+      "B": "C",
+      "C": "F",
+      "D": "M"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_358"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 有關航行電傳（NAVTEX）氣象資訊廣播的具體國際協調安排，規定在「海洋氣象服務手冊 」第幾卷的有關章節中？",
+    "options": {
+      "A": "第一卷",
+      "B": "第二卷",
+      "C": "第三卷",
+      "D": "第四卷"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_359"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "8. 對於在同一搜救任務中有兩組以上之救援單位從事搜救任務時，現場應有一人協調所有任務 活動，此人稱為下列何者？",
+    "options": {
+      "A": "搜救任務協調官",
+      "B": "搜救協調官",
+      "C": "現場協調官",
+      "D": "現場指揮官"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_360"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "12. 國際海事衛星C型系統，可提供相關服務，下列何者代碼表示要求醫療協助？",
+    "options": {
+      "A": "33",
+      "B": "37",
+      "C": "38",
+      "D": "39"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_361"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. COSPAS-SARSAT衛星之主要用途為何？",
+    "options": {
+      "A": "遇險",
+      "B": "導航",
+      "C": "電話",
+      "D": "數據傳輸"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_362"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "23. 在GMDSS系統中，用於遇險警報及安全呼叫之數位選擇呼叫（DSC）所使用特高頻 （VHF）為第幾頻道？",
+    "options": {
+      "A": "16",
+      "B": "24",
+      "C": "60",
+      "D": "70"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_363"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "24. GMDSS設備中的電源，鉛酸電池組的標準電壓降至1.8伏特時，24伏特的電壓降為約多少 伏特，則應予充電？",
+    "options": {
+      "A": "16",
+      "B": "18",
+      "C": "20",
+      "D": "22"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_364"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "30. GMDSS船舶使用9位數字做為船舶識別碼，9位數字中最左三位數代表下列何種意義？",
+    "options": {
+      "A": "船籍港碼",
+      "B": "公司碼",
+      "C": "船型碼",
+      "D": "國籍碼"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_365"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 依照無線電規則，公眾通信之國際中頻（MF）數位選擇呼叫頻道，應於船舶與不同國籍海 岸電台間使用，問船舶使用之發射頻率應為多少KHz？",
+    "options": {
+      "A": "2187.5",
+      "B": "2189.5",
+      "C": "2191.5",
+      "D": "2193.5"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_366"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 當搜救船非常接近SART位置時(通常小於1浬)，SART在雷達幕上的影像為?",
+    "options": {
+      "A": "12個環(Rings)",
+      "B": "12個弧(Arcs)",
+      "C": "12個劃(Blips)",
+      "D": "12個點"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_367"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "7. 下列何者不是船舶在施行救助時所需採取立即行動？",
+    "options": {
+      "A": "確認接收到訊息",
+      "B": "可能時蒐集遇險載具之資訊",
+      "C": "無須在國際頻率維持連續守聽",
+      "D": "1999年2月1日以後，海上人命安全國際公約〈SOLAS〉適用船舶必須符合應安裝之適當設備與 守聽要求"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_368"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "12. 當船舶情況警急時，可直接按下INMARSAT-C面板上【Distress】，至少幾秒鐘即可發出 遇險信文？",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_369"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "16. 於GMDSS系統中，將全球海域分為多少個區域？",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_370"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. 衛星輔助搜救系統(COSPAS-SARSAT)，其地面段(Ground Segment)由幾個部分組成？",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_371"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "26. 專用於J3E無線電話，提供遇險使用之頻率，下列何者為正確？",
+    "options": {
+      "A": "500KHZ",
+      "B": "2182KHZ",
+      "C": "2187.5KHZ",
+      "D": "158.6KHZ"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_372"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. COSPAS-SARSAT衛星之主要用途為何？",
+    "options": {
+      "A": "導航通信",
+      "B": "國際電話",
+      "C": "數據傳輸",
+      "D": "遇險定位"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_373"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 依據SOLAS公約規定，貨船上應急電源之容量可供應GMDSS設備正常操作至少幾小時？",
+    "options": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "30"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_374"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "12. 依公約規定，應急指位無線電示標(EPIRB)，其電池容量至少可用多少小時？",
+    "options": {
+      "A": "12",
+      "B": "24",
+      "C": "36",
+      "D": "48"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_375"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "14. NAVTEX系統所使用之頻帶(BAND)，下列何者為正確？",
+    "options": {
+      "A": "MF",
+      "B": "HF",
+      "C": "VHF",
+      "D": "UHF"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_376"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "23. 下列何種GMDSS設備，無法接收海事安全資訊(MSI)？",
+    "options": {
+      "A": "HF DSC",
+      "B": "HF NBDP",
+      "C": "INMARSAT EGC",
+      "D": "NAVTEX Rx"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_377"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "33. 依據SOLAS公約多少總噸以上貨船必需配置GMDSS設備？",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "300",
+      "D": "400"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_378"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 一個航行警告區內，最多劃分多少個電台？",
+    "options": {
+      "A": "24",
+      "B": "21",
+      "C": "18",
+      "D": "15"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_379"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 下列何者並非一般航行電傳（NAVTEX）電台所發送的資料？",
+    "options": {
+      "A": "航船布告",
+      "B": "航行警告",
+      "C": "氣象預測",
+      "D": "搜救"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_380"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "14. 依SOLAS公約規定，GMDSS無線電設備之維修方式分為幾種？",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_381"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "35. 下列無線電文及DSC發射標識中，何者為無線電話型式？",
+    "options": {
+      "A": "J3E",
+      "B": "F3E",
+      "C": "A2A",
+      "D": "F1B"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_382"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 船舶遇險時，可使用下列何者發出遇險位置？",
+    "options": {
+      "A": "CRS",
+      "B": "SAR",
+      "C": "ARPA",
+      "D": "EPIRB"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_383"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "8. 依照海上人命安全國際公約〈SOLAS〉規定，船舶施行救助適用船舶應在什麼時候必須符 合應安裝適當GMDSS設備與守聽且全面實施？",
+    "options": {
+      "A": "2005年1月1日以後",
+      "B": "1988年1月1日以後",
+      "C": "2010年1月1日以後",
+      "D": "1999年2月1日以後"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_384"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "11. 輔助搜救衛星(COSPAS-SARSAT)，為低軌繞極衛星，其繞軌道一週約需多少小時？",
+    "options": {
+      "A": "1",
+      "B": "1.75",
+      "C": "2.5",
+      "D": "3.75"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_385"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. 於NAVTEX的信文編號中，下列何者為搜救信息的序號？",
+    "options": {
+      "A": "00",
+      "B": "11",
+      "C": "66",
+      "D": "99"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_386"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "14. What is MMSI？",
+    "options": {
+      "A": "Merchant Maritime Service Information",
+      "B": "Maritime Merchant Safety Identify",
+      "C": "Merchant Mission Service Information",
+      "D": "Maritime Mobile Service Identify code"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_387"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 在GMDSS系統中「普通值機員證書」之英文簡縮字為何？",
+    "options": {
+      "A": "COG",
+      "B": "GOC",
+      "C": "POC",
+      "D": "COC"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_388"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. 國際遇險頻率中，特高頻(VHF)數位選擇呼叫(DSC)，採用下列何種頻道（CH）？",
+    "options": {
+      "A": "16",
+      "B": "70",
+      "C": "87",
+      "D": "88"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_389"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 國際海事組織及國際航道測量組織以16個羅馬數字及26個英文字母分別依序所代表之義意為 何？",
+    "options": {
+      "A": "羅馬數字代表海岸電台與英文字母代表航警區域",
+      "B": "羅馬數字代表衛星識別與英文字母代表衛星電台",
+      "C": "羅馬數字代表航警區域與英文字母代表海岸電台",
+      "D": "羅馬數字代表衛星電台與英文字母代表衛星識別"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_390"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "9. 於航行電傳系統(NAVTEX)中，若接受信文為氣象警告，下列何者為其代碼？",
+    "options": {
+      "A": "J",
+      "B": "K",
+      "C": "L",
+      "D": "B"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_391"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "11. 下列何種雷達助航裝置，會在PPI上形成幅射狀同心圓？",
+    "options": {
+      "A": "雷達反射器(Radar reflector)",
+      "B": "雷達訊標(Racon)",
+      "C": "雷達標識(Ramark)",
+      "D": "搜救詢答機(SART)"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_392"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "14. Which of the followings does not belong to a type of navigational warning?",
+    "options": {
+      "A": "NAVAREA warnings",
+      "B": "Coastal warnings",
+      "C": "International warnings",
+      "D": "Local warnings"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_393"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "16. 下列何者不是GMDSS的功能？",
+    "options": {
+      "A": "遇險警示操作功能",
+      "B": "雷達信號發射功能",
+      "C": "搜救協調通信功能",
+      "D": "現場通信功能"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_394"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. 船舶發送數位選擇呼叫(DSC)求救，至少多少時間未獲岸台回報後，才可重複發送？",
+    "options": {
+      "A": "2.5至4.5分鐘",
+      "B": "4.5至6.5分鐘",
+      "C": "6.5至8.5分鐘",
+      "D": "8.5至10.5分鐘"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_395"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "18. 航行警告電傳接收機(NAVTEX Rx)於操作時，下列資訊代碼何者為強制接收？",
+    "options": {
+      "A": "B",
+      "B": "E",
+      "C": "F",
+      "D": "G"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_396"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. 依IMO國際海事組織的規定，所有船舶由何時開始須將「遇險船舶船長操作全球海上遇險 及安全系統設備指南」張貼於駕駛台上？",
+    "options": {
+      "A": "1995年2月1日起",
+      "B": "1999年2月1日起",
+      "C": "2000年2月1日起",
+      "D": "2004年2月1日起"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_397"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 依GMDSS規定從救生艇筏上發送位置信號之SART設備，其工作頻帶是多少MHz？",
+    "options": {
+      "A": "8200~8500",
+      "B": "9200~9500",
+      "C": "10200~10500",
+      "D": "11200~11500"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_398"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "35. 依SOLAS國際公約之規定，下列敘述何者正確？",
+    "options": {
+      "A": "國際海事衛星組織同步衛星之訊號在A4海域可加以運用",
+      "B": "兩極地區僅可能為A4海域",
+      "C": "A4海域包括A1、A2和A3海域在內",
+      "D": "A4海域為A1、A2和A3海域以外的海域"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_399"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "16. 下列何種INMARSAT型式，不提供語言通信服務，利用儲存轉送(store and forward)技術 ，將電文或數據發出或接收？",
+    "options": {
+      "A": "B",
+      "B": "C",
+      "C": "D",
+      "D": "M"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_400"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 船舶利用一組馬達發電機做為備用電源，依GMDSS規定至少幾天須測試一次？",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "9"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_401"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "39. 在GMDSS系統中，下列何者為「國際電信聯合會」之英文簡縮字？",
+    "options": {
+      "A": "ITT",
+      "B": "ICU",
+      "C": "ITU",
+      "D": "ITA"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_402"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "40. 依據GMDSS系統規劃將全球航行警告業務區域（NAVAREAS）分成多個航行警告區，問 臺灣附近海域屬於第幾區？",
+    "options": {
+      "A": "9",
+      "B": "11",
+      "C": "13",
+      "D": "15"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_403"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "10. 航海員在取消誤發的EPIRB遇險信號時，可由下列何者刊物找到MRCC的通訊聯絡資料？",
+    "options": {
+      "A": "國際無線電信號書",
+      "B": "英版無線電信號表的第五冊「全球海上遇險與安全系統」",
+      "C": "英版無線電信號表的第三冊「海事安全資訊服務」",
+      "D": "英版無線電信號表的第一冊「海岸無線電台」"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_404"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. 衛星輔助搜救系統(COSPAS-SARSAT)之軌道最低高度約多少公里？",
+    "options": {
+      "A": "400",
+      "B": "850",
+      "C": "1500",
+      "D": "2000"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_405"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "21. A person designed to co-ordinate search and rescue operation within a special area, the person is:",
+    "options": {
+      "A": "MRCC",
+      "B": "MMSI",
+      "C": "OSC",
+      "D": "OWS"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_406"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "28. 航行警告電傳在一個航行警告區域內，最多可劃分出多少個電台？",
+    "options": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "30"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_407"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 衛星輔助搜救系統(COSPAS-SARSAT)之衛星，採用何種頻率進行發射？",
+    "options": {
+      "A": "106 MHz",
+      "B": "206 MHz",
+      "C": "306 MHz",
+      "D": "406 MHz"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_408"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "6. 為了避免相互間的干擾，航行警告電傳(NAVTEX)採用何種方式發送海事安全資訊？",
+    "options": {
+      "A": "時間分隔",
+      "B": "頻率分隔",
+      "C": "相位分隔",
+      "D": "脈波分隔"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_409"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "9. 一個航行警告區內，最多劃分多少個電台？",
+    "options": {
+      "A": "24",
+      "B": "21",
+      "C": "18",
+      "D": "15"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_410"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. 我國現行申請水上行動業務識別碼(MMSI)，應向何單位辦理申請？",
+    "options": {
+      "A": "國家運輸安全調查委員會",
+      "B": "國家通訊傳播委員會",
+      "C": "交通部航港局",
+      "D": "交通部航政司"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_411"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. 搜救雷達詢答機(SART)之功能為：",
+    "options": {
+      "A": "一般通信",
+      "B": "現場通信",
+      "C": "顯示位置",
+      "D": "遇險警報"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_412"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "20. 下列何者為AIS-SART發送訊號漏失之符號？",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "D",
+    "image": "img/CNE_114-2_20.png",
+    "groupId": "GMDSS_413"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "28. ______ is the system for the broadcast and automatic reception of maritime safety information by means of narrow-band direct-printing telegraph.",
+    "options": {
+      "A": "ARPA",
+      "B": "ECDIS",
+      "C": "NAVTEX",
+      "D": "SART"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_414"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "29. 當以雷達進行救難搜索時，其中3 cm雷達可用於偵測何信號？",
+    "options": {
+      "A": "EPIRB",
+      "B": "SART",
+      "C": "DSC",
+      "D": "NAVTEX"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_415"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "36. Which device provides the main means in the GMDSS for locating ships in distress or their survival craft？",
+    "options": {
+      "A": "VHF homing device",
+      "B": "MF/HF DSC",
+      "C": "Satellite EPIRBs",
+      "D": "Radio direction finder"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_416"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "37. 當遇險船時間上尚允許編輯DSC之遇險性質時，進行DSC遇險呼叫之程序為何？①切換至 遇險專用頻道進行遇險通訊②按壓紅色Distress按鈕③遇險警報之接收回報(ACK)④編輯信文",
+    "options": {
+      "A": "②③④①",
+      "B": "②③①④",
+      "C": "④②③①",
+      "D": "④②①③"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_417"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 下列何者並非一般航行電傳（NAVTEX）電台所發送的資料？",
+    "options": {
+      "A": "航船布告",
+      "B": "航行警告",
+      "C": "氣象預測",
+      "D": "搜救"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_418"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "3. 下列何者並非閱讀航行電傳（NAVTEX）天氣報告時應注意的事項？",
+    "options": {
+      "A": "天氣報告所使用世界時的時間名稱",
+      "B": "天氣報告內容的排序",
+      "C": "天氣報告廣播台的名稱",
+      "D": "天氣報告的觀測時間"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_419"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "4. 航行電傳NAVTEX所發布的風力警報(Warning)，如風力預測為10-11級時，其名稱為何？",
+    "options": {
+      "A": "大風警報GW",
+      "B": "狂風警報WW",
+      "C": "風暴警報SW",
+      "D": "颱風警報TW"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_420"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "5. 專用於J3E無線電話，提供遇險使用之頻率，下列何者為正確？",
+    "options": {
+      "A": "500KHZ",
+      "B": "2182 KHZ",
+      "C": "2187.5KHZ",
+      "D": "158.6KHZ"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_421"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "15. 特高頻（VHF）數位選擇呼叫（DSC）於單一之呼叫持續時間為多少秒？",
+    "options": {
+      "A": "0.15至0.25",
+      "B": "0.25至0.35",
+      "C": "0.35至0.45",
+      "D": "0.45至0.63"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_422"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "16. 若不慎啟動衛星應急指位無線電示標(SAT-EPIRB)，取消之步驟為何？",
+    "options": {
+      "A": "立即重新設定(Reset)設備，以廣播方式傳送至附近所有船舶，以取消誤發之遇險警報",
+      "B": "立即重新設定(Reset)設備，通知目的港主管當局和PSC，以取消誤發之遇險警報",
+      "C": "通知附近船舶和目的港代及船公司，以取消誤發之遇險警報",
+      "D": "透過海岸電臺或陸上地球電臺連絡適當搜救協調中心 以取消誤發之遇險警報"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_423"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "26. 海岸電台與船舶電台間VHF無線電話頻道，遇險、緊急、安全以及商船呼叫使用頻道，下 列選項何者正確？",
+    "options": {
+      "A": "CH 12",
+      "B": "CH 14",
+      "C": "CH 16",
+      "D": "CH 70"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_424"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "27. 張貼於駕駛台以供船長之使用，遇險船舶船長操作GMDSS設備指南，用何顏色形狀表示船 舶是否需要獲得立即援助？",
+    "options": {
+      "A": "橙色菱形",
+      "B": "紅色菱形",
+      "C": "黃色菱形",
+      "D": "綠色菱形"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_425"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 搜救現場通信，指定頻率作無線電話或無線電直通電傳之操作，當飛機參予救難工作時 ，現場通信除5680KHz頻率外應用何種頻率？",
+    "options": {
+      "A": "1605KHz、4000KHz",
+      "B": "2054kHz、2057kHz",
+      "C": "3022KHz、4125KHz",
+      "D": "6215KHz、8255KHz"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_426"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 下列何者非屬搜救協調作業中現場協調官之責任？",
+    "options": {
+      "A": "協調現場通信",
+      "B": "所有在現場搜救任務編組之協調作業",
+      "C": "作成定期搜救狀況報告提送搜索任務協調官",
+      "D": "當有多架飛機執行搜救作業時，指定一位飛機協調官"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_427"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "12. SART: is the abbreviation for Search and rescue ______.",
+    "options": {
+      "A": "transit",
+      "B": "transfer",
+      "C": "transport",
+      "D": "transponder"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_428"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. COSPAS-SARSAT衛星之主要用途為何？",
+    "options": {
+      "A": "導航通信",
+      "B": "國際電話",
+      "C": "數據傳輸",
+      "D": "遇險定位"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_429"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "19. 國際海事衛星通信所使用電傳電報（Telex）業務碼若撥「43」則其功能為何？",
+    "options": {
+      "A": "氣象報告",
+      "B": "航行警告",
+      "C": "船位報告",
+      "D": "電報預約"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_430"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "21. 依SOLAS公約，針對所有船員之棄船演練應包含無線電救生設備使用之指導，然並不包含 下列哪項設備？",
+    "options": {
+      "A": "EPIRB",
+      "B": "SART",
+      "C": "Two-way handheld VHF",
+      "D": "NAVTEX receiver"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_431"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "29. 當遇險船舶以國際海上遇險頻率發送遇險警報，若需「無線電話」方式，下列何者不正確 ？",
+    "options": {
+      "A": "500 KHz",
+      "B": "2182 KHz",
+      "C": "156.8 MHz",
+      "D": "8291 KHz"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_432"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "33. 依IMO的新規定，下列何種遇險信號已被DSC所取代？",
+    "options": {
+      "A": "以通信方法發送摩爾斯代碼「SOS」",
+      "B": "無線電話發送唸出“MAYDAY”",
+      "C": "發出無線電報警報信號，12個“劃（dash）”的信號",
+      "D": "利用緊急無線電指位標桿（EPIRB）發出遇難信號"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_433"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. 下列何者為AIS-SART位置顯示之符號？",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "C",
+    "image": "img/CNE_114-4_38.png",
+    "groupId": "GMDSS_434"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "1. GMDSS 的 A1 海域定義為何？",
+    "options": {
+      "A": "離岸約 300 海浬的範圍",
+      "B": "至少有一座維持連續 DSC 警報守聽的 VHF 岸台涵蓋範圍內",
+      "C": "全球除極區以外的範圍",
+      "D": "維持連續 DSC 警報守聽的 MF 岸台涵蓋範圍內"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_435"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "2. 在 A3 海域航行的船舶，應採取哪兩種方式確保 GMDSS 設備的妥善性？",
+    "options": {
+      "A": "雙套設備與海上電子維修",
+      "B": "岸上維修與海上電子維修",
+      "C": "從雙套設備、岸上維修或海上電子維修中任選二種",
+      "D": "僅需雙套設備即可"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_436"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "3. 若船舶具備「應急電源」（貨輪 18 小時，客輪 36 小時），其 GMDSS 備用電源供應時數至少需多久？",
+    "options": {
+      "A": "1 小時",
+      "B": "6 小時",
+      "C": "12 小時",
+      "D": "24 小時"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_437"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "4. 船舶若未具備符合規定的應急電源，其 GMDSS 備用電源需維持多久？",
+    "options": {
+      "A": "1 小時",
+      "B": "3 小時",
+      "C": "6 小時",
+      "D": "48 小時"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_438"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "5. 根據 ITU 規定，下列哪一項不是船舶無線電台必備的文件或書籍？",
+    "options": {
+      "A": "船舶無線電台執照",
+      "B": "操作人員資格證書",
+      "C": "List VI - 貨物清冊",
+      "D": "List IV - 海岸電台及海岸地球電台清冊"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_439"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "6. A2 海域的定義與下列哪種頻率設備的涵蓋範圍有關？",
+    "options": {
+      "A": "VHF DSC (CH70)",
+      "B": "MF DSC (2187.5 kHz)",
+      "C": "HF DSC (8414.5 kHz)",
+      "D": "Inmarsat 衛星同步軌道"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_440"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "7. 關於 GMDSS 連續守聽，裝設 VHF 裝置的船舶必須在海外維持哪個頻道守聽？",
+    "options": {
+      "A": "CH16",
+      "B": "CH06",
+      "C": "CH70",
+      "D": "CH13"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_441"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "8. 船舶在海上時，MF 裝置必須在下列哪一頻率維持連續守聽？",
+    "options": {
+      "A": "2182 kHz",
+      "B": "2187.5 kHz",
+      "C": "518 kHz",
+      "D": "2189.5 kHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_442"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "9. 下列關於 A3 海域的範圍界定，何者正確？",
+    "options": {
+      "A": "離岸 100 浬內",
+      "B": "A1 與 A2 海域以外，南北緯 70 度以內受同步衛星涵蓋之區域",
+      "C": "僅限印度洋區 (IOR)",
+      "D": "南極與北極地區"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_443"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "10. 船舶安全無線電證書是依據哪一個公約及其修正案核發的？",
+    "options": {
+      "A": "STCW",
+      "B": "MARPOL",
+      "C": "SOLAS 1988 修正案",
+      "D": "MLC 2006"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_444"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "11. GMDSS 備用電源應與船舶哪一系統分開獨立？",
+    "options": {
+      "A": "消防水泵系統",
+      "B": "船舶推進動力及船舶電力系統",
+      "C": "應急照明系統",
+      "D": "自動舵控制系統"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_445"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "12. 下列哪一項屬於 GMDSS 規定的「船舶電台清冊」？",
+    "options": {
+      "A": "List IV",
+      "B": "List V",
+      "C": "List VII A",
+      "D": "Manual"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_446"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "13. A4 海域通常指哪一範圍？",
+    "options": {
+      "A": "太平洋中央",
+      "B": "大西洋東西區",
+      "C": "A1、A2、A3 以外的極區範圍（南北緯 70 度以上）",
+      "D": "沿海水域"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_447"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "14. GMDSS 船舶無線電紀錄簿的主要用途為何？",
+    "options": {
+      "A": "記錄每日燃油消耗",
+      "B": "記錄遇險、緊急及安全通信事件與相關測試紀錄",
+      "C": "記錄船員進出港時間",
+      "D": "記錄貨物裝卸順序"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_448"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "15. 裝設 MF/HF 設備的船舶，除 8414.5 kHz 外，還需根據船舶位置選擇下列哪些頻率之一維持守聽？",
+    "options": {
+      "A": "4207.5, 6312, 12577 或 16804.5 kHz",
+      "B": "2182, 4125, 6215 或 8291 kHz",
+      "C": "121.5, 123.1, 156.8 或 156.525 MHz",
+      "D": "518, 490, 4209.5 或 2189.5 kHz"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_449"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "16. 關於 A1 海域船舶的維修規定，下列敘述何者正確？",
+    "options": {
+      "A": "必須同時使用雙套設備與岸上維修",
+      "B": "應使用經主管機關認可之任何一種維修方法",
+      "C": "必須具備海上電子維修能力",
+      "D": "不需要任何維修規定"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_450"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "17. 下列哪份文件全稱為「呼號與數字清冊」？",
+    "options": {
+      "A": "List IV",
+      "B": "List V",
+      "C": "List VII A",
+      "D": "Manual"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_451"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "18. 船舶在 A3 海域營運時，第二套設備（Duplicated equipment）的配備要求為何？",
+    "options": {
+      "A": "僅需額外一套 VHF DSC",
+      "B": "VHF 無線電加上一套 MF 或 Inmarsat SES 或 MF/HF",
+      "C": "必須配備兩套 HF NBDP",
+      "D": "僅需攜帶手持式 VHF"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_452"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "19. 在 A1 海域，船舶發送船對岸遇險警報的至少二種分離且獨立方法之一通常為何？",
+    "options": {
+      "A": "衛星 EPIRB (406 MHz)",
+      "B": "手持式無線對講機 (CH16)",
+      "C": "搜救雷達詢答機 (SART)",
+      "D": "甚低頻 (VLF) 接收機"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_453"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "20. 船長多少公尺及以上的漁船，必須適用 SOLAS 第 IV 章之規定？",
+    "options": {
+      "A": "12 公尺",
+      "B": "24 公尺",
+      "C": "45 公尺",
+      "D": "100 公尺"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_454"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "21. 船舶在海上時，關於 MSI (海事安全資訊) 的守聽要求為何？",
+    "options": {
+      "A": "僅在入港前 1 小時守聽",
+      "B": "在適當之一個以上頻率維持連續守聽",
+      "C": "僅在氣候惡劣時守聽",
+      "D": "每天中午守聽一次即可"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_455"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "22. 備用電源在「未同時供應」獨立之高頻 (HF) 及中頻 (MF) 無線電裝置下，其電力計算應符合？",
+    "options": {
+      "A": "必須同時供應所有裝置",
+      "B": "並不需同時供應獨立之 HF 及 MF 無線電裝置",
+      "C": "僅需供應照明電力",
+      "D": "僅需供應 AIS 與雷達"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_456"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "23. 關於客輪的應急電源供應時間，下列何者正確？",
+    "options": {
+      "A": "12 小時",
+      "B": "18 小時",
+      "C": "36 小時",
+      "D": "48 小時"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_457"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "24. GMDSS 規則中，「Manual」是指哪一項文件？",
+    "options": {
+      "A": "船舶避碰手冊",
+      "B": "海事行動及海事行動衛星業務使用手冊",
+      "C": "輪機操作手冊",
+      "D": "貨物積載手冊"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_458"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "25. 在 A4 海域，雙套設備必須包含下列哪一項？",
+    "options": {
+      "A": "Inmarsat SES",
+      "B": "MF/HF 無線電設備",
+      "C": "AIS-SART",
+      "D": "NAVTEX 接收機"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_459"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "26. 裝設 Inmarsat SES 的船舶，在海上應維持守聽何種警報？",
+    "options": {
+      "A": "只有 DSC 警報",
+      "B": "衛星岸台對船台之遇險警報",
+      "C": "氣象傳真警報",
+      "D": "港口 VTS 呼叫"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_460"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "27. 下列何者不屬於 A1 海域必備的基本設備？",
+    "options": {
+      "A": "VHF DSC 無線電設備",
+      "B": "406 MHz 衛星 EPIRB",
+      "C": "Inmarsat FBB 船舶地球電台",
+      "D": "NAVTEX 接收機"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_461"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "28. 關於 SART (搜救雷達詢答機) 的配備數量，一般公約船舶之要求為何？",
+    "options": {
+      "A": "1 部",
+      "B": "每側各 1 部（共 2 部）",
+      "C": "每艘救生艇 1 部",
+      "D": "不需要配備"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_462"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "29. GMDSS 海域劃分的主要目的是決定？",
+    "options": {
+      "A": "船舶的最高航速",
+      "B": "船舶應配備的無線電通訊設備種類",
+      "C": "船員的最低配額",
+      "D": "船舶應繳納的港口稅費"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_463"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "30. 在 A1+A2 海域營運之船舶，其維修方法可採用三種方法中之幾種？",
+    "options": {
+      "A": "任何一種",
+      "B": "至少兩種",
+      "C": "必須三種全用",
+      "D": "不受限制"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_464"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "31. 船舶無線電台執照是由下列哪個單位核發？",
+    "options": {
+      "A": "國際海事組織 (IMO)",
+      "B": "船東所屬的公司",
+      "C": "國家的主管機關 (如電信主管機關)",
+      "D": "國際電信聯盟 (ITU)"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_465"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "32. GMDSS 規定中，何者被鼓勵裝設含有 DSC 功能之 VHF 並維持守聽？",
+    "options": {
+      "A": "僅限 300 噸以上貨輪",
+      "B": "非公約船舶 (如小型遊艇或漁船)",
+      "C": "僅限政府公務船",
+      "D": "僅限核動力船舶"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_466"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "33. 維修規定中的「岸上維修」是指？",
+    "options": {
+      "A": "船員自己在岸上買備品",
+      "B": "與專業維修廠商簽訂維修合約，確保設備妥善",
+      "C": "船舶必須每年回船塢維修",
+      "D": "僅在岸上使用無線電"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_467"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "34. 下列哪一項不是 GMDSS 規定的功能要求？",
+    "options": {
+      "A": "船對岸遇險警報",
+      "B": "船對船遇險警報",
+      "C": "岸對船遇險警報",
+      "D": "船對公司商業報告"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_468"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "35. A2 海域船舶必須配備的 MF 無線電裝置應具備哪些功能？",
+    "options": {
+      "A": "僅需語音通話",
+      "B": "DSC 發射、接收及守聽（2187.5 kHz）",
+      "C": "僅需接收氣象傳真",
+      "D": "必須具備衛星追蹤功能"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_469"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "36. 船舶應急電源在貨輪上需供應多少小時？",
+    "options": {
+      "A": "1 小時",
+      "B": "18 小時",
+      "C": "36 小時",
+      "D": "48 小時"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_470"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "37. 在進行海上電子維修時，船舶應具備？",
+    "options": {
+      "A": "僅需操作手冊",
+      "B": "適當的備品與測試儀器",
+      "C": "充足的燃油",
+      "D": "外部技師隨船"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_471"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "38. GMDSS 海域界定中，何者受同步衛星 (POR, IOR, AOR) 涵蓋？",
+    "options": {
+      "A": "A1",
+      "B": "A2",
+      "C": "A3",
+      "D": "A4"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_472"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "39. 下列關於 MF/HF 守值之敘述，何者錯誤？",
+    "options": {
+      "A": "應守聽 2187.5 kHz",
+      "B": "應守聽 8414.5 kHz",
+      "C": "必須守聽所有 HF 頻道",
+      "D": "應依時日與位置守聽一個適當 HF 頻率"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_473"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "40. 關於備用電源與主電源之關係，下列何者正確？",
+    "options": {
+      "A": "備用電源應與主電力系統完全獨立",
+      "B": "備用電源必須由主發電機供應",
+      "C": "備用電源只需供照明使用",
+      "D": "備用電源與推進動力系統應連接在一起"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_474"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "41. Inmarsat 組織最早是由哪個機構於 1966 年提出的？",
+    "options": {
+      "A": "聯合國 (UN)",
+      "B": "國際海事組織 (IMO)",
+      "C": "國際電信聯盟 (ITU)",
+      "D": "美國航太總署 (NASA)"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_475"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "42. Inmarsat-B 系統已於何時正式停用？",
+    "options": {
+      "A": "2008 年 2 月",
+      "B": "2016 年 12 月",
+      "C": "2020 年 1 月",
+      "D": "2023 年 5 月"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_476"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "43. 預計於 2026 年推出，具備極高網速（下載可達 330–340 Mbps）的最新系統為何？",
+    "options": {
+      "A": "Inmarsat-C",
+      "B": "Inmarsat-GX",
+      "C": "NexusWave",
+      "D": "Iridium SafetyCast"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_477"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "44. Inmarsat-C 系統的數據傳輸操作速度為何？",
+    "options": {
+      "A": "600 bps",
+      "B": "9.6 kbps",
+      "C": "64 kbps",
+      "D": "492 kbps"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_478"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "45. Inmarsat-C 船舶代碼（Numerical Identity）通常以哪個數字開頭？",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "4",
+      "D": "7"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_479"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "46. Inmarsat-FBB 系統的電話代碼以哪個數字開頭？",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_480"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "47. Inmarsat 二數位碼中，「32」代表什麼業務？",
+    "options": {
+      "A": "醫療求助",
+      "B": "醫療諮詢",
+      "C": "船位報告",
+      "D": "海上氣象報告"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_481"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "48. Inmarsat 二數位碼中，「38」代表什麼業務？",
+    "options": {
+      "A": "醫療諮詢",
+      "B": "醫療求助",
+      "C": "礙航報告",
+      "D": "海事求助"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_482"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "49. Inmarsat 二數位碼中，「39」代表什麼業務？",
+    "options": {
+      "A": "醫療求助",
+      "B": "醫療諮詢",
+      "C": "海事求助",
+      "D": "船位報告"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_483"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "50. Inmarsat 二數位碼中，「42」代表什麼業務？",
+    "options": {
+      "A": "船位報告",
+      "B": "海上氣象報告",
+      "C": "海上礙航報告",
+      "D": "醫療求助"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_484"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "51. Inmarsat 二數位碼中，「41」代表什麼業務？",
+    "options": {
+      "A": "醫療諮詢",
+      "B": "海上氣象觀測報告",
+      "C": "海事求助",
+      "D": "船位報告"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_485"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "52. Inmarsat 二數位碼中，「43」代表什麼業務？",
+    "options": {
+      "A": "船位報告",
+      "B": "醫療求助",
+      "C": "海上氣象報告",
+      "D": "礙航報告"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_486"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "53. Inmarsat-C 發送遇險警報後，若未收到確認，應間隔多久再次發送？",
+    "options": {
+      "A": "1 分鐘",
+      "B": "3 分鐘",
+      "C": "5 分鐘",
+      "D": "15 分鐘"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_487"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "54. Iridium SafetyCast 系統由多少顆衛星組成？",
+    "options": {
+      "A": "4 顆",
+      "B": "24 顆",
+      "C": "66 顆",
+      "D": "72 顆"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_488"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "55. Iridium 衛星系統與 Inmarsat 最大不同點在於？",
+    "options": {
+      "A": "Iridium 只涵蓋 A1",
+      "B": "Iridium 涵蓋區域包括 A4 極區，係屬全域系統",
+      "C": "Iridium 速度較慢",
+      "D": "Iridium 不提供遇險通訊"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_489"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "56. COSPAS-SARSAT 系統利用何種物理現象來測定遇險示標位置？",
+    "options": {
+      "A": "溫室效應",
+      "B": "都卜勒頻移效應 (Doppler effect)",
+      "C": "法拉第效應",
+      "D": "康普頓效應"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_490"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "57. COSPAS-SARSAT 系統發射遇險警報的主頻率為何？",
+    "options": {
+      "A": "156.8 MHz",
+      "B": "406 MHz",
+      "C": "1.6 GHz",
+      "D": "9 GHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_491"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "58. LEOSAR 衛星的高度大約是多少公里？",
+    "options": {
+      "A": "36,000 公里",
+      "B": "850–1000 公里",
+      "C": "20,000 公里",
+      "D": "500 公里"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_492"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "59. GEOSAR 衛星的主要限制為何？",
+    "options": {
+      "A": "無法覆蓋赤道",
+      "B": "無法提供警報身分",
+      "C": "涵蓋範圍不包括極區 (南北緯 70 度以上)",
+      "D": "電池壽命極短"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_493"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "60. 406 MHz EPIRB 在水深幾公尺會自動釋放？",
+    "options": {
+      "A": "1 公尺",
+      "B": "4 公尺",
+      "C": "10 公尺",
+      "D": "20 公尺"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_494"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "61. EPIRB 的電池容量要求應能持續發射至少多久？",
+    "options": {
+      "A": "24 小時",
+      "B": "48 小時",
+      "C": "72 小時",
+      "D": "96 小時"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_495"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "62. 衛星 EPIRB 應多久實施一次操作效能測試？",
+    "options": {
+      "A": "每月一次",
+      "B": "每 12 個月 (1 年) 一次",
+      "C": "每 5 年一次",
+      "D": "僅需在更換電池時測試"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_496"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "63. EPIRB 的岸基保養 (SBM) 週期為何？",
+    "options": {
+      "A": "1 年",
+      "B": "2 年",
+      "C": "5 年",
+      "D": "10 年"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_497"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "64. COSPAS-SARSAT 系統中，LUT 的功能為何？",
+    "options": {
+      "A": "儲存船舶燃油紀錄",
+      "B": "處理接收到的衛星信號以定出示標位置",
+      "C": "控制船舶的自動導航",
+      "D": "提供船員網際網路服務"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_498"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "65. 任務管制中心 (MCC) 接收到警報後，會中繼至哪個單位以開始搜救？",
+    "options": {
+      "A": "港警局",
+      "B": "船東公司",
+      "C": "國家搜救協調中心 (RCC)",
+      "D": "海關"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_499"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "66. Inmarsat-C 的遇險優先等級編號為何？",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_500"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "67. Inmarsat-FBB 系統的最高數據速度可達多少？",
+    "options": {
+      "A": "9.6 kbps",
+      "B": "64 kbps",
+      "C": "492 kbps",
+      "D": "1 Gbps"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_501"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "68. Inmarsat 空間段共有幾組主要的同步衛星區？",
+    "options": {
+      "A": "2 組",
+      "B": "3 組",
+      "C": "4 組",
+      "D": "66 組"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_502"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "69. Inmarsat 地面段中，負責操作整個系統運轉中心的是？",
+    "options": {
+      "A": "LES (海岸地球電台)",
+      "B": "NCS (網路協調站)",
+      "C": "NOC (網路指揮中心)",
+      "D": "SES (船舶地球電台)"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_503"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "70. 同步衛星 (GEOSAR) 軌道高度大約是多少？",
+    "options": {
+      "A": "1,000 公里",
+      "B": "20,000 公里",
+      "C": "36,000 公里",
+      "D": "150,000 公里"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_504"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "71. 若 FBB 撥打緊急電話 505，將連接至何處？",
+    "options": {
+      "A": "當地警察局",
+      "B": "最近的海事搜救協調中心 (MRCC)",
+      "C": "電信客服中心",
+      "D": "船級社辦公室"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_505"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "72. EGC (強化群呼) 接收機的主要用途為何？",
+    "options": {
+      "A": "播放背景音樂",
+      "B": "守聽 MSI 廣播 (SafetyNET) 與岸對船警報",
+      "C": "接收氣象傳真圖形",
+      "D": "作為備用 DSC 接收機"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_506"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "73. GEOSAR 衛星在搜救中的優點為何？",
+    "options": {
+      "A": "具備全球極區覆蓋",
+      "B": "雖無法測位，但可提供「幾乎立即」的警報與示標身分",
+      "C": "精確度比 LEOSAR 高",
+      "D": "不需要 LUT 接收"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_507"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "74. 406 MHz EPIRB 以何種間隔發射叢訊電波？",
+    "options": {
+      "A": "每 10 秒發射 1 瓦",
+      "B": "每 50 秒間隔發射 5 瓦",
+      "C": "持續發射 25 瓦",
+      "D": "僅在夜晚發射"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_508"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "75. Inmarsat-C 屬於哪種通信形式？",
+    "options": {
+      "A": "即時語音",
+      "B": "儲存後轉送訊息 (Store and Forward)",
+      "C": "寬頻視訊",
+      "D": "僅限單向接收"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_509"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "76. Inmarsat-FBB 若需撥打傳真，其號碼開頭為何？",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_510"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "77. Iridium SafetyCast 系統目前已被哪個機構承認生效？",
+    "options": {
+      "A": "WHO",
+      "B": "IMO/IHO (2023 年生效)",
+      "C": "NASA",
+      "D": "INTERPOL"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_511"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "78. 為什麼 Inmarsat 衛星無法覆蓋南北極點？",
+    "options": {
+      "A": "因為衛星故障",
+      "B": "衛星高度限制使得涵蓋範圍僅限南北緯各 70 度內",
+      "C": "極點有磁場干擾",
+      "D": "為了節省電力"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_512"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "79. 較新型的 EPIRB 包含 GPS 接收機的主要目的是？",
+    "options": {
+      "A": "增加電池續航力",
+      "B": "使警報中包含位置資訊，讓 GEOSAR 警報總時間縮短至小於 10 分鐘",
+      "C": "讓船員可以導航",
+      "D": "接收 MSI 廣播"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_513"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "80. Inmarsat 總部設在哪個城市？",
+    "options": {
+      "A": "巴黎",
+      "B": "倫敦",
+      "C": "紐約",
+      "D": "莫斯科"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_514"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "81. 特高頻 (VHF) 的數位選擇呼叫 (DSC) 頻道為？",
+    "options": {
+      "A": "CH16 (156.8 MHz)",
+      "B": "CH70 (156.525 MHz)",
+      "C": "CH06 (156.3 MHz)",
+      "D": "CH13 (156.65 MHz)"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_515"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "82. 中頻 (MF) 的 DSC 遇險與安全呼叫頻率為何？",
+    "options": {
+      "A": "2182 kHz",
+      "B": "2187.5 kHz",
+      "C": "2189.5 kHz",
+      "D": "2177 kHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_516"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "83. 在 VHF 頻道上，DSC 的調變速率為何？",
+    "options": {
+      "A": "100 鮑 (Baud)",
+      "B": "600 鮑",
+      "C": "1200 鮑",
+      "D": "2400 鮑"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_517"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "84. 在 MF 及 HF 頻道上，DSC 的調變速率為何？",
+    "options": {
+      "A": "100 鮑",
+      "B": "600 鮑",
+      "C": "1200 鮑",
+      "D": "9600 鮑"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_518"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "85. DSC 系統採用的偵誤碼位元數為何？",
+    "options": {
+      "A": "7 位元",
+      "B": "10 位元",
+      "C": "16 位元",
+      "D": "32 位元"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_519"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "86. 數位選擇呼叫 (DSC) 的內容不包含下列哪一項？",
+    "options": {
+      "A": "發射電台之數字位址 (MMSI)",
+      "B": "呼叫之目的 (如 Distress, Safety)",
+      "C": "船員的個人護照號碼",
+      "D": "後續通訊方式 (如 Radiotelephony)"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_520"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "87. 正常情況下，DSC 遇險警報的確認 (Acknowledgement) 應由誰發送？",
+    "options": {
+      "A": "另一艘船舶自動確認",
+      "B": "海岸電台人工發送",
+      "C": "衛星自動轉接",
+      "D": "船東公司簽收"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_521"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "88. 船舶發送 DSC 遇險警報後，若未收到確認，會延遲多久重複發送？",
+    "options": {
+      "A": "1 分鐘",
+      "B": "3.5 至 4.5 分鐘",
+      "C": "10 分鐘",
+      "D": "15 分鐘"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_522"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "89. 特高頻 (VHF) 單一 DSC 呼叫的持續時間大約多久？",
+    "options": {
+      "A": "0.1 秒",
+      "B": "0.45 至 0.63 秒",
+      "C": "6.2 至 7.2 秒",
+      "D": "30 秒"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_523"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "90. 中頻與高頻 (MF/HF) 單一 DSC 呼叫的持續時間大約多久？",
+    "options": {
+      "A": "0.1 秒",
+      "B": "1.2 秒",
+      "C": "6.2 至 7.2 秒",
+      "D": "1 分鐘"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_524"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "91. 何謂多頻呼叫嘗試 (Multi-frequency call attempt)？",
+    "options": {
+      "A": "在同一個頻率發射六次",
+      "B": "六個連續 DSC 呼叫，分散於六個頻率 (1 MF + 5 HF)",
+      "C": "利用 VHF 同時呼叫六個電台",
+      "D": "使用不同語言重複呼叫"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_525"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "92. 為什麼 VHF 僅使用單頻呼叫嘗試？",
+    "options": {
+      "A": "為了省電",
+      "B": "因為 VHF 只有一個專用 DSC 頻率 (CH70)",
+      "C": "為了減少雜訊",
+      "D": "因為距離太短"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_526"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "93. 若船舶接收到 HF DSC 遇險警報，且海岸電台在幾分鐘內未予確認，船舶應向海岸電台中繼通報？",
+    "options": {
+      "A": "立即",
+      "B": "1 分鐘",
+      "C": "3 分鐘",
+      "D": "5 分鐘"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_527"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "94. NAVTEX 系統以英語播送海事安全資訊的頻率為何？",
+    "options": {
+      "A": "490 kHz",
+      "B": "518 kHz",
+      "C": "4209.5 kHz",
+      "D": "2187.5 kHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_528"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "95. 關於 490 kHz 頻率的 NAVTEX 廣播，其主要用途為何？",
+    "options": {
+      "A": "僅限語音通信",
+      "B": "作為國家 NAVTEX 系統，以本地語言廣播",
+      "C": "取代 VHF DSC",
+      "D": "僅限船對船通訊"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_529"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "96. NAVTEX 信息中，標籤「A, B, D, L」代表什麼？",
+    "options": {
+      "A": "選收項目",
+      "B": "強制接收項目，不可拒絕",
+      "C": "僅限白天接收",
+      "D": "船舶位置資訊"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_530"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "97. NAVTEX 信息的開始符號與結束符號為何？",
+    "options": {
+      "A": "ALFA / OMEGA",
+      "B": "ZCZC / NNNN",
+      "C": "SOS / OVER",
+      "D": "ZZZZ / EEEE"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_531"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "98. NAVTEX 電台識別碼中，「P」與「L」分別代表哪個地區？",
+    "options": {
+      "A": "台灣、日本",
+      "B": "台灣、香港",
+      "C": "香港、上海",
+      "D": "新加坡、台灣"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_532"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "99. 船舶發送「例行呼叫」(Routine call) 若未收到回應，重複呼叫應間隔多久？",
+    "options": {
+      "A": "1 分鐘內",
+      "B": "5 分鐘內",
+      "C": "15 分鐘以上",
+      "D": "1 小時後"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_533"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "100. 承上題，若第二次例行呼叫仍未收到回應，之後的呼叫間隔應為？",
+    "options": {
+      "A": "5 分鐘",
+      "B": "10 分鐘",
+      "C": "15 分鐘以上",
+      "D": "停止呼叫"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_534"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "101. 船舶使用 4000 KHz 至 27500 KHz 頻段無線電話，其最大發射功率限制為何？",
+    "options": {
+      "A": "100 W",
+      "B": "400 W",
+      "C": "1.5 kW",
+      "D": "5 kW"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_535"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "102. MSI (海事安全資訊) 的播送管道不包含下列何者？",
+    "options": {
+      "A": "NAVTEX",
+      "B": "SafetyNET (EGC)",
+      "C": "HF NBDP (4209.5 kHz)",
+      "D": "船對公司私人傳真"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_536"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "103. NAVTEX 系統適用於離岸約多少海浬的水域？",
+    "options": {
+      "A": "50 浬",
+      "B": "300~400 浬",
+      "C": "1,000 浬",
+      "D": "全球所有海域"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_537"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "104. SafetyNET 系統是由哪個衛星組織發展的？",
+    "options": {
+      "A": "Iridium",
+      "B": "Inmarsat",
+      "C": "Globalstar",
+      "D": "GPS"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_538"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "105. MMSI 全稱為？",
+    "options": {
+      "A": "Maritime Message System Index",
+      "B": "Maritime Mobile Service Identify code (海事行動服務識別碼)",
+      "C": "Marine Monitoring Satellite International",
+      "D": "Mobile Mode Setup Instruction"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_539"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "106. NAVTEX 信息標頭「PA30」中的「30」代表什麼？",
+    "options": {
+      "A": "廣播時間",
+      "B": "溫度",
+      "C": "信息連續編號 (Consecutive number)",
+      "D": "傳輸速度"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_540"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "107. 在 518 kHz 頻段上避免各海岸電台干擾的方法為何？",
+    "options": {
+      "A": "限制發射功率與協調廣播時間",
+      "B": "使用不同語言",
+      "C": "使用不同極化天線",
+      "D": "僅限白天發射"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_541"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "108. 下列哪個文件可用於查詢 NAVTEX 電台的詳細廣播時間？",
+    "options": {
+      "A": "List V",
+      "B": "UKHO 之 Admiralty List of Radio Signals (NP 285, Vol.5)",
+      "C": "船舶日誌",
+      "D": "避碰手冊"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_542"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "109. NBDP 的 ARQ (自動要求重發) 模式主要用於？",
+    "options": {
+      "A": "一對多廣播",
+      "B": "兩站間通訊，可自動要求重發直到完全正確",
+      "C": "僅限發送氣象報告",
+      "D": "緊急語音對講"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_543"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "110. NBDP 的 FEC (前向偵誤) 模式適用於何種情況？",
+    "options": {
+      "A": "單對單秘密通訊",
+      "B": "對多個接收站同時發送 MSI 資訊",
+      "C": "視訊會議",
+      "D": "高速數據下載"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_544"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "111. MSI 信息播送的優先順序最高等級為何？",
+    "options": {
+      "A": "例行 (Routine)",
+      "B": "安全 (Safety)",
+      "C": "遇險 (Distress)",
+      "D": "緊急 (Urgency)"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_545"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "112. 台灣在 NAVTEX 系統中屬於哪個 NAVAREA 區域？",
+    "options": {
+      "A": "第 I 區 (大西洋)",
+      "B": "第 XI 區 (西太平洋)",
+      "C": "第 III 區 (地中海)",
+      "D": "第 X 區 (澳洲)"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_546"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "113. DSC 設備中的「音頻警報」作用為何？",
+    "options": {
+      "A": "測試喇叭音質",
+      "B": "當接收到 DSC 呼叫時發出聲音警告並顯示資訊",
+      "C": "取代普通對講機",
+      "D": "作為霧笛使用"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_547"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "114. MF DSC 岸台公眾通信與船舶間通信頻率分別為何？",
+    "options": {
+      "A": "2187.5 kHz / 2182 kHz",
+      "B": "2189.5 kHz / 2177 kHz",
+      "C": "518 kHz / 490 kHz",
+      "D": "CH70 / CH16"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_548"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "115. DSC 接收機是否允准使用掃描模式？",
+    "options": {
+      "A": "否",
+      "B": "岸台允許，船舶禁止",
+      "C": "船上允許掃描 1 個 MF 及 5 個 HF，但岸台禁止",
+      "D": "全面禁止"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_549"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "116. WWNWS 的全稱為？",
+    "options": {
+      "A": "全球航行警告業務 (World-Wide Navigational Warning Service)",
+      "B": "全球氣象網絡系統 (World Wide Nature Web System)",
+      "C": "廣域無線電服務 (Wide World Net Service)",
+      "D": "世界戰艦預警站 (World Wide Navy Watch Station)"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_550"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "117. 若船舶發送 DSC 遇險警報後，人為介入方可停止自動重複發送，這是指？",
+    "options": {
+      "A": "電池沒電",
+      "B": "接收到其他電台確認或人為中斷",
+      "C": "太陽下山",
+      "D": "進入港口"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_551"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "118. HF DSC 操作頻段不包含下列何者？",
+    "options": {
+      "A": "4 MHz",
+      "B": "8 MHz",
+      "C": "16 MHz",
+      "D": "300 MHz"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_552"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "119. NAVTEX 標頭中，「Subject indicator」代表什麼？",
+    "options": {
+      "A": "發射電台名稱",
+      "B": "信息類別 (如導航警告、氣象警告)",
+      "C": "船舶名稱",
+      "D": "接收日期"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_553"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "120. 下列何種設備是接收同步衛星 MSI 的專用工具？",
+    "options": {
+      "A": "NAVTEX 接收機",
+      "B": "EGC 接收機 (或 Inmarsat-C 合體)",
+      "C": "雷達",
+      "D": "AIS"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_554"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "121. 無線電波在空間中的傳播速度大約是多少？",
+    "options": {
+      "A": "340 公尺/秒",
+      "B": "3 × 10⁸ 公尺/秒 (約 30 萬公里/秒)",
+      "C": "1,500 公尺/秒",
+      "D": "無限快"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_555"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "122. 無線電波速 (C)、頻率 (f) 與波長 (λ) 的關係式為何？",
+    "options": {
+      "A": "C = f + λ",
+      "B": "C = f × λ",
+      "C": "f = C × λ",
+      "D": "λ = f / C"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_556"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "123. VHF (特高頻) 的頻率範圍與船舶運用為何？",
+    "options": {
+      "A": "3-30 MHz，長距離通訊",
+      "B": "30-300 MHz，超短波無線電話",
+      "C": "300-3000 MHz，衛星導航",
+      "D": "3-30 GHz，雷達"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_557"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "124. MF (中頻) 的頻率範圍為何？",
+    "options": {
+      "A": "30-300 kHz",
+      "B": "300-3000 kHz",
+      "C": "3-30 MHz",
+      "D": "3-30 GHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_558"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "125. 搜救雷達詢答機 (SART) 操作的特定頻帶為何？",
+    "options": {
+      "A": "156 MHz",
+      "B": "406 MHz",
+      "C": "9 GHz (微波頻段)",
+      "D": "1.6 GHz"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_559"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "126. SART 被雷達觸發後，在 PPI 雷達幕上會顯示什麼影像？",
+    "options": {
+      "A": "一個大型紅點",
+      "B": "一排 12 個等間距的光點 (blips)",
+      "C": "船舶的名稱與呼號",
+      "D": "閃爍的圓圈"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_560"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "127. SART 的電池容量在待機 (Standby) 情況下應能維持多久？",
+    "options": {
+      "A": "8 小時",
+      "B": "24 小時",
+      "C": "48 小時",
+      "D": "96 小時"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_561"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "128. SART 在被雷達詢問 (答詢) 狀態下應能維持多久？",
+    "options": {
+      "A": "1 小時",
+      "B": "8 小時",
+      "C": "24 小時",
+      "D": "96 小時"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_562"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "129. 為確保通訊距離，SART 應安裝在高於海面至少多少公尺？",
+    "options": {
+      "A": "0.5 公尺",
+      "B": "1 公尺",
+      "C": "5 公尺",
+      "D": "10 公尺"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_563"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "130. 使用 VHF 視距通信時，若天線高度單位為「公尺 (m)」，其理論距離計算公式為何？",
+    "options": {
+      "A": "距離 = 1.23 × (√H + √h)",
+      "B": "距離 = 2.5 × (√H + √h)",
+      "C": "距離 = H + h",
+      "D": "距離 = f × λ"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_564"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "131. 若發射天線高 49 公尺，接收天線高 4 公尺，則 VHF 通訊距離理論值約為多少浬？",
+    "options": {
+      "A": "15 浬",
+      "B": "22.5 浬",
+      "C": "30 浬",
+      "D": "40 浬"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_565"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "132. 關於電離層 D 層的傳播特性，下列敘述何者正確？",
+    "options": {
+      "A": "白天消失，晚上出現",
+      "B": "日落後消失，且會吸收 10MHz 以下的電波",
+      "C": "具備折射極高頻的能力",
+      "D": "永遠存在，不受陽光影響"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_566"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "133. 為什麼高頻 (HF) 通訊適合數千海浬的遠距離通信？",
+    "options": {
+      "A": "沿著地表彎曲前進",
+      "B": "利用電離層 (特別是 F 層) 產生折射並反射回地面的「天波」",
+      "C": "因為發射功率無限大",
+      "D": "因為波長極短"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_567"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "134. 電波頻率越高，其傳播特性如何變化？",
+    "options": {
+      "A": "所受靜電干擾越多",
+      "B": "穿透電離層能力越強，所需功率越小，干擾越少",
+      "C": "必須沿地表傳播",
+      "D": "雜訊越大"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_568"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "135. 「天波」主要依靠哪一層電離層進行遠距傳播？",
+    "options": {
+      "A": "D 層",
+      "B": "E 層",
+      "C": "F 層 (離解密度最高)",
+      "D": "平流層"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_569"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "136. 佛來明左手定則中，中指代表什麼方向？",
+    "options": {
+      "A": "磁場方向",
+      "B": "電流方向",
+      "C": "受力方向",
+      "D": "電波方向"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_570"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "137. 搜救雷達詢答機 (SART) 在距離雷達中心小於 1 浬時，雷達影像會變成？",
+    "options": {
+      "A": "12 個點完全消失",
+      "B": "同心圓影像",
+      "C": "扇形影像",
+      "D": "一條虛線"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_571"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "138. 太陽黑子的週期大約是多少年？會影響電波傳播嗎？",
+    "options": {
+      "A": "5 年，無影響",
+      "B": "11 年，會影響電離層密度與天波性能",
+      "C": "20 年，僅影響磁場",
+      "D": "100 年，影響不明"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_572"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "139. AIS-SART 在顯示器上的標準符號為何？",
+    "options": {
+      "A": "紅色實心圓點",
+      "B": "圓圈內含一個「X」字符號",
+      "C": "藍色方塊",
+      "D": "綠色三角形"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_573"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "140. AIS-SART 的符號直徑應為多少公厘 (mm)？",
+    "options": {
+      "A": "1 mm",
+      "B": "5 mm",
+      "C": "10 mm",
+      "D": "20 mm"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_574"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "141. AIS-SART 傳輸使用的 AIS1 與 AIS2 頻率分別為何？",
+    "options": {
+      "A": "156.525 / 156.8 MHz",
+      "B": "161.975 / 162.025 MHz",
+      "C": "121.5 / 123.1 MHz",
+      "D": "406 / 121.5 MHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_575"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "142. 公約規定 SART 可從多少公尺高度落入水中而不損壞？",
+    "options": {
+      "A": "5 公尺",
+      "B": "10 公尺",
+      "C": "20 公尺",
+      "D": "50 公尺"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_576"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "143. SART 在 10 公尺深水中，應至少保持幾分鐘不進水？",
+    "options": {
+      "A": "1 分鐘",
+      "B": "5 分鐘",
+      "C": "30 分鐘",
+      "D": "60 分鐘"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_577"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "144. 關於 MF 電波在夜間傳播距離比白天遠的原因，下列何者正確？",
+    "options": {
+      "A": "白天電力較強",
+      "B": "夜間 D 層消失，電波可到達更高的 E 層或 F 層進行折射反射",
+      "C": "夜間海水導電率增加",
+      "D": "晚上雜訊較少"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_578"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "145. SHF (極高頻/微波) 的頻率範圍為何？",
+    "options": {
+      "A": "3-30 MHz",
+      "B": "30-300 MHz",
+      "C": "3-30 GHz",
+      "D": "30-300 GHz"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_579"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "146. EHF (至高頻) 的頻率範圍為何？",
+    "options": {
+      "A": "3-30 GHz",
+      "B": "30-300 GHz",
+      "C": "300-3000 MHz",
+      "D": "3-30 MHz"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_580"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "147. 下列何種航儀使用的是 VLF (特低頻) 頻段？",
+    "options": {
+      "A": "雷達 (Radar)",
+      "B": "歐米加航儀 (Omega)",
+      "C": "羅遠 C (Loran-C)",
+      "D": "衛星導航 (GPS)"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_581"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "148. Loran-C (羅遠 C) 使用的是哪一頻段？",
+    "options": {
+      "A": "VLF",
+      "B": "LF (低頻)",
+      "C": "MF",
+      "D": "HF"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_582"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "149. 無線電波是空間中相互垂直的哪兩種力面產生的？",
+    "options": {
+      "A": "聲力面與壓力面",
+      "B": "振盪電力面與振盪磁力面",
+      "C": "重力面與浮力面",
+      "D": "熱力面與光力面"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_583"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "150. SART 的 12 個光點影像中，哪一點代表其正確位置？",
+    "options": {
+      "A": "最遠的一個點",
+      "B": "中間的第六個點",
+      "C": "最接近 PPI 中心 (掃描起始中心) 的點",
+      "D": "閃爍最亮的點"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_584"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "151. LF (低頻) 傳播的主要缺點與限制為何？",
+    "options": {
+      "A": "穿透力太強",
+      "B": "易受靜電干擾、天線需極長，不適於一般通信",
+      "C": "僅能直線傳播",
+      "D": "耗電量極低"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_585"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "152. 通信頻率選擇中，日出至傍晚遠距離通信應優先選擇？",
+    "options": {
+      "A": "低頻率 (2-8 MHz)",
+      "B": "高頻率 (12-22 MHz)",
+      "C": "任何頻率均可",
+      "D": "僅限 VHF"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_586"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "153. 地面波 (Ground wave) 傳播在何處損耗較少？",
+    "options": {
+      "A": "沙漠",
+      "B": "海平面 (導電率佳)",
+      "C": "森林",
+      "D": "高山"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_587"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "154. EPIRB-AIS 與傳統 SART 的主要區別在於？",
+    "options": {
+      "A": "EPIRB-AIS 是世界首創結合 EPIRB 與 AIS 定位技術的示標",
+      "B": "SART 只能手動",
+      "C": "EPIRB-AIS 只能在岸上用",
+      "D": "傳統 SART 不需要電池"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_588"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "155. 無線電波頻率 406 MHz 屬於下列哪一個分類？",
+    "options": {
+      "A": "MF",
+      "B": "HF",
+      "C": "VHF",
+      "D": "UHF (超高頻)"
+    },
+    "answer": "D",
+    "image": "",
+    "groupId": "GMDSS_589"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "156. 佛來明左手定則中，拇指代表什麼方向？",
+    "options": {
+      "A": "電流方向",
+      "B": "磁場方向",
+      "C": "導體受力 (運動) 方向",
+      "D": "電波速度"
+    },
+    "answer": "C",
+    "image": "",
+    "groupId": "GMDSS_590"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "157. SART 的環境溫度操作範圍為何？",
+    "options": {
+      "A": "0°C 至 30°C",
+      "B": "-20°C 至 +55°C",
+      "C": "-40°C 至 +80°C",
+      "D": "恆溫 25°C"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_591"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "158. AIS-SART 符號在顯示器上會閃爍，直到何時方停止？",
+    "options": {
+      "A": "救生艇翻覆",
+      "B": "使用者手動確認 (Acknowledged)",
+      "C": "衛星經過",
+      "D": "電池耗盡"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_592"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "159. 衛星通信使用的 SHF 頻段，其傳播特性受電離層影響如何？",
+    "options": {
+      "A": "受 D 層強烈吸收",
+      "B": "影響可忽視，電波係直線行進",
+      "C": "僅能由天波傳送",
+      "D": "日落後消失"
+    },
+    "answer": "B",
+    "image": "",
+    "groupId": "GMDSS_593"
+  },
+  {
+    "year": "題庫115",
+    "subject": "GMDSS",
+    "question": "160. 總結 GMDSS 的 9 GHz SART 與 406 MHz EPIRB，兩者主要功能差異為何？",
+    "options": {
+      "A": "SART 用於近程定位，EPIRB 用於遠程遇險告警",
+      "B": "SART 用於衛星通訊，EPIRB 用於雷達探測",
+      "C": "兩者功能完全相同",
+      "D": "SART 用於氣象接收"
+    },
+    "answer": "A",
+    "image": "",
+    "groupId": "GMDSS_594"
   }
 
 ]

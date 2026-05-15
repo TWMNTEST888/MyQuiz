@@ -714,32 +714,90 @@
         optionsList.innerHTML = '';
         const ans = userAnswers[currentIndex];
 
+        // 判斷是否複選（answer 為陣列）
+        const isMulti   = Array.isArray(q.answer);
+        const correctSet = isMulti ? new Set(q.answer) : new Set([q.answer]);
+
+        // 複選題：追蹤目前勾選的選項
+        const pendingChoices = new Set(
+            (!ans && isMulti) ? [] :
+            (ans?.choices ? ans.choices : [])
+        );
+
+        // 複選題「確認」按鈕（只在尚未作答時顯示）
+        let confirmBtn = null;
+        if (isMulti && !ans) {
+            confirmBtn = document.createElement('button');
+            confirmBtn.innerText = '確認送出';
+            confirmBtn.style.cssText = 'margin-top:12px;padding:10px 24px;background:var(--accent);color:#fff;border:none;border-radius:8px;cursor:pointer;font-size:15px;font-weight:bold';
+            confirmBtn.onclick = () => {
+                if (pendingChoices.size === 0) return alert('請至少選擇一個選項');
+                const choicesArr = [...pendingChoices].sort();
+                const correctArr = [...correctSet].sort();
+                const isCorrect  = JSON.stringify(choicesArr) === JSON.stringify(correctArr);
+                userAnswers[currentIndex] = { choices: choicesArr, isCorrect };
+                if (currentMode === 'practice') updateWrongDb(qid, isCorrect);
+                renderQuestion();
+            };
+        }
+
+        if (isMulti) {
+            const hint = document.createElement('div');
+            hint.style.cssText = 'font-size:12px;color:var(--accent);margin-bottom:8px;font-weight:bold';
+            hint.innerText = '📋 複選題（可選多個）';
+            optionsList.appendChild(hint);
+        }
+
         ['A', 'B', 'C', 'D'].forEach(letter => {
+            if (!q.options?.[letter]) return;
             const btn = document.createElement('div');
             btn.className = 'option-item';
-            btn.innerText = `${letter}. ${q.options?.[letter] ?? ''}`;
+            const optText = `${escapeHtml(letter)}. ${escapeHtml(q.options?.[letter] ?? '')}`;
 
             if (ans && currentMode === 'practice') {
                 btn.classList.add('locked');
-                if (letter === q.answer) {
+                const chosenSet = ans.choices ? new Set(ans.choices) : new Set([ans.choice]);
+                if (correctSet.has(letter)) {
                     btn.classList.add('correct-flash');
-                    btn.innerHTML = `${escapeHtml(letter)}. ${escapeHtml(q.options?.[letter] ?? '')}<span class="feedback-label">正解</span>`;
-                } else if (letter === ans.choice) {
+                    btn.innerHTML = `${optText}<span class="feedback-label">正解</span>`;
+                } else if (chosenSet.has(letter)) {
                     btn.classList.add('wrong-flash');
-                    btn.innerHTML = `${escapeHtml(letter)}. ${escapeHtml(q.options?.[letter] ?? '')}<span class="feedback-label">你的答案</span>`;
+                    btn.innerHTML = `${optText}<span class="feedback-label">你的答案</span>`;
+                } else {
+                    btn.innerText = `${letter}. ${q.options?.[letter] ?? ''}`;
                 }
-            } else if (ans && currentMode === 'exam' && letter === ans.choice) {
-                btn.classList.add('selected-only');
+            } else if (ans && currentMode === 'exam') {
+                const chosenSet = ans.choices ? new Set(ans.choices) : new Set([ans.choice]);
+                if (chosenSet.has(letter)) btn.classList.add('selected-only');
+                btn.innerText = `${letter}. ${q.options?.[letter] ?? ''}`;
+            } else {
+                btn.innerText = `${letter}. ${q.options?.[letter] ?? ''}`;
+                if (isMulti && pendingChoices.has(letter)) btn.classList.add('selected-only');
             }
 
             btn.onclick = () => {
-                if (userAnswers[currentIndex] && currentMode === 'practice') return;
-                userAnswers[currentIndex] = { choice: letter, isCorrect: letter === q.answer };
-                if (currentMode === 'practice') updateWrongDb(qid, letter === q.answer);
-                renderQuestion();
+                if (ans && currentMode === 'practice') return;
+                if (isMulti) {
+                    // 複選：切換勾選狀態
+                    if (ans) return;
+                    if (pendingChoices.has(letter)) pendingChoices.delete(letter);
+                    else pendingChoices.add(letter);
+                    // 更新樣式
+                    optionsList.querySelectorAll('.option-item').forEach((el, i) => {
+                        const l = ['A','B','C','D'][i];
+                        el.classList.toggle('selected-only', pendingChoices.has(l));
+                    });
+                } else {
+                    // 單選
+                    userAnswers[currentIndex] = { choice: letter, isCorrect: letter === q.answer };
+                    if (currentMode === 'practice') updateWrongDb(qid, letter === q.answer);
+                    renderQuestion();
+                }
             };
             optionsList.appendChild(btn);
         });
+
+        if (confirmBtn) optionsList.appendChild(confirmBtn);
 
         const labelMap = { normal: '一般測驗', wrong: '錯題練習', favorite: '收藏題測驗' };
         const modeMap = { practice: '練習模式', exam: '模擬考模式' };
@@ -1033,7 +1091,7 @@
                     B. ${escapeHtml(q.options?.B || '')}<br>
                     C. ${escapeHtml(q.options?.C || '')}<br>
                     D. ${escapeHtml(q.options?.D || '')}<br>
-                    <strong>答案：${escapeHtml(q.answer || '')}</strong>
+                    <strong>答案：${Array.isArray(q.answer) ? q.answer.join('、') : escapeHtml(q.answer || '')}</strong>
                 </div>
                 <div style="margin-top:10px;">
                     <button class="mini-btn red-btn" data-id="${escapeHtml(q._qid)}" data-action="remove-${type}">移除</button>

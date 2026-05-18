@@ -1,0 +1,626 @@
+#!/usr/bin/env python3
+"""根據 SN.1/Circ.243/Rev.2 生成 AIS/ECDIS 符號與術語題庫"""
+import json
+
+questions = [
+  # ── Table 1: Own Ship Symbols ──────────────────────────────
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"1. According to SN.1/Circ.243/Rev.2, what shape is used to represent 'Own Ship' symbol on ECDIS/radar?",
+    "options":{"A":"Single circle at reference position","B":"Double circle at own ship's reference position","C":"Isosceles triangle at reference position","D":"Square at reference position"},
+    "answer":"B","image":"","groupId":"AIS_115_1"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"2. The use of the Own Ship symbol (double circle) is:",
+    "options":{"A":"Mandatory on all displays","B":"Optional if position is shown by Heading Line and Beam Line combination","C":"Required only on ECDIS","D":"Required only on radar"},
+    "answer":"B","image":"","groupId":"AIS_115_2"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"3. 'Own Ship True Scale Outline' is:",
+    "options":{"A":"A cross located at radar antenna position","B":"A double circle at reference position","C":"True scale outline oriented along own ship's heading, used on small ranges/large scales","D":"A dashed line indicating ship's track"},
+    "answer":"C","image":"","groupId":"AIS_115_3"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"4. The 'Own Ship Radar Antenna' symbol is:",
+    "options":{"A":"Double circle at reference position","B":"Cross located on true scale outline at physical location of radar antenna","C":"Heading line extended to bearing ring","D":"Dashed circle around own ship"},
+    "answer":"B","image":"","groupId":"AIS_115_4"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"5. The Own Ship Heading Line is drawn using:",
+    "options":{"A":"Thick dashed line","B":"Bold red line","C":"Solid line thinner than the speed vector line","D":"Double dotted line"},
+    "answer":"C","image":"","groupId":"AIS_115_5"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"6. The 'Own Ship Past Track' symbol uses which line style?",
+    "options":{"A":"Thick line for primary source; thin line for secondary source","B":"Dashed line only","C":"Double solid line","D":"Dotted line for primary; dashed for secondary"},
+    "answer":"A","image":"","groupId":"AIS_115_6"
+  },
+  # ── Table 2: Tracked Radar Target Symbols ──────────────────
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"7. A 'Tracked Target' is represented by:",
+    "options":{"A":"Filled triangle with speed vector","B":"Solid or unfilled circle at target position with dashed course/speed vector","C":"Diamond shape at target position","D":"Square with cross inside"},
+    "answer":"B","image":"","groupId":"AIS_115_7"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"8. The course and speed vector of a tracked target should be displayed as:",
+    "options":{"A":"Solid thick line","B":"Dashed line with short dashes, spaces approximately twice the line width","C":"Dotted line","D":"Double solid line"},
+    "answer":"B","image":"","groupId":"AIS_115_8"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"9. A 'Dangerous Target' is indicated by:",
+    "options":{"A":"Yellow flashing triangle","B":"Bold red solid circle with course/speed vector, flashing until acknowledged","C":"Red diamond shape","D":"Inverted triangle with cross"},
+    "answer":"B","image":"","groupId":"AIS_115_9"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"10. A 'Target in Acquisition State' is shown as:",
+    "options":{"A":"Full circle with X inside","B":"Bold flashing triangle","C":"Circle segments (for automatic acquisition: bold, flashing, red)","D":"Dashed circle segments"},
+    "answer":"C","image":"","groupId":"AIS_115_10"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"11. When an internally generated 'Radar Test Target' is enabled, it should be indicated by:",
+    "options":{"A":"Circle with cross","B":"Red flashing diamond","C":"Large letter 'X' adjacent to the target; bold 'X' in conspicuous location in operational display area","D":"Bold square at target position"},
+    "answer":"C","image":"","groupId":"AIS_115_11"
+  },
+  # ── Table 3: AIS Symbols ───────────────────────────────────
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"12. What shape is used for an 'AIS Target (Sleeping)'?",
+    "options":{"A":"Circle","B":"Diamond","C":"Isosceles acute-angled triangle","D":"Square"},
+    "answer":"C","image":"","groupId":"AIS_115_12"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"13. The AIS sleeping target triangle is oriented by:",
+    "options":{"A":"True north","B":"Magnetic heading","C":"Heading, or COG if heading is missing","D":"Course over ground only"},
+    "answer":"C","image":"","groupId":"AIS_115_13"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"14. The reported position of an AIS target should be located at:",
+    "options":{"A":"The tip of the triangle","B":"The base of the triangle","C":"The centre and half the height of the triangle","D":"The top of the triangle"},
+    "answer":"C","image":"","groupId":"AIS_115_14"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"15. Compared to the activated AIS target, the sleeping AIS target symbol should be:",
+    "options":{"A":"Larger","B":"The same size","C":"Smaller","D":"A different shape"},
+    "answer":"C","image":"","groupId":"AIS_115_15"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"16. A sleeping AIS target with neither reported heading nor COG should be presented:",
+    "options":{"A":"As a circle","B":"As a triangle pointing north","C":"With a special orientation indicator","D":"Without orientation (pointing up by default)"},
+    "answer":"D","image":"","groupId":"AIS_115_16"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"17. An 'AIS Target True Scale Outline' should be:",
+    "options":{"A":"Located at reported position, oriented along target's COG","B":"Located relative to reported position per offsets, oriented along target's heading; used on low ranges/large scales","C":"A dashed outline oriented to true north","D":"A bold outline used at all ranges"},
+    "answer":"B","image":"","groupId":"AIS_115_17"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"18. A 'Selected Target' is indicated by:",
+    "options":{"A":"A bold circle around the symbol","B":"A flashing triangle","C":"A square indicated by its corners drawn around the activated target symbol","D":"A diamond outline around the symbol"},
+    "answer":"C","image":"","groupId":"AIS_115_18"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"19. A 'Lost Target' symbol shows:",
+    "options":{"A":"A circle with a cross inside","B":"A triangle with bold solid cross, flashing until acknowledged, without vector/heading/ROT indication","C":"A red flashing diamond","D":"An X inside the normal target symbol"},
+    "answer":"B","image":"","groupId":"AIS_115_19"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"20. 'Target Past Positions' are displayed as:",
+    "options":{"A":"Dashed line","B":"Solid line","C":"Dots, equally spaced by time","D":"Bold crosses"},
+    "answer":"C","image":"","groupId":"AIS_115_20"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"21. An 'AIS Search and Rescue (SAR) Vessel' symbol is:",
+    "options":{"A":"A triangle with dashed outline","B":"A circle with cross drawn inside the standard activated AIS vessel symbol","C":"A diamond with cross","D":"A square with SAR text"},
+    "answer":"B","image":"","groupId":"AIS_115_21"
+  },
+  # ── Table 4: Associated Target Symbols ─────────────────────
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"22. An 'Associated Target' (AIS associated with tracked radar) may be presented as:",
+    "options":{"A":"Only as AIS target symbol","B":"Only as radar target symbol","C":"Either activated AIS target symbols OR tracked radar target symbols","D":"A unique combined symbol different from both"},
+    "answer":"C","image":"","groupId":"AIS_115_22"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"23. An 'Associated Target Alternative AIS' symbol is an activated AIS symbol:",
+    "options":{"A":"With a bold cross inside","B":"Modified by circumscribing a circle around the isosceles triangle","C":"With a diamond shape added","D":"With a square around the symbol"},
+    "answer":"B","image":"","groupId":"AIS_115_23"
+  },
+  # ── Other Symbols ──────────────────────────────────────────
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"24. If a position is a dead reckoned position, it should be labelled with the letters:",
+    "options":{"A":"DP","B":"EST","C":"DR","D":"RD"},
+    "answer":"C","image":"","groupId":"AIS_115_24"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"25. A 'Line of Position (LOP)' should be presented as:",
+    "options":{"A":"A bold dashed line from own ship to charted object","B":"A single thin solid line from charted object towards own ship, labelled with time","C":"A dotted line between two charted objects","D":"A double line from radar antenna"},
+    "answer":"B","image":"","groupId":"AIS_115_25"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"26. A 'Transferred Line of Position' may be additionally labelled with:",
+    "options":{"A":"TL","B":"TPL","C":"TLOP","D":"XLOP"},
+    "answer":"B","image":"","groupId":"AIS_115_26"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"27. A 'Variable Range Marker (VRM)' is represented by:",
+    "options":{"A":"Dashed circle","B":"Solid circle","C":"Dotted line","D":"Rectangle"},
+    "answer":"B","image":"","groupId":"AIS_115_27"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"28. An 'Electronic Bearing Line (EBL)' is displayed as:",
+    "options":{"A":"Solid thick line","B":"Double dotted line","C":"Dashed line","D":"Bold red line"},
+    "answer":"C","image":"","groupId":"AIS_115_28"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"29. An 'Event Mark' (e.g., MOB – Man Overboard) is presented as:",
+    "options":{"A":"Circle with text","B":"Triangle with text","C":"Rectangle with diagonal line, clarified by added text","D":"Diamond with text"},
+    "answer":"C","image":"","groupId":"AIS_115_29"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"30. A 'Tidal Stream' symbol is presented as:",
+    "options":{"A":"A single arrow","B":"A double-headed arrow","C":"A single line with three arrowheads originating from charted position","D":"A dotted line with one arrowhead"},
+    "answer":"C","image":"","groupId":"AIS_115_30"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"31. The line for an actual (current) tidal stream should use:",
+    "options":{"A":"Dashed line style","B":"Dotted line style","C":"Thin solid line style","D":"Bold solid line style"},
+    "answer":"C","image":"","groupId":"AIS_115_31"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"32. The line for a predicted tidal stream should use:",
+    "options":{"A":"Thin solid line","B":"Bold solid line","C":"Dashed line style","D":"Dotted line"},
+    "answer":"C","image":"","groupId":"AIS_115_32"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"33. A 'Look-ahead Alarm Highlight' should be presented as a polygon/poly-line using:",
+    "options":{"A":"Thin dashed line, yellow colour","B":"Thick solid line, recommended colour red, with transparent fill","C":"Bold dotted line, green colour","D":"Thin solid line, orange colour"},
+    "answer":"B","image":"","groupId":"AIS_115_33"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"34. An 'Acquisition/Activation Area' boundary is shown as:",
+    "options":{"A":"Circle boundary","B":"Dashed line boundary","C":"Solid line boundary","D":"Dotted line boundary"},
+    "answer":"C","image":"","groupId":"AIS_115_34"
+  },
+  # ── AIS AtoN Symbols (Table 5.1) ───────────────────────────
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"35. What is the basic symbol for a Physical AIS Aid to Navigation (AtoN)?",
+    "options":{"A":"Circle","B":"Triangle","C":"Solid diamond","D":"Square"},
+    "answer":"C","image":"","groupId":"AIS_115_35"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"36. What is the basic symbol for a Virtual AIS AtoN?",
+    "options":{"A":"Solid diamond","B":"Dotted diamond with crosshair centred at reported position","C":"Open circle with cross","D":"Dashed triangle"},
+    "answer":"B","image":"","groupId":"AIS_115_36"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"37. For the AIS AtoN type 'Cardinal East Beacon' (type code 10), the symbol shows:",
+    "options":{"A":"Two triangles, base to base, on top of diamond","B":"Two circles on top of diamond","C":"Single triangle on top of diamond","D":"Bold X on top of diamond"},
+    "answer":"A","image":"","groupId":"AIS_115_37"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"38. For 'Cardinal South' AIS AtoN, the symbol on top of the diamond shows:",
+    "options":{"A":"Two triangles base to base","B":"Two triangles pointing downward","C":"Two circles","D":"One circle and one triangle"},
+    "answer":"B","image":"","groupId":"AIS_115_38"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"39. The 'Isolated Danger' AIS AtoN symbol has what on top of the diamond?",
+    "options":{"A":"Two triangles","B":"Single circle","C":"Two circles, one above the other","D":"Bold X"},
+    "answer":"C","image":"","groupId":"AIS_115_39"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"40. The 'Safe Water' AIS AtoN symbol (Beacon type 18 / Floating type 29) shows:",
+    "options":{"A":"Circle on top of diamond","B":"X on top of diamond","C":"Two circles on top","D":"Two triangles on top"},
+    "answer":"A","image":"","groupId":"AIS_115_40"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"41. An AIS AtoN indicating the absence of a charted Physical AtoN is shown with:",
+    "options":{"A":"Red solid diamond with text 'ABSENT'","B":"Yellow caution colour for diamond and text 'Missing'; empty diamond without type symbol","C":"Flashing blue diamond","D":"Grey dashed diamond"},
+    "answer":"B","image":"","groupId":"AIS_115_41"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"42. What is the AIS message number used for AIS AtoN transmissions?",
+    "options":{"A":"Message 14","B":"Message 18","C":"Message 21","D":"Message 24"},
+    "answer":"C","image":"","groupId":"AIS_115_42"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"43. A 'Signal Station' in AIS display is presented as:",
+    "options":{"A":"Circle at reported position","B":"Diamond centred at reported position","C":"Square at reported position","D":"Triangle at reported position"},
+    "answer":"B","image":"","groupId":"AIS_115_43"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"44. The 'Berthing Data' symbol is presented as:",
+    "options":{"A":"Circle with 'B' inside","B":"Triangle with 'BERTH' label","C":"Box with 'BERTH' inscribed, thick solid line, same colour as AIS AtoN","D":"Diamond with 'B' inscribed"},
+    "answer":"C","image":"","groupId":"AIS_115_44"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"45. An 'Area Notice Point' symbol is presented as:",
+    "options":{"A":"Circle with 'AN' inscribed","B":"Box with 'AN' inscribed, thick solid line","C":"Triangle with 'AN' text","D":"Diamond with 'AN' inscribed"},
+    "answer":"B","image":"","groupId":"AIS_115_45"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"46. An 'Environmental Report' symbol is presented as:",
+    "options":{"A":"Circle with 'ENV' inscribed","B":"Square with 'ENV' inscribed","C":"Diamond with 'ENV' inscribed, thin solid line","D":"Triangle with 'ENV' text"},
+    "answer":"C","image":"","groupId":"AIS_115_46"
+  },
+  # ── Abbreviations – Basic ──────────────────────────────────
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"47. What does the abbreviation 'CPA' stand for?",
+    "options":{"A":"Course Per Autopilot","B":"Closest Point of Approach","C":"Course Prediction Algorithm","D":"Current Position Accuracy"},
+    "answer":"B","image":"","groupId":"AIS_115_47"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"48. What does 'COG' stand for?",
+    "options":{"A":"Control Of Gyro","B":"Centre Of Gravity","C":"Course Over the Ground","D":"Calculated Output Guide"},
+    "answer":"C","image":"","groupId":"AIS_115_48"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"49. The abbreviation 'CCRP' stands for:",
+    "options":{"A":"Closest Contact Reference Point","B":"Consistent Common Reference Point","C":"Course Correction Relay Point","D":"Compass Calibration Reference Position"},
+    "answer":"B","image":"","groupId":"AIS_115_49"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"50. 'EBL' is the abbreviation for:",
+    "options":{"A":"Electronic Bearing Line","B":"Estimated Bow Length","C":"Extended Baseline Link","D":"Echo Bearing Limit"},
+    "answer":"A","image":"","groupId":"AIS_115_50"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"51. What does 'VRM' stand for?",
+    "options":{"A":"Vessel Route Marker","B":"Variable Range Marker","C":"Verified Radar Measurement","D":"Vector Reference Mark"},
+    "answer":"B","image":"","groupId":"AIS_115_51"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"52. 'ECDIS' stands for:",
+    "options":{"A":"Electronic Course Display and Information System","B":"Electronic Chart Display and Information System","C":"Enhanced Chart Data Integration System","D":"Electronic Compass and Display Integration System"},
+    "answer":"B","image":"","groupId":"AIS_115_52"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"53. 'AIS' stands for:",
+    "options":{"A":"Automatic Information System","B":"Advanced Identification System","C":"Automatic Identification System","D":"Aided Identification System"},
+    "answer":"C","image":"","groupId":"AIS_115_53"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"54. What does 'MMSI' stand for?",
+    "options":{"A":"Marine Monitoring and Safety Identification","B":"Maritime Mobile Services Identity number","C":"Master Module Ship Indicator","D":"Marine Mobile Signal Identifier"},
+    "answer":"B","image":"","groupId":"AIS_115_54"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"55. 'VTS' stands for:",
+    "options":{"A":"Vessel Tracking System","B":"Variable Target Speed","C":"Vessel Traffic Service","D":"Vector Trajectory System"},
+    "answer":"C","image":"","groupId":"AIS_115_55"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"56. 'DTG' is the abbreviation for:",
+    "options":{"A":"Digital Tracking Guide","B":"Data Transfer Gateway","C":"Distance To Go","D":"Direction To Goal"},
+    "answer":"C","image":"","groupId":"AIS_115_56"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"57. What does 'TMG' stand for?",
+    "options":{"A":"True Magnetic Guide","B":"Target Motion Ground","C":"Track Made Good","D":"Tidal Movement Guide"},
+    "answer":"C","image":"","groupId":"AIS_115_57"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"58. The abbreviation 'MSI' stands for:",
+    "options":{"A":"Marine Safety Indicator","B":"Maritime Safety Information","C":"Minimum Safe Interval","D":"Marine Signal Interface"},
+    "answer":"B","image":"","groupId":"AIS_115_58"
+  },
+  {
+    "year":"115","subject":"AIS符號与術語",
+    "question":"59. 'SART' stands for:",
+    "options":{"A":"Satellite Aided Rescue Transponder","B":"Search And Rescue Transponder","C":"Secondary Alert Radar Transmitter","D":"Ship Automated Response Terminal"},
+    "answer":"B","image":"","groupId":"AIS_115_59"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"60. 'SARV' (applies to AIS) stands for:",
+    "options":{"A":"Search And Rescue Vessel","B":"Satellite Assisted Reference Vessel","C":"Safety And Rescue Vehicle","D":"Sea Area Rescue Vessel"},
+    "answer":"A","image":"","groupId":"AIS_115_60"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"61. What does 'XTD' stand for?",
+    "options":{"A":"Extended Track Distance","B":"Cross Track Distance","C":"X-Band Tracking Device","D":"External Track Data"},
+    "answer":"B","image":"","groupId":"AIS_115_61"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"62. 'TCS' stands for:",
+    "options":{"A":"Target Control System","B":"Tidal Current Speed","C":"Track Control System","D":"Tactical Chart System"},
+    "answer":"C","image":"","groupId":"AIS_115_62"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"63. The abbreviation 'LOP' stands for:",
+    "options":{"A":"Level Of Performance","B":"Line Of Position","C":"Last Own Position","D":"Lateral Offset Point"},
+    "answer":"B","image":"","groupId":"AIS_115_63"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"64. 'ENC' stands for:",
+    "options":{"A":"Enhanced Navigation Computer","B":"Electronic Navigation Chart","C":"Electronic Navigational Chart","D":"Encoded Navigation Coordinates"},
+    "answer":"C","image":"","groupId":"AIS_115_64"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"65. What does 'SBAS' stand for?",
+    "options":{"A":"Ship-Based Alert System","B":"Satellite Based Augmentation System","C":"Standard Bearing and Azimuth System","D":"Signal Boost and Amplification System"},
+    "answer":"B","image":"","groupId":"AIS_115_65"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"66. 'ACQ' is the abbreviation for:",
+    "options":{"A":"Acoustic Query","B":"Acquire, Acquisition","C":"Automatic Chart Query","D":"Alert Caution Queue"},
+    "answer":"B","image":"","groupId":"AIS_115_66"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"67. 'HDG' stands for:",
+    "options":{"A":"High Density Grid","B":"Horizontal Display Gauge","C":"Heading","D":"Horizontal Drift Guide"},
+    "answer":"C","image":"","groupId":"AIS_115_67"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"68. What does 'GZ' stand for?",
+    "options":{"A":"Ground Zero","B":"Guide Zone","C":"Guard Zone","D":"Gyro Zone"},
+    "answer":"C","image":"","groupId":"AIS_115_68"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"69. 'PAD' stands for:",
+    "options":{"A":"Position Accuracy Data","B":"Predicted Area of Danger","C":"Port Approach Data","D":"Passage Alignment Distance"},
+    "answer":"B","image":"","groupId":"AIS_115_69"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"70. 'PPC' stands for:",
+    "options":{"A":"Past Position Calculator","B":"Parallel Plot Correction","C":"Predicted Point of Collision","D":"Port Permission Code"},
+    "answer":"C","image":"","groupId":"AIS_115_70"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"71. The abbreviation 'HDOP' stands for:",
+    "options":{"A":"Heading Direction Of Position","B":"Horizontal Dilution Of Precision","C":"High Definition Output Parameter","D":"Heading Drift Operating Protocol"},
+    "answer":"B","image":"","groupId":"AIS_115_71"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"72. 'EPFS' stands for:",
+    "options":{"A":"Enhanced Performance Fixing System","B":"Electronic Position Fixing System","C":"External Positioning Fix Sensor","D":"Emergency Position Finding System"},
+    "answer":"B","image":"","groupId":"AIS_115_72"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"73. What does 'GNSS' stand for?",
+    "options":{"A":"Ground Navigation Satellite Service","B":"Global Navigational Signal System","C":"Global Navigation Satellite System","D":"General Navigation Sensing System"},
+    "answer":"C","image":"","groupId":"AIS_115_73"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"74. 'GC' stands for:",
+    "options":{"A":"Ground Current","B":"Great Circle","C":"Gyro Compass","D":"Grid Course"},
+    "answer":"B","image":"","groupId":"AIS_115_74"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"75. 'TWOL' stands for:",
+    "options":{"A":"Two-Way Obstacle Line","B":"Track Width Over Limit","C":"Time to Wheel Over Line","D":"Tidal Water Over Limit"},
+    "answer":"C","image":"","groupId":"AIS_115_75"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"76. What does 'CTW' stand for?",
+    "options":{"A":"Course Through the Water","B":"Chart Track Width","C":"Current To Waypoint","D":"Compass True West"},
+    "answer":"A","image":"","groupId":"AIS_115_76"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"77. 'ERBL' stands for:",
+    "options":{"A":"Extended Radar Bearing Line","B":"Electronic Range and Bearing Line","C":"Enhanced Radar Baseline Limit","D":"Electronic Relative Bearing Lock"},
+    "answer":"B","image":"","groupId":"AIS_115_77"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"78. What does 'POB' stand for?",
+    "options":{"A":"Port Of Berthing","B":"Pilot On Board","C":"Person Overboard","D":"Position Of Bearing"},
+    "answer":"C","image":"","groupId":"AIS_115_78"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"79. 'WOL' stands for:",
+    "options":{"A":"Watch Officer Log","B":"Wheel Over Line","C":"Width Of Lane","D":"Warning Override Level"},
+    "answer":"B","image":"","groupId":"AIS_115_79"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"80. The abbreviation 'CONN' stands for:",
+    "options":{"A":"Connection","B":"Conning","C":"Continuous Navigation","D":"Course Navigation Note"},
+    "answer":"B","image":"","groupId":"AIS_115_80"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"81. 'AZ' stands for:",
+    "options":{"A":"Automatic Zone","B":"Azimuth","C":"Acquisition Zone","D":"Alert Zone"},
+    "answer":"C","image":"","groupId":"AIS_115_81"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"82. What does 'MVR' stand for?",
+    "options":{"A":"Mean Velocity Rate","B":"Manoeuvre","C":"Maximum Vessel Range","D":"Magnetic Variation Readout"},
+    "answer":"B","image":"","groupId":"AIS_115_82"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"83. 'GRND' (applies to AIS) represents which vessel status?",
+    "options":{"A":"Vessel underway using engine","B":"Vessel at anchor","C":"Vessel aground","D":"Vessel restricted in manoeuvrability"},
+    "answer":"C","image":"","groupId":"AIS_115_83"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"84. The AIS abbreviation 'PILOT' represents:",
+    "options":{"A":"Pilot vessel","B":"Pilot station","C":"Pilot request","D":"Pilot boarding area"},
+    "answer":"A","image":"","groupId":"AIS_115_84"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"85. 'ANCH' (when applied to AIS vessel type) means:",
+    "options":{"A":"At anchor","B":"Approaching berth","C":"Anchoring prohibited","D":"Anchorage area"},
+    "answer":"A","image":"","groupId":"AIS_115_85"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"86. 'TOW' (applies to AIS) represents:",
+    "options":{"A":"Vessel engaged in towing operations","B":"Top Of Watch","C":"Track Over Water","D":"Traffic Observation Watch"},
+    "answer":"A","image":"","groupId":"AIS_115_86"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"87. What does 'UWE' (applies to AIS) stand for?",
+    "options":{"A":"Under Way Engine","B":"Vessel Underway Using Engine","C":"Underwater Equipment","D":"Unknown Waypoint Entry"},
+    "answer":"B","image":"","groupId":"AIS_115_87"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"88. 'DRG' (applies to AIS) represents which vessel type?",
+    "options":{"A":"Vessel on dangerous route","B":"Vessel engaged in dredging or underwater operations","C":"Drilling vessel","D":"Dry bulk cargo vessel"},
+    "answer":"B","image":"","groupId":"AIS_115_88"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"89. What does 'SAIL' (applies to AIS) represent?",
+    "options":{"A":"Sailing vessel","B":"Vessel on sailing route","C":"Safety at sea light","D":"Search and rescue aircraft in location"},
+    "answer":"A","image":"","groupId":"AIS_115_89"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"90. 'HS' (applies to AIS) stands for:",
+    "options":{"A":"High Speed","B":"Harmful Substances","C":"Harbor Service","D":"Heading Sensor"},
+    "answer":"B","image":"","groupId":"AIS_115_90"
+  },
+  # ── Scope and Application ──────────────────────────────────
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"91. SN.1/Circ.243/Rev.2 guidelines apply to which systems?",
+    "options":{"A":"Radar only","B":"AIS only","C":"ECDIS only","D":"All shipborne navigational systems including radar, ECDIS, AIS, INS and IBS"},
+    "answer":"D","image":"","groupId":"AIS_115_91"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"92. The purpose of Annex 2 (terms and abbreviations) guidelines is to ensure that navigation-related terms on displays are:",
+    "options":{"A":"In English only","B":"Consistent and uniform across all shipborne navigation equipment","C":"Limited to IMO-approved symbols","D":"Translated to local language"},
+    "answer":"B","image":"","groupId":"AIS_115_92"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"93. The abbreviation for 'Anchor Watch' is:",
+    "options":{"A":"AW","B":"ANCH","C":"ANCH-W","D":"A-WATCH"},
+    "answer":"B","image":"","groupId":"AIS_115_93"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"94. What is the abbreviation for 'Variable Range Marker'?",
+    "options":{"A":"VAR","B":"RMV","C":"VRM","D":"VMR"},
+    "answer":"C","image":"","groupId":"AIS_115_94"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"95. 'PDOP' stands for:",
+    "options":{"A":"Position Dilution Of Precision","B":"Positional Dilution Of Precision","C":"Predicted Deviation Of Position","D":"Port Display Operating Parameter"},
+    "answer":"B","image":"","groupId":"AIS_115_95"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"96. The abbreviation 'PRF' stands for:",
+    "options":{"A":"Position Report Format","B":"Pulse Repetition Frequency","C":"Primary Radar Fix","D":"Predictive Range Filter"},
+    "answer":"B","image":"","groupId":"AIS_115_96"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"97. 'CTS' stands for:",
+    "options":{"A":"Course To Steer","B":"Current Track Speed","C":"Closest Track to Ship","D":"Course Track Sensor"},
+    "answer":"A","image":"","groupId":"AIS_115_97"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"98. The abbreviation for 'Voyage Data Recorder' is:",
+    "options":{"A":"VDR","B":"VDR","C":"VDR","D":"All of the above"},
+    "answer":"A","image":"","groupId":"AIS_115_98"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"99. A 'Lost Target' should be displayed WITHOUT which of the following?",
+    "options":{"A":"Triangle shape","B":"Cross symbol","C":"Vector, heading and rate of turn indication","D":"Flashing animation"},
+    "answer":"C","image":"","groupId":"AIS_115_99"
+  },
+  {
+    "year":"115","subject":"AIS符號與術語",
+    "question":"100. According to SN.1/Circ.243/Rev.2, the 'Meteorological Information' symbol's weather station is presented as:",
+    "options":{"A":"A square with 'W' inscribed","B":"A triangle with 'W' inscribed","C":"A circle with 'W' inscribed, not more than 6mm diameter, thin solid line","D":"A diamond with 'W' inscribed"},
+    "answer":"C","image":"","groupId":"AIS_115_100"
+  },
+]
+
+# 驗證格式
+assert len(questions) == 100, f"應有100題，實際{len(questions)}"
+for i, q in enumerate(questions, 1):
+    assert set(q.keys()) >= {"year","subject","question","options","answer","image","groupId"}
+    assert q["answer"] in q["options"]
+    assert len(q["options"]) == 4
+
+out = "/Users/yangjohn/MyQuiz/ais_quiz_115.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(questions, f, ensure_ascii=False, indent=2)
+print(f"✅ 已生成 {len(questions)} 題 → {out}")

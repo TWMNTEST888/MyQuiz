@@ -1,0 +1,702 @@
+[
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "1. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Own ship symbol — double circle at own ship's reference position",
+      "B": "Tracked radar target symbol",
+      "C": "AIS sleeping target",
+      "D": "Anchor symbol"
+    },
+    "answer": "A",
+    "image": "img/SYM_p4_1.png",
+    "groupId": "AIS_SYM_115_1"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "2. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Own ship radar antenna position",
+      "B": "Own ship true scale outline — oriented along own ship's heading",
+      "C": "AIS activated target outline",
+      "D": "Selected target outline"
+    },
+    "answer": "B",
+    "image": "img/SYM_p4_3.png",
+    "groupId": "AIS_SYM_115_2"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "3. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Own ship reference position",
+      "B": "Radar test target",
+      "C": "Own ship radar antenna — cross at physical location of antenna",
+      "D": "Own ship heading line end point"
+    },
+    "answer": "C",
+    "image": "img/SYM_p4_5.png",
+    "groupId": "AIS_SYM_115_3"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "4. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Own ship speed vector",
+      "B": "Own ship beam line",
+      "C": "EBL (Electronic Bearing Line)",
+      "D": "Own ship heading line — solid line thinner than speed vector"
+    },
+    "answer": "D",
+    "image": "img/SYM_p4_7.png",
+    "groupId": "AIS_SYM_115_4"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "5. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS target past track",
+      "B": "Own ship predicted path",
+      "C": "Tidal stream indicator",
+      "D": "Own ship past track — thick line (primary) / thin line (secondary)"
+    },
+    "answer": "D",
+    "image": "img/SYM_p5_0.png",
+    "groupId": "AIS_SYM_115_5"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "6. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS activated target with vector",
+      "B": "Tracked target including dangerous target — circle with dashed course/speed vector",
+      "C": "Own ship outline with speed vector",
+      "D": "Lost target with vector"
+    },
+    "answer": "B",
+    "image": "img/SYM_p5_4.png",
+    "groupId": "AIS_SYM_115_6"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "7. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Lost target symbol",
+      "B": "AIS sleeping target",
+      "C": "Selected target symbol",
+      "D": "Target in acquisition state — circle segments (bold/flashing/red for auto-acq.)"
+    },
+    "answer": "D",
+    "image": "img/SYM_p5_6.png",
+    "groupId": "AIS_SYM_115_7"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "8. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS lost target",
+      "B": "Tracked target after CPA",
+      "C": "Lost target — triangle with bold solid cross, flashing until acknowledged",
+      "D": "Dangerous target symbol"
+    },
+    "answer": "C",
+    "image": "img/SYM_p5_7.png",
+    "groupId": "AIS_SYM_115_8"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "9. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Activated AIS target",
+      "B": "Selected target — square indicated by its corners around activated target",
+      "C": "Associated target",
+      "D": "Acquired target"
+    },
+    "answer": "B",
+    "image": "img/SYM_p5_8.png",
+    "groupId": "AIS_SYM_115_9"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "10. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Tidal stream marks",
+      "B": "Own ship past track",
+      "C": "Radar time marks",
+      "D": "Target past positions — dots equally spaced by time"
+    },
+    "answer": "D",
+    "image": "img/SYM_p5_10.png",
+    "groupId": "AIS_SYM_115_10"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "11. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Own ship reference point",
+      "B": "AIS target reference position",
+      "C": "Tracked target reference — CCRP indicator",
+      "D": "Cursor position marker"
+    },
+    "answer": "D",
+    "image": "img/SYM_p5_12.png",
+    "groupId": "AIS_SYM_115_11"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "12. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS sleeping target — isosceles acute-angled triangle, oriented by heading or COG",
+      "B": "Radar tracked target",
+      "C": "Own ship symbol",
+      "D": "AIS AtoN symbol"
+    },
+    "answer": "A",
+    "image": "img/SYM_p6_2.png",
+    "groupId": "AIS_SYM_115_12"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "13. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS sleeping target with heading",
+      "B": "Own ship with speed vector",
+      "C": "AIS AtoN with bearing indicator",
+      "D": "AIS activated target — triangle with course/speed vector"
+    },
+    "answer": "D",
+    "image": "img/SYM_p6_9.png",
+    "groupId": "AIS_SYM_115_13"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "14. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Associated target",
+      "B": "Selected AIS target — square corners around activated AIS triangle",
+      "C": "AIS AtoN selected",
+      "D": "Acquired AIS target"
+    },
+    "answer": "C",
+    "image": "img/SYM_p7_1.png",
+    "groupId": "AIS_SYM_115_14"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "15. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS lost target — triangle with bold solid cross, flashing, no vector",
+      "B": "AIS dangerous target",
+      "C": "AIS target leaving range",
+      "D": "Lost AIS AtoN"
+    },
+    "answer": "B",
+    "image": "img/SYM_p7_3.png",
+    "groupId": "AIS_SYM_115_15"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "16. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS target past positions — dots equally spaced by time",
+      "B": "AIS track history line",
+      "C": "AIS route waypoints",
+      "D": "Own ship past track"
+    },
+    "answer": "B",
+    "image": "img/SYM_p7_5.png",
+    "groupId": "AIS_SYM_115_16"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "17. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS SAR aircraft",
+      "B": "AIS SAR transponder",
+      "C": "AIS Search and Rescue Vessel — circle with cross inside AIS vessel symbol",
+      "D": "AIS distress vessel"
+    },
+    "answer": "D",
+    "image": "img/SYM_p7_10.png",
+    "groupId": "AIS_SYM_115_17"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "18. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS MOB device",
+      "B": "AIS EPIRBsymbol",
+      "C": "AIS vessel in distress",
+      "D": "AIS-SART — specific symbol indicating AIS search and rescue transponder"
+    },
+    "answer": "D",
+    "image": "img/SYM_p7_10.png",
+    "groupId": "AIS_SYM_115_18"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "19. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Activated AIS AtoN",
+      "B": "Lost AIS AtoN",
+      "C": "Selected AIS AtoN — square around activated AIS AtoN symbol",
+      "D": "Virtual AIS AtoN"
+    },
+    "answer": "D",
+    "image": "img/SYM_p7_12.png",
+    "groupId": "AIS_SYM_115_19"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "20. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Sleeping AIS AtoN",
+      "B": "Lost AIS AtoN — AtoN symbol with cross, indicating lost Aid to Navigation",
+      "C": "Virtual AIS AtoN off position",
+      "D": "Missing physical AtoN indicator"
+    },
+    "answer": "C",
+    "image": "img/SYM_p7_16.png",
+    "groupId": "AIS_SYM_115_20"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "21. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Associated target — activated AIS target symbol representing radar-associated target",
+      "B": "Tracked radar target",
+      "C": "AIS sleeping target",
+      "D": "Lost associated target"
+    },
+    "answer": "A",
+    "image": "img/SYM_p8_2.png",
+    "groupId": "AIS_SYM_115_21"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "22. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS activated target alternative",
+      "B": "Tracked dangerous target",
+      "C": "Associated target alternative — activated AIS symbol modified with circle around triangle",
+      "D": "Associated target (radar symbol alternative)"
+    },
+    "answer": "D",
+    "image": "img/SYM_p8_12.png",
+    "groupId": "AIS_SYM_115_22"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "23. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Own ship heading indicator",
+      "B": "Danger bearing line",
+      "C": "Line of Position (LOP) — thin solid line from charted object towards own ship, labelled with time",
+      "D": "EBL fixed"
+    },
+    "answer": "C",
+    "image": "img/SYM_p9_0.png",
+    "groupId": "AIS_SYM_115_23"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "24. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Mandatory route",
+      "B": "Monitored route — route being actively monitored, distinct line style",
+      "C": "Planned route",
+      "D": "Trial manoeuvre route"
+    },
+    "answer": "C",
+    "image": "img/SYM_p9_1.png",
+    "groupId": "AIS_SYM_115_24"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "25. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Planned route (alternate) — alternative route presentation",
+      "B": "Monitored route",
+      "C": "Trial manoeuvre",
+      "D": "Mandatory route"
+    },
+    "answer": "A",
+    "image": "img/SYM_p9_3.png",
+    "groupId": "AIS_SYM_115_25"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "26. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Planned route simulation",
+      "B": "Danger bearing indicator",
+      "C": "Trial manoeuvre — projected path during trial manoeuvre calculation",
+      "D": "Simulation mode track"
+    },
+    "answer": "D",
+    "image": "img/SYM_p9_4.png",
+    "groupId": "AIS_SYM_115_26"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "27. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Trial manoeuvre route",
+      "B": "Simulation mode — indicated when simulation is active on display",
+      "C": "Dead reckoning position",
+      "D": "Predicted route"
+    },
+    "answer": "C",
+    "image": "img/SYM_p9_6.png",
+    "groupId": "AIS_SYM_115_27"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "28. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Cursor — crosshair or arrow indicating current cursor position on display",
+      "B": "Fixed reference mark",
+      "C": "Dropped EBL origin",
+      "D": "Event mark"
+    },
+    "answer": "A",
+    "image": "img/SYM_p9_7.png",
+    "groupId": "AIS_SYM_115_28"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "29. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Variable Range Markers",
+      "B": "EBL bearing circles",
+      "C": "Guard zone boundary",
+      "D": "Range rings — concentric circles at fixed intervals from own ship"
+    },
+    "answer": "D",
+    "image": "img/SYM_p9_8.png",
+    "groupId": "AIS_SYM_115_29"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "30. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Heading line",
+      "B": "Electronic Bearing Line (EBL) — dashed line from CCRP",
+      "C": "Danger bearing",
+      "D": "Parallel index line"
+    },
+    "answer": "C",
+    "image": "img/SYM_p10_4.png",
+    "groupId": "AIS_SYM_115_30"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "31. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Guard zone",
+      "B": "Approach area",
+      "C": "Acquisition/Activation area — solid line boundary for target acquisition zone",
+      "D": "Exclusion zone"
+    },
+    "answer": "D",
+    "image": "img/SYM_p10_4.png",
+    "groupId": "AIS_SYM_115_31"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "32. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Man overboard marker",
+      "B": "Waypoint symbol",
+      "C": "Position fix mark",
+      "D": "Event mark"
+    },
+    "answer": "D",
+    "image": "img/SYM_p10_5.png",
+    "groupId": "AIS_SYM_115_32"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "33. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Tidal stream — single line with three arrowheads from charted position",
+      "B": "Current indicator",
+      "C": "Wind direction arrow",
+      "D": "Speed vector indicator"
+    },
+    "answer": "B",
+    "image": "img/SYM_p10_6.png",
+    "groupId": "AIS_SYM_115_33"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "34. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Danger area indicator",
+      "B": "Caution area highlight",
+      "C": "Look-ahead alarm highlight — thick red polygon/poly-line on boundary causing alarm condition",
+      "D": "Guard zone alarm"
+    },
+    "answer": "D",
+    "image": "img/SYM_p11_1.png",
+    "groupId": "AIS_SYM_115_34"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "35. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Danger bearing — bearing line indicating dangerous direction to be avoided",
+      "B": "EBL danger indicator",
+      "C": "Safety contour bearing",
+      "D": "Heading alarm indicator"
+    },
+    "answer": "B",
+    "image": "img/SYM_p11_5.png",
+    "groupId": "AIS_SYM_115_35"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "36. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Physical AIS AtoN — solid diamond; Virtual AIS AtoN — dotted diamond with crosshair",
+      "B": "Radar reflector buoy symbol",
+      "C": "AIS vessel at anchor",
+      "D": "IALA buoy symbol"
+    },
+    "answer": "A",
+    "image": "img/SYM_p18_8.png",
+    "groupId": "AIS_SYM_115_36"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "37. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS AtoN — fixed structure offshore/obstruction, solid diamond",
+      "B": "Radar fixed target symbol",
+      "C": "Platform symbol",
+      "D": "Oil rig indicator"
+    },
+    "answer": "B",
+    "image": "img/SYM_p18_9.png",
+    "groupId": "AIS_SYM_115_37"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "38. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS AtoN — Racon (radar transponder beacon), type code 2",
+      "B": "Radar reflector symbol",
+      "C": "Radio beacon symbol",
+      "D": "DGNSS reference station"
+    },
+    "answer": "A",
+    "image": "img/SYM_p18_13.png",
+    "groupId": "AIS_SYM_115_38"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "39. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Light buoy symbol",
+      "B": "Hazard marker",
+      "C": "AIS AtoN Emergency Wreck Marking Buoy — type code 4",
+      "D": "Danger zone marker"
+    },
+    "answer": "C",
+    "image": "img/SYM_p18_15.png",
+    "groupId": "AIS_SYM_115_39"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "40. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "AIS AtoN Cardinal North — diamond with 2 triangles pointing upward on top",
+      "B": "AIS AtoN Cardinal South mark",
+      "C": "AIS AtoN isolated danger",
+      "D": "AIS AtoN safe water mark"
+    },
+    "answer": "A",
+    "image": "img/SYM_p18_18.png",
+    "groupId": "AIS_SYM_115_40"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "41. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Light vessel symbol",
+      "B": "Weather station",
+      "C": "Signal station — diamond centred at reported position",
+      "D": "AIS AtoN special mark"
+    },
+    "answer": "C",
+    "image": "img/SYM_p14_4.png",
+    "groupId": "AIS_SYM_115_41"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "42. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Port entry symbol",
+      "B": "Berthing data — box with 'BERTH' inscribed, thick solid line, AIS AtoN colour",
+      "C": "Anchor berth indicator",
+      "D": "Mooring buoy symbol"
+    },
+    "answer": "C",
+    "image": "img/SYM_p15_1.png",
+    "groupId": "AIS_SYM_115_42"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "43. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Tidal flow and water level symbol — arrow for flow direction, gauge for water level",
+      "B": "Current speed indicator",
+      "C": "Depth sounding symbol",
+      "D": "Tide table reference mark"
+    },
+    "answer": "A",
+    "image": "img/SYM_p13_1.png",
+    "groupId": "AIS_SYM_115_43"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "44. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Danger contour from chart",
+      "B": "Mariner-entered danger — user-defined object indicating navigational danger",
+      "C": "Look-ahead safety area",
+      "D": "Routing measure boundary"
+    },
+    "answer": "B",
+    "image": "img/SYM_p10_8.png",
+    "groupId": "AIS_SYM_115_44"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "45. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Plotted position — symbol for position obtained from terrestrial observations",
+      "B": "Dead reckoning position",
+      "C": "GPS fix position",
+      "D": "GNSS position fix"
+    },
+    "answer": "A",
+    "image": "img/SYM_p8_14.png",
+    "groupId": "AIS_SYM_115_45"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "46. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "MSI — box with 'MSI' inscribed, area covered by MSI region shown with sparse pattern",
+      "B": "Radar navigational warning",
+      "C": "AIS broadcast area",
+      "D": "Traffic separation scheme"
+    },
+    "answer": "A",
+    "image": "img/SYM_p11_7.png",
+    "groupId": "AIS_SYM_115_46"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "47. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Weather buoy indicator",
+      "B": "Met-ocean data symbol",
+      "C": "Meteorological information — circle with 'W' inscribed, wind shaft with barbs",
+      "D": "Synoptic weather station"
+    },
+    "answer": "D",
+    "image": "img/SYM_p12_1.png",
+    "groupId": "AIS_SYM_115_47"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "48. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Route information — AIS ASM waypoints and leg lines with course labels",
+      "B": "Traffic separation scheme",
+      "C": "Recommended route",
+      "D": "Vessel traffic service boundary"
+    },
+    "answer": "A",
+    "image": "img/SYM_p14_4.png",
+    "groupId": "AIS_SYM_115_48"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "49. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Area Notice — box 'AN' for point, series of lines bounding area, filled with AN symbols",
+      "B": "No-go zone boundary",
+      "C": "Restricted area indicator",
+      "D": "Anchorage area boundary"
+    },
+    "answer": "A",
+    "image": "img/SYM_p16_0.png",
+    "groupId": "AIS_SYM_115_49"
+  },
+  {
+    "year": "115",
+    "subject": "AIS符號識別",
+    "question": "50. The following symbol represents which navigation symbol?",
+    "options": {
+      "A": "Water depth indicator",
+      "B": "Air gap — clearance between water surface and overhead structure",
+      "C": "Bridge clearance symbol",
+      "D": "Tidal gauge symbol"
+    },
+    "answer": "C",
+    "image": "img/SYM_p16_0.png",
+    "groupId": "AIS_SYM_115_50"
+  }
+]

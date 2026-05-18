@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 使用者只能讀寫自己的資料
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // 已登入使用者可以新增回報；讀取/修改只限後端（Admin SDK）
+    match /reports/{docId} {
+      allow create: if request.auth != null;
+      allow read, update, delete: if false;
+    }
+
+    // question_fixes 只讀（前端載入修復用）
+    match /question_fixes/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

@@ -63,7 +63,7 @@
         .year-box { max-width: 680px; margin: 10px auto 0; text-align: left; }
         .year-title { font-weight: bold; color: var(--primary); margin-bottom: 8px; text-align: center; }
         .year-options { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
-        .year-chip { display:inline-flex; align-items:center; gap:6px; padding:8px 12px; border:1px solid #ddd; border-radius:999px; background:#fff; cursor:pointer; font-size:14px; }
+        .year-chip { display:inline-flex; align-items:center; gap:4px; padding:4px 8px; border:1px solid #ddd; border-radius:999px; background:#fff; cursor:pointer; font-size:12px; }
         .year-chip input { width:auto; margin:0; }
         #question-nav-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); gap: 5px; margin-top: 15px; }
         .question-nav-btn { padding: 8px 0; border: 1px solid #ddd; border-radius: 5px; background: white; color: var(--primary); cursor: pointer; font-size: 12px; margin:0; }
@@ -117,8 +117,7 @@
     </div>
 
     <div id="setup-view" class="filter-section">
-        <div class="toolbar" style="justify-content: space-between; margin-bottom: 15px;">
-            <span class="mode-badge">主畫面</span>
+        <div class="toolbar" style="justify-content: flex-end; margin-bottom: 15px;">
             <button class="mini-btn gray-btn" onclick="logout()">登出</button>
         </div>
 
@@ -141,12 +140,16 @@
         </div>
 
         <div class="year-box">
-            <div class="year-title">歷屆年份</div>
-            <div style="text-align:center; margin-bottom:8px;">
-                <button class="mini-btn gray-btn" onclick="selectAllYears(true)">全選年份</button>
-                <button class="mini-btn gray-btn" onclick="selectAllYears(false)">清除年份</button>
+            <div class="year-title" style="cursor:pointer; user-select:none;" onclick="toggleYearSection()">
+                歷屆年份 <span id="year-toggle-icon" style="font-size:11px;">▼</span>
             </div>
-            <div id="year-options" class="year-options"></div>
+            <div id="year-collapsible" style="display:none;">
+                <div style="text-align:center; margin-bottom:6px;">
+                    <button class="mini-btn gray-btn" onclick="selectAllYears(true)">全選</button>
+                    <button class="mini-btn gray-btn" onclick="selectAllYears(false)">清除</button>
+                </div>
+                <div id="year-options" class="year-options"></div>
+            </div>
         </div>
 
         <div class="notice">
@@ -159,6 +162,12 @@
             <button class="orange-btn" onclick="initQuiz('favorite')">收藏題測驗</button>
             <button class="orange-btn" onclick="showWrongDatabase()">答錯題庫</button>
             <button class="orange-btn" onclick="showFavoriteDatabase()">收藏題庫</button>
+        </div>
+
+        <div style="margin-top:20px; border-top:1px solid #e0e0e0; padding-top:16px;">
+            <div style="font-weight:bold; color:var(--primary); margin-bottom:8px; text-align:center;">🔍 搜尋題目</div>
+            <input type="text" id="search-input" class="full-width" placeholder="輸入關鍵字搜尋題目..." oninput="doSearch()" autocomplete="off" style="margin:0 0 8px 0;">
+            <div id="search-results"></div>
         </div>
     </div>
 
@@ -616,6 +625,14 @@
         saveSettings();
     };
 
+    window.toggleYearSection = function() {
+        const el = document.getElementById('year-collapsible');
+        const icon = document.getElementById('year-toggle-icon');
+        const hidden = el.style.display === 'none';
+        el.style.display = hidden ? 'block' : 'none';
+        icon.textContent = hidden ? '▲' : '▼';
+    };
+
     window.initQuiz = async function(source) {
         if (!currentUser) {
             alert('請先登入。');
@@ -748,11 +765,16 @@
             optionsList.appendChild(hint);
         }
 
+        // 判斷是否所有選項都是空字串（圖中標示型題目，只需選A/B/C/D）
+        const allEmpty = ['A','B','C','D'].every(l => !q.options?.[l]);
+
         ['A', 'B', 'C', 'D'].forEach(letter => {
-            if (!q.options?.[letter]) return;
+            // 非全空時跳過空選項；全空時仍顯示字母按鈕
+            if (!allEmpty && !q.options?.[letter]) return;
             const btn = document.createElement('div');
             btn.className = 'option-item';
-            const optText = `${escapeHtml(letter)}. ${escapeHtml(q.options?.[letter] ?? '')}`;
+            const optContent = q.options?.[letter] ? `. ${escapeHtml(q.options[letter])}` : '';
+            const optText = `${escapeHtml(letter)}${optContent}`;
 
             if (ans && currentMode === 'practice') {
                 btn.classList.add('locked');
@@ -1274,6 +1296,47 @@
             .replaceAll('"', '&quot;')
             .replaceAll("'", '&#039;');
     }
+
+    // 點擊容器外的背景切換題目
+    document.addEventListener('click', function(e) {
+        const quizView = document.getElementById('quiz-view');
+        if (!quizView || quizView.style.display === 'none') return;
+        const container = document.querySelector('.container');
+        if (container && container.contains(e.target)) return;
+        if (e.clientX < window.innerWidth / 2) {
+            changeQuestion(-1);
+        } else {
+            changeQuestion(1);
+        }
+    });
+
+    window.doSearch = function() {
+        const kw = (document.getElementById('search-input').value || '').trim().toLowerCase();
+        const resultsEl = document.getElementById('search-results');
+        if (!resultsEl) return;
+        if (kw.length < 2) { resultsEl.innerHTML = ''; return; }
+
+        const matches = allData.filter(item =>
+            (item.question || '').toLowerCase().includes(kw)
+        ).slice(0, 15);
+
+        if (!matches.length) {
+            resultsEl.innerHTML = '<div style="color:#7f8c8d; padding:8px; text-align:center;">找不到符合的題目</div>';
+            return;
+        }
+
+        resultsEl.innerHTML = matches.map(item => {
+            const opts = Object.entries(item.options || {}).map(([k, v]) => {
+                const isAns = k === item.answer;
+                return `<div style="padding:2px 0; ${isAns ? 'color:#27ae60; font-weight:bold;' : ''}">${k}. ${escapeHtml(v)}${isAns ? ' ✓' : ''}</div>`;
+            }).join('');
+            const subj = item.subject ? `<span style="font-size:11px; color:#7f8c8d;">[${escapeHtml(item.subject)} ${item.year || ''}]</span> ` : '';
+            return `<div style="border:1px solid #ddd; border-radius:8px; padding:10px 12px; margin:6px 0; text-align:left; background:#fafafa;">
+                <div style="font-weight:bold; margin-bottom:6px; font-size:14px;">${subj}${escapeHtml(item.question || '')}</div>
+                <div style="font-size:13px;">${opts}</div>
+            </div>`;
+        }).join('');
+    };
 </script>
 </body>
 </html>

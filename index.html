@@ -458,9 +458,9 @@
         if (!validateEmailPassword(email, password)) return;
 
         try {
-            const credential = await createUserWithEmailAndPassword(auth, email, password);
+            await createUserWithEmailAndPassword(auth, email, password);
             showLoginSuccess('註冊成功，已登入。');
-            await enterMainView(credential.user);
+            // onAuthStateChanged 會自動呼叫 enterMainView，不在此重複呼叫
         } catch (e) {
             showLoginError(getFirebaseAuthMessage(e));
         }
@@ -474,9 +474,9 @@
         if (!validateEmailPassword(email, password)) return;
 
         try {
-            const credential = await signInWithEmailAndPassword(auth, email, password);
+            await signInWithEmailAndPassword(auth, email, password);
             showLoginSuccess('登入成功。');
-            await enterMainView(credential.user);
+            // onAuthStateChanged 會自動呼叫 enterMainView，不在此重複呼叫
         } catch (e) {
             showLoginError(getFirebaseAuthMessage(e));
         }

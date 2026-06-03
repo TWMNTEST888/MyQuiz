@@ -590,12 +590,14 @@
     }
 
     function saveSettings() {
+        const allYears = [...document.querySelectorAll('.year-check')].map(el => el.value);
         const settings = {
             source: document.getElementById('source-filter').value,
             subject: document.getElementById('subject-filter').value,
             count: document.getElementById('count-filter').value,
             mode: document.getElementById('mode-filter').value,
-            years: getSelectedYears()
+            years: getSelectedYears(),
+            knownYears: allYears
         };
         localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
     }
@@ -611,8 +613,13 @@
             if (settings.count) document.getElementById('count-filter').value = settings.count;
             if (settings.mode) document.getElementById('mode-filter').value = settings.mode;
             if (Array.isArray(settings.years)) {
+                const knownYears = settings.knownYears || settings.years;
                 document.querySelectorAll('.year-check').forEach(el => {
-                    el.checked = settings.years.includes(el.value);
+                    if (!knownYears.includes(el.value)) {
+                        el.checked = true; // 新年份（儲存時不存在）預設勾選
+                    } else {
+                        el.checked = settings.years.includes(el.value);
+                    }
                 });
             }
         } catch (e) {

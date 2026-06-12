@@ -6,8 +6,18 @@
     "public": ".",
     "ignore": [
       "firebase.json",
+      "firestore.rules",
+      ".firebaserc",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "PDF_Library/**",
+      "serviceAccountKey.json",
+      "questions_backup_*.json",
+      "*.py",
+      "*.txt",
+      "*.log",
+      "*_raw.txt",
+      "report_log.txt"
     ],
     "rewrites": [
       {
